@@ -66,7 +66,7 @@ The cloud box has 2 cores, so a laptop or PC with more cores renders several tim
 
 ## Determinism (why every machine gives the same picture)
 
-- `tools/violet_env.py` points Chromium at `fontpack/fonts.conf`, so the system fonts are ignored.
+- `tools/violet_env.py` points Chromium at `fontpack/` through an absolute-path fontconfig file, so system fonts and system font rules are ignored. Relative paths were read differently by different fontconfig versions, and that was the first laptop mismatch. It also passes the cloud Chromium flags (hinting off, no LCD text, sRGB); their absence was the second mismatch.
 - Before every screenshot the renderer waits two animation frames (`settle`). Without that, ~2% of shots under parallel load caught half-painted tiles (dark rectangles).
 - The engine sets all shot styles before it measures anything, so a frame does not depend on which frame was rendered before it.
 - `tools/selftest.py` compares 11 frames pixel by pixel with the cloud. On the cloud it prints IDENTICAL for all of them.
@@ -75,7 +75,7 @@ The cloud box has 2 cores, so a laptop or PC with more cores renders several tim
 
 - Python 3 with `playwright`. Chromium comes with Playwright.
 - `ffmpeg`, and `opencv-python` (only for the QR check).
-- Fonts: nothing to install. `fontpack/` holds the exact cloud fonts plus the fontconfig rules, and every renderer uses only them (`tools/violet_env.py` sets `FONTCONFIG_FILE`). This is why symbols and emoji look identical on any machine. For a new episode with new symbols, check `selftest.py`; if a glyph is missing, add the font file the cloud uses to `fontpack/fonts/`.
+- Fonts: nothing to install. `fontpack/` holds the exact cloud fonts plus the fontconfig rules, and every renderer uses only them (`tools/violet_env.py` writes a fontconfig file with absolute paths and sets `FONTCONFIG_FILE`, and passes the same Chromium flags as the cloud: `--font-render-hinting=none --disable-lcd-text --force-color-profile=srgb`). This is why symbols and emoji look identical on any machine. For a new episode with new symbols, check `selftest.py`; if a glyph is missing, add the font file the cloud uses to `fontpack/fonts/`.
 - Owner assets in `*/assets/`:
   - `wall.jpg` — the owner's wallpaper;
   - `avatar.png`;
