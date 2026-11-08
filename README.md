@@ -42,7 +42,7 @@ shorts/             shorts.py (cut Shorts from finished episodes) + SHORTS_UPLOA
    - Transitions use a scrim, swap, zoom or slide, never repeating one in a row.
 
    Spot-check frames with `python3 anim/shot.py <t> ...`.
-8. **Render.** `bash anim/chainR.sh` renders the 60 s segments with `render_seg.py`:
+8. **Render.** `tools/render_local.py epXX` (or `bash anim/chainR.sh` in the cloud) renders the 60 s segments with `render_seg.py`:
    - 30 fps × 5 subframes, mixed with `tmix` for motion blur;
    - dsf 4/3 → 2560×1440, x264 CRF 16.
 
@@ -53,6 +53,16 @@ shorts/             shorts.py (cut Shorts from finished episodes) + SHORTS_UPLOA
     `bash tools/checks.sh EPxx_full_1440.mp4 <end_card_t>`
     It reports duration, loudness, freezes ≥4 s, a contact sheet and whether the end-card QR decodes. Then look at the sheet and spot-check sync. → deliver to the owner with an honest list of weak spots (STOP).
 11. **YouTube pack.** Write a title with search keywords first, a description with chapters from the timeline, and tags. Shorts are optional.
+
+## Render on your own Linux machine (fast)
+
+The cloud box has 2 cores, so a laptop or PC with more cores renders several times faster. The picture is identical, and the self-test proves it.
+
+1. Run once: `git clone https://github.com/projectkaisen2-glitch/violet-video-kit && cd violet-video-kit && bash tools/setup_arch.sh`. This is for Arch; on other distros install the same packages yourself.
+2. Run `~/.violet-venv/bin/python tools/selftest.py`. It should print `SAME PICTURE` and an estimate of the render time.
+3. Put the episode's voice (`voice_in/*.wav + *.json`) into `epXX/voice_in/`, then run `~/.violet-venv/bin/python tools/render_local.py epXX`. This one command does the voice timeline, opening, animation, assembly and checks. If it is interrupted, rerun it and it resumes.
+
+`epXX/episode.json` holds the opening scene, the animation span and the end-card time. Keep the laptop on power and stop it from going to sleep.
 
 ## Requirements
 

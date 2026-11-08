@@ -1,0 +1,7 @@
+{
+  "title": "EP03 Claude Code for Free: Run It With Local Models",
+  "opening": {"dir": "testB", "render": "render.py", "video": "_v.mp4", "xfade_at": 16.8},
+  "anim": {"t_start": 16.8, "t_end": 429.8, "segment": 60},
+  "end_card_t": 427,
+  "out": "EP03_full_1440.mp4"
+}
