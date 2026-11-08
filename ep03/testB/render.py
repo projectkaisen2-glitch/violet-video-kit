@@ -1,11 +1,11 @@
-import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle,ARGS
 import asyncio,subprocess,shutil,tempfile,sys,os
 NW=int(os.environ.get('VIOLET_WORKERS',min(10,max(3,os.cpu_count() or 2))))
 from pathlib import Path
 from playwright.async_api import async_playwright
 HERE=Path(__file__).resolve().parent;FPS=30;SUB=5;T0=-0.6;T1=17.6
 async def worker(pw,shots,out):
-  b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
+  b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
   await pg.goto((HERE/'test.html').as_uri()+'?render');await pg.wait_for_function('window.READY===true')
   for i,t in shots:
     await pg.evaluate(f'R({t:.6f})');await settle(pg);await pg.screenshot(path=str(out/f's{i:06d}.jpg'),type='jpeg',quality=94)

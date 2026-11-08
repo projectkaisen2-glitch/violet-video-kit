@@ -2,7 +2,7 @@
 compared with the cloud reference (ep03/anim/ref/fonts_ref.json).
 usage: python3 tools/fontdiag.py            -> prints only the differences (short text, send it to Claude)
        python3 tools/fontdiag.py --make-ref  (cloud only)"""
-import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(_P(__file__).resolve().parent));import violet_env
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(_P(__file__).resolve().parent));import violet_env;from violet_env import ARGS
 import asyncio,json,subprocess,os,sys
 from pathlib import Path
 from playwright.async_api import async_playwright
@@ -13,7 +13,7 @@ CTX={'ui':"Inter,'Segoe UI',sans-serif",'ui2':"Inter,system-ui,sans-serif",'disp
 async def main():
   for b in (A,O): subprocess.run([sys.executable,str(b/'build.py')],check=True)
   async with async_playwright() as pw:
-    b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page();chars=set()
+    b=await pw.chromium.launch(args=ARGS);pg=await b.new_page();chars=set()
     for u in [(A/'anim.html').as_uri(),(O/'test.html').as_uri()+'?render']:
       await pg.goto(u);await pg.wait_for_function('window.READY===true',timeout=120000);chars|=set(await pg.evaluate(GET))
     chars=sorted(c for c in chars if c.isprintable() and c!=' ')

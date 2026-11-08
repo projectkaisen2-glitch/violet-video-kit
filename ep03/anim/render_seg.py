@@ -1,11 +1,11 @@
-import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle,ARGS
 import asyncio,subprocess,shutil,tempfile,sys,time
 from pathlib import Path
 from playwright.async_api import async_playwright
 H=Path(__file__).resolve().parent;FPS=30;SUB=5
 t0,t1,out=float(sys.argv[1]),float(sys.argv[2]),sys.argv[3]
 async def worker(pw,shots,tmp):
-  b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
+  b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
   await pg.goto((H/'anim.html').as_uri());await pg.wait_for_function('window.READY===true',timeout=120000)
   for i,t in shots:
     if (tmp/f's{i:06d}.jpg').exists(): continue

@@ -7,7 +7,7 @@ Pass 2: the 4 remaining subframes (j=0,1,3,4) for moving frames only.
 Compose: moving frame = mean of its 5 subframes (exactly what tmix did), still frame = centre.
 --full renders all 5 subframes for every frame (reference for A/B checks).
 Resumable: subframes live in tmp_<out>/ and are skipped if present."""
-import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle,ARGS
 import asyncio,subprocess,sys,time,argparse,json
 from pathlib import Path
 import numpy as np,cv2
@@ -21,7 +21,7 @@ n=round((a.t1-a.t0)*FPS)
 def fn(k,j): return tmp/f'f{k:05d}_{j}.jpg'
 def tt(k,j): return a.t0+(k*SUB+j)/(FPS*SUB)
 async def worker(pw,jobs):
-  b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
+  b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
   await pg.goto((H/'anim.html').as_uri());await pg.wait_for_function('window.READY===true',timeout=120000)
   for k,j in jobs:
     p=fn(k,j)

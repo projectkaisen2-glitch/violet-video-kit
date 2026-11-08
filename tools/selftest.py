@@ -3,7 +3,7 @@ usage: python3 tools/selftest.py            (uses ep03 as the reference episode)
 1) renders 11 reference frames (animation + opening) and compares them pixel by pixel with ep03/anim/ref/*.png (cloud render)
    (cloud only: --make-ref rewrites the reference frames)
 2) measures screenshots/second with all workers and estimates the EP03 render time."""
-import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle,ARGS
 import asyncio,os,sys,time,subprocess
 from pathlib import Path
 import numpy as np,cv2
@@ -15,13 +15,13 @@ O=K/'ep03'/'testB'
 subprocess.run([sys.executable,str(A/'build.py')],check=True);subprocess.run([sys.executable,str(O/'build.py')],check=True)
 MAKE='--make-ref' in sys.argv
 async def page(pw):
-  b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
+  b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3)
   await pg.goto((A/'anim.html').as_uri());await pg.wait_for_function('window.READY===true',timeout=120000);return b,pg
 async def bench(pg,ts,cnt):
   for t in ts: await pg.evaluate(f'R({t:.6f})');await settle(pg);await pg.screenshot(type='jpeg',quality=93);cnt.append(1)
 async def main():
   async with async_playwright() as pw:
-    b=await pw.chromium.launch(args=["--allow-file-access-from-files"]);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3);ok=True;cur=None
+    b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=4/3);ok=True;cur=None
     (A/'ref').mkdir(exist_ok=True)
     for kind,t in REF:
       if kind!=cur:
