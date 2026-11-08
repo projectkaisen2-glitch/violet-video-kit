@@ -1,0 +1,417 @@
+[
+ {
+  "word": "So",
+  "start": 0.005,
+  "end": 0.18
+ },
+ {
+  "word": "if",
+  "start": 0.18,
+  "end": 0.293
+ },
+ {
+  "word": "your",
+  "start": 0.293,
+  "end": 0.405
+ },
+ {
+  "word": "local",
+  "start": 0.405,
+  "end": 0.73
+ },
+ {
+  "word": "model",
+  "start": 0.73,
+  "end": 1.118
+ },
+ {
+  "word": "only",
+  "start": 1.118,
+  "end": 1.43
+ },
+ {
+  "word": "has",
+  "start": 1.43,
+  "end": 1.593
+ },
+ {
+  "word": "an",
+  "start": 1.593,
+  "end": 1.718
+ },
+ {
+  "word": "eight-thousand-token",
+  "start": 1.718,
+  "end": 2.705
+ },
+ {
+  "word": "window,",
+  "start": 2.705,
+  "end": 3.293
+ },
+ {
+  "word": "Claude",
+  "start": 3.293,
+  "end": 3.668
+ },
+ {
+  "word": "Code",
+  "start": 3.668,
+  "end": 4.005
+ },
+ {
+  "word": "doesn't",
+  "start": 4.005,
+  "end": 4.293
+ },
+ {
+  "word": "fit.",
+  "start": 4.293,
+  "end": 5.08
+ },
+ {
+  "word": "At",
+  "start": 5.08,
+  "end": 5.293
+ },
+ {
+  "word": "sixteen",
+  "start": 5.293,
+  "end": 5.73
+ },
+ {
+  "word": "thousand,",
+  "start": 5.73,
+  "end": 6.255
+ },
+ {
+  "word": "you",
+  "start": 6.255,
+  "end": 6.355
+ },
+ {
+  "word": "get",
+  "start": 6.355,
+  "end": 6.493
+ },
+ {
+  "word": "a",
+  "start": 6.493,
+  "end": 6.555
+ },
+ {
+  "word": "demo.",
+  "start": 6.555,
+  "end": 7.305
+ },
+ {
+  "word": "The",
+  "start": 7.305,
+  "end": 7.405
+ },
+ {
+  "word": "practical",
+  "start": 7.405,
+  "end": 7.93
+ },
+ {
+  "word": "minimum",
+  "start": 7.93,
+  "end": 8.33
+ },
+ {
+  "word": "is",
+  "start": 8.33,
+  "end": 8.518
+ },
+ {
+  "word": "thirty-two",
+  "start": 8.518,
+  "end": 8.993
+ },
+ {
+  "word": "thousand,",
+  "start": 8.993,
+  "end": 9.655
+ },
+ {
+  "word": "and",
+  "start": 9.655,
+  "end": 9.793
+ },
+ {
+  "word": "sixty-four",
+  "start": 9.793,
+  "end": 10.43
+ },
+ {
+  "word": "is",
+  "start": 10.43,
+  "end": 10.568
+ },
+ {
+  "word": "the",
+  "start": 10.568,
+  "end": 10.655
+ },
+ {
+  "word": "comfortable",
+  "start": 10.655,
+  "end": 11.155
+ },
+ {
+  "word": "spot.",
+  "start": 11.155,
+  "end": 11.93
+ },
+ {
+  "word": "And",
+  "start": 11.93,
+  "end": 12.105
+ },
+ {
+  "word": "here's",
+  "start": 12.105,
+  "end": 12.405
+ },
+ {
+  "word": "the",
+  "start": 12.405,
+  "end": 12.505
+ },
+ {
+  "word": "sneaky",
+  "start": 12.505,
+  "end": 12.855
+ },
+ {
+  "word": "part.",
+  "start": 12.855,
+  "end": 13.605
+ },
+ {
+  "word": "Ollama",
+  "start": 13.605,
+  "end": 14.005
+ },
+ {
+  "word": "doesn't",
+  "start": 14.005,
+  "end": 14.28
+ },
+ {
+  "word": "always",
+  "start": 14.28,
+  "end": 14.655
+ },
+ {
+  "word": "give",
+  "start": 14.655,
+  "end": 14.818
+ },
+ {
+  "word": "your",
+  "start": 14.818,
+  "end": 14.93
+ },
+ {
+  "word": "model",
+  "start": 14.93,
+  "end": 15.243
+ },
+ {
+  "word": "the",
+  "start": 15.243,
+  "end": 15.368
+ },
+ {
+  "word": "full",
+  "start": 15.368,
+  "end": 15.605
+ },
+ {
+  "word": "window",
+  "start": 15.605,
+  "end": 15.98
+ },
+ {
+  "word": "by",
+  "start": 15.98,
+  "end": 16.155
+ },
+ {
+  "word": "default.",
+  "start": 16.155,
+  "end": 17.08
+ },
+ {
+  "word": "If",
+  "start": 17.08,
+  "end": 17.255
+ },
+ {
+  "word": "you",
+  "start": 17.255,
+  "end": 17.343
+ },
+ {
+  "word": "don't",
+  "start": 17.343,
+  "end": 17.53
+ },
+ {
+  "word": "raise",
+  "start": 17.53,
+  "end": 17.793
+ },
+ {
+  "word": "it",
+  "start": 17.793,
+  "end": 17.868
+ },
+ {
+  "word": "yourself",
+  "start": 17.868,
+  "end": 18.268
+ },
+ {
+  "word": "with",
+  "start": 18.268,
+  "end": 18.443
+ },
+ {
+  "word": "OLLAMA",
+  "start": 18.443,
+  "end": 19.38
+ },
+ {
+  "word": "CONTEXT",
+  "start": 19.38,
+  "end": 19.955
+ },
+ {
+  "word": "LENGTH,",
+  "start": 19.955,
+  "end": 20.455
+ },
+ {
+  "word": "your",
+  "start": 20.455,
+  "end": 20.605
+ },
+ {
+  "word": "context",
+  "start": 20.605,
+  "end": 21.205
+ },
+ {
+  "word": "gets",
+  "start": 21.205,
+  "end": 21.455
+ },
+ {
+  "word": "cut",
+  "start": 21.455,
+  "end": 21.718
+ },
+ {
+  "word": "silently,",
+  "start": 21.718,
+  "end": 22.605
+ },
+ {
+  "word": "and",
+  "start": 22.605,
+  "end": 22.718
+ },
+ {
+  "word": "the",
+  "start": 22.718,
+  "end": 22.843
+ },
+ {
+  "word": "agent",
+  "start": 22.843,
+  "end": 23.23
+ },
+ {
+  "word": "forgets",
+  "start": 23.23,
+  "end": 23.618
+ },
+ {
+  "word": "what",
+  "start": 23.618,
+  "end": 23.743
+ },
+ {
+  "word": "it",
+  "start": 23.743,
+  "end": 23.818
+ },
+ {
+  "word": "was",
+  "start": 23.818,
+  "end": 23.98
+ },
+ {
+  "word": "doing",
+  "start": 23.98,
+  "end": 24.355
+ },
+ {
+  "word": "after",
+  "start": 24.355,
+  "end": 24.618
+ },
+ {
+  "word": "a",
+  "start": 24.618,
+  "end": 24.68
+ },
+ {
+  "word": "couple",
+  "start": 24.68,
+  "end": 24.943
+ },
+ {
+  "word": "of",
+  "start": 24.943,
+  "end": 25.03
+ },
+ {
+  "word": "turns.",
+  "start": 25.03,
+  "end": 26.105
+ },
+ {
+  "word": "No",
+  "start": 26.105,
+  "end": 26.38
+ },
+ {
+  "word": "error.",
+  "start": 26.38,
+  "end": 27.218
+ },
+ {
+  "word": "It",
+  "start": 27.555,
+  "end": 27.68
+ },
+ {
+  "word": "just",
+  "start": 27.68,
+  "end": 27.88
+ },
+ {
+  "word": "gets",
+  "start": 27.88,
+  "end": 28.13
+ },
+ {
+  "word": "dumber.",
+  "start": 28.13,
+  "end": 28.611
+ }
+]

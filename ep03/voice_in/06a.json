@@ -1,0 +1,327 @@
+[
+ {
+  "word": "Trap",
+  "start": 0.0,
+  "end": 0.271
+ },
+ {
+  "word": "two:",
+  "start": 0.271,
+  "end": 0.733
+ },
+ {
+  "word": "the",
+  "start": 0.733,
+  "end": 0.833
+ },
+ {
+  "word": "model",
+  "start": 0.833,
+  "end": 1.183
+ },
+ {
+  "word": "talks",
+  "start": 1.183,
+  "end": 1.558
+ },
+ {
+  "word": "instead",
+  "start": 1.558,
+  "end": 1.896
+ },
+ {
+  "word": "of",
+  "start": 1.896,
+  "end": 1.983
+ },
+ {
+  "word": "acting.",
+  "start": 1.983,
+  "end": 2.946
+ },
+ {
+  "word": "An",
+  "start": 2.946,
+  "end": 3.121
+ },
+ {
+  "word": "agent",
+  "start": 3.121,
+  "end": 3.508
+ },
+ {
+  "word": "works",
+  "start": 3.508,
+  "end": 3.808
+ },
+ {
+  "word": "through",
+  "start": 3.808,
+  "end": 4.021
+ },
+ {
+  "word": "tool",
+  "start": 4.021,
+  "end": 4.308
+ },
+ {
+  "word": "calls:",
+  "start": 4.308,
+  "end": 5.071
+ },
+ {
+  "word": "read",
+  "start": 5.071,
+  "end": 5.383
+ },
+ {
+  "word": "this",
+  "start": 5.383,
+  "end": 5.608
+ },
+ {
+  "word": "file,",
+  "start": 5.608,
+  "end": 6.133
+ },
+ {
+  "word": "edit",
+  "start": 6.133,
+  "end": 6.383
+ },
+ {
+  "word": "that",
+  "start": 6.383,
+  "end": 6.608
+ },
+ {
+  "word": "line,",
+  "start": 6.608,
+  "end": 7.071
+ },
+ {
+  "word": "run",
+  "start": 7.071,
+  "end": 7.333
+ },
+ {
+  "word": "this",
+  "start": 7.333,
+  "end": 7.508
+ },
+ {
+  "word": "command.",
+  "start": 7.508,
+  "end": 8.421
+ },
+ {
+  "word": "A",
+  "start": 8.421,
+  "end": 8.546
+ },
+ {
+  "word": "model",
+  "start": 8.546,
+  "end": 8.933
+ },
+ {
+  "word": "has",
+  "start": 8.933,
+  "end": 9.133
+ },
+ {
+  "word": "to",
+  "start": 9.133,
+  "end": 9.221
+ },
+ {
+  "word": "be",
+  "start": 9.221,
+  "end": 9.358
+ },
+ {
+  "word": "trained",
+  "start": 9.358,
+  "end": 9.683
+ },
+ {
+  "word": "for",
+  "start": 9.683,
+  "end": 9.796
+ },
+ {
+  "word": "that.",
+  "start": 9.796,
+  "end": 10.483
+ },
+ {
+  "word": "If",
+  "start": 10.483,
+  "end": 10.646
+ },
+ {
+  "word": "it",
+  "start": 10.646,
+  "end": 10.733
+ },
+ {
+  "word": "isn't,",
+  "start": 10.733,
+  "end": 11.083
+ },
+ {
+  "word": "you'll",
+  "start": 11.083,
+  "end": 11.283
+ },
+ {
+  "word": "see",
+  "start": 11.283,
+  "end": 11.458
+ },
+ {
+  "word": "something",
+  "start": 11.458,
+  "end": 11.796
+ },
+ {
+  "word": "strange:",
+  "start": 11.796,
+  "end": 12.746
+ },
+ {
+  "word": "it",
+  "start": 12.746,
+  "end": 12.883
+ },
+ {
+  "word": "prints",
+  "start": 12.883,
+  "end": 13.158
+ },
+ {
+  "word": "the",
+  "start": 13.158,
+  "end": 13.271
+ },
+ {
+  "word": "tool",
+  "start": 13.271,
+  "end": 13.558
+ },
+ {
+  "word": "call",
+  "start": 13.558,
+  "end": 13.858
+ },
+ {
+  "word": "as",
+  "start": 13.858,
+  "end": 14.021
+ },
+ {
+  "word": "plain",
+  "start": 14.021,
+  "end": 14.358
+ },
+ {
+  "word": "text,",
+  "start": 14.358,
+  "end": 15.096
+ },
+ {
+  "word": "a",
+  "start": 15.096,
+  "end": 15.221
+ },
+ {
+  "word": "chunk",
+  "start": 15.221,
+  "end": 15.496
+ },
+ {
+  "word": "of",
+  "start": 15.496,
+  "end": 15.621
+ },
+ {
+  "word": "JSON",
+  "start": 15.621,
+  "end": 16.396
+ },
+ {
+  "word": "right",
+  "start": 16.396,
+  "end": 16.646
+ },
+ {
+  "word": "in",
+  "start": 16.646,
+  "end": 16.721
+ },
+ {
+  "word": "the",
+  "start": 16.721,
+  "end": 16.821
+ },
+ {
+  "word": "chat,",
+  "start": 16.821,
+  "end": 17.233
+ },
+ {
+  "word": "and",
+  "start": 17.233,
+  "end": 17.358
+ },
+ {
+  "word": "nothing",
+  "start": 17.358,
+  "end": 17.746
+ },
+ {
+  "word": "actually",
+  "start": 17.746,
+  "end": 18.183
+ },
+ {
+  "word": "happens.",
+  "start": 18.183,
+  "end": 19.283
+ },
+ {
+  "word": "No",
+  "start": 19.283,
+  "end": 19.521
+ },
+ {
+  "word": "file",
+  "start": 19.521,
+  "end": 19.808
+ },
+ {
+  "word": "gets",
+  "start": 19.808,
+  "end": 20.058
+ },
+ {
+  "word": "created,",
+  "start": 20.058,
+  "end": 20.696
+ },
+ {
+  "word": "no",
+  "start": 20.696,
+  "end": 20.971
+ },
+ {
+  "word": "error",
+  "start": 20.971,
+  "end": 21.283
+ },
+ {
+  "word": "appears.",
+  "start": 21.283,
+  "end": 21.882
+ }
+]

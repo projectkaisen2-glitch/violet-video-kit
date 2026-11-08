@@ -1,0 +1,312 @@
+[
+ {
+  "word": "So",
+  "start": 0.006,
+  "end": 0.118
+ },
+ {
+  "word": "which",
+  "start": 0.118,
+  "end": 0.318
+ },
+ {
+  "word": "brain",
+  "start": 0.318,
+  "end": 0.568
+ },
+ {
+  "word": "do",
+  "start": 0.568,
+  "end": 0.668
+ },
+ {
+  "word": "you",
+  "start": 0.668,
+  "end": 0.756
+ },
+ {
+  "word": "plug",
+  "start": 0.756,
+  "end": 0.993
+ },
+ {
+  "word": "in?",
+  "start": 0.993,
+  "end": 1.656
+ },
+ {
+  "word": "If",
+  "start": 1.656,
+  "end": 1.793
+ },
+ {
+  "word": "you've",
+  "start": 1.793,
+  "end": 1.931
+ },
+ {
+  "word": "got",
+  "start": 1.931,
+  "end": 2.106
+ },
+ {
+  "word": "8",
+  "start": 2.106,
+  "end": 2.331
+ },
+ {
+  "word": "gigs",
+  "start": 2.331,
+  "end": 2.618
+ },
+ {
+  "word": "of",
+  "start": 2.618,
+  "end": 2.706
+ },
+ {
+  "word": "V-RAM",
+  "start": 2.706,
+  "end": 3.231
+ },
+ {
+  "word": "and",
+  "start": 3.231,
+  "end": 3.343
+ },
+ {
+  "word": "at",
+  "start": 3.343,
+  "end": 3.418
+ },
+ {
+  "word": "least",
+  "start": 3.418,
+  "end": 3.618
+ },
+ {
+  "word": "16",
+  "start": 3.618,
+  "end": 4.131
+ },
+ {
+  "word": "gigs",
+  "start": 4.131,
+  "end": 4.368
+ },
+ {
+  "word": "of",
+  "start": 4.368,
+  "end": 4.456
+ },
+ {
+  "word": "RAM,",
+  "start": 4.456,
+  "end": 5.131
+ },
+ {
+  "word": "go",
+  "start": 5.131,
+  "end": 5.343
+ },
+ {
+  "word": "with",
+  "start": 5.343,
+  "end": 5.468
+ },
+ {
+  "word": "a",
+  "start": 5.468,
+  "end": 5.568
+ },
+ {
+  "word": "mixture-of-experts",
+  "start": 5.568,
+  "end": 6.506
+ },
+ {
+  "word": "model",
+  "start": 6.506,
+  "end": 6.881
+ },
+ {
+  "word": "like",
+  "start": 6.881,
+  "end": 7.118
+ },
+ {
+  "word": "Qwen",
+  "start": 7.118,
+  "end": 7.593
+ },
+ {
+  "word": "three",
+  "start": 7.593,
+  "end": 7.831
+ },
+ {
+  "word": "point",
+  "start": 7.831,
+  "end": 8.143
+ },
+ {
+  "word": "six,",
+  "start": 8.143,
+  "end": 8.968
+ },
+ {
+  "word": "thirty-five",
+  "start": 8.968,
+  "end": 9.581
+ },
+ {
+  "word": "B,",
+  "start": 9.581,
+  "end": 10.193
+ },
+ {
+  "word": "A",
+  "start": 10.193,
+  "end": 10.331
+ },
+ {
+  "word": "three",
+  "start": 10.331,
+  "end": 10.581
+ },
+ {
+  "word": "B.",
+  "start": 10.581,
+  "end": 10.756
+ },
+ {
+  "word": "Only",
+  "start": 10.756,
+  "end": 11.056
+ },
+ {
+  "word": "a",
+  "start": 11.056,
+  "end": 11.181
+ },
+ {
+  "word": "small",
+  "start": 11.181,
+  "end": 11.581
+ },
+ {
+  "word": "part",
+  "start": 11.581,
+  "end": 11.793
+ },
+ {
+  "word": "of",
+  "start": 11.793,
+  "end": 11.868
+ },
+ {
+  "word": "it",
+  "start": 11.868,
+  "end": 11.981
+ },
+ {
+  "word": "works",
+  "start": 11.981,
+  "end": 12.243
+ },
+ {
+  "word": "at",
+  "start": 12.243,
+  "end": 12.331
+ },
+ {
+  "word": "any",
+  "start": 12.331,
+  "end": 12.531
+ },
+ {
+  "word": "moment,",
+  "start": 12.531,
+  "end": 13.193
+ },
+ {
+  "word": "so",
+  "start": 13.193,
+  "end": 13.381
+ },
+ {
+  "word": "it",
+  "start": 13.381,
+  "end": 13.543
+ },
+ {
+  "word": "runs",
+  "start": 13.543,
+  "end": 13.981
+ },
+ {
+  "word": "on",
+  "start": 13.981,
+  "end": 14.193
+ },
+ {
+  "word": "modest",
+  "start": 14.193,
+  "end": 14.606
+ },
+ {
+  "word": "hardware.",
+  "start": 14.606,
+  "end": 15.706
+ },
+ {
+  "word": "It's",
+  "start": 15.706,
+  "end": 15.956
+ },
+ {
+  "word": "weak",
+  "start": 15.956,
+  "end": 16.206
+ },
+ {
+  "word": "for",
+  "start": 16.206,
+  "end": 16.356
+ },
+ {
+  "word": "long",
+  "start": 16.356,
+  "end": 16.656
+ },
+ {
+  "word": "projects,",
+  "start": 16.656,
+  "end": 17.331
+ },
+ {
+  "word": "but",
+  "start": 17.331,
+  "end": 17.468
+ },
+ {
+  "word": "it",
+  "start": 17.468,
+  "end": 17.556
+ },
+ {
+  "word": "handles",
+  "start": 17.556,
+  "end": 17.993
+ },
+ {
+  "word": "small",
+  "start": 17.993,
+  "end": 18.306
+ },
+ {
+  "word": "scripts.",
+  "start": 18.306,
+  "end": 18.841
+ }
+]

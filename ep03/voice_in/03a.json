@@ -1,0 +1,212 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.099
+ },
+ {
+  "word": "easiest",
+  "start": 0.099,
+  "end": 0.623
+ },
+ {
+  "word": "route",
+  "start": 0.623,
+  "end": 0.911
+ },
+ {
+  "word": "is",
+  "start": 0.911,
+  "end": 1.048
+ },
+ {
+  "word": "Ollama.",
+  "start": 1.048,
+  "end": 1.923
+ },
+ {
+  "word": "Install",
+  "start": 1.923,
+  "end": 2.461
+ },
+ {
+  "word": "it,",
+  "start": 2.461,
+  "end": 2.736
+ },
+ {
+  "word": "and",
+  "start": 2.736,
+  "end": 2.849
+ },
+ {
+  "word": "you",
+  "start": 2.849,
+  "end": 2.936
+ },
+ {
+  "word": "get",
+  "start": 2.936,
+  "end": 3.111
+ },
+ {
+  "word": "one",
+  "start": 3.111,
+  "end": 3.336
+ },
+ {
+  "word": "command:",
+  "start": 3.336,
+  "end": 4.224
+ },
+ {
+  "word": "ollama",
+  "start": 4.224,
+  "end": 4.636
+ },
+ {
+  "word": "launch,",
+  "start": 4.636,
+  "end": 5.136
+ },
+ {
+  "word": "then",
+  "start": 5.136,
+  "end": 5.349
+ },
+ {
+  "word": "Claude,",
+  "start": 5.349,
+  "end": 5.961
+ },
+ {
+  "word": "then",
+  "start": 5.961,
+  "end": 6.123
+ },
+ {
+  "word": "the",
+  "start": 6.123,
+  "end": 6.211
+ },
+ {
+  "word": "model",
+  "start": 6.211,
+  "end": 6.561
+ },
+ {
+  "word": "you",
+  "start": 6.561,
+  "end": 6.711
+ },
+ {
+  "word": "want.",
+  "start": 6.711,
+  "end": 7.586
+ },
+ {
+  "word": "It",
+  "start": 7.586,
+  "end": 7.761
+ },
+ {
+  "word": "downloads",
+  "start": 7.761,
+  "end": 8.286
+ },
+ {
+  "word": "the",
+  "start": 8.286,
+  "end": 8.386
+ },
+ {
+  "word": "model",
+  "start": 8.386,
+  "end": 8.761
+ },
+ {
+  "word": "if",
+  "start": 8.761,
+  "end": 8.873
+ },
+ {
+  "word": "you",
+  "start": 8.873,
+  "end": 8.949
+ },
+ {
+  "word": "don't",
+  "start": 8.949,
+  "end": 9.136
+ },
+ {
+  "word": "have",
+  "start": 9.136,
+  "end": 9.361
+ },
+ {
+  "word": "it,",
+  "start": 9.361,
+  "end": 9.774
+ },
+ {
+  "word": "sets",
+  "start": 9.774,
+  "end": 10.098
+ },
+ {
+  "word": "all",
+  "start": 10.098,
+  "end": 10.348
+ },
+ {
+  "word": "the",
+  "start": 10.348,
+  "end": 10.436
+ },
+ {
+  "word": "variables,",
+  "start": 10.436,
+  "end": 11.086
+ },
+ {
+  "word": "and",
+  "start": 11.086,
+  "end": 11.248
+ },
+ {
+  "word": "opens",
+  "start": 11.248,
+  "end": 11.723
+ },
+ {
+  "word": "Claude",
+  "start": 11.723,
+  "end": 12.123
+ },
+ {
+  "word": "Code",
+  "start": 12.123,
+  "end": 12.486
+ },
+ {
+  "word": "already",
+  "start": 12.486,
+  "end": 12.861
+ },
+ {
+  "word": "connected.",
+  "start": 12.861,
+  "end": 13.936
+ },
+ {
+  "word": "That's",
+  "start": 13.936,
+  "end": 14.299
+ },
+ {
+  "word": "it.",
+  "start": 14.299,
+  "end": 14.574
+ }
+]

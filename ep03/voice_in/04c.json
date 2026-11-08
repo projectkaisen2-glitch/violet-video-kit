@@ -1,0 +1,212 @@
+[
+ {
+  "word": "One",
+  "start": 0.003,
+  "end": 0.266
+ },
+ {
+  "word": "catch",
+  "start": 0.266,
+  "end": 0.628
+ },
+ {
+  "word": "for",
+  "start": 0.628,
+  "end": 0.791
+ },
+ {
+  "word": "VS",
+  "start": 0.791,
+  "end": 1.128
+ },
+ {
+  "word": "Code",
+  "start": 1.128,
+  "end": 1.428
+ },
+ {
+  "word": "users:",
+  "start": 1.428,
+  "end": 2.378
+ },
+ {
+  "word": "the",
+  "start": 2.378,
+  "end": 2.491
+ },
+ {
+  "word": "Claude",
+  "start": 2.491,
+  "end": 2.878
+ },
+ {
+  "word": "Code",
+  "start": 2.878,
+  "end": 3.128
+ },
+ {
+  "word": "extension",
+  "start": 3.128,
+  "end": 3.853
+ },
+ {
+  "word": "doesn't",
+  "start": 3.853,
+  "end": 4.203
+ },
+ {
+  "word": "read",
+  "start": 4.203,
+  "end": 4.441
+ },
+ {
+  "word": "your",
+  "start": 4.441,
+  "end": 4.578
+ },
+ {
+  "word": "terminal",
+  "start": 4.578,
+  "end": 5.028
+ },
+ {
+  "word": "variables.",
+  "start": 5.028,
+  "end": 6.166
+ },
+ {
+  "word": "You",
+  "start": 6.166,
+  "end": 6.303
+ },
+ {
+  "word": "have",
+  "start": 6.303,
+  "end": 6.503
+ },
+ {
+  "word": "to",
+  "start": 6.503,
+  "end": 6.603
+ },
+ {
+  "word": "put",
+  "start": 6.603,
+  "end": 6.766
+ },
+ {
+  "word": "the",
+  "start": 6.766,
+  "end": 6.853
+ },
+ {
+  "word": "base",
+  "start": 6.853,
+  "end": 7.241
+ },
+ {
+  "word": "URL",
+  "start": 7.241,
+  "end": 8.153
+ },
+ {
+  "word": "and",
+  "start": 8.153,
+  "end": 8.291
+ },
+ {
+  "word": "the",
+  "start": 8.291,
+  "end": 8.378
+ },
+ {
+  "word": "token",
+  "start": 8.378,
+  "end": 8.803
+ },
+ {
+  "word": "into",
+  "start": 8.803,
+  "end": 8.991
+ },
+ {
+  "word": "the",
+  "start": 8.991,
+  "end": 9.128
+ },
+ {
+  "word": "extension's",
+  "start": 9.128,
+  "end": 9.803
+ },
+ {
+  "word": "own",
+  "start": 9.803,
+  "end": 10.028
+ },
+ {
+  "word": "settings,",
+  "start": 10.028,
+  "end": 10.866
+ },
+ {
+  "word": "or",
+  "start": 10.866,
+  "end": 11.053
+ },
+ {
+  "word": "it",
+  "start": 11.053,
+  "end": 11.141
+ },
+ {
+  "word": "will",
+  "start": 11.141,
+  "end": 11.278
+ },
+ {
+  "word": "keep",
+  "start": 11.278,
+  "end": 11.566
+ },
+ {
+  "word": "calling",
+  "start": 11.566,
+  "end": 11.991
+ },
+ {
+  "word": "Anthropic",
+  "start": 11.991,
+  "end": 12.791
+ },
+ {
+  "word": "and",
+  "start": 12.791,
+  "end": 12.941
+ },
+ {
+  "word": "asking",
+  "start": 12.941,
+  "end": 13.353
+ },
+ {
+  "word": "you",
+  "start": 13.353,
+  "end": 13.503
+ },
+ {
+  "word": "to",
+  "start": 13.503,
+  "end": 13.628
+ },
+ {
+  "word": "log",
+  "start": 13.628,
+  "end": 13.941
+ },
+ {
+  "word": "in.",
+  "start": 13.941,
+  "end": 14.253
+ }
+]

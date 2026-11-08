@@ -1,0 +1,447 @@
+[
+ {
+  "word": "With",
+  "start": 0.0,
+  "end": 0.076
+ },
+ {
+  "word": "24",
+  "start": 0.076,
+  "end": 0.601
+ },
+ {
+  "word": "gigs,",
+  "start": 0.601,
+  "end": 0.976
+ },
+ {
+  "word": "you",
+  "start": 0.976,
+  "end": 1.076
+ },
+ {
+  "word": "can",
+  "start": 1.076,
+  "end": 1.226
+ },
+ {
+  "word": "run",
+  "start": 1.226,
+  "end": 1.414
+ },
+ {
+  "word": "the",
+  "start": 1.414,
+  "end": 1.501
+ },
+ {
+  "word": "dense",
+  "start": 1.501,
+  "end": 1.801
+ },
+ {
+  "word": "Qwen",
+  "start": 1.801,
+  "end": 2.239
+ },
+ {
+  "word": "three",
+  "start": 2.239,
+  "end": 2.476
+ },
+ {
+  "word": "point",
+  "start": 2.476,
+  "end": 2.764
+ },
+ {
+  "word": "six,",
+  "start": 2.764,
+  "end": 3.426
+ },
+ {
+  "word": "twenty-seven",
+  "start": 3.426,
+  "end": 3.976
+ },
+ {
+  "word": "B",
+  "start": 3.976,
+  "end": 4.151
+ },
+ {
+  "word": "at",
+  "start": 4.151,
+  "end": 4.251
+ },
+ {
+  "word": "four-bit,",
+  "start": 4.251,
+  "end": 4.851
+ },
+ {
+  "word": "and",
+  "start": 4.851,
+  "end": 4.964
+ },
+ {
+  "word": "it's",
+  "start": 4.964,
+  "end": 5.064
+ },
+ {
+  "word": "a",
+  "start": 5.064,
+  "end": 5.164
+ },
+ {
+  "word": "serious",
+  "start": 5.164,
+  "end": 5.601
+ },
+ {
+  "word": "step",
+  "start": 5.601,
+  "end": 5.839
+ },
+ {
+  "word": "up.",
+  "start": 5.839,
+  "end": 6.626
+ },
+ {
+  "word": "If",
+  "start": 6.626,
+  "end": 6.764
+ },
+ {
+  "word": "you",
+  "start": 6.764,
+  "end": 6.851
+ },
+ {
+  "word": "just",
+  "start": 6.851,
+  "end": 7.014
+ },
+ {
+  "word": "want",
+  "start": 7.014,
+  "end": 7.189
+ },
+ {
+  "word": "the",
+  "start": 7.189,
+  "end": 7.301
+ },
+ {
+  "word": "easiest",
+  "start": 7.301,
+  "end": 7.751
+ },
+ {
+  "word": "start,",
+  "start": 7.751,
+  "end": 8.276
+ },
+ {
+  "word": "OpenAI's",
+  "start": 8.276,
+  "end": 8.989
+ },
+ {
+  "word": "open",
+  "start": 8.989,
+  "end": 9.326
+ },
+ {
+  "word": "G",
+  "start": 9.326,
+  "end": 9.501
+ },
+ {
+  "word": "P",
+  "start": 9.501,
+  "end": 9.714
+ },
+ {
+  "word": "T",
+  "start": 9.714,
+  "end": 9.989
+ },
+ {
+  "word": "O",
+  "start": 9.989,
+  "end": 10.176
+ },
+ {
+  "word": "S",
+  "start": 10.176,
+  "end": 10.376
+ },
+ {
+  "word": "S,",
+  "start": 10.376,
+  "end": 11.001
+ },
+ {
+  "word": "twenty",
+  "start": 11.001,
+  "end": 11.301
+ },
+ {
+  "word": "B",
+  "start": 11.301,
+  "end": 11.526
+ },
+ {
+  "word": "is",
+  "start": 11.526,
+  "end": 11.639
+ },
+ {
+  "word": "what",
+  "start": 11.639,
+  "end": 11.764
+ },
+ {
+  "word": "many",
+  "start": 11.764,
+  "end": 11.976
+ },
+ {
+  "word": "guides",
+  "start": 11.976,
+  "end": 12.326
+ },
+ {
+  "word": "use",
+  "start": 12.326,
+  "end": 12.526
+ },
+ {
+  "word": "first.",
+  "start": 12.526,
+  "end": 13.464
+ },
+ {
+  "word": "Google's",
+  "start": 13.464,
+  "end": 13.851
+ },
+ {
+  "word": "Gemma",
+  "start": 13.851,
+  "end": 14.126
+ },
+ {
+  "word": "four,",
+  "start": 14.126,
+  "end": 14.601
+ },
+ {
+  "word": "twenty-six",
+  "start": 14.601,
+  "end": 15.151
+ },
+ {
+  "word": "B,",
+  "start": 15.151,
+  "end": 15.526
+ },
+ {
+  "word": "A",
+  "start": 15.526,
+  "end": 15.639
+ },
+ {
+  "word": "four",
+  "start": 15.639,
+  "end": 15.876
+ },
+ {
+  "word": "B",
+  "start": 15.876,
+  "end": 16.076
+ },
+ {
+  "word": "is",
+  "start": 16.076,
+  "end": 16.201
+ },
+ {
+  "word": "another",
+  "start": 16.201,
+  "end": 16.526
+ },
+ {
+  "word": "popular",
+  "start": 16.526,
+  "end": 16.976
+ },
+ {
+  "word": "pick,",
+  "start": 16.976,
+  "end": 17.451
+ },
+ {
+  "word": "with",
+  "start": 17.451,
+  "end": 17.639
+ },
+ {
+  "word": "tool",
+  "start": 17.639,
+  "end": 17.926
+ },
+ {
+  "word": "calling",
+  "start": 17.926,
+  "end": 18.326
+ },
+ {
+  "word": "built",
+  "start": 18.326,
+  "end": 18.589
+ },
+ {
+  "word": "in.",
+  "start": 18.589,
+  "end": 19.389
+ },
+ {
+  "word": "What",
+  "start": 19.389,
+  "end": 19.576
+ },
+ {
+  "word": "to",
+  "start": 19.576,
+  "end": 19.701
+ },
+ {
+  "word": "avoid:",
+  "start": 19.701,
+  "end": 20.464
+ },
+ {
+  "word": "older",
+  "start": 20.464,
+  "end": 20.839
+ },
+ {
+  "word": "general",
+  "start": 20.839,
+  "end": 21.239
+ },
+ {
+  "word": "chat",
+  "start": 21.239,
+  "end": 21.501
+ },
+ {
+  "word": "models",
+  "start": 21.501,
+  "end": 21.876
+ },
+ {
+  "word": "with",
+  "start": 21.876,
+  "end": 22.064
+ },
+ {
+  "word": "no",
+  "start": 22.064,
+  "end": 22.339
+ },
+ {
+  "word": "tool",
+  "start": 22.339,
+  "end": 22.626
+ },
+ {
+  "word": "training,",
+  "start": 22.626,
+  "end": 23.301
+ },
+ {
+  "word": "like",
+  "start": 23.301,
+  "end": 23.464
+ },
+ {
+  "word": "the",
+  "start": 23.464,
+  "end": 23.551
+ },
+ {
+  "word": "stock",
+  "start": 23.551,
+  "end": 23.876
+ },
+ {
+  "word": "Llama",
+  "start": 23.876,
+  "end": 24.239
+ },
+ {
+  "word": "three",
+  "start": 24.239,
+  "end": 24.551
+ },
+ {
+  "word": "instruct",
+  "start": 24.551,
+  "end": 25.026
+ },
+ {
+  "word": "versions.",
+  "start": 25.026,
+  "end": 26.039
+ },
+ {
+  "word": "They're",
+  "start": 26.401,
+  "end": 26.514
+ },
+ {
+  "word": "the",
+  "start": 26.514,
+  "end": 26.601
+ },
+ {
+  "word": "ones",
+  "start": 26.601,
+  "end": 26.889
+ },
+ {
+  "word": "that",
+  "start": 26.889,
+  "end": 27.026
+ },
+ {
+  "word": "print",
+  "start": 27.026,
+  "end": 27.264
+ },
+ {
+  "word": "JSON",
+  "start": 27.264,
+  "end": 28.201
+ },
+ {
+  "word": "and",
+  "start": 28.201,
+  "end": 28.339
+ },
+ {
+  "word": "do",
+  "start": 28.339,
+  "end": 28.451
+ },
+ {
+  "word": "nothing.",
+  "start": 28.451,
+  "end": 28.925
+ }
+]

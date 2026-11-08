@@ -1,0 +1,347 @@
+[
+ {
+  "word": "For",
+  "start": 0.0,
+  "end": 0.099
+ },
+ {
+  "word": "a",
+  "start": 0.099,
+  "end": 0.161
+ },
+ {
+  "word": "long",
+  "start": 0.161,
+  "end": 0.436
+ },
+ {
+  "word": "time,",
+  "start": 0.436,
+  "end": 0.949
+ },
+ {
+  "word": "nothing",
+  "start": 0.949,
+  "end": 1.311
+ },
+ {
+  "word": "local",
+  "start": 1.311,
+  "end": 1.649
+ },
+ {
+  "word": "answered",
+  "start": 1.649,
+  "end": 2.049
+ },
+ {
+  "word": "in",
+  "start": 2.049,
+  "end": 2.124
+ },
+ {
+  "word": "the",
+  "start": 2.124,
+  "end": 2.211
+ },
+ {
+  "word": "right",
+  "start": 2.211,
+  "end": 2.436
+ },
+ {
+  "word": "language.",
+  "start": 2.436,
+  "end": 3.424
+ },
+ {
+  "word": "That",
+  "start": 3.424,
+  "end": 3.699
+ },
+ {
+  "word": "changed",
+  "start": 3.699,
+  "end": 4.111
+ },
+ {
+  "word": "this",
+  "start": 4.111,
+  "end": 4.311
+ },
+ {
+  "word": "January.",
+  "start": 4.311,
+  "end": 5.449
+ },
+ {
+  "word": "In",
+  "start": 5.449,
+  "end": 5.611
+ },
+ {
+  "word": "one",
+  "start": 5.611,
+  "end": 5.836
+ },
+ {
+  "word": "two-week",
+  "start": 5.836,
+  "end": 6.261
+ },
+ {
+  "word": "stretch,",
+  "start": 6.261,
+  "end": 6.849
+ },
+ {
+  "word": "Ollama,",
+  "start": 6.849,
+  "end": 7.574
+ },
+ {
+  "word": "llama",
+  "start": 7.574,
+  "end": 7.886
+ },
+ {
+  "word": "dot",
+  "start": 7.886,
+  "end": 8.136
+ },
+ {
+  "word": "C",
+  "start": 8.136,
+  "end": 8.311
+ },
+ {
+  "word": "P",
+  "start": 8.311,
+  "end": 8.524
+ },
+ {
+  "word": "P",
+  "start": 8.524,
+  "end": 8.836
+ },
+ {
+  "word": "and",
+  "start": 8.836,
+  "end": 8.999
+ },
+ {
+  "word": "LM",
+  "start": 8.999,
+  "end": 9.411
+ },
+ {
+  "word": "Studio",
+  "start": 9.411,
+  "end": 9.924
+ },
+ {
+  "word": "all",
+  "start": 9.924,
+  "end": 10.186
+ },
+ {
+  "word": "learned",
+  "start": 10.186,
+  "end": 10.461
+ },
+ {
+  "word": "to",
+  "start": 10.461,
+  "end": 10.561
+ },
+ {
+  "word": "speak",
+  "start": 10.561,
+  "end": 10.836
+ },
+ {
+  "word": "Anthropic's",
+  "start": 10.836,
+  "end": 11.411
+ },
+ {
+  "word": "API.",
+  "start": 11.411,
+  "end": 12.686
+ },
+ {
+  "word": "Ollama",
+  "start": 12.686,
+  "end": 13.111
+ },
+ {
+  "word": "on",
+  "start": 13.111,
+  "end": 13.236
+ },
+ {
+  "word": "January",
+  "start": 13.236,
+  "end": 13.736
+ },
+ {
+  "word": "sixteenth,",
+  "start": 13.736,
+  "end": 14.599
+ },
+ {
+  "word": "llama",
+  "start": 14.599,
+  "end": 14.911
+ },
+ {
+  "word": "dot",
+  "start": 14.911,
+  "end": 15.161
+ },
+ {
+  "word": "C",
+  "start": 15.161,
+  "end": 15.336
+ },
+ {
+  "word": "P",
+  "start": 15.336,
+  "end": 15.536
+ },
+ {
+  "word": "P",
+  "start": 15.536,
+  "end": 15.799
+ },
+ {
+  "word": "three",
+  "start": 15.799,
+  "end": 16.036
+ },
+ {
+  "word": "days",
+  "start": 16.036,
+  "end": 16.311
+ },
+ {
+  "word": "later,",
+  "start": 16.311,
+  "end": 16.999
+ },
+ {
+  "word": "LM",
+  "start": 16.999,
+  "end": 17.461
+ },
+ {
+  "word": "Studio",
+  "start": 17.461,
+  "end": 17.936
+ },
+ {
+  "word": "at",
+  "start": 17.936,
+  "end": 18.024
+ },
+ {
+  "word": "the",
+  "start": 18.024,
+  "end": 18.136
+ },
+ {
+  "word": "end",
+  "start": 18.136,
+  "end": 18.274
+ },
+ {
+  "word": "of",
+  "start": 18.274,
+  "end": 18.349
+ },
+ {
+  "word": "the",
+  "start": 18.349,
+  "end": 18.436
+ },
+ {
+  "word": "month.",
+  "start": 18.436,
+  "end": 19.311
+ },
+ {
+  "word": "Since",
+  "start": 19.311,
+  "end": 19.586
+ },
+ {
+  "word": "then,",
+  "start": 19.586,
+  "end": 20.024
+ },
+ {
+  "word": "running",
+  "start": 20.024,
+  "end": 20.399
+ },
+ {
+  "word": "Claude",
+  "start": 20.399,
+  "end": 20.711
+ },
+ {
+  "word": "Code",
+  "start": 20.711,
+  "end": 21.024
+ },
+ {
+  "word": "on",
+  "start": 21.024,
+  "end": 21.124
+ },
+ {
+  "word": "a",
+  "start": 21.124,
+  "end": 21.186
+ },
+ {
+  "word": "local",
+  "start": 21.186,
+  "end": 21.511
+ },
+ {
+  "word": "model",
+  "start": 21.511,
+  "end": 21.924
+ },
+ {
+  "word": "is",
+  "start": 21.924,
+  "end": 22.061
+ },
+ {
+  "word": "officially",
+  "start": 22.061,
+  "end": 22.586
+ },
+ {
+  "word": "supported,",
+  "start": 22.586,
+  "end": 23.411
+ },
+ {
+  "word": "not",
+  "start": 23.411,
+  "end": 23.574
+ },
+ {
+  "word": "a",
+  "start": 23.574,
+  "end": 23.636
+ },
+ {
+  "word": "hack.",
+  "start": 23.636,
+  "end": 24.048
+ }
+]

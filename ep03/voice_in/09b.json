@@ -1,0 +1,347 @@
+[
+ {
+  "word": "But",
+  "start": 0.0,
+  "end": 0.056
+ },
+ {
+  "word": "it's",
+  "start": 0.056,
+  "end": 0.23
+ },
+ {
+  "word": "genuinely",
+  "start": 0.23,
+  "end": 0.756
+ },
+ {
+  "word": "useful",
+  "start": 0.756,
+  "end": 1.243
+ },
+ {
+  "word": "in",
+  "start": 1.243,
+  "end": 1.405
+ },
+ {
+  "word": "three",
+  "start": 1.405,
+  "end": 1.693
+ },
+ {
+  "word": "situations.",
+  "start": 1.693,
+  "end": 2.918
+ },
+ {
+  "word": "When",
+  "start": 2.918,
+  "end": 3.055
+ },
+ {
+  "word": "your",
+  "start": 3.055,
+  "end": 3.168
+ },
+ {
+  "word": "limits",
+  "start": 3.168,
+  "end": 3.481
+ },
+ {
+  "word": "are",
+  "start": 3.481,
+  "end": 3.593
+ },
+ {
+  "word": "burned",
+  "start": 3.593,
+  "end": 4.056
+ },
+ {
+  "word": "and",
+  "start": 4.056,
+  "end": 4.181
+ },
+ {
+  "word": "you",
+  "start": 4.181,
+  "end": 4.293
+ },
+ {
+  "word": "still",
+  "start": 4.293,
+  "end": 4.568
+ },
+ {
+  "word": "need",
+  "start": 4.568,
+  "end": 4.856
+ },
+ {
+  "word": "small",
+  "start": 4.856,
+  "end": 5.218
+ },
+ {
+  "word": "fixes",
+  "start": 5.218,
+  "end": 5.618
+ },
+ {
+  "word": "done.",
+  "start": 5.618,
+  "end": 6.368
+ },
+ {
+  "word": "When",
+  "start": 6.368,
+  "end": 6.505
+ },
+ {
+  "word": "the",
+  "start": 6.505,
+  "end": 6.593
+ },
+ {
+  "word": "code",
+  "start": 6.593,
+  "end": 6.931
+ },
+ {
+  "word": "can't",
+  "start": 6.931,
+  "end": 7.218
+ },
+ {
+  "word": "leave",
+  "start": 7.218,
+  "end": 7.405
+ },
+ {
+  "word": "your",
+  "start": 7.405,
+  "end": 7.518
+ },
+ {
+  "word": "computer,",
+  "start": 7.518,
+  "end": 8.243
+ },
+ {
+  "word": "because",
+  "start": 8.243,
+  "end": 8.48
+ },
+ {
+  "word": "it's",
+  "start": 8.48,
+  "end": 8.643
+ },
+ {
+  "word": "private,",
+  "start": 8.643,
+  "end": 9.405
+ },
+ {
+  "word": "or",
+  "start": 9.405,
+  "end": 9.593
+ },
+ {
+  "word": "it's",
+  "start": 9.593,
+  "end": 9.73
+ },
+ {
+  "word": "your",
+  "start": 9.73,
+  "end": 9.843
+ },
+ {
+  "word": "client's.",
+  "start": 9.843,
+  "end": 10.818
+ },
+ {
+  "word": "And",
+  "start": 10.818,
+  "end": 10.956
+ },
+ {
+  "word": "when",
+  "start": 10.956,
+  "end": 11.093
+ },
+ {
+  "word": "you're",
+  "start": 11.093,
+  "end": 11.243
+ },
+ {
+  "word": "offline.",
+  "start": 11.243,
+  "end": 12.268
+ },
+ {
+  "word": "And",
+  "start": 12.268,
+  "end": 12.405
+ },
+ {
+  "word": "if",
+  "start": 12.405,
+  "end": 12.543
+ },
+ {
+  "word": "Claude",
+  "start": 12.543,
+  "end": 12.843
+ },
+ {
+  "word": "Code",
+  "start": 12.843,
+  "end": 13.081
+ },
+ {
+  "word": "itself",
+  "start": 13.081,
+  "end": 13.493
+ },
+ {
+  "word": "feels",
+  "start": 13.493,
+  "end": 13.831
+ },
+ {
+  "word": "too",
+  "start": 13.831,
+  "end": 14.043
+ },
+ {
+  "word": "heavy",
+  "start": 14.043,
+  "end": 14.318
+ },
+ {
+  "word": "for",
+  "start": 14.318,
+  "end": 14.431
+ },
+ {
+  "word": "your",
+  "start": 14.431,
+  "end": 14.543
+ },
+ {
+  "word": "card,",
+  "start": 14.543,
+  "end": 15.23
+ },
+ {
+  "word": "try",
+  "start": 15.23,
+  "end": 15.543
+ },
+ {
+  "word": "a",
+  "start": 15.543,
+  "end": 15.655
+ },
+ {
+  "word": "lean",
+  "start": 15.655,
+  "end": 15.98
+ },
+ {
+  "word": "open",
+  "start": 15.98,
+  "end": 16.318
+ },
+ {
+  "word": "harness",
+  "start": 16.318,
+  "end": 16.743
+ },
+ {
+  "word": "like",
+  "start": 16.743,
+  "end": 16.98
+ },
+ {
+  "word": "OpenCode",
+  "start": 16.98,
+  "end": 17.655
+ },
+ {
+  "word": "or",
+  "start": 17.655,
+  "end": 17.831
+ },
+ {
+  "word": "Pi",
+  "start": 17.831,
+  "end": 18.243
+ },
+ {
+  "word": "with",
+  "start": 18.243,
+  "end": 18.381
+ },
+ {
+  "word": "the",
+  "start": 18.381,
+  "end": 18.48
+ },
+ {
+  "word": "same",
+  "start": 18.48,
+  "end": 18.743
+ },
+ {
+  "word": "model.",
+  "start": 18.743,
+  "end": 19.743
+ },
+ {
+  "word": "Less",
+  "start": 19.743,
+  "end": 19.98
+ },
+ {
+  "word": "overhead",
+  "start": 19.98,
+  "end": 20.443
+ },
+ {
+  "word": "means",
+  "start": 20.443,
+  "end": 20.756
+ },
+ {
+  "word": "more",
+  "start": 20.756,
+  "end": 20.993
+ },
+ {
+  "word": "room",
+  "start": 20.993,
+  "end": 21.243
+ },
+ {
+  "word": "for",
+  "start": 21.243,
+  "end": 21.355
+ },
+ {
+  "word": "your",
+  "start": 21.355,
+  "end": 21.468
+ },
+ {
+  "word": "code.",
+  "start": 21.468,
+  "end": 21.893
+ }
+]

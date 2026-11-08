@@ -1,0 +1,242 @@
+[
+ {
+  "word": "If",
+  "start": 0.0,
+  "end": 0.101
+ },
+ {
+  "word": "you'd",
+  "start": 0.101,
+  "end": 0.226
+ },
+ {
+  "word": "rather",
+  "start": 0.226,
+  "end": 0.588
+ },
+ {
+  "word": "see",
+  "start": 0.588,
+  "end": 0.776
+ },
+ {
+  "word": "what's",
+  "start": 0.776,
+  "end": 0.951
+ },
+ {
+  "word": "happening",
+  "start": 0.951,
+  "end": 1.338
+ },
+ {
+  "word": "under",
+  "start": 1.338,
+  "end": 1.538
+ },
+ {
+  "word": "the",
+  "start": 1.538,
+  "end": 1.626
+ },
+ {
+  "word": "hood,",
+  "start": 1.626,
+  "end": 2.026
+ },
+ {
+  "word": "it's",
+  "start": 2.026,
+  "end": 2.238
+ },
+ {
+  "word": "three",
+  "start": 2.238,
+  "end": 2.476
+ },
+ {
+  "word": "lines.",
+  "start": 2.476,
+  "end": 3.451
+ },
+ {
+  "word": "Set",
+  "start": 3.451,
+  "end": 3.688
+ },
+ {
+  "word": "ANTHROPIC",
+  "start": 3.688,
+  "end": 4.226
+ },
+ {
+  "word": "BASE",
+  "start": 4.226,
+  "end": 4.538
+ },
+ {
+  "word": "URL",
+  "start": 4.538,
+  "end": 5.188
+ },
+ {
+  "word": "to",
+  "start": 5.188,
+  "end": 5.351
+ },
+ {
+  "word": "Ollama's",
+  "start": 5.351,
+  "end": 5.863
+ },
+ {
+  "word": "local",
+  "start": 5.863,
+  "end": 6.201
+ },
+ {
+  "word": "address:",
+  "start": 6.201,
+  "end": 7.088
+ },
+ {
+  "word": "localhost,",
+  "start": 7.088,
+  "end": 7.926
+ },
+ {
+  "word": "port",
+  "start": 7.926,
+  "end": 8.201
+ },
+ {
+  "word": "eleven",
+  "start": 8.201,
+  "end": 8.638
+ },
+ {
+  "word": "four",
+  "start": 8.638,
+  "end": 8.888
+ },
+ {
+  "word": "three",
+  "start": 8.888,
+  "end": 9.138
+ },
+ {
+  "word": "four.",
+  "start": 9.138,
+  "end": 9.926
+ },
+ {
+  "word": "Set",
+  "start": 9.926,
+  "end": 10.213
+ },
+ {
+  "word": "ANTHROPIC",
+  "start": 10.213,
+  "end": 10.776
+ },
+ {
+  "word": "AUTH",
+  "start": 10.776,
+  "end": 11.076
+ },
+ {
+  "word": "TOKEN",
+  "start": 11.076,
+  "end": 11.401
+ },
+ {
+  "word": "to",
+  "start": 11.401,
+  "end": 11.526
+ },
+ {
+  "word": "anything.",
+  "start": 11.526,
+  "end": 12.551
+ },
+ {
+  "word": "Literally",
+  "start": 12.551,
+  "end": 13.076
+ },
+ {
+  "word": "the",
+  "start": 13.076,
+  "end": 13.213
+ },
+ {
+  "word": "word\"",
+  "start": 13.213,
+  "end": 13.676
+ },
+ {
+  "word": "ollama\"",
+  "start": 13.676,
+  "end": 14.251
+ },
+ {
+  "word": "works.",
+  "start": 14.251,
+  "end": 15.126
+ },
+ {
+  "word": "Then",
+  "start": 15.126,
+  "end": 15.376
+ },
+ {
+  "word": "start",
+  "start": 15.376,
+  "end": 15.713
+ },
+ {
+  "word": "Claude",
+  "start": 15.713,
+  "end": 16.063
+ },
+ {
+  "word": "with",
+  "start": 16.063,
+  "end": 16.238
+ },
+ {
+  "word": "dash",
+  "start": 16.238,
+  "end": 16.613
+ },
+ {
+  "word": "dash",
+  "start": 16.613,
+  "end": 16.976
+ },
+ {
+  "word": "model",
+  "start": 16.976,
+  "end": 17.463
+ },
+ {
+  "word": "and",
+  "start": 17.463,
+  "end": 17.588
+ },
+ {
+  "word": "the",
+  "start": 17.588,
+  "end": 17.676
+ },
+ {
+  "word": "model's",
+  "start": 17.676,
+  "end": 18.076
+ },
+ {
+  "word": "name.",
+  "start": 18.076,
+  "end": 18.501
+ }
+]

@@ -1,0 +1,10 @@
+*.mp4
+*.wav
+*.m4a
+*.f32
+tmp_*/
+part_*
+chk/
+anim.html
+sb.html
+f_*.png

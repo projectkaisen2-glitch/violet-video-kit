@@ -1,0 +1,222 @@
+[
+ {
+  "word": "You",
+  "start": 0.0,
+  "end": 0.07
+ },
+ {
+  "word": "can",
+  "start": 0.07,
+  "end": 0.245
+ },
+ {
+  "word": "run",
+  "start": 0.245,
+  "end": 0.583
+ },
+ {
+  "word": "Claude",
+  "start": 0.583,
+  "end": 0.983
+ },
+ {
+  "word": "Code",
+  "start": 0.983,
+  "end": 1.32
+ },
+ {
+  "word": "for",
+  "start": 1.32,
+  "end": 1.458
+ },
+ {
+  "word": "free.",
+  "start": 1.458,
+  "end": 2.308
+ },
+ {
+  "word": "Same",
+  "start": 2.308,
+  "end": 2.658
+ },
+ {
+  "word": "agent,",
+  "start": 2.658,
+  "end": 3.233
+ },
+ {
+  "word": "same",
+  "start": 3.233,
+  "end": 3.545
+ },
+ {
+  "word": "terminal,",
+  "start": 3.545,
+  "end": 4.133
+ },
+ {
+  "word": "same",
+  "start": 4.133,
+  "end": 4.445
+ },
+ {
+  "word": "commands.",
+  "start": 4.445,
+  "end": 5.52
+ },
+ {
+  "word": "The",
+  "start": 5.52,
+  "end": 5.67
+ },
+ {
+  "word": "only",
+  "start": 5.67,
+  "end": 5.97
+ },
+ {
+  "word": "thing",
+  "start": 5.97,
+  "end": 6.145
+ },
+ {
+  "word": "you",
+  "start": 6.145,
+  "end": 6.308
+ },
+ {
+  "word": "swap",
+  "start": 6.308,
+  "end": 6.72
+ },
+ {
+  "word": "is",
+  "start": 6.72,
+  "end": 6.87
+ },
+ {
+  "word": "the",
+  "start": 6.87,
+  "end": 6.97
+ },
+ {
+  "word": "brain:",
+  "start": 6.97,
+  "end": 7.783
+ },
+ {
+  "word": "instead",
+  "start": 7.783,
+  "end": 8.158
+ },
+ {
+  "word": "of",
+  "start": 8.158,
+  "end": 8.245
+ },
+ {
+  "word": "Anthropic's",
+  "start": 8.245,
+  "end": 8.795
+ },
+ {
+  "word": "servers,",
+  "start": 8.795,
+  "end": 9.445
+ },
+ {
+  "word": "it's",
+  "start": 9.445,
+  "end": 9.608
+ },
+ {
+  "word": "a",
+  "start": 9.608,
+  "end": 9.708
+ },
+ {
+  "word": "model",
+  "start": 9.708,
+  "end": 10.158
+ },
+ {
+  "word": "running",
+  "start": 10.158,
+  "end": 10.483
+ },
+ {
+  "word": "on",
+  "start": 10.483,
+  "end": 10.583
+ },
+ {
+  "word": "your",
+  "start": 10.583,
+  "end": 10.72
+ },
+ {
+  "word": "own",
+  "start": 10.72,
+  "end": 10.97
+ },
+ {
+  "word": "computer.",
+  "start": 10.97,
+  "end": 12.07
+ },
+ {
+  "word": "No",
+  "start": 12.07,
+  "end": 12.345
+ },
+ {
+  "word": "subscription,",
+  "start": 12.345,
+  "end": 13.245
+ },
+ {
+  "word": "no",
+  "start": 13.245,
+  "end": 13.445
+ },
+ {
+  "word": "limits,",
+  "start": 13.445,
+  "end": 13.995
+ },
+ {
+  "word": "and",
+  "start": 13.995,
+  "end": 14.108
+ },
+ {
+  "word": "your",
+  "start": 14.108,
+  "end": 14.258
+ },
+ {
+  "word": "code",
+  "start": 14.258,
+  "end": 14.658
+ },
+ {
+  "word": "never",
+  "start": 14.658,
+  "end": 14.995
+ },
+ {
+  "word": "leaves",
+  "start": 14.995,
+  "end": 15.258
+ },
+ {
+  "word": "your",
+  "start": 15.258,
+  "end": 15.358
+ },
+ {
+  "word": "machine.",
+  "start": 15.358,
+  "end": 15.876
+ }
+]

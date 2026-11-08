@@ -1,0 +1,507 @@
+[
+ {
+  "word": "Trap",
+  "start": 0.0,
+  "end": 0.252
+ },
+ {
+  "word": "three",
+  "start": 0.252,
+  "end": 0.502
+ },
+ {
+  "word": "is",
+  "start": 0.502,
+  "end": 0.64
+ },
+ {
+  "word": "speed,",
+  "start": 0.64,
+  "end": 1.227
+ },
+ {
+  "word": "and",
+  "start": 1.227,
+  "end": 1.34
+ },
+ {
+  "word": "it's",
+  "start": 1.34,
+  "end": 1.44
+ },
+ {
+  "word": "about",
+  "start": 1.44,
+  "end": 1.665
+ },
+ {
+  "word": "the",
+  "start": 1.665,
+  "end": 1.752
+ },
+ {
+  "word": "cache.",
+  "start": 1.752,
+  "end": 2.652
+ },
+ {
+  "word": "In",
+  "start": 2.652,
+  "end": 2.74
+ },
+ {
+  "word": "my",
+  "start": 2.74,
+  "end": 2.877
+ },
+ {
+  "word": "last",
+  "start": 2.877,
+  "end": 3.165
+ },
+ {
+  "word": "video",
+  "start": 3.165,
+  "end": 3.527
+ },
+ {
+  "word": "I",
+  "start": 3.527,
+  "end": 3.69
+ },
+ {
+  "word": "showed",
+  "start": 3.69,
+  "end": 3.94
+ },
+ {
+  "word": "that",
+  "start": 3.94,
+  "end": 4.065
+ },
+ {
+  "word": "on",
+  "start": 4.065,
+  "end": 4.165
+ },
+ {
+  "word": "a",
+  "start": 4.165,
+  "end": 4.227
+ },
+ {
+  "word": "paid",
+  "start": 4.227,
+  "end": 4.527
+ },
+ {
+  "word": "plan,",
+  "start": 4.527,
+  "end": 4.977
+ },
+ {
+  "word": "almost",
+  "start": 4.977,
+  "end": 5.315
+ },
+ {
+  "word": "the",
+  "start": 5.315,
+  "end": 5.402
+ },
+ {
+  "word": "whole",
+  "start": 5.402,
+  "end": 5.627
+ },
+ {
+  "word": "bill",
+  "start": 5.627,
+  "end": 5.84
+ },
+ {
+  "word": "is",
+  "start": 5.84,
+  "end": 5.99
+ },
+ {
+  "word": "cache:",
+  "start": 5.99,
+  "end": 6.727
+ },
+ {
+  "word": "the",
+  "start": 6.727,
+  "end": 6.827
+ },
+ {
+  "word": "model",
+  "start": 6.827,
+  "end": 7.202
+ },
+ {
+  "word": "re-reading",
+  "start": 7.202,
+  "end": 7.665
+ },
+ {
+  "word": "your",
+  "start": 7.665,
+  "end": 7.777
+ },
+ {
+  "word": "conversation",
+  "start": 7.777,
+  "end": 8.502
+ },
+ {
+  "word": "at",
+  "start": 8.502,
+  "end": 8.59
+ },
+ {
+  "word": "a",
+  "start": 8.59,
+  "end": 8.665
+ },
+ {
+  "word": "huge",
+  "start": 8.665,
+  "end": 9.002
+ },
+ {
+  "word": "discount.",
+  "start": 9.002,
+  "end": 9.965
+ },
+ {
+  "word": "Locally,",
+  "start": 9.965,
+  "end": 10.452
+ },
+ {
+  "word": "there's",
+  "start": 10.452,
+  "end": 10.652
+ },
+ {
+  "word": "usually",
+  "start": 10.652,
+  "end": 11.027
+ },
+ {
+  "word": "no",
+  "start": 11.027,
+  "end": 11.202
+ },
+ {
+  "word": "prompt",
+  "start": 11.202,
+  "end": 11.515
+ },
+ {
+  "word": "cache",
+  "start": 11.515,
+  "end": 11.84
+ },
+ {
+  "word": "in",
+  "start": 11.84,
+  "end": 11.915
+ },
+ {
+  "word": "this",
+  "start": 11.915,
+  "end": 12.052
+ },
+ {
+  "word": "setup.",
+  "start": 12.052,
+  "end": 12.815
+ },
+ {
+  "word": "So",
+  "start": 12.815,
+  "end": 12.977
+ },
+ {
+  "word": "at",
+  "start": 12.977,
+  "end": 13.077
+ },
+ {
+  "word": "every",
+  "start": 13.077,
+  "end": 13.377
+ },
+ {
+  "word": "step,",
+  "start": 13.377,
+  "end": 13.69
+ },
+ {
+  "word": "your",
+  "start": 13.69,
+  "end": 13.802
+ },
+ {
+  "word": "graphics",
+  "start": 13.802,
+  "end": 14.252
+ },
+ {
+  "word": "card",
+  "start": 14.252,
+  "end": 14.552
+ },
+ {
+  "word": "re-reads",
+  "start": 14.552,
+  "end": 14.965
+ },
+ {
+  "word": "the",
+  "start": 14.965,
+  "end": 15.04
+ },
+ {
+  "word": "entire",
+  "start": 15.04,
+  "end": 15.527
+ },
+ {
+  "word": "conversation",
+  "start": 15.527,
+  "end": 16.252
+ },
+ {
+  "word": "from",
+  "start": 16.252,
+  "end": 16.427
+ },
+ {
+  "word": "scratch.",
+  "start": 16.427,
+  "end": 17.34
+ },
+ {
+  "word": "Thirty-three",
+  "start": 17.34,
+  "end": 17.84
+ },
+ {
+  "word": "thousand",
+  "start": 17.84,
+  "end": 18.252
+ },
+ {
+  "word": "tokens",
+  "start": 18.252,
+  "end": 18.665
+ },
+ {
+  "word": "of",
+  "start": 18.665,
+  "end": 18.74
+ },
+ {
+  "word": "instructions,",
+  "start": 18.74,
+  "end": 19.602
+ },
+ {
+  "word": "plus",
+  "start": 19.602,
+  "end": 19.815
+ },
+ {
+  "word": "your",
+  "start": 19.815,
+  "end": 19.952
+ },
+ {
+  "word": "files,",
+  "start": 19.952,
+  "end": 20.627
+ },
+ {
+  "word": "plus",
+  "start": 20.627,
+  "end": 20.902
+ },
+ {
+  "word": "everything",
+  "start": 20.902,
+  "end": 21.377
+ },
+ {
+  "word": "said",
+  "start": 21.377,
+  "end": 21.627
+ },
+ {
+  "word": "so",
+  "start": 21.627,
+  "end": 21.815
+ },
+ {
+  "word": "far.",
+  "start": 21.815,
+  "end": 22.44
+ },
+ {
+  "word": "Again",
+  "start": 22.44,
+  "end": 22.765
+ },
+ {
+  "word": "and",
+  "start": 22.765,
+  "end": 22.865
+ },
+ {
+  "word": "again.",
+  "start": 22.865,
+  "end": 23.69
+ },
+ {
+  "word": "Short",
+  "start": 23.69,
+  "end": 24.002
+ },
+ {
+  "word": "tasks",
+  "start": 24.002,
+  "end": 24.427
+ },
+ {
+  "word": "feel",
+  "start": 24.427,
+  "end": 24.665
+ },
+ {
+  "word": "fine.",
+  "start": 24.665,
+  "end": 25.44
+ },
+ {
+  "word": "Long",
+  "start": 25.44,
+  "end": 25.752
+ },
+ {
+  "word": "sessions",
+  "start": 25.752,
+  "end": 26.227
+ },
+ {
+  "word": "get",
+  "start": 26.227,
+  "end": 26.44
+ },
+ {
+  "word": "slower",
+  "start": 26.44,
+  "end": 26.927
+ },
+ {
+  "word": "and",
+  "start": 26.927,
+  "end": 27.065
+ },
+ {
+  "word": "slower.",
+  "start": 27.065,
+  "end": 27.99
+ },
+ {
+  "word": "That's",
+  "start": 28.352,
+  "end": 28.602
+ },
+ {
+  "word": "why,",
+  "start": 28.602,
+  "end": 28.852
+ },
+ {
+  "word": "locally,",
+  "start": 28.852,
+  "end": 29.477
+ },
+ {
+  "word": "the",
+  "start": 29.477,
+  "end": 29.615
+ },
+ {
+  "word": "rule",
+  "start": 29.615,
+  "end": 29.877
+ },
+ {
+  "word": "from",
+  "start": 29.877,
+  "end": 30.015
+ },
+ {
+  "word": "my",
+  "start": 30.015,
+  "end": 30.177
+ },
+ {
+  "word": "last",
+  "start": 30.177,
+  "end": 30.502
+ },
+ {
+  "word": "video",
+  "start": 30.502,
+  "end": 30.802
+ },
+ {
+  "word": "matters",
+  "start": 30.802,
+  "end": 31.202
+ },
+ {
+  "word": "even",
+  "start": 31.202,
+  "end": 31.477
+ },
+ {
+  "word": "more:",
+  "start": 31.477,
+  "end": 32.215
+ },
+ {
+  "word": "one",
+  "start": 32.215,
+  "end": 32.452
+ },
+ {
+  "word": "task",
+  "start": 32.452,
+  "end": 32.802
+ },
+ {
+  "word": "per",
+  "start": 32.802,
+  "end": 32.952
+ },
+ {
+  "word": "session,",
+  "start": 32.952,
+  "end": 33.552
+ },
+ {
+  "word": "then",
+  "start": 33.552,
+  "end": 33.765
+ },
+ {
+  "word": "clear.",
+  "start": 33.765,
+  "end": 34.196
+ }
+]

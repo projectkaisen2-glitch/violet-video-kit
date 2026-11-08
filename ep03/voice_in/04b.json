@@ -1,0 +1,347 @@
+[
+ {
+  "word": "And",
+  "start": 0.0,
+  "end": 0.111
+ },
+ {
+  "word": "llama",
+  "start": 0.111,
+  "end": 0.411
+ },
+ {
+  "word": "dot",
+  "start": 0.411,
+  "end": 0.699
+ },
+ {
+  "word": "C",
+  "start": 0.699,
+  "end": 0.974
+ },
+ {
+  "word": "P",
+  "start": 0.974,
+  "end": 1.224
+ },
+ {
+  "word": "P",
+  "start": 1.224,
+  "end": 1.574
+ },
+ {
+  "word": "is",
+  "start": 1.574,
+  "end": 1.736
+ },
+ {
+  "word": "the",
+  "start": 1.736,
+  "end": 1.849
+ },
+ {
+  "word": "speed",
+  "start": 1.849,
+  "end": 2.186
+ },
+ {
+  "word": "option.",
+  "start": 2.186,
+  "end": 3.149
+ },
+ {
+  "word": "You",
+  "start": 3.149,
+  "end": 3.311
+ },
+ {
+  "word": "launch",
+  "start": 3.311,
+  "end": 3.636
+ },
+ {
+  "word": "llama",
+  "start": 3.636,
+  "end": 3.924
+ },
+ {
+  "word": "server",
+  "start": 3.924,
+  "end": 4.311
+ },
+ {
+  "word": "with",
+  "start": 4.311,
+  "end": 4.449
+ },
+ {
+  "word": "the",
+  "start": 4.449,
+  "end": 4.536
+ },
+ {
+  "word": "model",
+  "start": 4.536,
+  "end": 4.899
+ },
+ {
+  "word": "straight",
+  "start": 4.899,
+  "end": 5.236
+ },
+ {
+  "word": "from",
+  "start": 5.236,
+  "end": 5.411
+ },
+ {
+  "word": "Hugging",
+  "start": 5.411,
+  "end": 5.774
+ },
+ {
+  "word": "Face,",
+  "start": 5.774,
+  "end": 6.511
+ },
+ {
+  "word": "give",
+  "start": 6.511,
+  "end": 6.674
+ },
+ {
+  "word": "it",
+  "start": 6.674,
+  "end": 6.749
+ },
+ {
+  "word": "the",
+  "start": 6.749,
+  "end": 6.836
+ },
+ {
+  "word": "context",
+  "start": 6.836,
+  "end": 7.474
+ },
+ {
+  "word": "size",
+  "start": 7.474,
+  "end": 7.999
+ },
+ {
+  "word": "and",
+  "start": 7.999,
+  "end": 8.124
+ },
+ {
+  "word": "the",
+  "start": 8.124,
+  "end": 8.224
+ },
+ {
+  "word": "jinja",
+  "start": 8.224,
+  "end": 8.549
+ },
+ {
+  "word": "flag,",
+  "start": 8.549,
+  "end": 9.286
+ },
+ {
+  "word": "and",
+  "start": 9.286,
+  "end": 9.424
+ },
+ {
+  "word": "point",
+  "start": 9.424,
+  "end": 9.774
+ },
+ {
+  "word": "Claude",
+  "start": 9.774,
+  "end": 10.099
+ },
+ {
+  "word": "Code",
+  "start": 10.099,
+  "end": 10.511
+ },
+ {
+  "word": "at",
+  "start": 10.511,
+  "end": 10.636
+ },
+ {
+  "word": "port",
+  "start": 10.636,
+  "end": 10.911
+ },
+ {
+  "word": "eighty",
+  "start": 10.911,
+  "end": 11.236
+ },
+ {
+  "word": "eighty.",
+  "start": 11.236,
+  "end": 12.211
+ },
+ {
+  "word": "It's",
+  "start": 12.211,
+  "end": 12.424
+ },
+ {
+  "word": "the",
+  "start": 12.424,
+  "end": 12.524
+ },
+ {
+  "word": "fastest",
+  "start": 12.524,
+  "end": 13.024
+ },
+ {
+  "word": "of",
+  "start": 13.024,
+  "end": 13.099
+ },
+ {
+  "word": "the",
+  "start": 13.099,
+  "end": 13.199
+ },
+ {
+  "word": "three,",
+  "start": 13.199,
+  "end": 13.886
+ },
+ {
+  "word": "but",
+  "start": 13.886,
+  "end": 14.024
+ },
+ {
+  "word": "its",
+  "start": 14.024,
+  "end": 14.199
+ },
+ {
+  "word": "Anthropic",
+  "start": 14.199,
+  "end": 14.811
+ },
+ {
+  "word": "support",
+  "start": 14.811,
+  "end": 15.324
+ },
+ {
+  "word": "is",
+  "start": 15.324,
+  "end": 15.486
+ },
+ {
+  "word": "the",
+  "start": 15.486,
+  "end": 15.586
+ },
+ {
+  "word": "roughest.",
+  "start": 15.586,
+  "end": 16.736
+ },
+ {
+  "word": "Some",
+  "start": 16.736,
+  "end": 17.011
+ },
+ {
+  "word": "people",
+  "start": 17.011,
+  "end": 17.374
+ },
+ {
+  "word": "still",
+  "start": 17.374,
+  "end": 17.661
+ },
+ {
+  "word": "get",
+  "start": 17.661,
+  "end": 17.799
+ },
+ {
+  "word": "a",
+  "start": 17.799,
+  "end": 17.886
+ },
+ {
+  "word": "login",
+  "start": 17.886,
+  "end": 18.349
+ },
+ {
+  "word": "screen",
+  "start": 18.349,
+  "end": 18.886
+ },
+ {
+  "word": "until",
+  "start": 18.886,
+  "end": 19.124
+ },
+ {
+  "word": "they",
+  "start": 19.124,
+  "end": 19.274
+ },
+ {
+  "word": "also",
+  "start": 19.274,
+  "end": 19.661
+ },
+ {
+  "word": "set",
+  "start": 19.661,
+  "end": 19.824
+ },
+ {
+  "word": "the",
+  "start": 19.824,
+  "end": 19.949
+ },
+ {
+  "word": "auth",
+  "start": 19.949,
+  "end": 20.211
+ },
+ {
+  "word": "token",
+  "start": 20.211,
+  "end": 20.911
+ },
+ {
+  "word": "and",
+  "start": 20.911,
+  "end": 21.049
+ },
+ {
+  "word": "the",
+  "start": 21.049,
+  "end": 21.136
+ },
+ {
+  "word": "model",
+  "start": 21.136,
+  "end": 21.486
+ },
+ {
+  "word": "name.",
+  "start": 21.486,
+  "end": 21.861
+ }
+]

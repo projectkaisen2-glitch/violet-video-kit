@@ -1,0 +1,322 @@
+[
+ {
+  "word": "Now",
+  "start": 0.001,
+  "end": 0.189
+ },
+ {
+  "word": "the",
+  "start": 0.189,
+  "end": 0.276
+ },
+ {
+  "word": "traps.",
+  "start": 0.276,
+  "end": 1.151
+ },
+ {
+  "word": "And",
+  "start": 1.151,
+  "end": 1.289
+ },
+ {
+  "word": "the",
+  "start": 1.289,
+  "end": 1.389
+ },
+ {
+  "word": "first",
+  "start": 1.389,
+  "end": 1.664
+ },
+ {
+  "word": "one",
+  "start": 1.664,
+  "end": 1.889
+ },
+ {
+  "word": "kills",
+  "start": 1.889,
+  "end": 2.251
+ },
+ {
+  "word": "most",
+  "start": 2.251,
+  "end": 2.564
+ },
+ {
+  "word": "setups",
+  "start": 2.564,
+  "end": 3.026
+ },
+ {
+  "word": "before",
+  "start": 3.026,
+  "end": 3.339
+ },
+ {
+  "word": "they",
+  "start": 3.339,
+  "end": 3.476
+ },
+ {
+  "word": "even",
+  "start": 3.476,
+  "end": 3.776
+ },
+ {
+  "word": "start.",
+  "start": 3.776,
+  "end": 4.689
+ },
+ {
+  "word": "Claude",
+  "start": 4.689,
+  "end": 5.064
+ },
+ {
+  "word": "Code",
+  "start": 5.064,
+  "end": 5.364
+ },
+ {
+  "word": "is",
+  "start": 5.364,
+  "end": 5.476
+ },
+ {
+  "word": "heavy.",
+  "start": 5.476,
+  "end": 6.226
+ },
+ {
+  "word": "Before",
+  "start": 6.226,
+  "end": 6.539
+ },
+ {
+  "word": "it",
+  "start": 6.539,
+  "end": 6.626
+ },
+ {
+  "word": "reads",
+  "start": 6.626,
+  "end": 6.876
+ },
+ {
+  "word": "a",
+  "start": 6.876,
+  "end": 7.001
+ },
+ {
+  "word": "single",
+  "start": 7.001,
+  "end": 7.376
+ },
+ {
+  "word": "word",
+  "start": 7.376,
+  "end": 7.614
+ },
+ {
+  "word": "of",
+  "start": 7.614,
+  "end": 7.689
+ },
+ {
+  "word": "your",
+  "start": 7.689,
+  "end": 7.789
+ },
+ {
+  "word": "request,",
+  "start": 7.789,
+  "end": 8.551
+ },
+ {
+  "word": "it",
+  "start": 8.551,
+  "end": 8.701
+ },
+ {
+  "word": "sends",
+  "start": 8.701,
+  "end": 8.939
+ },
+ {
+  "word": "the",
+  "start": 8.939,
+  "end": 9.026
+ },
+ {
+  "word": "model",
+  "start": 9.026,
+  "end": 9.376
+ },
+ {
+  "word": "around",
+  "start": 9.376,
+  "end": 9.751
+ },
+ {
+  "word": "thirty-three",
+  "start": 9.751,
+  "end": 10.364
+ },
+ {
+  "word": "thousand",
+  "start": 10.364,
+  "end": 10.776
+ },
+ {
+  "word": "tokens:",
+  "start": 10.776,
+  "end": 11.764
+ },
+ {
+  "word": "its",
+  "start": 11.764,
+  "end": 11.939
+ },
+ {
+  "word": "instructions,",
+  "start": 11.939,
+  "end": 12.901
+ },
+ {
+  "word": "its",
+  "start": 12.901,
+  "end": 13.114
+ },
+ {
+  "word": "tool",
+  "start": 13.114,
+  "end": 13.401
+ },
+ {
+  "word": "descriptions,",
+  "start": 13.401,
+  "end": 14.301
+ },
+ {
+  "word": "its",
+  "start": 14.301,
+  "end": 14.514
+ },
+ {
+  "word": "rules.",
+  "start": 14.514,
+  "end": 15.614
+ },
+ {
+  "word": "A",
+  "start": 15.614,
+  "end": 15.739
+ },
+ {
+  "word": "lean",
+  "start": 15.739,
+  "end": 16.026
+ },
+ {
+  "word": "harness",
+  "start": 16.026,
+  "end": 16.451
+ },
+ {
+  "word": "like",
+  "start": 16.451,
+  "end": 16.676
+ },
+ {
+  "word": "OpenCode",
+  "start": 16.676,
+  "end": 17.326
+ },
+ {
+  "word": "sends",
+  "start": 17.326,
+  "end": 17.564
+ },
+ {
+  "word": "about",
+  "start": 17.564,
+  "end": 17.864
+ },
+ {
+  "word": "seven",
+  "start": 17.864,
+  "end": 18.226
+ },
+ {
+  "word": "thousand.",
+  "start": 18.226,
+  "end": 19.264
+ },
+ {
+  "word": "That's",
+  "start": 19.264,
+  "end": 19.576
+ },
+ {
+  "word": "four",
+  "start": 19.576,
+  "end": 19.851
+ },
+ {
+  "word": "point",
+  "start": 19.851,
+  "end": 20.126
+ },
+ {
+  "word": "seven",
+  "start": 20.126,
+  "end": 20.451
+ },
+ {
+  "word": "times",
+  "start": 20.451,
+  "end": 20.826
+ },
+ {
+  "word": "less,",
+  "start": 20.826,
+  "end": 21.464
+ },
+ {
+  "word": "measured",
+  "start": 21.464,
+  "end": 21.876
+ },
+ {
+  "word": "by",
+  "start": 21.876,
+  "end": 22.051
+ },
+ {
+  "word": "an",
+  "start": 22.051,
+  "end": 22.176
+ },
+ {
+  "word": "independent",
+  "start": 22.176,
+  "end": 22.789
+ },
+ {
+  "word": "test",
+  "start": 22.789,
+  "end": 23.239
+ },
+ {
+  "word": "this",
+  "start": 23.239,
+  "end": 23.476
+ },
+ {
+  "word": "July.",
+  "start": 23.476,
+  "end": 23.961
+ }
+]
