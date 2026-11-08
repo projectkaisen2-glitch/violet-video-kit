@@ -14,11 +14,11 @@ if [ ! -f "$F/InterDisplay-Bold.otf" ]; then
   fc-cache -f >/dev/null
 fi
 fc-list : family | grep -q "Inter Display" && echo "Inter Display OK" || { echo "Inter Display font missing"; exit 1; }
-echo "== python env (~/.violet-venv)"
+echo "== python env (~/.violet-venv) — downloads ~200 MB, can take 5-10 min, progress below"
 python -m venv "$HOME/.violet-venv"
 "$HOME/.violet-venv/bin/pip" install -q --upgrade pip
-"$HOME/.violet-venv/bin/pip" install -q "playwright==1.56.0" numpy opencv-python-headless
-"$HOME/.violet-venv/bin/python" -m playwright install chromium
+"$HOME/.violet-venv/bin/pip" install --progress-bar on "playwright==1.56.0" numpy opencv-python-headless
+"$HOME/.violet-venv/bin/python" -m playwright install chromium && echo "chromium OK"
 echo
 echo "READY. Render an episode with:"
 echo "  ~/.violet-venv/bin/python tools/render_local.py ep03"
