@@ -11,3 +11,4 @@ f_*.png
 fontpack/cache/
 selftest_diff_*.png
 cache/
+__pycache__/
