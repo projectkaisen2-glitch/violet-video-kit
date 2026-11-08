@@ -7,6 +7,7 @@ Pass 2: the 4 remaining subframes (j=0,1,3,4) for moving frames only.
 Compose: moving frame = mean of its 5 subframes (exactly what tmix did), still frame = centre.
 --full renders all 5 subframes for every frame (reference for A/B checks).
 Resumable: subframes live in tmp_<out>/ and are skipped if present."""
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
 import asyncio,subprocess,sys,time,argparse,json
 from pathlib import Path
 import numpy as np,cv2
@@ -25,7 +26,7 @@ async def worker(pw,jobs):
   for k,j in jobs:
     p=fn(k,j)
     if p.exists() and p.stat().st_size>1000: continue
-    await pg.evaluate(f'R({tt(k,j):.6f})');await pg.screenshot(path=str(p)+'.part',type='jpeg',quality=93)
+    await pg.evaluate(f'R({tt(k,j):.6f})');await settle(pg);await pg.screenshot(path=str(p)+'.part',type='jpeg',quality=93)
     Path(str(p)+'.part').rename(p)
   await b.close()
 async def shoot(jobs):

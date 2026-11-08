@@ -64,11 +64,18 @@ The cloud box has 2 cores, so a laptop or PC with more cores renders several tim
 
 `epXX/episode.json` holds the opening scene, the animation span and the end-card time. Keep the laptop on power and stop it from going to sleep.
 
+## Determinism (why every machine gives the same picture)
+
+- `tools/violet_env.py` points Chromium at `fontpack/fonts.conf`, so the system fonts are ignored.
+- Before every screenshot the renderer waits two animation frames (`settle`). Without that, ~2% of shots under parallel load caught half-painted tiles (dark rectangles).
+- The engine sets all shot styles before it measures anything, so a frame does not depend on which frame was rendered before it.
+- `tools/selftest.py` compares 11 frames pixel by pixel with the cloud. On the cloud it prints IDENTICAL for all of them.
+
 ## Requirements
 
 - Python 3 with `playwright`. Chromium comes with Playwright.
 - `ffmpeg`, and `opencv-python` (only for the QR check).
-- Fonts: Inter and Inter Display (`fonts-inter`), and DejaVu Sans Mono (`fonts-dejavu`).
+- Fonts: nothing to install. `fontpack/` holds the exact cloud fonts plus the fontconfig rules, and every renderer uses only them (`tools/violet_env.py` sets `FONTCONFIG_FILE`). This is why symbols and emoji look identical on any machine. For a new episode with new symbols, check `selftest.py`; if a glyph is missing, add the font file the cloud uses to `fontpack/fonts/`.
 - Owner assets in `*/assets/`:
   - `wall.jpg` — the owner's wallpaper;
   - `avatar.png`;

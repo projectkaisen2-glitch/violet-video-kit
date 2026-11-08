@@ -8,3 +8,5 @@ chk/
 anim.html
 sb.html
 f_*.png
+fontpack/cache/
+selftest_diff_*.png

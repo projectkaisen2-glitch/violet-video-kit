@@ -1,3 +1,4 @@
+import sys as _s;from pathlib import Path as _P;_s.path.insert(0,str(next(p for p in _P(__file__).resolve().parents if (p/'tools'/'violet_env.py').exists())/'tools'));from violet_env import settle
 import asyncio,subprocess,shutil,tempfile,sys,time
 from pathlib import Path
 from playwright.async_api import async_playwright
@@ -8,7 +9,7 @@ async def worker(pw,shots,tmp):
   await pg.goto((H/'anim.html').as_uri());await pg.wait_for_function('window.READY===true',timeout=120000)
   for i,t in shots:
     if (tmp/f's{i:06d}.jpg').exists(): continue
-    await pg.evaluate(f'R({t:.6f})');await pg.screenshot(path=str(tmp/f's{i:06d}.jpg'),type='jpeg',quality=93)
+    await pg.evaluate(f'R({t:.6f})');await settle(pg);await pg.screenshot(path=str(tmp/f's{i:06d}.jpg'),type='jpeg',quality=93)
   await b.close()
 async def main():
   n=round((t1-t0)*FPS)*SUB;shots=[(i,t0+i/(FPS*SUB)) for i in range(n)]
