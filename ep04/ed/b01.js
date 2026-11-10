@@ -35,8 +35,8 @@ const capPos=V?{x:60,y:1700}:{x:120,y:880};
 // ===== 1. HOOK =====
 {const s=shots.hook;
  const bw=el(`<div class="bgword" style="left:${V?-30:640}px;top:${V?1020:150}px">ROCKET</div>`,s.L0);
- const bp=obj3d(s.L0,{x:V?260:1180,y:V?820:70,w:760,h:500,tf:'rotateY(-22deg) rotateX(5deg)',inner:paperHTML('MERGERS &amp; ACQUISITIONS','SpaceX Completes Its $60 Billion Cursor Acquisition','Aug. 14, 2026','',760,500)});bp.style.filter='blur(3px) brightness(.5)';
- const win=obj3d(s.L1,{x:V?120:880,y:V?900:150,w:1100,h:660,tf:V?'rotateY(-24deg) rotateX(6deg) scale(.86)':'rotateY(-22deg) rotateX(5deg) rotateZ(-1deg)',inner:cursorWin(1100,660)});
+ const bp=obj3d(s.L0,{x:V?300:1240,y:V?780:40,w:760,h:500,tf:'none',inner:paperHTML('MERGERS &amp; ACQUISITIONS','SpaceX Completes Its $60 Billion Cursor Acquisition','Aug. 14, 2026','',760,500)});bp.style.filter='blur(3px) brightness(.5)';
+ const WTF=V?'scale(.9)':'none';const win=obj3d(s.L1,{x:V?100:880,y:V?900:190,w:1100,h:660,tf:WTF,origin:'0 0',inner:cursorWin(1100,660)});
  const ix=indexHeader(s.L1,TOOL,'01',{x:V?60:120,y:V?120:150,w:V?960:640});
  const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?220:230}px;font-size:${V?26:22}px;color:#C9C4BB">The most popular AI code editor</div>`,s.L1);
  const hl=headline(s.L1,['Is now owned','by a [[rocket]]','[[company]]'],{x:V?60:120,y:V?280:290,fs:V?118:96,lh:1.1});
@@ -49,7 +49,7 @@ const capPos=V?{x:60,y:1700}:{x:120,y:880};
  const mks=hl.querySelectorAll('.mk');
  s.R=t=>{rise(ix.e,t,.1,1e9,14);drawLine(ix.r,t,.25,.7);rise(kick,t,T.most-.15,1e9,14);
   revealLines(hl,t,[T.owned-.25,T.rocket-.35,T.company-.25]);sweep(mks[0],t,T.rocket);sweep(mks[1],t,T.company);
-  const wk=e5(P(t,.2,1.4));win.style.transform=(V?'rotateY(-24deg) rotateX(6deg) scale(.86)':'rotateY(-22deg) rotateX(5deg) rotateZ(-1deg)')+` translateX(${(1-wk)*240}px) rotateY(${(1-wk)*-18}deg)`;win.style.opacity=wk;
+  const wk=e5(P(t,.2,1.4));win.style.transform=`translateX(${(1-wk)*160}px) `+WTF;win.style.opacity=wk;
   fadeIn(bp,t,.6,1e9,.8);rise(spx,t,T.company+.15,1e9,20);rise(cap,t,T.company+.4,1e9,10);drawLine(r2,t,T.company+.3);
   const r=rectOf(win);co.set(t,T.company+.45,V?320:860,V?1510:885,V?r.x+r.w*.35:r.x+170,V?r.y+r.h*.9:r.y+r.h*.84);
   s.cam.z=.015*eio(P(t,0,T.spacex));f1.style.transform=`translateX(${-t*14}px)`;f2.style.transform=`translateX(${t*10}px)`}}
@@ -79,7 +79,7 @@ const capPos=V?{x:60,y:1700}:{x:120,y:880};
  const hl=headline(s.L1,['Folded into','[[the X]]','[[subscription]]'],{x:V?60:120,y:V?190:250,fs:V?118:100,lh:1.1});
  const cap=el(`<div class="ab cap" style="left:${capPos.x}px;top:${V?1700:720}px">Cursor + Grok + X Premium · one plan<br>SRC: cursor.com/pricing · Oct 12 2026</div>`,s.L1);
  const shelf=el(`<div class="stage" style="left:${V?60:840}px;top:${V?760:330}px;width:${V?960:980}px;height:${V?760:400}px"></div>`,s.L1);
- const plane=el(`<div class="obj" style="left:0;top:0;width:100%;height:100%;transform:rotateX(${V?8:14}deg) rotateY(-14deg);transform-origin:50% 100%"></div>`,shelf);
+ const plane=el(`<div class="obj" style="left:0;top:0;width:100%;height:100%;transform:none"></div>`,shelf);
  const tiles=[['x','X Premium',T.xprem-.25],['grok','Grok',T.grok1-.15],['cursor','Cursor',T.oct]].map(([k,n,a])=>({e:el(`<div class="tile lit" style="left:0;top:0"><span class="lg">${ic(k)}</span>${n}</div>`,plane),a}));
  const mks=hl.querySelectorAll('.mk');
  s.R=t=>{rise(kick,t,T.oct-.2,1e9,14);revealLines(hl,t,[T.oct,T.xsub-.4,T.xsub-.3]);sweep(mks[0],t,T.xsub-.1);sweep(mks[1],t,T.xsub+.15);rise(cap,t,T.xsub+.4,1e9,10);
@@ -88,14 +88,14 @@ const capPos=V?{x:60,y:1700}:{x:120,y:880};
 
 // ===== 4. UI: the editor itself is still excellent =====
 {const s=shots.ui;
- const win=obj3d(s.L1,{x:V?40:800,y:V?760:200,w:1180,h:720,tf:V?'rotateY(-16deg) rotateX(4deg) scale(.82)':'rotateY(-16deg) rotateX(4deg)',inner:cursorWin(1180,720)});
+ const win=obj3d(s.L1,{x:V?30:740,y:V?720:190,w:1180,h:720,tf:V?'scale(.86)':'none',origin:'0 0',inner:cursorWin(1180,720)});
  const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?140:200}px">The editor itself</div>`,s.L1);
  const hl=headline(s.L1,['Still','[[excellent]]'],{x:V?60:120,y:V?190:250,fs:V?130:120,lh:1.08});
  const items=[['Fast agents',T.fast],['Cloud agents',T.cloud],['Built-in code review',T.review]].map(([n,a],i)=>({e:el(`<div class="ab cap" style="left:${V?60:124}px;top:${(V?520:570)+i*44}px;font-size:${V?28:24}px;color:var(--ink)">→ ${n}</div>`,s.L1),a}));
  const tasks=[...win.querySelectorAll('.task')];const mk=hl.querySelector('.mk');
  s.R=t=>{rise(kick,t,T.editor-.2,1e9,14);revealLines(hl,t,[T.editor-.1,T.editor+.4]);sweep(mk,t,T.editor+.7);items.forEach(({e,a})=>rise(e,t,a-.15,1e9,14));
   [T.fast,T.cloud,T.review].forEach((a,i)=>{const st=tasks[i].querySelector('.st'),done=t>a+.7;st.textContent=done?'done':(t>a-.1?'running':'queued');st.className='st '+(done?'ok':t>a-.1?'run':'q');tasks[i].style.boxShadow=(t>a-.1&&t<a+1)?'0 0 0 2px #8fb4f0':'none'});
-  const k=eio(P(t,T.editor-.3,T.catch));s.cam.z=.04*k;s.cam.x=V?0:-40*k}}
+  const k=eio(P(t,T.editor-.3,T.catch));s.cam.z=.05*k;s.cam.x=V?0:-50*k}}
 
 // ===== 5. PRICE: $8 = Grok only; Claude & GPT -> API price =====
 {const s=shots.price;
@@ -124,10 +124,10 @@ const capPos=V?{x:60,y:1700}:{x:120,y:880};
 
 // ===== 6. MODEL: "in-house" Composer 2 = built on Kimi =====
 {const s=shots.model;
- const dd=obj3d(s.L1,{x:V?60:900,y:V?760:210,w:V?960:760,h:340,tf:'rotateY(-16deg) rotateX(4deg)',inner:`<div class="dd" style="left:0;top:0;width:100%;height:100%">
+ const dd=obj3d(s.L1,{x:V?60:900,y:V?760:210,w:V?960:760,h:340,tf:'none',inner:`<div class="dd" style="left:0;top:0;width:100%;height:100%">
   <div class="sel"><span style="width:34px;height:34px;color:#fff">${ic('cursor')}</span>Composer 2<span style="margin-left:auto;font:500 16px var(--mono);color:#8fb4f0">in-house</span></div>
   <div><span style="width:34px;height:34px;color:#fff">${ic('grok')}</span>Grok</div><div style="color:#777">Claude · API price</div><div style="color:#777">GPT · API price</div></div>`});
- const kimi=obj3d(s.L1,{x:V?380:1440,y:V?1220:600,w:230,h:230,tf:'rotateY(-16deg)',inner:`<div class="tile" style="left:0;top:0"><span class="lg">${ic('kimi-color')}</span>Kimi 2.5</div>`});
+ const kimi=obj3d(s.L1,{x:V?380:1440,y:V?1220:600,w:230,h:230,tf:'none',inner:`<div class="tile" style="left:0;top:0"><span class="lg">${ic('kimi-color')}</span>Kimi 2.5</div>`});
  const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?140:200}px">The "in-house" model</div>`,s.L1);
  const hl=headline(s.L1,['Composer 2','built on','[[Kimi]]'],{x:V?60:120,y:V?190:250,fs:V?118:100,lh:1.08});
  const cap=el(`<div class="ab cap" style="left:${capPos.x}px;top:${V?1700:720}px">Moonshot AI's open model · undisclosed at launch<br>Cursor: "a miss" · SRC: TechCrunch, Mar 22 2026</div>`,s.L1);
