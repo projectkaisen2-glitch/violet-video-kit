@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--S:#E5534B;--A:#E8924A;--B:#E8C46A;--C:#8DBF6A;--F:#6C9BD8;--ink:#ECE8E1;--sig:#FF5A36}
+body{background:#000;width:1280px}
+.T{position:relative;width:1280px;height:720px;overflow:hidden;margin-bottom:20px}
+.ab{position:absolute}svg{display:block}
+.hd{font-family:'TeX Gyre Heros Cn';font-weight:700;text-transform:uppercase;line-height:.86;letter-spacing:-.01em}
+.grain{position:absolute;inset:0;mix-blend-mode:overlay;opacity:.25;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1.4 -.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+/* board */
+.bd{position:absolute;background:#121315;border:1px solid rgba(236,232,225,.14);border-radius:18px;padding:14px;box-shadow:-40px 50px 90px rgba(0,0,0,.7)}
+.rw{display:flex;gap:10px;margin-bottom:10px;height:104px}.rw:last-child{margin-bottom:0}
+.lb{width:104px;border-radius:10px;display:flex;align-items:center;justify-content:center;font:700 76px 'TeX Gyre Heros Cn';color:#111}
+.tl{width:104px;border-radius:12px;background:#1f2024;border:1px solid rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
+.tl span{width:66px;height:66px;color:#fff}
+.q{background:#16171a;border:3px solid var(--sig);font:700 80px 'TeX Gyre Heros Cn';color:var(--ink);box-shadow:0 0 0 8px rgba(255,90,54,.18),0 0 60px 14px rgba(255,90,54,.35)}
+.mk{background:var(--sig);color:#0D0E10;padding:0 .08em}
+</style></head><body>
+<!-- A: BOARD — the tier board from the video is the hero, S is hidden -->
+<div class="T" id="A" style="background:#0D0E10">
+ <div class="ab" style="left:420px;top:-260px;width:1100px;height:1100px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,170,110,.22),transparent)"></div>
+ <div class="ab" style="inset:0;background-image:linear-gradient(90deg,rgba(236,232,225,.05) 1px,transparent 1px);background-size:160px 100%"></div>
+ <div class="ab hd" style="left:46px;top:80px;font-size:66px;color:#9C978E;white-space:nowrap">AI coding tools</div>
+ <div class="ab hd" style="left:40px;top:160px;font-size:250px;color:var(--ink)">Tier<br>list</div>
+ <div class="ab hd" style="left:46px;top:600px;font-size:92px"><span class="mk">2026</span></div>
+ <div class="ab" style="left:600px;top:30px;perspective:1600px"><div class="bd" id="boardA" style="transform:rotateY(-16deg) rotateX(4deg);transform-origin:0 50%"></div></div>
+ <div class="grain"></div>
+</div>
+<!-- B: MOSAIC — the 8 block styles, one tile is the question -->
+<div class="T" id="B" style="background:#0D0E10">
+ <div class="ab" id="mosaic" style="inset:0;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:6px"></div>
+ <div class="ab" style="left:0;right:0;top:250px;height:220px;background:#0D0E10;box-shadow:0 20px 60px rgba(0,0,0,.6)"></div>
+ <div class="ab hd" style="left:0;right:0;top:268px;text-align:center;font-size:190px;color:var(--ink)">Who's <span class="mk">S tier?</span></div>
+ <div class="grain"></div>
+</div>
+<!-- C: VERDICT STAMPS — four names from the title, three ranks shown, one hidden -->
+<div class="T" id="C" style="background:#0D0E10">
+ <div class="ab" style="inset:0;background:radial-gradient(80% 80% at 50% 0%,#2a2017,transparent 70%)"></div>
+ <div class="ab hd" style="left:0;right:0;top:56px;text-align:center;font-size:132px;color:var(--ink);white-space:nowrap">8 AI coders <span class="mk">ranked</span></div>
+ <div class="ab" id="stamps" style="left:70px;top:250px;display:flex;gap:40px"></div>
+ <div class="grain"></div>
+</div>
+<script>
+const SVG=window.SVG||{};let n=0;const ic=k=>{const s=SVG[k]||'';const u='_'+(n++);return s.replace(/id="([^"]+)"/g,'id="$1'+u+'"').replace(/url\(#([^)]+)\)/g,'url(#$1'+u+')')};
+const rows=[['S','var(--S)',['?']],['A','var(--A)',['codex-color','cline']],['B','var(--B)',['cursor','githubcopilot']],['C','var(--C)',['windsurf','lovable-color']],['F','var(--F)',['gemini-color']]];
+document.getElementById('boardA').innerHTML=rows.map(([k,c,ls])=>`<div class="rw"><div class="lb" style="background:${c}">${k}</div>${ls.map(l=>l==='?'?`<div class="tl q">?</div>`:`<div class="tl"><span>${ic(l)}</span></div>`).join('')}${[...Array(4-ls.length)].map(()=>`<div class="tl" style="background:transparent;border:1px dashed rgba(236,232,225,.12)"></div>`).join('')}</div>`).join('');
+// mosaic tiles in the eight block styles
+const SW=[['cursor','#0D0E10','#ECE8E1'],['gemini-color','#0A0A0B','#EDEDED'],['githubcopilot','#ECE7DD','#151515'],['windsurf','linear-gradient(160deg,#06282A,#0E4A47)','#F1E9DA'],['lovable-color','radial-gradient(80% 70% at 70% 20%,rgba(255,92,138,.4),transparent),#130F11','#F6EDEF'],['codex-color','#F3F2EE','#0E0E0E'],['cline','linear-gradient(rgba(170,205,240,.14) 1px,transparent 1px) 0 0/22px 22px,linear-gradient(90deg,rgba(170,205,240,.14) 1px,transparent 1px) 0 0/22px 22px,#0F2C4B','#E6F0FA'],['?','#F1ECE2','#C8643E']];
+document.getElementById('mosaic').innerHTML=SW.map(([l,bg,ink],i)=>`<div style="position:relative;background:${bg};display:flex;align-items:${i<4?'flex-start':'flex-end'};justify-content:center;padding:${i<4?'40px':'0 0 40px'} 0">${l==='?'?`<span style="font:700 150px/1 'TeX Gyre Heros Cn';color:${ink}">?</span>`:`<span style="width:150px;height:150px;color:${ink}">${ic(l)}</span>`}</div>`).join('');
+// verdict stamps
+const ST=[['cursor','Cursor','B','var(--B)'],['githubcopilot','Copilot','B','var(--B)'],['codex-color','Codex','A','var(--A)'],['?','???','S','var(--S)']];
+document.getElementById('stamps').innerHTML=ST.map(([l,nm,t,c])=>`<div style="position:relative;width:250px;height:340px;border-radius:22px;background:#17181b;border:1px solid rgba(255,255,255,.14);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;box-shadow:-20px 30px 60px rgba(0,0,0,.6)">
+ ${l==='?'?`<span style="font:700 170px/1 'TeX Gyre Heros Cn';color:#ECE8E1">?</span>`:`<span style="width:130px;height:130px;color:#fff">${ic(l)}</span>`}
+ <span style="font:700 46px 'TeX Gyre Heros Cn';text-transform:uppercase;color:#ECE8E1">${nm}</span>
+ <span style="position:absolute;right:-22px;top:-26px;width:104px;height:104px;border-radius:14px;background:${c};color:#111;font:700 84px/104px 'TeX Gyre Heros Cn';text-align:center;transform:rotate(${l==='?'?8:-6}deg);box-shadow:0 10px 24px rgba(0,0,0,.5)${l==='?'?';outline:6px solid rgba(229,83,75,.3)':''}">${t}</span></div>`).join('');
+window.READY=true;
+</script></body></html>
