@@ -1,0 +1,145 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow:hidden;background:#000}
+#root{position:absolute;left:0;top:0;overflow:hidden}
+.ab{position:absolute}
+svg{display:block}
+/* constant skeleton across all 8 styles: index header + source caption (same font, same place) */
+.idx{position:absolute;display:flex;align-items:center;gap:14px;font:500 18px 'DejaVu Sans Mono';letter-spacing:.08em;text-transform:uppercase}
+.idx b{display:inline-block;width:36px;height:36px;border-radius:6px;color:#111;font:700 26px/36px 'TeX Gyre Heros Cn';text-align:center;letter-spacing:0}
+.src{position:absolute;font:400 16px/1.55 'DejaVu Sans Mono';text-transform:uppercase;letter-spacing:.02em}
+.grain{position:absolute;inset:0;pointer-events:none;mix-blend-mode:overlay;opacity:.3;z-index:50;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1.4 -.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.lit{box-shadow:-40px 50px 100px rgba(0,0,0,.55)}
+</style></head><body><div id="root"></div>
+<script>
+const Q=new URLSearchParams(location.search),V=(Q.get('fmt')||'h')==='v',S=+(Q.get('s')||2);
+const W=V?1080:1920,H=V?1920:1080;const root=document.getElementById('root');root.style.width=W+'px';root.style.height=H+'px';
+const SVG=window.SVG||{};const ic=k=>SVG[k]||'';
+function el(h,p=root){const d=document.createElement('div');d.innerHTML=h.trim();const e=d.firstChild;p.appendChild(e);return e}
+const idx=(tier,col,n,name,ink)=>el(`<div class="idx" style="left:${V?60:120}px;top:${V?110:90}px;color:${ink}"><b style="background:${col}">${tier}</b>${n} / 08 — ${name}</div>`);
+const src=(txt,ink)=>el(`<div class="src" style="left:${V?60:120}px;top:${V?1780:990}px;color:${ink}">${txt}</div>`);
+const bg=c=>{root.style.background=c};
+const STY={
+// ---------- 2. GEMINI CLI: "Shutdown" — Google colours drain to grey, the screen collapses to a line ----------
+2(){bg('#0A0A0B');
+ const bands=['#4285F4','#EA4335','#FBBC04','#34A853'];
+ const mon=V?{x:60,y:820,w:960,h:600}:{x:920,y:180,w:880,h:640};
+ el(`<div class="ab" style="left:${mon.x}px;top:${mon.y}px;width:${mon.w}px;height:${mon.h}px;border-radius:18px;background:#111214;border:1px solid #26272b;overflow:hidden" class="lit">
+  <div class="ab" style="left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;transform:scaleY(.1);transform-origin:50% 50%">${bands.map((c,i)=>`<div style="flex:1;background:linear-gradient(90deg,${c} 0%,${c} 18%,#8a8a8a 58%,#3a3a3a 100%)"></div>`).join('')}</div>
+  <div class="ab" style="inset:0;background:radial-gradient(60% 18% at 50% 50%,rgba(200,215,255,.10),transparent)"></div>
+  <div class="ab" style="inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.3) 0 2px,transparent 2px 4px)"></div>
+  <div class="ab" style="left:${mon.w*.1}px;right:${mon.w*.1}px;top:${mon.h*.5-2}px;height:4px;background:#fff;box-shadow:0 0 18px 6px rgba(255,255,255,.55),0 0 60px 20px rgba(180,200,255,.25)"></div>
+  <div class="ab" style="left:28px;bottom:24px;font:500 ${V?22:20}px 'JetBrains Mono';color:#ff8a70">✖ Gemini CLI access has ended for this account.</div></div>`).className+=' lit';
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:500 ${V?26:22}px 'JetBrains Mono';color:#8d9096;letter-spacing:.04em">GOOGLE'S BEST FREE CODING AGENT</div>`);
+ el(`<div class="ab" style="left:${V?52:112}px;top:${V?240:230}px;font:700 ${V?190:170}px/0.9 'Space Grotesk';color:#EDEDED;letter-spacing:-.04em">Switched<br><span style="color:#5d6066">off.</span></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?620:620}px;display:flex;gap:10px">${['FREE','AI PRO','ULTRA'].map(n=>`<span style="font:600 ${V?30:26}px 'JetBrains Mono';color:#9a9da3;border:1.5px solid #3a3c41;border-radius:8px;padding:8px 14px;text-decoration:line-through;text-decoration-color:#EA4335;text-decoration-thickness:3px">${n}</span>`).join('')}</div>`);
+ el(`<div class="ab" style="left:${V?850:1730}px;top:${V?700:110}px;width:90px;height:90px;filter:grayscale(.85) brightness(.7)">${ic('gemini-color')}</div>`);
+ idx('F','#6C9BD8','02','Gemini CLI','#8d9096');src('June 18 2026 · SRC: The Register, May 20 2026','#6d7076')},
+// ---------- 3. COPILOT: "The bill" — light paper, receipt, counters ----------
+3(){bg('#ECE7DD');
+ el(`<div class="ab" style="inset:0;background:radial-gradient(90% 70% at 70% 40%,#F5F1E9,transparent)"></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:600 ${V?26:22}px 'IBM Plex Mono';color:#4a4740;letter-spacing:.06em">GITHUB COPILOT · TOKEN BILLING</div>`);
+ el(`<div class="ab" style="left:${V?56:116}px;top:${V?250:240}px;font:400 ${V?90:84}px 'Archivo Black';color:#8b867c;text-decoration:line-through;text-decoration-thickness:8px;text-decoration-color:#151515">$39</div>`);
+ el(`<div class="ab" style="left:${V?50:110}px;top:${V?350:330}px;font:400 ${V?250:240}px/1 'Archivo Black';color:#D33A2C;letter-spacing:-.03em">$847</div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?620:600}px;font:500 ${V?32:28}px 'IBM Plex Mono';color:#151515">one user's projected bill</div>`);
+ const r=V?{x:200,y:820,w:680,h:820}:{x:1180,y:120,w:560,h:820};
+ const row=(a,b,st='')=>`<div style="display:flex;justify-content:space-between;${st}"><span>${a}</span><span>${b}</span></div>`;
+ el(`<div class="ab" style="left:${r.x}px;top:${r.y}px;width:${r.w}px;height:${r.h}px;transform:rotate(${V?-2:-3}deg);filter:drop-shadow(-30px 40px 40px rgba(60,50,30,.28))">
+  <div style="width:100%;height:100%;background:#FBFAF6;padding:44px 40px;font:500 ${V?24:21}px/1.9 'IBM Plex Mono';color:#1c1c1c;clip-path:polygon(0 0,100% 0,100% 97%,${[...Array(20)].map((_,i)=>`${100-(i+.5)*5}% ${i%2?97:100}%`).join(',')},0 97%)">
+   <div style="display:flex;align-items:center;gap:12px;font-weight:700;font-size:${V?26:23}px"><span style="width:34px;height:34px;color:#111">${ic('githubcopilot')}</span>COPILOT · PRO+</div>
+   <div style="font-size:${V?18:16}px;color:#777;margin:6px 0 18px">PROJECTION · ILLUSTRATION ONLY</div>
+   <div style="border-top:2px dashed #bbb;margin:10px 0"></div>
+   ${row('BEFORE · flat plan','$39.00')}${row('1 AI credit','$0.01')}${row('billed by','tokens')}
+   <div style="border-top:2px dashed #bbb;margin:16px 0"></div>
+   ${row('AFTER · projected','$847.00','font-weight:700;color:#D33A2C;font-size:'+(V?30:27)+'px')}
+   <div style="border-top:2px dashed #bbb;margin:16px 0"></div>
+   <div style="font-size:${V?18:16}px;color:#777;line-height:1.6">One Reddit user's projection<br>via The New Stack · Jun 2026</div>
+   <div style="margin-top:28px;height:60px;background:repeating-linear-gradient(90deg,#1c1c1c 0 3px,transparent 3px 6px,#1c1c1c 6px 7px,transparent 7px 11px);opacity:.8"></div></div></div>`);
+ idx('B','#E8C46A','03','Copilot','#4a4740');src('SRC: GitHub changelog, Jun 1 2026 · The New Stack','#6b665c')},
+// ---------- 4. WINDSURF: "New sign" — teal, the old name peels off ----------
+4(){bg('linear-gradient(160deg,#06282A,#0E4A47 60%,#0B3B3A)');
+ el(`<svg class="ab" style="left:0;top:0" width="${W}" height="${H}">${[...Array(14)].map((_,i)=>{const y=H*.55+i*34;let d=`M0 ${y}`;for(let x=0;x<=W;x+=40)d+=` L${x} ${y+Math.sin(x/140+i*.7)*10}`;return `<path d="${d}" stroke="rgba(241,233,218,${.05+.01*(i%3)})" fill="none" stroke-width="2"/>`}).join('')}</svg>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:600 ${V?26:22}px 'IBM Plex Mono';color:#9FC7C1;letter-spacing:.06em">WINDSURF · JUNE 2026</div>`);
+ el(`<div class="ab" style="left:${V?56:116}px;top:${V?240:230}px;font:800 ${V?120:112}px/0.98 'Bricolage Grotesque';color:#F1E9DA;letter-spacing:-.03em;width:${V?960:760}px">doesn't exist<br>anymore.</div>`);
+ const p=V?{x:90,y:1000,w:900,h:300}:{x:900,y:470,w:900,h:300};
+ el(`<div class="ab lit" style="left:${p.x}px;top:${p.y}px;width:${p.w}px;height:${p.h}px;border-radius:26px;background:#0A1F21;border:1px solid rgba(241,233,218,.18);display:flex;align-items:center;gap:30px;padding:0 60px">
+   <span style="width:120px;height:120px">${ic('devin-color')}</span><span style="font:800 ${V?92:96}px 'Bricolage Grotesque';color:#F1E9DA;letter-spacing:-.02em">Devin Desktop</span></div>`);
+ // the old sticker, peeled back at the bottom-right corner
+ const cut=120;
+ el(`<div class="ab" style="left:${p.x-30}px;top:${p.y-250}px;width:${p.w}px;height:${p.h}px;transform:rotate(-5deg);transform-origin:0 0">
+   <div class="ab" style="inset:0;border-radius:26px;background:#F1E9DA;clip-path:polygon(0 0,100% 0,100% ${p.h-cut*1.9}px,${p.w-cut*2.1}px 100%,0 100%);display:flex;align-items:center;gap:30px;padding:0 60px;box-shadow:0 30px 60px rgba(0,0,0,.4)">
+    <span style="width:110px;height:110px;color:#0E4A47">${ic('windsurf')}</span><span style="font:800 ${V?100:104}px 'Bricolage Grotesque';color:#0E4A47;letter-spacing:-.02em">Windsurf</span></div>
+   <div class="ab" style="left:${p.w-cut*2.1}px;top:${p.h-cut*1.9}px;width:${cut*2.1}px;height:${cut*1.9}px;background:linear-gradient(135deg,#d9cfbd,#fffaf0 55%,#c8bda9);clip-path:polygon(100% 0,0 100%,22% 22%);filter:drop-shadow(-10px -6px 14px rgba(0,0,0,.35))"></div></div>`);
+ el(`<div class="ab" style="left:${V?60:900}px;top:${V?1360:820}px;font:500 ${V?28:24}px/1.6 'IBM Plex Mono';color:#CFE3DF">windsurf.com → devin<br>Cascade → Devin's own agent</div>`);
+ idx('C','#8DBF6A','04','Windsurf','#9FC7C1');src('SRC: Cognition, Jun 2 2026 · Devin docs','#86AFA9')},
+// ---------- 5. LOVABLE: "The leak" — redaction bars come off ----------
+5(){bg('#130F11');
+ el(`<div class="ab" style="left:${V?-200:900}px;top:${V?-200:-300}px;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,92,138,.22),rgba(255,154,60,.08),transparent)"></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:600 ${V?26:22}px 'IBM Plex Mono';color:#C9A9B2;letter-spacing:.06em">LOVABLE · MARCH 2026</div>`);
+ el(`<div class="ab" style="left:${V?54:114}px;top:${V?230:210}px;font:400 ${V?300:290}px/0.9 'Instrument Serif';color:#F6EDEF;letter-spacing:-.02em">48 <i style="font-size:.55em;background:linear-gradient(90deg,#FF5C8A,#FF9A3C);-webkit-background-clip:text;color:transparent">days</i></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?540:510}px;font:400 italic ${V?56:50}px/1.2 'Instrument Serif';color:#E9DCE0;width:${V?960:700}px">anyone could read<br>other users' code.</div>`);
+ const d=V?{x:60,y:820,w:960,h:740}:{x:900,y:150,w:880,h:740};
+ const lines=['import { createClient } from "@supabase/supabase-js";','','const supabase = createClient(','  process.env.SUPABASE_URL,','  "eyJhbGciOiJIUzI1NiIsInR5cCI6…"  // service key',');','','export async function getOrders(user) {','  const { data } = await supabase','    .from("orders").select("*");','  return data;','}','','// chat: "add stripe checkout to the cart page"'];
+ el(`<div class="ab lit" style="left:${d.x}px;top:${d.y}px;width:${d.w}px;height:${d.h}px;border-radius:14px;background:#1B1619;border:1px solid #3a2f34;overflow:hidden">
+  <div style="height:40px;background:#241d21;display:flex;align-items:center;gap:10px;padding:0 16px;font:500 15px Inter;color:#b9a7ad"><span style="width:20px;height:20px">${ic('lovable-color')}</span>someone-elses-app / src / orders.ts</div>
+  <div style="padding:20px 24px;font:${V?22:20}px/1.85 'JetBrains Mono';color:#e9dfe2;white-space:pre">${lines.map((l,i)=>{const red=[2,3,4,7,8,9].includes(i),off=[3,4,8].includes(i);return `<div style="position:relative">${l||' '}${red?`<i style="position:absolute;left:${off?'62%':'0'};top:5px;bottom:5px;width:${off?'40%':'100%'};background:#000;border-radius:2px;${off?'transform:translateX(60%);opacity:.0':''}"></i>`:''}</div>`}).join('')}</div>
+  <div class="ab" style="right:40px;top:110px;transform:rotate(-8deg);border:4px solid #FF5C8A;color:#FF5C8A;border-radius:10px;padding:8px 20px;font:700 ${V?46:42}px 'IBM Plex Mono';letter-spacing:.08em">EXPOSED</div></div>`);
+ idx('C','#8DBF6A','05','Lovable','#C9A9B2');src('Source code, DB keys, AI chats · SRC: TNW','#9A8189')},
+// ---------- 6. CODEX: "Rewind" — Swiss, black on white, a timeline played backwards ----------
+6(){bg('#F3F2EE');
+ el(`<div class="ab" style="inset:0;background-image:linear-gradient(90deg,rgba(0,0,0,.05) 1px,transparent 1px);background-size:${W/12}px 100%"></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:600 ${V?26:22}px 'IBM Plex Mono';color:#555;letter-spacing:.06em">OPENAI CODEX · $200 PRO PLAN</div>`);
+ el(`<div class="ab" style="left:${V?54:114}px;top:${V?240:230}px;font:900 ${V?150:150}px/0.92 'Inter Display';color:#0E0E0E;letter-spacing:-.05em">Announced.<br>Reversed.</div>`);
+ el(`<div class="ab" style="left:${V?60:1280}px;top:${V?560:220}px;font:900 ${V?190:170}px/1 'Inter Display';color:#0E0E0E;letter-spacing:-.05em;text-decoration:line-through;text-decoration-thickness:14px;text-decoration-color:#0E0E0E;opacity:.18">−50%</div>`);
+ const tl=V?{x:60,y:1200,w:960}:{x:120,y:700,w:1680};
+ el(`<div class="ab" style="left:${tl.x}px;top:${tl.y}px;width:${tl.w}px;height:3px;background:#0E0E0E"></div>`);
+ const mk=(f,lab,sub,col)=>{const x=tl.x+tl.w*f;el(`<div class="ab" style="left:${x-9}px;top:${tl.y-8}px;width:18px;height:18px;border-radius:50%;background:${col};border:3px solid #0E0E0E"></div>`);
+  el(`<div class="ab" style="left:${x-9}px;top:${tl.y+28}px;font:700 ${V?26:24}px 'IBM Plex Mono';color:#0E0E0E">${lab}<div style="font:500 ${V?22:20}px/1.4 'IBM Plex Mono';color:#555;margin-top:6px;width:${V?420:520}px">${sub}</div></div>`)};
+ mk(.06,'SEP · DEVDAY','Pro plan to get half the Codex usage','#0E0E0E');mk(V?.52:.6,'OCT 29','Cut cancelled. Other plans: limits doubled','#F3F2EE');
+ const ph=tl.x+tl.w*(V?.36:.42);
+ el(`<div class="ab" style="left:${ph}px;top:${tl.y-90}px;width:3px;height:120px;background:#0E0E0E"></div>`);
+ el(`<div class="ab" style="left:${ph-58}px;top:${tl.y-165}px;width:120px;height:72px;border-radius:12px;background:#0E0E0E;color:#F3F2EE;font:900 40px/72px 'Inter Display';text-align:center;letter-spacing:-.1em">◀◀</div>`);
+ el(`<div class="ab" style="left:${V?820:1720}px;top:${V?110:80}px;width:90px;height:90px">${ic('codex-color')}</div>`);
+ idx('A','#E8924A','06','Codex','#555');src('SRC: Startup Fortune · OpenAI community forum','#777')},
+// ---------- 7. CLINE: "Blueprint" — technical drawing: your GPU, your model, $0 ----------
+7(){bg('#0F2C4B');
+ el(`<div class="ab" style="inset:0;background-image:linear-gradient(rgba(170,205,240,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(170,205,240,.07) 1px,transparent 1px),linear-gradient(rgba(170,205,240,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(170,205,240,.16) 1px,transparent 1px);background-size:24px 24px,24px 24px,120px 120px,120px 120px"></div>`);
+ const ink='#E6F0FA',ln='rgba(230,240,250,.85)';
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:500 ${V?26:22}px 'JetBrains Mono';color:#9DBCDD;letter-spacing:.06em">CLINE · OPEN SOURCE · FREE</div>`);
+ el(`<div class="ab" style="left:${V?56:116}px;top:${V?240:230}px;font:700 ${V?200:200}px/0.9 'IBM Plex Sans Condensed';color:${ink};letter-spacing:-.02em">$0</div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?440:420}px;font:600 ${V?64:60}px/1.05 'IBM Plex Sans Condensed';color:${ink};text-transform:uppercase;width:${V?960:640}px">runs on<br>your own GPU</div>`);
+ const g=V?{x:120,y:820}:{x:900,y:200},s=V?.95:1;
+ el(`<svg class="ab" style="left:${g.x}px;top:${g.y}px;overflow:visible" width="${880*s}" height="${640*s}" viewBox="0 0 880 640" font-family="JetBrains Mono" fill="none">
+  <g stroke="${ln}" stroke-width="2">
+   <rect x="0" y="60" width="520" height="220" rx="10"/><rect x="0" y="280" width="520" height="22"/>
+   ${[0,1,2].map(i=>`<circle cx="${100+i*160}" cy="170" r="66"/><circle cx="${100+i*160}" cy="170" r="14"/>${[...Array(7)].map((_,k)=>`<path d="M${100+i*160} 170 q ${30*Math.cos(k*0.9)} ${30*Math.sin(k*0.9)} ${60*Math.cos(k*0.9+.5)} ${60*Math.sin(k*0.9+.5)}"/>`).join('')}`).join('')}
+   ${[...Array(14)].map((_,i)=>`<rect x="${40+i*32}" y="302" width="18" height="16"/>`).join('')}
+   <path d="M0 30 V 46 M520 30 V46 M0 38 H520" stroke-width="1.4"/>
+   <rect x="620" y="60" width="250" height="90" rx="8"/><rect x="620" y="200" width="250" height="90" rx="8"/><rect x="620" y="420" width="250" height="110" rx="8" stroke-width="3"/>
+   <path d="M520 170 H570 V105 H620 M570 170 V245 H620 M745 150 V200 M745 290 V420" stroke-dasharray="7 6"/>
+  </g>
+  <g fill="${ink}" font-size="20"><text x="200" y="24">YOUR GPU</text><text x="645" y="112">OLLAMA</text><text x="645" y="252">LM STUDIO</text><text x="645" y="465" font-size="26" font-weight="700">CLINE</text><text x="645" y="500" font-size="14" fill="#9DBCDD">VS Code · JetBrains · CLI</text>
+   <text x="0" y="372" font-size="16" fill="#9DBCDD">NO SUBSCRIPTION · BRING YOUR OWN MODEL</text></g></svg>`);
+ const tb=V?{x:520,y:1620}:{x:1480,y:900};
+ el(`<div class="ab" style="left:${tb.x}px;top:${tb.y}px;width:380px;border:2px solid ${ln};font:500 15px/1.5 'JetBrains Mono';color:${ink}"><div style="display:flex;border-bottom:2px solid ${ln}"><span style="flex:1;padding:6px 10px;border-right:2px solid ${ln}">DWG 07 / 08</span><span style="flex:1;padding:6px 10px">REV 2026</span></div><div style="padding:6px 10px">SHEET: CLINE · LOCAL SETUP</div></div>`);
+ idx('A','#E8924A','07','Cline','#9DBCDD');src('SRC: cline.bot · The Register, Feb 20 2026','#8FAED0')},
+// ---------- 8. CLAUDE CODE: "Craft" — warm paper, serif, calm ----------
+8(){bg('#F1ECE2');
+ el(`<div class="ab" style="inset:0;background:radial-gradient(80% 70% at 30% 30%,#F7F3EA,transparent)"></div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?190:180}px;font:600 ${V?26:22}px 'IBM Plex Mono';color:#7a6f63;letter-spacing:.06em">STACK OVERFLOW SURVEY 2026</div>`);
+ el(`<div class="ab" style="left:${V?50:110}px;top:${V?230:210}px;font:500 ${V?300:300}px/0.9 'Fraunces';color:#C8643E;letter-spacing:-.03em">66%</div>`);
+ el(`<div class="ab" style="left:${V?60:120}px;top:${V?520:500}px;font:400 ${V?60:54}px/1.18 'Fraunces';color:#2A2522;width:${V?960:700}px">of developers who use<br>AI agents use <i style="color:#C8643E">this one.</i></div>`);
+ const t=V?{x:60,y:840,w:960,h:560}:{x:960,y:230,w:840,h:520};
+ const agents=[['planner','reading the codebase'],['tests','writing auth.test.ts'],['reviewer','checking the diff']];
+ el(`<div class="ab" style="left:${t.x}px;top:${t.y}px;width:${t.w}px;height:${t.h}px;border-radius:16px;background:#221E1B;box-shadow:-40px 50px 90px rgba(70,50,30,.35);overflow:hidden">
+  <div style="height:42px;display:flex;align-items:center;gap:10px;padding:0 18px;background:#2B2622;font:500 15px Inter;color:#b5aa9c"><span style="width:22px;height:22px">${ic('claudecode-color')}</span>claude — ~/auth-api</div>
+  <div style="padding:28px 32px;font:${V?23:21}px/1.8 'JetBrains Mono';color:#EDE6DA;white-space:pre"><span style="color:#C8643E">&gt;</span> add rate limiting and tests to auth
+
+<span style="color:#9b8f80">⏺ Spawning 3 sub-agents…</span>
+${agents.map(([a,b],i)=>`<span style="color:#C8643E">${i<2?'├─':'└─'}</span> <b style="color:#F1ECE2">${a}</b>  <span style="color:#9b8f80">${b}</span>`).join('\n')}
+
+<span style="color:#7fb77e">✔</span> 14 files changed · tests passing</div></div>`);
+ idx('S','#E5534B','08','Claude Code','#7a6f63');src('SRC: Stack Overflow Developer Survey, Oct 6 2026','#8a7f72')},
+};
+STY[S]();el('<div class="grain"></div>');window.READY=true;
+</script></body></html>
