@@ -2,7 +2,8 @@
 const Q=new URLSearchParams(location.search);const FMT=Q.get('fmt')||'h';const V=FMT==='v';const MODE=Q.get('mode')||(V?'short':'long');
 const W=V?1080:1920,H=V?1920:1080;
 const root=document.getElementById('root');root.style.width=W+'px';root.style.height=H+'px';
-const ic=k=>SVG[k]||'';
+// every logo instance gets its own ids: a gradient defined inside a hidden shot would otherwise blank the same logo elsewhere
+let ICN=0;const ic=k=>{const s=SVG[k]||'';if(!s.includes('id="'))return s;const n='_'+(ICN++);return s.replace(/id="([^"]+)"/g,'id="$1'+n+'"').replace(/url\(#([^)]+)\)/g,'url(#$1'+n+')').replace(/href="#([^"]+)"/g,'href="#$1'+n+'"')};
 const norm=w=>w.replace(/[^\w$-]/g,'').toLowerCase();
 const at=(word,n=1,exact=false)=>{let k=0;for(const [t,w] of CUE){const a=norm(w),b=word.toLowerCase();if(exact?a===b:a.startsWith(b)){k++;if(k===n)return t}}console.warn('cue?',word,n);return 0};
 const VOICE_END=CUE.length?CUE[CUE.length-1][0]:0;let END=VOICE_END+1.8;
