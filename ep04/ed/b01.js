@@ -27,11 +27,6 @@ const cursorWin=(w,h)=>`<div class="win" style="left:0;top:0;width:${w}px;height
  <div class="agent"><h4>AGENTS</h4><div class="msg">Add rate limiting and tests to auth</div>
   <div class="task"><i></i>Fast agent: rate limiter<span class="st q">queued</span></div><div class="task"><i></i>Cloud agent: tests<span class="st q">queued</span></div><div class="task"><i style="background:#e8c46a"></i>Code review<span class="st q">queued</span></div>
   <div class="model">Model: <b style="color:#fff">Composer 2</b> ▾</div></div></div>`;
-function obj3d(p,{x,y,w,h,tf,origin='0 50%',inner}){const st=el(`<div class="stage" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px"></div>`,p);
- const o=el(`<div class="obj lit" style="left:0;top:0;width:${w}px;height:${h}px;border-radius:12px;transform:${tf};transform-origin:${origin}">${inner}</div>`,st);return o}
-const paperHTML=(kk,h3,meta,pp,w,h,extra='')=>`<div class="paper" style="position:absolute;left:0;top:0;width:${w}px;height:${h}px;padding:34px 40px;${extra}"><div class="kk">${kk}</div><h3>${h3}</h3><div class="meta">${meta}</div>${pp?`<p>${pp}</p>`:''}</div>`;
-const capPos=V?{x:60,y:1700}:{x:120,y:880};
-
 // ===== 1. HOOK =====
 {const s=shots.hook;
  const bw=el(`<div class="bgword" style="left:${V?-30:640}px;top:${V?1020:150}px">ROCKET</div>`,s.L0);

@@ -63,16 +63,28 @@ function R(t){
   s.R(t);const c=s.cam;
   [[s.L0,.35],[s.L1,1],[s.L2,1.8]].forEach(([L,d])=>{L.style.transform=`translate(${(dx+c.x)*d}px,${(dy+c.y)*d}px) scale(${1+c.z*d})`;L.style.transformOrigin='50% 50%'})});
 }
-// verdict shot (board in 3D on the right, huge tier letter on the left)
-function verdictShot(shot,tool,{start,tierAt,line}){const lines=Array.isArray(line)?line:[line];
- const p=shot.L1,me=TOOLS.findIndex(x=>x.id===tool.id);
- const geo=V?{x:60,y:620,w:960,h:980}:{x:780,y:130,w:1040,h:800};
- const st=el(`<div class="stage" style="left:${geo.x}px;top:${geo.y}px;width:${geo.w}px;height:${geo.h}px"></div>`,p);
+// ---------- shared building blocks ----------
+// a lit object on its own perspective stage; tf:'none' = flat (mixed style: tilt only papers, price fans, the board)
+function obj3d(p,{x,y,w,h,tf,origin='0 50%',inner}){const st=el(`<div class="stage" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px"></div>`,p);
+ const o=el(`<div class="obj lit" style="left:0;top:0;width:${w}px;height:${h}px;border-radius:12px;transform:${tf};transform-origin:${origin}">${inner}</div>`,st);return o}
+const paperHTML=(kk,h3,meta,pp,w,h,extra='')=>`<div class="paper" style="position:absolute;left:0;top:0;width:${w}px;height:${h}px;padding:34px 40px;${extra}"><div class="kk">${kk}</div><h3>${h3}</h3><div class="meta">${meta}</div>${pp?`<p>${pp}</p>`:''}</div>`;
+const capPos=V?{x:60,y:1700}:{x:120,y:880};
+// browser window (flat real UI): title, url, page html, page style
+const browserHTML=(w,h,{logo,title,url,page,pst=''})=>`<div class="win chrome" style="left:0;top:0;width:${w}px;height:${h}px"><div class="tb">${logo?`<span class="lg">${ic(logo)}</span>`:''}${title}</div><div class="url"><span>${url}</span></div><div class="page" style="${pst}">${page}</div></div>`;
+// terminal window (flat)
+const termHTML=(w,h,title,body,fs=20)=>`<div class="win" style="left:0;top:0;width:${w}px;height:${h}px;background:#0c0c0f"><div class="tb">${title}</div><div style="padding:22px 26px;font:${fs}px/1.7 var(--mono);color:#d4d4d4;white-space:pre">${body}</div></div>`;
+// tier board inside a tilted, lit object
+function makeBoard(p,geo){const st=el(`<div class="stage" style="left:${geo.x}px;top:${geo.y}px;width:${geo.w}px;height:${geo.h}px"></div>`,p);
  const ob=el(`<div class="obj lit" style="left:0;top:0;width:${geo.w}px;height:${geo.h}px;border-radius:14px;transform:${V?'rotateX(8deg)':'rotateY(-14deg) rotateX(4deg)'};transform-origin:${V?'50% 0':'0 50%'}"></div>`,st);
  const board=el(`<div class="board" style="left:0;top:0;width:${geo.w}px;height:${geo.h}px"></div>`,ob);
  const rh=(geo.h-40-4*12)/5,rows={};
  TIERS.forEach((k,i)=>{const y=20+i*(rh+12);const r=el(`<div class="row" style="left:20px;top:${y}px;width:${geo.w-40}px;height:${rh}px"><div class="lab" style="width:120px;background:${TC[k]};font-size:${V?64:72}px">${k}</div><div class="flash"></div></div>`,board);
   rows[k]={el:r,y:y+(rh-150)/2,x0:20+136};for(let g=0;g<(V?4:5);g++)el(`<div class="ghost" style="left:${136+g*164}px;top:${(rh-150)/2}px"></div>`,r)});
+ return{ob,board,rows,slot:(k,i)=>({x:rows[k].x0+i*164,y:rows[k].y})}}
+// verdict shot (board in 3D on the right, huge tier letter on the left)
+function verdictShot(shot,tool,{start,tierAt,line}){const lines=Array.isArray(line)?line:[line];
+ const p=shot.L1,me=TOOLS.findIndex(x=>x.id===tool.id);
+ const geo=V?{x:60,y:620,w:960,h:980}:{x:780,y:130,w:1040,h:800};const B=makeBoard(p,geo),ob=B.ob,board=B.board,rows=B.rows;
  const counts={S:0,A:0,B:0,C:0,F:0};
  if(MODE==='long')TOOLS.slice(0,me).forEach(tl=>{const r=rows[tl.tier];el(cardHTML(tl,`style="left:${r.x0+counts[tl.tier]++*164}px;top:${r.y}px"`),board)});
  const dst={x:rows[tool.tier].x0+counts[tool.tier]*164,y:rows[tool.tier].y};
