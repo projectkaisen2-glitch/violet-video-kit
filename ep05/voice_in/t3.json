@@ -1,0 +1,47 @@
+[
+ {
+  "word": "Eight",
+  "start": 0.0,
+  "end": 0.154
+ },
+ {
+  "word": "plans,",
+  "start": 0.154,
+  "end": 0.654
+ },
+ {
+  "word": "one",
+  "start": 0.654,
+  "end": 0.879
+ },
+ {
+  "word": "cheat",
+  "start": 0.879,
+  "end": 1.142
+ },
+ {
+  "word": "sheet.",
+  "start": 1.142,
+  "end": 1.754
+ },
+ {
+  "word": "It's",
+  "start": 1.754,
+  "end": 1.942
+ },
+ {
+  "word": "on",
+  "start": 1.942,
+  "end": 2.042
+ },
+ {
+  "word": "my",
+  "start": 2.042,
+  "end": 2.217
+ },
+ {
+  "word": "channel.",
+  "start": 2.217,
+  "end": 2.71
+ }
+]

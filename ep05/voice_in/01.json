@@ -1,0 +1,502 @@
+[
+ {
+  "word": "Twenty",
+  "start": 0.0,
+  "end": 0.245
+ },
+ {
+  "word": "dollars",
+  "start": 0.245,
+  "end": 0.607
+ },
+ {
+  "word": "of",
+  "start": 0.607,
+  "end": 0.695
+ },
+ {
+  "word": "Claude",
+  "start": 0.695,
+  "end": 0.995
+ },
+ {
+  "word": "Pro",
+  "start": 0.995,
+  "end": 1.22
+ },
+ {
+  "word": "buys",
+  "start": 1.22,
+  "end": 1.595
+ },
+ {
+  "word": "about",
+  "start": 1.595,
+  "end": 1.932
+ },
+ {
+  "word": "six",
+  "start": 1.932,
+  "end": 2.157
+ },
+ {
+  "word": "hundred",
+  "start": 2.157,
+  "end": 2.445
+ },
+ {
+  "word": "seventy",
+  "start": 2.445,
+  "end": 2.795
+ },
+ {
+  "word": "dollars",
+  "start": 2.795,
+  "end": 3.157
+ },
+ {
+  "word": "of",
+  "start": 3.157,
+  "end": 3.232
+ },
+ {
+  "word": "A",
+  "start": 3.232,
+  "end": 3.332
+ },
+ {
+  "word": "I.",
+  "start": 3.332,
+  "end": 3.595
+ },
+ {
+  "word": "That's",
+  "start": 3.595,
+  "end": 3.87
+ },
+ {
+  "word": "from",
+  "start": 3.87,
+  "end": 4.07
+ },
+ {
+  "word": "independent",
+  "start": 4.07,
+  "end": 4.62
+ },
+ {
+  "word": "measurements",
+  "start": 4.62,
+  "end": 5.157
+ },
+ {
+  "word": "across",
+  "start": 5.157,
+  "end": 5.532
+ },
+ {
+  "word": "seventy-nine",
+  "start": 5.532,
+  "end": 6.12
+ },
+ {
+  "word": "accounts:",
+  "start": 6.12,
+  "end": 7.082
+ },
+ {
+  "word": "roughly",
+  "start": 7.082,
+  "end": 7.47
+ },
+ {
+  "word": "a",
+  "start": 7.47,
+  "end": 7.545
+ },
+ {
+  "word": "hundred",
+  "start": 7.545,
+  "end": 7.895
+ },
+ {
+  "word": "fifty-five",
+  "start": 7.895,
+  "end": 8.42
+ },
+ {
+  "word": "dollars",
+  "start": 8.42,
+  "end": 8.782
+ },
+ {
+  "word": "of",
+  "start": 8.782,
+  "end": 8.857
+ },
+ {
+  "word": "A",
+  "start": 8.857,
+  "end": 8.932
+ },
+ {
+  "word": "P",
+  "start": 8.932,
+  "end": 9.195
+ },
+ {
+  "word": "I",
+  "start": 9.195,
+  "end": 9.345
+ },
+ {
+  "word": "usage",
+  "start": 9.345,
+  "end": 9.745
+ },
+ {
+  "word": "every",
+  "start": 9.745,
+  "end": 10.07
+ },
+ {
+  "word": "week.",
+  "start": 10.07,
+  "end": 10.882
+ },
+ {
+  "word": "In",
+  "start": 10.882,
+  "end": 10.982
+ },
+ {
+  "word": "my",
+  "start": 10.982,
+  "end": 11.12
+ },
+ {
+  "word": "standard",
+  "start": 11.12,
+  "end": 11.52
+ },
+ {
+  "word": "task,",
+  "start": 11.52,
+  "end": 12.245
+ },
+ {
+  "word": "that's",
+  "start": 12.245,
+  "end": 12.482
+ },
+ {
+  "word": "about",
+  "start": 12.482,
+  "end": 12.745
+ },
+ {
+  "word": "eleven",
+  "start": 12.745,
+  "end": 13.17
+ },
+ {
+  "word": "Opus",
+  "start": 13.17,
+  "end": 13.495
+ },
+ {
+  "word": "bug",
+  "start": 13.495,
+  "end": 13.72
+ },
+ {
+  "word": "fixes",
+  "start": 13.72,
+  "end": 14.145
+ },
+ {
+  "word": "per",
+  "start": 14.145,
+  "end": 14.307
+ },
+ {
+  "word": "five-hour",
+  "start": 14.307,
+  "end": 14.845
+ },
+ {
+  "word": "window,",
+  "start": 14.845,
+  "end": 15.57
+ },
+ {
+  "word": "and",
+  "start": 15.57,
+  "end": 15.695
+ },
+ {
+  "word": "around",
+  "start": 15.695,
+  "end": 16.057
+ },
+ {
+  "word": "thirteen",
+  "start": 16.057,
+  "end": 16.632
+ },
+ {
+  "word": "full",
+  "start": 16.632,
+  "end": 16.87
+ },
+ {
+  "word": "windows",
+  "start": 16.87,
+  "end": 17.32
+ },
+ {
+  "word": "a",
+  "start": 17.32,
+  "end": 17.395
+ },
+ {
+  "word": "week.",
+  "start": 17.395,
+  "end": 18.232
+ },
+ {
+  "word": "The",
+  "start": 18.232,
+  "end": 18.382
+ },
+ {
+  "word": "catch",
+  "start": 18.382,
+  "end": 18.77
+ },
+ {
+  "word": "is",
+  "start": 18.77,
+  "end": 18.92
+ },
+ {
+  "word": "the",
+  "start": 18.92,
+  "end": 19.057
+ },
+ {
+  "word": "weekly",
+  "start": 19.057,
+  "end": 19.445
+ },
+ {
+  "word": "cap.",
+  "start": 19.445,
+  "end": 20.182
+ },
+ {
+  "word": "That's",
+  "start": 20.182,
+  "end": 20.482
+ },
+ {
+  "word": "what",
+  "start": 20.482,
+  "end": 20.62
+ },
+ {
+  "word": "actually",
+  "start": 20.62,
+  "end": 21.045
+ },
+ {
+  "word": "stops",
+  "start": 21.045,
+  "end": 21.47
+ },
+ {
+  "word": "you,",
+  "start": 21.47,
+  "end": 21.87
+ },
+ {
+  "word": "not",
+  "start": 21.87,
+  "end": 22.057
+ },
+ {
+  "word": "the",
+  "start": 22.057,
+  "end": 22.157
+ },
+ {
+  "word": "five",
+  "start": 22.157,
+  "end": 22.47
+ },
+ {
+  "word": "hours.",
+  "start": 22.47,
+  "end": 23.37
+ },
+ {
+  "word": "And",
+  "start": 23.37,
+  "end": 23.507
+ },
+ {
+  "word": "the",
+  "start": 23.507,
+  "end": 23.595
+ },
+ {
+  "word": "bigger",
+  "start": 23.595,
+  "end": 23.895
+ },
+ {
+  "word": "plans",
+  "start": 23.895,
+  "end": 24.382
+ },
+ {
+  "word": "scale",
+  "start": 24.382,
+  "end": 24.745
+ },
+ {
+  "word": "less",
+  "start": 24.745,
+  "end": 24.97
+ },
+ {
+  "word": "than",
+  "start": 24.97,
+  "end": 25.082
+ },
+ {
+  "word": "the",
+  "start": 25.082,
+  "end": 25.17
+ },
+ {
+  "word": "name",
+  "start": 25.17,
+  "end": 25.457
+ },
+ {
+  "word": "said.",
+  "start": 25.457,
+  "end": 26.157
+ },
+ {
+  "word": "Ultra",
+  "start": 26.52,
+  "end": 26.907
+ },
+ {
+  "word": "used",
+  "start": 26.907,
+  "end": 27.132
+ },
+ {
+  "word": "to",
+  "start": 27.132,
+  "end": 27.207
+ },
+ {
+  "word": "be",
+  "start": 27.207,
+  "end": 27.357
+ },
+ {
+  "word": "sold",
+  "start": 27.357,
+  "end": 27.72
+ },
+ {
+  "word": "as",
+  "start": 27.72,
+  "end": 27.882
+ },
+ {
+  "word": "twenty",
+  "start": 27.882,
+  "end": 28.195
+ },
+ {
+  "word": "times",
+  "start": 28.195,
+  "end": 28.545
+ },
+ {
+  "word": "Pro.",
+  "start": 28.545,
+  "end": 28.77
+ },
+ {
+  "word": "Per",
+  "start": 28.77,
+  "end": 28.945
+ },
+ {
+  "word": "week,",
+  "start": 28.945,
+  "end": 29.545
+ },
+ {
+  "word": "it's",
+  "start": 29.545,
+  "end": 29.745
+ },
+ {
+  "word": "ten.",
+  "start": 29.745,
+  "end": 30.545
+ },
+ {
+  "word": "Most",
+  "start": 30.545,
+  "end": 30.87
+ },
+ {
+  "word": "work",
+  "start": 30.87,
+  "end": 31.095
+ },
+ {
+  "word": "per",
+  "start": 31.095,
+  "end": 31.245
+ },
+ {
+  "word": "dollar",
+  "start": 31.245,
+  "end": 31.62
+ },
+ {
+  "word": "of",
+  "start": 31.62,
+  "end": 31.782
+ },
+ {
+  "word": "any",
+  "start": 31.782,
+  "end": 32.02
+ },
+ {
+  "word": "plan",
+  "start": 32.02,
+  "end": 32.282
+ },
+ {
+  "word": "I",
+  "start": 32.282,
+  "end": 32.42
+ },
+ {
+  "word": "priced.",
+  "start": 32.42,
+  "end": 32.929
+ }
+]

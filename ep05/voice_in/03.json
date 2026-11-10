@@ -1,0 +1,432 @@
+[
+ {
+  "word": "Cursor",
+  "start": 0.0,
+  "end": 0.308
+ },
+ {
+  "word": "doesn't",
+  "start": 0.308,
+  "end": 0.608
+ },
+ {
+  "word": "sell",
+  "start": 0.608,
+  "end": 0.858
+ },
+ {
+  "word": "a",
+  "start": 0.858,
+  "end": 0.933
+ },
+ {
+  "word": "twenty-dollar",
+  "start": 0.933,
+  "end": 1.508
+ },
+ {
+  "word": "plan",
+  "start": 1.508,
+  "end": 1.77
+ },
+ {
+  "word": "anymore.",
+  "start": 1.77,
+  "end": 2.72
+ },
+ {
+  "word": "Since",
+  "start": 2.72,
+  "end": 2.933
+ },
+ {
+  "word": "October",
+  "start": 2.933,
+  "end": 3.283
+ },
+ {
+  "word": "twelfth,",
+  "start": 3.283,
+  "end": 3.795
+ },
+ {
+  "word": "new",
+  "start": 3.795,
+  "end": 3.983
+ },
+ {
+  "word": "users",
+  "start": 3.983,
+  "end": 4.358
+ },
+ {
+  "word": "get",
+  "start": 4.358,
+  "end": 4.495
+ },
+ {
+  "word": "the",
+  "start": 4.495,
+  "end": 4.608
+ },
+ {
+  "word": "X",
+  "start": 4.608,
+  "end": 4.833
+ },
+ {
+  "word": "Subscription.",
+  "start": 4.833,
+  "end": 5.97
+ },
+ {
+  "word": "Eight",
+  "start": 5.97,
+  "end": 6.183
+ },
+ {
+  "word": "dollars",
+  "start": 6.183,
+  "end": 6.583
+ },
+ {
+  "word": "runs",
+  "start": 6.583,
+  "end": 6.833
+ },
+ {
+  "word": "only",
+  "start": 6.833,
+  "end": 7.145
+ },
+ {
+  "word": "Grok",
+  "start": 7.145,
+  "end": 7.458
+ },
+ {
+  "word": "and",
+  "start": 7.458,
+  "end": 7.583
+ },
+ {
+  "word": "Cursor's",
+  "start": 7.583,
+  "end": 8.058
+ },
+ {
+  "word": "own",
+  "start": 8.058,
+  "end": 8.233
+ },
+ {
+  "word": "models.",
+  "start": 8.233,
+  "end": 9.17
+ },
+ {
+  "word": "Thirty",
+  "start": 9.17,
+  "end": 9.433
+ },
+ {
+  "word": "dollars,",
+  "start": 9.433,
+  "end": 10.008
+ },
+ {
+  "word": "Premium,",
+  "start": 10.008,
+  "end": 10.583
+ },
+ {
+  "word": "adds",
+  "start": 10.583,
+  "end": 10.895
+ },
+ {
+  "word": "Claude",
+  "start": 10.895,
+  "end": 11.308
+ },
+ {
+  "word": "and",
+  "start": 11.308,
+  "end": 11.433
+ },
+ {
+  "word": "G",
+  "start": 11.433,
+  "end": 11.608
+ },
+ {
+  "word": "P",
+  "start": 11.608,
+  "end": 11.82
+ },
+ {
+  "word": "T,",
+  "start": 11.82,
+  "end": 12.258
+ },
+ {
+  "word": "but",
+  "start": 12.258,
+  "end": 12.395
+ },
+ {
+  "word": "at",
+  "start": 12.395,
+  "end": 12.52
+ },
+ {
+  "word": "full",
+  "start": 12.52,
+  "end": 12.72
+ },
+ {
+  "word": "A",
+  "start": 12.72,
+  "end": 12.795
+ },
+ {
+  "word": "P",
+  "start": 12.795,
+  "end": 12.995
+ },
+ {
+  "word": "I",
+  "start": 12.995,
+  "end": 13.133
+ },
+ {
+  "word": "price,",
+  "start": 13.133,
+  "end": 13.533
+ },
+ {
+  "word": "from",
+  "start": 13.533,
+  "end": 13.67
+ },
+ {
+  "word": "the",
+  "start": 13.67,
+  "end": 13.758
+ },
+ {
+  "word": "very",
+  "start": 13.758,
+  "end": 14.033
+ },
+ {
+  "word": "first",
+  "start": 14.033,
+  "end": 14.295
+ },
+ {
+  "word": "request.",
+  "start": 14.295,
+  "end": 15.27
+ },
+ {
+  "word": "So",
+  "start": 15.27,
+  "end": 15.458
+ },
+ {
+  "word": "in",
+  "start": 15.458,
+  "end": 15.545
+ },
+ {
+  "word": "my",
+  "start": 15.545,
+  "end": 15.683
+ },
+ {
+  "word": "standard",
+  "start": 15.683,
+  "end": 16.058
+ },
+ {
+  "word": "task,",
+  "start": 16.058,
+  "end": 16.533
+ },
+ {
+  "word": "every",
+  "start": 16.533,
+  "end": 16.833
+ },
+ {
+  "word": "Opus",
+  "start": 16.833,
+  "end": 17.158
+ },
+ {
+  "word": "bug",
+  "start": 17.158,
+  "end": 17.383
+ },
+ {
+  "word": "fix",
+  "start": 17.383,
+  "end": 17.658
+ },
+ {
+  "word": "is",
+  "start": 17.658,
+  "end": 17.783
+ },
+ {
+  "word": "another",
+  "start": 17.783,
+  "end": 18.133
+ },
+ {
+  "word": "dollar",
+  "start": 18.133,
+  "end": 18.47
+ },
+ {
+  "word": "on",
+  "start": 18.47,
+  "end": 18.583
+ },
+ {
+  "word": "top",
+  "start": 18.583,
+  "end": 18.82
+ },
+ {
+  "word": "of",
+  "start": 18.82,
+  "end": 18.895
+ },
+ {
+  "word": "the",
+  "start": 18.895,
+  "end": 18.995
+ },
+ {
+  "word": "thirty.",
+  "start": 18.995,
+  "end": 19.808
+ },
+ {
+  "word": "If",
+  "start": 19.808,
+  "end": 19.945
+ },
+ {
+  "word": "you",
+  "start": 19.945,
+  "end": 20.058
+ },
+ {
+  "word": "still",
+  "start": 20.058,
+  "end": 20.333
+ },
+ {
+  "word": "have",
+  "start": 20.333,
+  "end": 20.495
+ },
+ {
+  "word": "the",
+  "start": 20.495,
+  "end": 20.608
+ },
+ {
+  "word": "old",
+  "start": 20.608,
+  "end": 20.833
+ },
+ {
+  "word": "twenty-dollar",
+  "start": 20.833,
+  "end": 21.383
+ },
+ {
+  "word": "Pro,",
+  "start": 21.383,
+  "end": 21.783
+ },
+ {
+  "word": "keep",
+  "start": 21.783,
+  "end": 22.058
+ },
+ {
+  "word": "it.",
+  "start": 22.058,
+  "end": 22.633
+ },
+ {
+  "word": "Switching",
+  "start": 22.633,
+  "end": 23.083
+ },
+ {
+  "word": "is",
+  "start": 23.083,
+  "end": 23.233
+ },
+ {
+  "word": "permanent.",
+  "start": 23.233,
+  "end": 24.033
+ },
+ {
+  "word": "You're",
+  "start": 24.033,
+  "end": 24.183
+ },
+ {
+  "word": "paying",
+  "start": 24.183,
+  "end": 24.558
+ },
+ {
+  "word": "for",
+  "start": 24.558,
+  "end": 24.67
+ },
+ {
+  "word": "the",
+  "start": 24.67,
+  "end": 24.808
+ },
+ {
+  "word": "editor.",
+  "start": 24.808,
+  "end": 25.558
+ },
+ {
+  "word": "The",
+  "start": 25.558,
+  "end": 25.72
+ },
+ {
+  "word": "A",
+  "start": 25.72,
+  "end": 26.02
+ },
+ {
+  "word": "I",
+  "start": 26.02,
+  "end": 26.283
+ },
+ {
+  "word": "is",
+  "start": 26.283,
+  "end": 26.445
+ },
+ {
+  "word": "extra.",
+  "start": 26.445,
+  "end": 26.933
+ }
+]

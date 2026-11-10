@@ -1,0 +1,527 @@
+[
+ {
+  "word": "When",
+  "start": 0.0,
+  "end": 0.15
+ },
+ {
+  "word": "should",
+  "start": 0.15,
+  "end": 0.287
+ },
+ {
+  "word": "you",
+  "start": 0.287,
+  "end": 0.375
+ },
+ {
+  "word": "pay",
+  "start": 0.375,
+  "end": 0.6
+ },
+ {
+  "word": "more",
+  "start": 0.6,
+  "end": 0.787
+ },
+ {
+  "word": "than",
+  "start": 0.787,
+  "end": 0.9
+ },
+ {
+  "word": "twenty",
+  "start": 0.9,
+  "end": 1.2
+ },
+ {
+  "word": "dollars?",
+  "start": 1.2,
+  "end": 1.875
+ },
+ {
+  "word": "Here's",
+  "start": 1.875,
+  "end": 2.162
+ },
+ {
+  "word": "the",
+  "start": 2.162,
+  "end": 2.25
+ },
+ {
+  "word": "math.",
+  "start": 2.25,
+  "end": 3.062
+ },
+ {
+  "word": "Paying",
+  "start": 3.062,
+  "end": 3.4
+ },
+ {
+  "word": "per",
+  "start": 3.4,
+  "end": 3.525
+ },
+ {
+  "word": "token,",
+  "start": 3.525,
+  "end": 4.125
+ },
+ {
+  "word": "twenty",
+  "start": 4.125,
+  "end": 4.425
+ },
+ {
+  "word": "dollars",
+  "start": 4.425,
+  "end": 4.8
+ },
+ {
+  "word": "buys",
+  "start": 4.8,
+  "end": 5.087
+ },
+ {
+  "word": "about",
+  "start": 5.087,
+  "end": 5.325
+ },
+ {
+  "word": "nineteen",
+  "start": 5.325,
+  "end": 5.775
+ },
+ {
+  "word": "Opus",
+  "start": 5.775,
+  "end": 6.1
+ },
+ {
+  "word": "bug",
+  "start": 6.1,
+  "end": 6.325
+ },
+ {
+  "word": "fixes.",
+  "start": 6.325,
+  "end": 7.262
+ },
+ {
+  "word": "So",
+  "start": 7.262,
+  "end": 7.387
+ },
+ {
+  "word": "if",
+  "start": 7.387,
+  "end": 7.487
+ },
+ {
+  "word": "you",
+  "start": 7.487,
+  "end": 7.575
+ },
+ {
+  "word": "do",
+  "start": 7.575,
+  "end": 7.762
+ },
+ {
+  "word": "fewer",
+  "start": 7.762,
+  "end": 8.037
+ },
+ {
+  "word": "than",
+  "start": 8.037,
+  "end": 8.137
+ },
+ {
+  "word": "that",
+  "start": 8.137,
+  "end": 8.287
+ },
+ {
+  "word": "a",
+  "start": 8.287,
+  "end": 8.35
+ },
+ {
+  "word": "month,",
+  "start": 8.35,
+  "end": 8.862
+ },
+ {
+  "word": "skip",
+  "start": 8.862,
+  "end": 9.112
+ },
+ {
+  "word": "the",
+  "start": 9.112,
+  "end": 9.2
+ },
+ {
+  "word": "subscription",
+  "start": 9.2,
+  "end": 9.85
+ },
+ {
+  "word": "and",
+  "start": 9.85,
+  "end": 9.975
+ },
+ {
+  "word": "use",
+  "start": 9.975,
+  "end": 10.162
+ },
+ {
+  "word": "an",
+  "start": 10.162,
+  "end": 10.262
+ },
+ {
+  "word": "A",
+  "start": 10.262,
+  "end": 10.512
+ },
+ {
+  "word": "P",
+  "start": 10.512,
+  "end": 10.75
+ },
+ {
+  "word": "I",
+  "start": 10.75,
+  "end": 10.912
+ },
+ {
+  "word": "key.",
+  "start": 10.912,
+  "end": 11.687
+ },
+ {
+  "word": "Two",
+  "start": 11.687,
+  "end": 11.9
+ },
+ {
+  "word": "twenty-dollar",
+  "start": 11.9,
+  "end": 12.45
+ },
+ {
+  "word": "plans,",
+  "start": 12.45,
+  "end": 13.037
+ },
+ {
+  "word": "Claude",
+  "start": 13.037,
+  "end": 13.387
+ },
+ {
+  "word": "and",
+  "start": 13.387,
+  "end": 13.5
+ },
+ {
+  "word": "ChatGPT,",
+  "start": 13.5,
+  "end": 14.5
+ },
+ {
+  "word": "give",
+  "start": 14.5,
+  "end": 14.662
+ },
+ {
+  "word": "you",
+  "start": 14.662,
+  "end": 14.787
+ },
+ {
+  "word": "two",
+  "start": 14.787,
+  "end": 15.012
+ },
+ {
+  "word": "separate",
+  "start": 15.012,
+  "end": 15.35
+ },
+ {
+  "word": "limits:",
+  "start": 15.35,
+  "end": 16.175
+ },
+ {
+  "word": "about",
+  "start": 16.175,
+  "end": 16.487
+ },
+ {
+  "word": "eight",
+  "start": 16.487,
+  "end": 16.687
+ },
+ {
+  "word": "hundred",
+  "start": 16.687,
+  "end": 16.975
+ },
+ {
+  "word": "seventy",
+  "start": 16.975,
+  "end": 17.325
+ },
+ {
+  "word": "dollars",
+  "start": 17.325,
+  "end": 17.687
+ },
+ {
+  "word": "of",
+  "start": 17.687,
+  "end": 17.775
+ },
+ {
+  "word": "usage",
+  "start": 17.775,
+  "end": 18.2
+ },
+ {
+  "word": "for",
+  "start": 18.2,
+  "end": 18.325
+ },
+ {
+  "word": "forty.",
+  "start": 18.325,
+  "end": 19.15
+ },
+ {
+  "word": "But",
+  "start": 19.15,
+  "end": 19.287
+ },
+ {
+  "word": "if",
+  "start": 19.287,
+  "end": 19.387
+ },
+ {
+  "word": "you",
+  "start": 19.387,
+  "end": 19.475
+ },
+ {
+  "word": "hit",
+  "start": 19.475,
+  "end": 19.675
+ },
+ {
+  "word": "Claude's",
+  "start": 19.675,
+  "end": 20.075
+ },
+ {
+  "word": "weekly",
+  "start": 20.075,
+  "end": 20.425
+ },
+ {
+  "word": "cap",
+  "start": 20.425,
+  "end": 20.712
+ },
+ {
+  "word": "three",
+  "start": 20.712,
+  "end": 20.95
+ },
+ {
+  "word": "weeks",
+  "start": 20.95,
+  "end": 21.187
+ },
+ {
+  "word": "in",
+  "start": 21.187,
+  "end": 21.262
+ },
+ {
+  "word": "a",
+  "start": 21.262,
+  "end": 21.325
+ },
+ {
+  "word": "row,",
+  "start": 21.325,
+  "end": 21.875
+ },
+ {
+  "word": "the",
+  "start": 21.875,
+  "end": 21.975
+ },
+ {
+  "word": "hundred-dollar",
+  "start": 21.975,
+  "end": 22.575
+ },
+ {
+  "word": "Max",
+  "start": 22.575,
+  "end": 22.95
+ },
+ {
+  "word": "is",
+  "start": 22.95,
+  "end": 23.137
+ },
+ {
+  "word": "five",
+  "start": 23.137,
+  "end": 23.5
+ },
+ {
+  "word": "times",
+  "start": 23.5,
+  "end": 23.875
+ },
+ {
+  "word": "Pro.",
+  "start": 23.875,
+  "end": 24.612
+ },
+ {
+  "word": "About",
+  "start": 24.612,
+  "end": 24.937
+ },
+ {
+  "word": "three",
+  "start": 24.937,
+  "end": 25.175
+ },
+ {
+  "word": "thousand",
+  "start": 25.175,
+  "end": 25.5
+ },
+ {
+  "word": "three",
+  "start": 25.5,
+  "end": 25.712
+ },
+ {
+  "word": "hundred",
+  "start": 25.712,
+  "end": 25.95
+ },
+ {
+  "word": "dollars",
+  "start": 25.95,
+  "end": 26.312
+ },
+ {
+  "word": "of",
+  "start": 26.312,
+  "end": 26.4
+ },
+ {
+  "word": "usage.",
+  "start": 26.4,
+  "end": 27.287
+ },
+ {
+  "word": "Per",
+  "start": 27.625,
+  "end": 27.825
+ },
+ {
+  "word": "dollar,",
+  "start": 27.825,
+  "end": 28.35
+ },
+ {
+  "word": "that's",
+  "start": 28.35,
+  "end": 28.625
+ },
+ {
+  "word": "the",
+  "start": 28.625,
+  "end": 28.725
+ },
+ {
+  "word": "best",
+  "start": 28.725,
+  "end": 29.0
+ },
+ {
+  "word": "deal",
+  "start": 29.0,
+  "end": 29.187
+ },
+ {
+  "word": "on",
+  "start": 29.187,
+  "end": 29.287
+ },
+ {
+  "word": "this",
+  "start": 29.287,
+  "end": 29.45
+ },
+ {
+  "word": "list.",
+  "start": 29.45,
+  "end": 30.212
+ },
+ {
+  "word": "Upgrade",
+  "start": 30.212,
+  "end": 30.712
+ },
+ {
+  "word": "when",
+  "start": 30.712,
+  "end": 30.837
+ },
+ {
+  "word": "the",
+  "start": 30.837,
+  "end": 30.925
+ },
+ {
+  "word": "cap",
+  "start": 30.925,
+  "end": 31.2
+ },
+ {
+  "word": "stops",
+  "start": 31.2,
+  "end": 31.575
+ },
+ {
+  "word": "you,",
+  "start": 31.575,
+  "end": 31.925
+ },
+ {
+  "word": "not",
+  "start": 31.925,
+  "end": 32.137
+ },
+ {
+  "word": "before.",
+  "start": 32.137,
+  "end": 32.669
+ }
+]

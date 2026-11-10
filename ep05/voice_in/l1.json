@@ -1,0 +1,272 @@
+[
+ {
+  "word": "Who",
+  "start": 0.0,
+  "end": 0.124
+ },
+ {
+  "word": "it's",
+  "start": 0.124,
+  "end": 0.324
+ },
+ {
+  "word": "for:",
+  "start": 0.324,
+  "end": 0.724
+ },
+ {
+  "word": "you",
+  "start": 0.724,
+  "end": 0.849
+ },
+ {
+  "word": "code",
+  "start": 0.849,
+  "end": 1.124
+ },
+ {
+  "word": "every",
+  "start": 1.124,
+  "end": 1.424
+ },
+ {
+  "word": "day",
+  "start": 1.424,
+  "end": 1.724
+ },
+ {
+  "word": "and",
+  "start": 1.724,
+  "end": 1.849
+ },
+ {
+  "word": "want",
+  "start": 1.849,
+  "end": 2.036
+ },
+ {
+  "word": "the",
+  "start": 2.036,
+  "end": 2.124
+ },
+ {
+  "word": "best",
+  "start": 2.124,
+  "end": 2.449
+ },
+ {
+  "word": "model.",
+  "start": 2.449,
+  "end": 3.299
+ },
+ {
+  "word": "Who",
+  "start": 3.299,
+  "end": 3.449
+ },
+ {
+  "word": "it's",
+  "start": 3.449,
+  "end": 3.624
+ },
+ {
+  "word": "not",
+  "start": 3.624,
+  "end": 3.874
+ },
+ {
+  "word": "for:",
+  "start": 3.874,
+  "end": 4.474
+ },
+ {
+  "word": "you",
+  "start": 4.474,
+  "end": 4.624
+ },
+ {
+  "word": "also",
+  "start": 4.624,
+  "end": 5.011
+ },
+ {
+  "word": "chat",
+  "start": 5.011,
+  "end": 5.261
+ },
+ {
+  "word": "with",
+  "start": 5.261,
+  "end": 5.424
+ },
+ {
+  "word": "Claude",
+  "start": 5.424,
+  "end": 5.711
+ },
+ {
+  "word": "all",
+  "start": 5.711,
+  "end": 5.899
+ },
+ {
+  "word": "day,",
+  "start": 5.899,
+  "end": 6.349
+ },
+ {
+  "word": "because",
+  "start": 6.349,
+  "end": 6.661
+ },
+ {
+  "word": "chat",
+  "start": 6.661,
+  "end": 6.949
+ },
+ {
+  "word": "eats",
+  "start": 6.949,
+  "end": 7.224
+ },
+ {
+  "word": "the",
+  "start": 7.224,
+  "end": 7.361
+ },
+ {
+  "word": "same",
+  "start": 7.361,
+  "end": 7.649
+ },
+ {
+  "word": "limit.",
+  "start": 7.649,
+  "end": 8.624
+ },
+ {
+  "word": "Tip:",
+  "start": 8.624,
+  "end": 9.336
+ },
+ {
+  "word": "run",
+  "start": 9.336,
+  "end": 9.661
+ },
+ {
+  "word": "slash",
+  "start": 9.661,
+  "end": 10.074
+ },
+ {
+  "word": "usage",
+  "start": 10.074,
+  "end": 10.449
+ },
+ {
+  "word": "to",
+  "start": 10.449,
+  "end": 10.574
+ },
+ {
+  "word": "see",
+  "start": 10.574,
+  "end": 10.749
+ },
+ {
+  "word": "what's",
+  "start": 10.749,
+  "end": 10.974
+ },
+ {
+  "word": "burning",
+  "start": 10.974,
+  "end": 11.324
+ },
+ {
+  "word": "it,",
+  "start": 11.324,
+  "end": 11.711
+ },
+ {
+  "word": "slash",
+  "start": 11.711,
+  "end": 12.136
+ },
+ {
+  "word": "clear",
+  "start": 12.136,
+  "end": 12.424
+ },
+ {
+  "word": "between",
+  "start": 12.424,
+  "end": 12.749
+ },
+ {
+  "word": "tasks,",
+  "start": 12.749,
+  "end": 13.324
+ },
+ {
+  "word": "and",
+  "start": 13.324,
+  "end": 13.449
+ },
+ {
+  "word": "use",
+  "start": 13.449,
+  "end": 13.711
+ },
+ {
+  "word": "Sonnet",
+  "start": 13.711,
+  "end": 14.099
+ },
+ {
+  "word": "for",
+  "start": 14.099,
+  "end": 14.224
+ },
+ {
+  "word": "routine",
+  "start": 14.224,
+  "end": 14.674
+ },
+ {
+  "word": "work.",
+  "start": 14.674,
+  "end": 15.399
+ },
+ {
+  "word": "It's",
+  "start": 15.399,
+  "end": 15.574
+ },
+ {
+  "word": "half",
+  "start": 15.574,
+  "end": 15.811
+ },
+ {
+  "word": "the",
+  "start": 15.811,
+  "end": 15.899
+ },
+ {
+  "word": "price",
+  "start": 15.899,
+  "end": 16.186
+ },
+ {
+  "word": "of",
+  "start": 16.186,
+  "end": 16.274
+ },
+ {
+  "word": "Opus.",
+  "start": 16.274,
+  "end": 16.803
+ }
+]

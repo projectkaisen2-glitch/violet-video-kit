@@ -1,0 +1,192 @@
+[
+ {
+  "word": "Who",
+  "start": 0.0,
+  "end": 0.143
+ },
+ {
+  "word": "it's",
+  "start": 0.143,
+  "end": 0.343
+ },
+ {
+  "word": "for:",
+  "start": 0.343,
+  "end": 0.805
+ },
+ {
+  "word": "side",
+  "start": 0.805,
+  "end": 1.118
+ },
+ {
+  "word": "projects,",
+  "start": 1.118,
+  "end": 1.855
+ },
+ {
+  "word": "learning,",
+  "start": 1.855,
+  "end": 2.343
+ },
+ {
+  "word": "open-source",
+  "start": 2.343,
+  "end": 2.943
+ },
+ {
+  "word": "work.",
+  "start": 2.943,
+  "end": 3.668
+ },
+ {
+  "word": "Who",
+  "start": 3.668,
+  "end": 3.818
+ },
+ {
+  "word": "it's",
+  "start": 3.818,
+  "end": 4.018
+ },
+ {
+  "word": "not",
+  "start": 4.018,
+  "end": 4.268
+ },
+ {
+  "word": "for:",
+  "start": 4.268,
+  "end": 4.83
+ },
+ {
+  "word": "client",
+  "start": 4.83,
+  "end": 5.305
+ },
+ {
+  "word": "or",
+  "start": 5.305,
+  "end": 5.468
+ },
+ {
+  "word": "company",
+  "start": 5.468,
+  "end": 5.905
+ },
+ {
+  "word": "code",
+  "start": 5.905,
+  "end": 6.268
+ },
+ {
+  "word": "with",
+  "start": 6.268,
+  "end": 6.443
+ },
+ {
+  "word": "compliance",
+  "start": 6.443,
+  "end": 7.018
+ },
+ {
+  "word": "rules.",
+  "start": 7.018,
+  "end": 7.993
+ },
+ {
+  "word": "Tip:",
+  "start": 7.993,
+  "end": 8.718
+ },
+ {
+  "word": "use",
+  "start": 8.718,
+  "end": 9.018
+ },
+ {
+  "word": "it",
+  "start": 9.018,
+  "end": 9.143
+ },
+ {
+  "word": "as",
+  "start": 9.143,
+  "end": 9.255
+ },
+ {
+  "word": "a",
+  "start": 9.255,
+  "end": 9.355
+ },
+ {
+  "word": "second",
+  "start": 9.355,
+  "end": 9.693
+ },
+ {
+  "word": "engine",
+  "start": 9.693,
+  "end": 10.093
+ },
+ {
+  "word": "for",
+  "start": 10.093,
+  "end": 10.218
+ },
+ {
+  "word": "routine",
+  "start": 10.218,
+  "end": 10.668
+ },
+ {
+  "word": "tasks,",
+  "start": 10.668,
+  "end": 11.393
+ },
+ {
+  "word": "and",
+  "start": 11.393,
+  "end": 11.518
+ },
+ {
+  "word": "keep",
+  "start": 11.518,
+  "end": 11.705
+ },
+ {
+  "word": "your",
+  "start": 11.705,
+  "end": 11.818
+ },
+ {
+  "word": "main",
+  "start": 11.818,
+  "end": 12.093
+ },
+ {
+  "word": "plan",
+  "start": 12.093,
+  "end": 12.443
+ },
+ {
+  "word": "for",
+  "start": 12.443,
+  "end": 12.555
+ },
+ {
+  "word": "the",
+  "start": 12.555,
+  "end": 12.643
+ },
+ {
+  "word": "hard",
+  "start": 12.643,
+  "end": 12.893
+ },
+ {
+  "word": "ones.",
+  "start": 12.893,
+  "end": 13.29
+ }
+]

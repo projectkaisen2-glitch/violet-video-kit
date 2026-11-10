@@ -1,0 +1,452 @@
+[
+ {
+  "word": "Google",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "word": "won't",
+  "start": 0.24,
+  "end": 0.44
+ },
+ {
+  "word": "tell",
+  "start": 0.44,
+  "end": 0.578
+ },
+ {
+  "word": "you",
+  "start": 0.578,
+  "end": 0.665
+ },
+ {
+  "word": "how",
+  "start": 0.665,
+  "end": 0.84
+ },
+ {
+  "word": "much",
+  "start": 0.84,
+  "end": 1.065
+ },
+ {
+  "word": "coding",
+  "start": 1.065,
+  "end": 1.39
+ },
+ {
+  "word": "twenty",
+  "start": 1.39,
+  "end": 1.69
+ },
+ {
+  "word": "dollars",
+  "start": 1.69,
+  "end": 2.065
+ },
+ {
+  "word": "buys.",
+  "start": 2.065,
+  "end": 2.953
+ },
+ {
+  "word": "Google",
+  "start": 2.953,
+  "end": 3.29
+ },
+ {
+  "word": "A",
+  "start": 3.29,
+  "end": 3.465
+ },
+ {
+  "word": "I",
+  "start": 3.465,
+  "end": 3.615
+ },
+ {
+  "word": "Pro",
+  "start": 3.615,
+  "end": 3.89
+ },
+ {
+  "word": "includes",
+  "start": 3.89,
+  "end": 4.265
+ },
+ {
+  "word": "Antigravity",
+  "start": 4.265,
+  "end": 4.99
+ },
+ {
+  "word": "with",
+  "start": 4.99,
+  "end": 5.178
+ },
+ {
+  "word": "Claude",
+  "start": 5.178,
+  "end": 5.553
+ },
+ {
+  "word": "and",
+  "start": 5.553,
+  "end": 5.665
+ },
+ {
+  "word": "Gemini",
+  "start": 5.665,
+  "end": 6.065
+ },
+ {
+  "word": "models,",
+  "start": 6.065,
+  "end": 6.665
+ },
+ {
+  "word": "a",
+  "start": 6.665,
+  "end": 6.765
+ },
+ {
+  "word": "five-hour",
+  "start": 6.765,
+  "end": 7.24
+ },
+ {
+  "word": "quota",
+  "start": 7.24,
+  "end": 7.615
+ },
+ {
+  "word": "and",
+  "start": 7.615,
+  "end": 7.728
+ },
+ {
+  "word": "a",
+  "start": 7.728,
+  "end": 7.79
+ },
+ {
+  "word": "weekly",
+  "start": 7.79,
+  "end": 8.115
+ },
+ {
+  "word": "cap.",
+  "start": 8.115,
+  "end": 8.815
+ },
+ {
+  "word": "But",
+  "start": 8.815,
+  "end": 8.965
+ },
+ {
+  "word": "no",
+  "start": 8.965,
+  "end": 9.14
+ },
+ {
+  "word": "numbers.",
+  "start": 9.14,
+  "end": 9.803
+ },
+ {
+  "word": "Anywhere.",
+  "start": 9.803,
+  "end": 10.69
+ },
+ {
+  "word": "On",
+  "start": 10.69,
+  "end": 10.865
+ },
+ {
+  "word": "Google's",
+  "start": 10.865,
+  "end": 11.203
+ },
+ {
+  "word": "own",
+  "start": 11.203,
+  "end": 11.403
+ },
+ {
+  "word": "forum,",
+  "start": 11.403,
+  "end": 11.903
+ },
+ {
+  "word": "Pro",
+  "start": 11.903,
+  "end": 12.165
+ },
+ {
+  "word": "users",
+  "start": 12.165,
+  "end": 12.54
+ },
+ {
+  "word": "report",
+  "start": 12.54,
+  "end": 12.84
+ },
+ {
+  "word": "lockouts",
+  "start": 12.84,
+  "end": 13.278
+ },
+ {
+  "word": "of",
+  "start": 13.278,
+  "end": 13.365
+ },
+ {
+  "word": "five",
+  "start": 13.365,
+  "end": 13.64
+ },
+ {
+  "word": "to",
+  "start": 13.64,
+  "end": 13.74
+ },
+ {
+  "word": "seven",
+  "start": 13.74,
+  "end": 14.065
+ },
+ {
+  "word": "days.",
+  "start": 14.065,
+  "end": 14.978
+ },
+ {
+  "word": "Google",
+  "start": 14.978,
+  "end": 15.315
+ },
+ {
+  "word": "says",
+  "start": 15.315,
+  "end": 15.528
+ },
+ {
+  "word": "that's",
+  "start": 15.528,
+  "end": 15.765
+ },
+ {
+  "word": "the",
+  "start": 15.765,
+  "end": 15.903
+ },
+ {
+  "word": "weekly",
+  "start": 15.903,
+  "end": 16.265
+ },
+ {
+  "word": "limit",
+  "start": 16.265,
+  "end": 16.54
+ },
+ {
+  "word": "working",
+  "start": 16.54,
+  "end": 16.89
+ },
+ {
+  "word": "as",
+  "start": 16.89,
+  "end": 17.015
+ },
+ {
+  "word": "intended.",
+  "start": 17.015,
+  "end": 18.028
+ },
+ {
+  "word": "Devin",
+  "start": 18.028,
+  "end": 18.365
+ },
+ {
+  "word": "Pro,",
+  "start": 18.365,
+  "end": 18.803
+ },
+ {
+  "word": "formerly",
+  "start": 18.803,
+  "end": 19.215
+ },
+ {
+  "word": "Windsurf,",
+  "start": 19.215,
+  "end": 19.765
+ },
+ {
+  "word": "is",
+  "start": 19.765,
+  "end": 19.878
+ },
+ {
+  "word": "the",
+  "start": 19.878,
+  "end": 19.978
+ },
+ {
+  "word": "same",
+  "start": 19.978,
+  "end": 20.29
+ },
+ {
+  "word": "story:",
+  "start": 20.29,
+  "end": 20.928
+ },
+ {
+  "word": "a",
+  "start": 20.928,
+  "end": 21.053
+ },
+ {
+  "word": "daily",
+  "start": 21.053,
+  "end": 21.49
+ },
+ {
+  "word": "and",
+  "start": 21.49,
+  "end": 21.615
+ },
+ {
+  "word": "weekly",
+  "start": 21.615,
+  "end": 21.94
+ },
+ {
+  "word": "quota,",
+  "start": 21.94,
+  "end": 22.403
+ },
+ {
+  "word": "zero",
+  "start": 22.403,
+  "end": 22.74
+ },
+ {
+  "word": "numbers.",
+  "start": 22.74,
+  "end": 23.628
+ },
+ {
+  "word": "What",
+  "start": 23.628,
+  "end": 23.84
+ },
+ {
+  "word": "Google",
+  "start": 23.84,
+  "end": 24.19
+ },
+ {
+  "word": "does",
+  "start": 24.19,
+  "end": 24.415
+ },
+ {
+  "word": "give",
+  "start": 24.415,
+  "end": 24.615
+ },
+ {
+  "word": "you:",
+  "start": 24.615,
+  "end": 25.103
+ },
+ {
+  "word": "five",
+  "start": 25.103,
+  "end": 25.465
+ },
+ {
+  "word": "terabytes",
+  "start": 25.465,
+  "end": 25.978
+ },
+ {
+  "word": "of",
+  "start": 25.978,
+  "end": 26.065
+ },
+ {
+  "word": "storage,",
+  "start": 26.065,
+  "end": 26.64
+ },
+ {
+  "word": "and",
+  "start": 26.64,
+  "end": 26.778
+ },
+ {
+  "word": "YouTube",
+  "start": 26.778,
+  "end": 27.215
+ },
+ {
+  "word": "Premium",
+  "start": 27.215,
+  "end": 27.615
+ },
+ {
+  "word": "Lite.",
+  "start": 27.615,
+  "end": 28.328
+ },
+ {
+  "word": "You're",
+  "start": 28.69,
+  "end": 28.815
+ },
+ {
+  "word": "buying",
+  "start": 28.815,
+  "end": 29.128
+ },
+ {
+  "word": "a",
+  "start": 29.128,
+  "end": 29.19
+ },
+ {
+  "word": "bundle,",
+  "start": 29.19,
+  "end": 29.815
+ },
+ {
+  "word": "not",
+  "start": 29.815,
+  "end": 29.978
+ },
+ {
+  "word": "a",
+  "start": 29.978,
+  "end": 30.04
+ },
+ {
+  "word": "coding",
+  "start": 30.04,
+  "end": 30.415
+ },
+ {
+  "word": "plan.",
+  "start": 30.415,
+  "end": 30.853
+ }
+]

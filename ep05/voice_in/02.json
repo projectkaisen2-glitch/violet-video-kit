@@ -1,0 +1,417 @@
+[
+ {
+  "word": "GitHub",
+  "start": 0.0,
+  "end": 0.291
+ },
+ {
+  "word": "Copilot",
+  "start": 0.291,
+  "end": 0.741
+ },
+ {
+  "word": "Pro",
+  "start": 0.741,
+  "end": 0.991
+ },
+ {
+  "word": "costs",
+  "start": 0.991,
+  "end": 1.366
+ },
+ {
+  "word": "ten",
+  "start": 1.366,
+  "end": 1.616
+ },
+ {
+  "word": "dollars,",
+  "start": 1.616,
+  "end": 2.191
+ },
+ {
+  "word": "and",
+  "start": 2.191,
+  "end": 2.304
+ },
+ {
+  "word": "gives",
+  "start": 2.304,
+  "end": 2.454
+ },
+ {
+  "word": "you",
+  "start": 2.454,
+  "end": 2.541
+ },
+ {
+  "word": "exactly",
+  "start": 2.541,
+  "end": 3.054
+ },
+ {
+  "word": "fifteen",
+  "start": 3.054,
+  "end": 3.516
+ },
+ {
+  "word": "dollars",
+  "start": 3.516,
+  "end": 3.879
+ },
+ {
+  "word": "of",
+  "start": 3.879,
+  "end": 3.954
+ },
+ {
+  "word": "A",
+  "start": 3.954,
+  "end": 4.016
+ },
+ {
+  "word": "I.",
+  "start": 4.016,
+  "end": 4.241
+ },
+ {
+  "word": "Since",
+  "start": 4.241,
+  "end": 4.479
+ },
+ {
+  "word": "June,",
+  "start": 4.479,
+  "end": 5.104
+ },
+ {
+  "word": "Copilot",
+  "start": 5.104,
+  "end": 5.641
+ },
+ {
+  "word": "runs",
+  "start": 5.641,
+  "end": 5.979
+ },
+ {
+  "word": "on",
+  "start": 5.979,
+  "end": 6.079
+ },
+ {
+  "word": "A",
+  "start": 6.079,
+  "end": 6.141
+ },
+ {
+  "word": "I",
+  "start": 6.141,
+  "end": 6.316
+ },
+ {
+  "word": "Credits:",
+  "start": 6.316,
+  "end": 7.204
+ },
+ {
+  "word": "fifteen",
+  "start": 7.204,
+  "end": 7.579
+ },
+ {
+  "word": "hundred",
+  "start": 7.579,
+  "end": 7.804
+ },
+ {
+  "word": "a",
+  "start": 7.804,
+  "end": 7.866
+ },
+ {
+  "word": "month,",
+  "start": 7.866,
+  "end": 8.191
+ },
+ {
+  "word": "one",
+  "start": 8.191,
+  "end": 8.416
+ },
+ {
+  "word": "cent",
+  "start": 8.416,
+  "end": 8.666
+ },
+ {
+  "word": "each.",
+  "start": 8.666,
+  "end": 9.316
+ },
+ {
+  "word": "And",
+  "start": 9.316,
+  "end": 9.466
+ },
+ {
+  "word": "Copilot",
+  "start": 9.466,
+  "end": 9.941
+ },
+ {
+  "word": "charges",
+  "start": 9.941,
+  "end": 10.316
+ },
+ {
+  "word": "the",
+  "start": 10.316,
+  "end": 10.454
+ },
+ {
+  "word": "same",
+  "start": 10.454,
+  "end": 10.766
+ },
+ {
+  "word": "A",
+  "start": 10.766,
+  "end": 10.979
+ },
+ {
+  "word": "P",
+  "start": 10.979,
+  "end": 11.216
+ },
+ {
+  "word": "I",
+  "start": 11.216,
+  "end": 11.366
+ },
+ {
+  "word": "prices",
+  "start": 11.366,
+  "end": 11.841
+ },
+ {
+  "word": "as",
+  "start": 11.841,
+  "end": 11.979
+ },
+ {
+  "word": "Anthropic.",
+  "start": 11.979,
+  "end": 13.029
+ },
+ {
+  "word": "So",
+  "start": 13.029,
+  "end": 13.154
+ },
+ {
+  "word": "that's",
+  "start": 13.154,
+  "end": 13.354
+ },
+ {
+  "word": "about",
+  "start": 13.354,
+  "end": 13.604
+ },
+ {
+  "word": "fourteen",
+  "start": 13.604,
+  "end": 14.066
+ },
+ {
+  "word": "Opus",
+  "start": 14.066,
+  "end": 14.391
+ },
+ {
+  "word": "bug",
+  "start": 14.391,
+  "end": 14.616
+ },
+ {
+  "word": "fixes.",
+  "start": 14.616,
+  "end": 15.404
+ },
+ {
+  "word": "A",
+  "start": 15.404,
+  "end": 15.516
+ },
+ {
+  "word": "month.",
+  "start": 15.516,
+  "end": 16.104
+ },
+ {
+  "word": "Pro",
+  "start": 16.104,
+  "end": 16.366
+ },
+ {
+  "word": "Plus,",
+  "start": 16.366,
+  "end": 16.741
+ },
+ {
+  "word": "thirty-nine",
+  "start": 16.741,
+  "end": 17.191
+ },
+ {
+  "word": "dollars,",
+  "start": 17.191,
+  "end": 17.641
+ },
+ {
+  "word": "is",
+  "start": 17.641,
+  "end": 17.804
+ },
+ {
+  "word": "seventy",
+  "start": 17.804,
+  "end": 18.216
+ },
+ {
+  "word": "dollars",
+  "start": 18.216,
+  "end": 18.579
+ },
+ {
+  "word": "of",
+  "start": 18.579,
+  "end": 18.666
+ },
+ {
+  "word": "credits.",
+  "start": 18.666,
+  "end": 19.604
+ },
+ {
+  "word": "GitHub",
+  "start": 19.604,
+  "end": 19.966
+ },
+ {
+  "word": "also",
+  "start": 19.966,
+  "end": 20.341
+ },
+ {
+  "word": "removed",
+  "start": 20.341,
+  "end": 20.779
+ },
+ {
+  "word": "the",
+  "start": 20.779,
+  "end": 20.879
+ },
+ {
+  "word": "free",
+  "start": 20.879,
+  "end": 21.129
+ },
+ {
+  "word": "fallback",
+  "start": 21.129,
+  "end": 21.566
+ },
+ {
+  "word": "models.",
+  "start": 21.566,
+  "end": 22.366
+ },
+ {
+  "word": "When",
+  "start": 22.366,
+  "end": 22.516
+ },
+ {
+  "word": "credits",
+  "start": 22.516,
+  "end": 22.891
+ },
+ {
+  "word": "run",
+  "start": 22.891,
+  "end": 23.066
+ },
+ {
+  "word": "out,",
+  "start": 23.066,
+  "end": 23.341
+ },
+ {
+  "word": "you",
+  "start": 23.341,
+  "end": 23.479
+ },
+ {
+  "word": "pay,",
+  "start": 23.479,
+  "end": 23.891
+ },
+ {
+  "word": "or",
+  "start": 23.891,
+  "end": 24.016
+ },
+ {
+  "word": "you",
+  "start": 24.016,
+  "end": 24.166
+ },
+ {
+  "word": "wait.",
+  "start": 24.166,
+  "end": 24.954
+ },
+ {
+  "word": "What's",
+  "start": 24.954,
+  "end": 25.216
+ },
+ {
+  "word": "still",
+  "start": 25.216,
+  "end": 25.491
+ },
+ {
+  "word": "unlimited:",
+  "start": 25.491,
+  "end": 26.241
+ },
+ {
+  "word": "autocomplete.",
+  "start": 26.241,
+  "end": 27.429
+ },
+ {
+  "word": "Great",
+  "start": 27.791,
+  "end": 28.066
+ },
+ {
+  "word": "autocomplete,",
+  "start": 28.066,
+  "end": 28.916
+ },
+ {
+  "word": "tiny",
+  "start": 28.916,
+  "end": 29.266
+ },
+ {
+  "word": "agent.",
+  "start": 29.266,
+  "end": 29.776
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "word": "Every",
+  "start": 0.0,
+  "end": 0.255
+ },
+ {
+  "word": "plan,",
+  "start": 0.255,
+  "end": 0.755
+ },
+ {
+  "word": "priced",
+  "start": 0.755,
+  "end": 1.13
+ },
+ {
+  "word": "in",
+  "start": 1.13,
+  "end": 1.28
+ },
+ {
+  "word": "one",
+  "start": 1.28,
+  "end": 1.505
+ },
+ {
+  "word": "currency.",
+  "start": 1.505,
+  "end": 2.467
+ },
+ {
+  "word": "Full",
+  "start": 2.467,
+  "end": 2.68
+ },
+ {
+  "word": "breakdown",
+  "start": 2.68,
+  "end": 3.192
+ },
+ {
+  "word": "on",
+  "start": 3.192,
+  "end": 3.292
+ },
+ {
+  "word": "my",
+  "start": 3.292,
+  "end": 3.467
+ },
+ {
+  "word": "channel.",
+  "start": 3.467,
+  "end": 3.911
+ }
+]

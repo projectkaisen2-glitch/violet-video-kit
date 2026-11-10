@@ -1,0 +1,432 @@
+[
+ {
+  "word": "If",
+  "start": 0.0,
+  "end": 0.061
+ },
+ {
+  "word": "you're",
+  "start": 0.061,
+  "end": 0.186
+ },
+ {
+  "word": "a",
+  "start": 0.186,
+  "end": 0.249
+ },
+ {
+  "word": "student,",
+  "start": 0.249,
+  "end": 0.699
+ },
+ {
+  "word": "you",
+  "start": 0.699,
+  "end": 0.799
+ },
+ {
+  "word": "can",
+  "start": 0.799,
+  "end": 0.924
+ },
+ {
+  "word": "get",
+  "start": 0.924,
+  "end": 1.061
+ },
+ {
+  "word": "an",
+  "start": 1.061,
+  "end": 1.186
+ },
+ {
+  "word": "A",
+  "start": 1.186,
+  "end": 1.436
+ },
+ {
+  "word": "I",
+  "start": 1.436,
+  "end": 1.686
+ },
+ {
+  "word": "coding",
+  "start": 1.686,
+  "end": 2.074
+ },
+ {
+  "word": "agent",
+  "start": 2.074,
+  "end": 2.399
+ },
+ {
+  "word": "for",
+  "start": 2.399,
+  "end": 2.549
+ },
+ {
+  "word": "zero",
+  "start": 2.549,
+  "end": 2.849
+ },
+ {
+  "word": "dollars.",
+  "start": 2.849,
+  "end": 3.861
+ },
+ {
+  "word": "Copilot",
+  "start": 3.861,
+  "end": 4.349
+ },
+ {
+  "word": "Student",
+  "start": 4.349,
+  "end": 4.699
+ },
+ {
+  "word": "is",
+  "start": 4.699,
+  "end": 4.861
+ },
+ {
+  "word": "free",
+  "start": 4.861,
+  "end": 5.099
+ },
+ {
+  "word": "for",
+  "start": 5.099,
+  "end": 5.224
+ },
+ {
+  "word": "verified",
+  "start": 5.224,
+  "end": 5.724
+ },
+ {
+  "word": "students,",
+  "start": 5.724,
+  "end": 6.136
+ },
+ {
+  "word": "including",
+  "start": 6.136,
+  "end": 6.524
+ },
+ {
+  "word": "high",
+  "start": 6.524,
+  "end": 6.749
+ },
+ {
+  "word": "school.",
+  "start": 6.749,
+  "end": 7.499
+ },
+ {
+  "word": "You",
+  "start": 7.499,
+  "end": 7.611
+ },
+ {
+  "word": "get",
+  "start": 7.611,
+  "end": 7.749
+ },
+ {
+  "word": "unlimited",
+  "start": 7.749,
+  "end": 8.299
+ },
+ {
+  "word": "autocomplete",
+  "start": 8.299,
+  "end": 9.111
+ },
+ {
+  "word": "and,",
+  "start": 9.111,
+  "end": 9.261
+ },
+ {
+  "word": "by",
+  "start": 9.261,
+  "end": 9.436
+ },
+ {
+  "word": "third-party",
+  "start": 9.436,
+  "end": 9.974
+ },
+ {
+  "word": "reports,",
+  "start": 9.974,
+  "end": 10.449
+ },
+ {
+  "word": "about",
+  "start": 10.449,
+  "end": 10.724
+ },
+ {
+  "word": "two",
+  "start": 10.724,
+  "end": 10.886
+ },
+ {
+  "word": "hundred",
+  "start": 10.886,
+  "end": 11.174
+ },
+ {
+  "word": "A",
+  "start": 11.174,
+  "end": 11.399
+ },
+ {
+  "word": "I",
+  "start": 11.399,
+  "end": 11.549
+ },
+ {
+  "word": "credits",
+  "start": 11.549,
+  "end": 11.886
+ },
+ {
+  "word": "a",
+  "start": 11.886,
+  "end": 11.949
+ },
+ {
+  "word": "month,",
+  "start": 11.949,
+  "end": 12.324
+ },
+ {
+  "word": "on",
+  "start": 12.324,
+  "end": 12.511
+ },
+ {
+  "word": "automatic",
+  "start": 12.511,
+  "end": 13.124
+ },
+ {
+  "word": "model",
+  "start": 13.124,
+  "end": 13.449
+ },
+ {
+  "word": "choice",
+  "start": 13.449,
+  "end": 13.749
+ },
+ {
+  "word": "only.",
+  "start": 13.749,
+  "end": 14.536
+ },
+ {
+  "word": "Not",
+  "start": 14.536,
+  "end": 14.736
+ },
+ {
+  "word": "a",
+  "start": 14.736,
+  "end": 14.799
+ },
+ {
+  "word": "student?",
+  "start": 14.799,
+  "end": 15.661
+ },
+ {
+  "word": "Copilot",
+  "start": 15.661,
+  "end": 16.199
+ },
+ {
+  "word": "Free",
+  "start": 16.199,
+  "end": 16.424
+ },
+ {
+  "word": "gives",
+  "start": 16.424,
+  "end": 16.686
+ },
+ {
+  "word": "two",
+  "start": 16.686,
+  "end": 16.924
+ },
+ {
+  "word": "thousand",
+  "start": 16.924,
+  "end": 17.286
+ },
+ {
+  "word": "completions",
+  "start": 17.286,
+  "end": 17.811
+ },
+ {
+  "word": "a",
+  "start": 17.811,
+  "end": 17.874
+ },
+ {
+  "word": "month.",
+  "start": 17.874,
+  "end": 18.599
+ },
+ {
+  "word": "And",
+  "start": 18.599,
+  "end": 18.736
+ },
+ {
+  "word": "the",
+  "start": 18.736,
+  "end": 18.849
+ },
+ {
+  "word": "only",
+  "start": 18.849,
+  "end": 19.199
+ },
+ {
+  "word": "truly",
+  "start": 19.199,
+  "end": 19.624
+ },
+ {
+  "word": "unlimited",
+  "start": 19.624,
+  "end": 20.124
+ },
+ {
+  "word": "option:",
+  "start": 20.124,
+  "end": 20.811
+ },
+ {
+  "word": "a",
+  "start": 20.811,
+  "end": 20.924
+ },
+ {
+  "word": "local",
+  "start": 20.924,
+  "end": 21.274
+ },
+ {
+  "word": "model",
+  "start": 21.274,
+  "end": 21.636
+ },
+ {
+  "word": "on",
+  "start": 21.636,
+  "end": 21.736
+ },
+ {
+  "word": "your",
+  "start": 21.736,
+  "end": 21.874
+ },
+ {
+  "word": "own",
+  "start": 21.874,
+  "end": 22.099
+ },
+ {
+  "word": "computer.",
+  "start": 22.099,
+  "end": 23.136
+ },
+ {
+  "word": "Slower,",
+  "start": 23.136,
+  "end": 23.774
+ },
+ {
+  "word": "weaker,",
+  "start": 23.774,
+  "end": 24.324
+ },
+ {
+  "word": "but",
+  "start": 24.324,
+  "end": 24.474
+ },
+ {
+  "word": "no",
+  "start": 24.474,
+  "end": 24.674
+ },
+ {
+  "word": "limits,",
+  "start": 24.674,
+  "end": 25.124
+ },
+ {
+  "word": "and",
+  "start": 25.124,
+  "end": 25.249
+ },
+ {
+  "word": "nothing",
+  "start": 25.249,
+  "end": 25.624
+ },
+ {
+  "word": "leaves",
+  "start": 25.624,
+  "end": 25.861
+ },
+ {
+  "word": "your",
+  "start": 25.861,
+  "end": 25.961
+ },
+ {
+  "word": "machine.",
+  "start": 25.961,
+  "end": 26.886
+ },
+ {
+  "word": "Zero",
+  "start": 27.299,
+  "end": 27.574
+ },
+ {
+  "word": "dollars",
+  "start": 27.574,
+  "end": 28.136
+ },
+ {
+  "word": "is",
+  "start": 28.136,
+  "end": 28.261
+ },
+ {
+  "word": "a",
+  "start": 28.261,
+  "end": 28.349
+ },
+ {
+  "word": "real",
+  "start": 28.349,
+  "end": 28.624
+ },
+ {
+  "word": "plan.",
+  "start": 28.624,
+  "end": 29.093
+ }
+]

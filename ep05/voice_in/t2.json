@@ -1,0 +1,57 @@
+[
+ {
+  "word": "Which",
+  "start": 0.0,
+  "end": 0.176
+ },
+ {
+  "word": "twenty",
+  "start": 0.176,
+  "end": 0.514
+ },
+ {
+  "word": "dollars",
+  "start": 0.514,
+  "end": 0.939
+ },
+ {
+  "word": "buys",
+  "start": 0.939,
+  "end": 1.251
+ },
+ {
+  "word": "the",
+  "start": 1.251,
+  "end": 1.339
+ },
+ {
+  "word": "most?",
+  "start": 1.339,
+  "end": 2.051
+ },
+ {
+  "word": "Full",
+  "start": 2.051,
+  "end": 2.264
+ },
+ {
+  "word": "video",
+  "start": 2.264,
+  "end": 2.651
+ },
+ {
+  "word": "on",
+  "start": 2.651,
+  "end": 2.751
+ },
+ {
+  "word": "my",
+  "start": 2.751,
+  "end": 2.926
+ },
+ {
+  "word": "channel.",
+  "start": 2.926,
+  "end": 3.374
+ }
+]

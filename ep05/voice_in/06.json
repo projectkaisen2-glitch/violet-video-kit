@@ -1,0 +1,532 @@
+[
+ {
+  "word": "There",
+  "start": 0.0,
+  "end": 0.067
+ },
+ {
+  "word": "are",
+  "start": 0.067,
+  "end": 0.142
+ },
+ {
+  "word": "A",
+  "start": 0.142,
+  "end": 0.241
+ },
+ {
+  "word": "I",
+  "start": 0.241,
+  "end": 0.479
+ },
+ {
+  "word": "coding",
+  "start": 0.479,
+  "end": 0.829
+ },
+ {
+  "word": "plans",
+  "start": 0.829,
+  "end": 1.229
+ },
+ {
+  "word": "for",
+  "start": 1.229,
+  "end": 1.354
+ },
+ {
+  "word": "ten",
+  "start": 1.354,
+  "end": 1.604
+ },
+ {
+  "word": "dollars.",
+  "start": 1.604,
+  "end": 2.416
+ },
+ {
+  "word": "Here's",
+  "start": 2.416,
+  "end": 2.716
+ },
+ {
+  "word": "the",
+  "start": 2.716,
+  "end": 2.804
+ },
+ {
+  "word": "catch.",
+  "start": 2.804,
+  "end": 3.692
+ },
+ {
+  "word": "OpenCode",
+  "start": 3.692,
+  "end": 4.254
+ },
+ {
+  "word": "Go",
+  "start": 4.254,
+  "end": 4.454
+ },
+ {
+  "word": "is",
+  "start": 4.454,
+  "end": 4.617
+ },
+ {
+  "word": "ten",
+  "start": 4.617,
+  "end": 4.879
+ },
+ {
+  "word": "dollars",
+  "start": 4.879,
+  "end": 5.279
+ },
+ {
+  "word": "for",
+  "start": 5.279,
+  "end": 5.392
+ },
+ {
+  "word": "up",
+  "start": 5.392,
+  "end": 5.529
+ },
+ {
+  "word": "to",
+  "start": 5.529,
+  "end": 5.654
+ },
+ {
+  "word": "sixty",
+  "start": 5.654,
+  "end": 6.004
+ },
+ {
+  "word": "dollars",
+  "start": 6.004,
+  "end": 6.341
+ },
+ {
+  "word": "of",
+  "start": 6.341,
+  "end": 6.429
+ },
+ {
+  "word": "usage",
+  "start": 6.429,
+  "end": 6.716
+ },
+ {
+  "word": "a",
+  "start": 6.716,
+  "end": 6.779
+ },
+ {
+  "word": "month,",
+  "start": 6.779,
+  "end": 7.304
+ },
+ {
+  "word": "across",
+  "start": 7.304,
+  "end": 7.654
+ },
+ {
+  "word": "thirty-two",
+  "start": 7.654,
+  "end": 8.079
+ },
+ {
+  "word": "models,",
+  "start": 8.079,
+  "end": 8.792
+ },
+ {
+  "word": "mostly",
+  "start": 8.792,
+  "end": 9.179
+ },
+ {
+  "word": "open",
+  "start": 9.179,
+  "end": 9.479
+ },
+ {
+  "word": "ones",
+  "start": 9.479,
+  "end": 9.716
+ },
+ {
+  "word": "like",
+  "start": 9.716,
+  "end": 9.929
+ },
+ {
+  "word": "Kimi,",
+  "start": 9.929,
+  "end": 10.542
+ },
+ {
+  "word": "G",
+  "start": 10.542,
+  "end": 10.754
+ },
+ {
+  "word": "L",
+  "start": 10.754,
+  "end": 10.966
+ },
+ {
+  "word": "M",
+  "start": 10.966,
+  "end": 11.329
+ },
+ {
+  "word": "and",
+  "start": 11.329,
+  "end": 11.454
+ },
+ {
+  "word": "DeepSeek.",
+  "start": 11.454,
+  "end": 12.454
+ },
+ {
+  "word": "Z",
+  "start": 12.454,
+  "end": 12.679
+ },
+ {
+  "word": "dot",
+  "start": 12.679,
+  "end": 12.929
+ },
+ {
+  "word": "A",
+  "start": 12.929,
+  "end": 13.104
+ },
+ {
+  "word": "I's",
+  "start": 13.104,
+  "end": 13.417
+ },
+ {
+  "word": "G",
+  "start": 13.417,
+  "end": 13.604
+ },
+ {
+  "word": "L",
+  "start": 13.604,
+  "end": 13.804
+ },
+ {
+  "word": "M",
+  "start": 13.804,
+  "end": 14.004
+ },
+ {
+  "word": "plan",
+  "start": 14.004,
+  "end": 14.354
+ },
+ {
+  "word": "starts",
+  "start": 14.354,
+  "end": 14.667
+ },
+ {
+  "word": "at",
+  "start": 14.667,
+  "end": 14.754
+ },
+ {
+  "word": "eighteen.",
+  "start": 14.754,
+  "end": 15.729
+ },
+ {
+  "word": "They",
+  "start": 15.729,
+  "end": 15.904
+ },
+ {
+  "word": "plug",
+  "start": 15.904,
+  "end": 16.179
+ },
+ {
+  "word": "straight",
+  "start": 16.179,
+  "end": 16.416
+ },
+ {
+  "word": "into",
+  "start": 16.416,
+  "end": 16.641
+ },
+ {
+  "word": "tools",
+  "start": 16.641,
+  "end": 17.054
+ },
+ {
+  "word": "like",
+  "start": 17.054,
+  "end": 17.279
+ },
+ {
+  "word": "Claude",
+  "start": 17.279,
+  "end": 17.579
+ },
+ {
+  "word": "Code.",
+  "start": 17.579,
+  "end": 18.354
+ },
+ {
+  "word": "The",
+  "start": 18.354,
+  "end": 18.454
+ },
+ {
+  "word": "catches:",
+  "start": 18.454,
+  "end": 19.304
+ },
+ {
+  "word": "your",
+  "start": 19.304,
+  "end": 19.479
+ },
+ {
+  "word": "code",
+  "start": 19.479,
+  "end": 19.804
+ },
+ {
+  "word": "goes",
+  "start": 19.804,
+  "end": 20.054
+ },
+ {
+  "word": "to",
+  "start": 20.054,
+  "end": 20.191
+ },
+ {
+  "word": "servers",
+  "start": 20.191,
+  "end": 20.641
+ },
+ {
+  "word": "under",
+  "start": 20.641,
+  "end": 20.829
+ },
+ {
+  "word": "Chinese",
+  "start": 20.829,
+  "end": 21.304
+ },
+ {
+  "word": "jurisdiction.",
+  "start": 21.304,
+  "end": 22.441
+ },
+ {
+  "word": "Quotas",
+  "start": 22.441,
+  "end": 22.829
+ },
+ {
+  "word": "get",
+  "start": 22.829,
+  "end": 23.004
+ },
+ {
+  "word": "rewritten",
+  "start": 23.004,
+  "end": 23.454
+ },
+ {
+  "word": "every",
+  "start": 23.454,
+  "end": 23.754
+ },
+ {
+  "word": "few",
+  "start": 23.754,
+  "end": 23.929
+ },
+ {
+  "word": "months.",
+  "start": 23.929,
+  "end": 24.804
+ },
+ {
+  "word": "G",
+  "start": 24.804,
+  "end": 25.004
+ },
+ {
+  "word": "L",
+  "start": 25.004,
+  "end": 25.204
+ },
+ {
+  "word": "M",
+  "start": 25.204,
+  "end": 25.454
+ },
+ {
+  "word": "burns",
+  "start": 25.454,
+  "end": 25.854
+ },
+ {
+  "word": "credits",
+  "start": 25.854,
+  "end": 26.241
+ },
+ {
+  "word": "twice",
+  "start": 26.241,
+  "end": 26.704
+ },
+ {
+  "word": "as",
+  "start": 26.704,
+  "end": 26.854
+ },
+ {
+  "word": "fast",
+  "start": 26.854,
+  "end": 27.254
+ },
+ {
+  "word": "in",
+  "start": 27.254,
+  "end": 27.416
+ },
+ {
+  "word": "Singapore's",
+  "start": 27.416,
+  "end": 27.954
+ },
+ {
+  "word": "afternoon",
+  "start": 27.954,
+  "end": 28.479
+ },
+ {
+  "word": "peak.",
+  "start": 28.479,
+  "end": 29.241
+ },
+ {
+  "word": "And",
+  "start": 29.579,
+  "end": 29.729
+ },
+ {
+  "word": "as",
+  "start": 29.729,
+  "end": 29.879
+ },
+ {
+  "word": "good",
+  "start": 29.879,
+  "end": 30.016
+ },
+ {
+  "word": "as",
+  "start": 30.016,
+  "end": 30.141
+ },
+ {
+  "word": "Sonnet",
+  "start": 30.141,
+  "end": 30.554
+ },
+ {
+  "word": "is",
+  "start": 30.554,
+  "end": 30.691
+ },
+ {
+  "word": "the",
+  "start": 30.691,
+  "end": 30.779
+ },
+ {
+  "word": "vendors'",
+  "start": 30.779,
+  "end": 31.229
+ },
+ {
+  "word": "claim,",
+  "start": 31.229,
+  "end": 31.704
+ },
+ {
+  "word": "not",
+  "start": 31.704,
+  "end": 31.929
+ },
+ {
+  "word": "mine.",
+  "start": 31.929,
+  "end": 32.679
+ },
+ {
+  "word": "Cheap",
+  "start": 32.679,
+  "end": 33.029
+ },
+ {
+  "word": "and",
+  "start": 33.029,
+  "end": 33.154
+ },
+ {
+  "word": "real.",
+  "start": 33.154,
+  "end": 33.867
+ },
+ {
+  "word": "Just",
+  "start": 33.867,
+  "end": 34.129
+ },
+ {
+  "word": "not",
+  "start": 34.129,
+  "end": 34.354
+ },
+ {
+  "word": "for",
+  "start": 34.354,
+  "end": 34.467
+ },
+ {
+  "word": "your",
+  "start": 34.467,
+  "end": 34.579
+ },
+ {
+  "word": "company's",
+  "start": 34.579,
+  "end": 35.029
+ },
+ {
+  "word": "code.",
+  "start": 35.029,
+  "end": 35.454
+ }
+]

@@ -1,0 +1,192 @@
+[
+ {
+  "word": "Who",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "it's",
+  "start": 0.128,
+  "end": 0.328
+ },
+ {
+  "word": "for:",
+  "start": 0.328,
+  "end": 0.728
+ },
+ {
+  "word": "you",
+  "start": 0.728,
+  "end": 0.878
+ },
+ {
+  "word": "love",
+  "start": 0.878,
+  "end": 1.128
+ },
+ {
+  "word": "Cursor's",
+  "start": 1.128,
+  "end": 1.553
+ },
+ {
+  "word": "editor,",
+  "start": 1.553,
+  "end": 2.053
+ },
+ {
+  "word": "and",
+  "start": 2.053,
+  "end": 2.165
+ },
+ {
+  "word": "you're",
+  "start": 2.165,
+  "end": 2.34
+ },
+ {
+  "word": "fine",
+  "start": 2.34,
+  "end": 2.665
+ },
+ {
+  "word": "with",
+  "start": 2.665,
+  "end": 2.828
+ },
+ {
+  "word": "Grok.",
+  "start": 2.828,
+  "end": 3.628
+ },
+ {
+  "word": "Who",
+  "start": 3.628,
+  "end": 3.753
+ },
+ {
+  "word": "it's",
+  "start": 3.753,
+  "end": 3.953
+ },
+ {
+  "word": "not",
+  "start": 3.953,
+  "end": 4.203
+ },
+ {
+  "word": "for:",
+  "start": 4.203,
+  "end": 4.728
+ },
+ {
+  "word": "you",
+  "start": 4.728,
+  "end": 4.878
+ },
+ {
+  "word": "came",
+  "start": 4.878,
+  "end": 5.078
+ },
+ {
+  "word": "to",
+  "start": 5.078,
+  "end": 5.178
+ },
+ {
+  "word": "Cursor",
+  "start": 5.178,
+  "end": 5.603
+ },
+ {
+  "word": "for",
+  "start": 5.603,
+  "end": 5.728
+ },
+ {
+  "word": "Claude.",
+  "start": 5.728,
+  "end": 6.653
+ },
+ {
+  "word": "Tip:",
+  "start": 6.653,
+  "end": 7.315
+ },
+ {
+  "word": "set",
+  "start": 7.315,
+  "end": 7.515
+ },
+ {
+  "word": "a",
+  "start": 7.515,
+  "end": 7.628
+ },
+ {
+  "word": "monthly",
+  "start": 7.628,
+  "end": 8.053
+ },
+ {
+  "word": "spending",
+  "start": 8.053,
+  "end": 8.465
+ },
+ {
+  "word": "cap",
+  "start": 8.465,
+  "end": 8.778
+ },
+ {
+  "word": "before",
+  "start": 8.778,
+  "end": 9.078
+ },
+ {
+  "word": "you",
+  "start": 9.078,
+  "end": 9.178
+ },
+ {
+  "word": "top",
+  "start": 9.178,
+  "end": 9.44
+ },
+ {
+  "word": "up.",
+  "start": 9.44,
+  "end": 10.09
+ },
+ {
+  "word": "Top-ups",
+  "start": 10.09,
+  "end": 10.603
+ },
+ {
+  "word": "pay",
+  "start": 10.603,
+  "end": 10.853
+ },
+ {
+  "word": "for",
+  "start": 10.853,
+  "end": 11.015
+ },
+ {
+  "word": "third-party",
+  "start": 11.015,
+  "end": 11.553
+ },
+ {
+  "word": "models",
+  "start": 11.553,
+  "end": 11.953
+ },
+ {
+  "word": "first.",
+  "start": 11.953,
+  "end": 12.437
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.079
+ },
+ {
+  "word": "full",
+  "start": 0.079,
+  "end": 0.317
+ },
+ {
+  "word": "price",
+  "start": 0.317,
+  "end": 0.642
+ },
+ {
+  "word": "math",
+  "start": 0.642,
+  "end": 1.029
+ },
+ {
+  "word": "is",
+  "start": 1.029,
+  "end": 1.154
+ },
+ {
+  "word": "on",
+  "start": 1.154,
+  "end": 1.279
+ },
+ {
+  "word": "my",
+  "start": 1.279,
+  "end": 1.454
+ },
+ {
+  "word": "channel.",
+  "start": 1.454,
+  "end": 1.927
+ }
+]

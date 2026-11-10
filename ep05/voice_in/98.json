@@ -1,0 +1,512 @@
+[
+ {
+  "word": "Here's",
+  "start": 0.0,
+  "end": 0.244
+ },
+ {
+  "word": "the",
+  "start": 0.244,
+  "end": 0.344
+ },
+ {
+  "word": "cheat",
+  "start": 0.344,
+  "end": 0.619
+ },
+ {
+  "word": "sheet.",
+  "start": 0.619,
+  "end": 1.394
+ },
+ {
+  "word": "Learning,",
+  "start": 1.394,
+  "end": 1.882
+ },
+ {
+  "word": "or",
+  "start": 1.882,
+  "end": 2.007
+ },
+ {
+  "word": "in",
+  "start": 2.007,
+  "end": 2.169
+ },
+ {
+  "word": "school:",
+  "start": 2.169,
+  "end": 2.732
+ },
+ {
+  "word": "Copilot",
+  "start": 2.732,
+  "end": 3.232
+ },
+ {
+  "word": "Student,",
+  "start": 3.232,
+  "end": 3.657
+ },
+ {
+  "word": "or",
+  "start": 3.657,
+  "end": 3.782
+ },
+ {
+  "word": "a",
+  "start": 3.782,
+  "end": 3.857
+ },
+ {
+  "word": "local",
+  "start": 3.857,
+  "end": 4.157
+ },
+ {
+  "word": "model.",
+  "start": 4.157,
+  "end": 4.932
+ },
+ {
+  "word": "Zero",
+  "start": 4.932,
+  "end": 5.282
+ },
+ {
+  "word": "dollars.",
+  "start": 5.282,
+  "end": 5.994
+ },
+ {
+  "word": "Coding",
+  "start": 5.994,
+  "end": 6.344
+ },
+ {
+  "word": "an",
+  "start": 6.344,
+  "end": 6.432
+ },
+ {
+  "word": "hour",
+  "start": 6.432,
+  "end": 6.719
+ },
+ {
+  "word": "a",
+  "start": 6.719,
+  "end": 6.782
+ },
+ {
+  "word": "day:",
+  "start": 6.782,
+  "end": 7.107
+ },
+ {
+  "word": "Claude",
+  "start": 7.107,
+  "end": 7.407
+ },
+ {
+  "word": "Pro.",
+  "start": 7.407,
+  "end": 7.782
+ },
+ {
+  "word": "Most",
+  "start": 7.782,
+  "end": 8.019
+ },
+ {
+  "word": "work",
+  "start": 8.019,
+  "end": 8.207
+ },
+ {
+  "word": "per",
+  "start": 8.207,
+  "end": 8.332
+ },
+ {
+  "word": "dollar.",
+  "start": 8.332,
+  "end": 8.957
+ },
+ {
+  "word": "Already",
+  "start": 8.957,
+  "end": 9.332
+ },
+ {
+  "word": "paying",
+  "start": 9.332,
+  "end": 9.657
+ },
+ {
+  "word": "for",
+  "start": 9.657,
+  "end": 9.782
+ },
+ {
+  "word": "ChatGPT:",
+  "start": 9.782,
+  "end": 10.782
+ },
+ {
+  "word": "use",
+  "start": 10.782,
+  "end": 11.007
+ },
+ {
+  "word": "Codex",
+  "start": 11.007,
+  "end": 11.507
+ },
+ {
+  "word": "before",
+  "start": 11.507,
+  "end": 11.794
+ },
+ {
+  "word": "you",
+  "start": 11.794,
+  "end": 11.882
+ },
+ {
+  "word": "buy",
+  "start": 11.882,
+  "end": 12.082
+ },
+ {
+  "word": "anything",
+  "start": 12.082,
+  "end": 12.407
+ },
+ {
+  "word": "else.",
+  "start": 12.407,
+  "end": 13.219
+ },
+ {
+  "word": "Mostly",
+  "start": 13.219,
+  "end": 13.607
+ },
+ {
+  "word": "autocomplete:",
+  "start": 13.607,
+  "end": 14.382
+ },
+ {
+  "word": "Copilot",
+  "start": 14.382,
+  "end": 14.882
+ },
+ {
+  "word": "Pro,",
+  "start": 14.882,
+  "end": 15.182
+ },
+ {
+  "word": "ten",
+  "start": 15.182,
+  "end": 15.432
+ },
+ {
+  "word": "dollars.",
+  "start": 15.432,
+  "end": 16.219
+ },
+ {
+  "word": "Love",
+  "start": 16.219,
+  "end": 16.444
+ },
+ {
+  "word": "the",
+  "start": 16.444,
+  "end": 16.532
+ },
+ {
+  "word": "Cursor",
+  "start": 16.532,
+  "end": 16.882
+ },
+ {
+  "word": "editor:",
+  "start": 16.882,
+  "end": 17.319
+ },
+ {
+  "word": "Premium,",
+  "start": 17.319,
+  "end": 17.869
+ },
+ {
+  "word": "with",
+  "start": 17.869,
+  "end": 17.994
+ },
+ {
+  "word": "a",
+  "start": 17.994,
+  "end": 18.057
+ },
+ {
+  "word": "spending",
+  "start": 18.057,
+  "end": 18.482
+ },
+ {
+  "word": "cap.",
+  "start": 18.482,
+  "end": 19.219
+ },
+ {
+  "word": "Tight",
+  "start": 19.219,
+  "end": 19.507
+ },
+ {
+  "word": "budget,",
+  "start": 19.507,
+  "end": 19.919
+ },
+ {
+  "word": "side",
+  "start": 19.919,
+  "end": 20.232
+ },
+ {
+  "word": "projects:",
+  "start": 20.232,
+  "end": 20.857
+ },
+ {
+  "word": "OpenCode",
+  "start": 20.857,
+  "end": 21.457
+ },
+ {
+  "word": "Go,",
+  "start": 21.457,
+  "end": 21.769
+ },
+ {
+  "word": "with",
+  "start": 21.769,
+  "end": 21.894
+ },
+ {
+  "word": "the",
+  "start": 21.894,
+  "end": 21.982
+ },
+ {
+  "word": "data",
+  "start": 21.982,
+  "end": 22.282
+ },
+ {
+  "word": "catch.",
+  "start": 22.282,
+  "end": 23.094
+ },
+ {
+  "word": "Agent",
+  "start": 23.094,
+  "end": 23.482
+ },
+ {
+  "word": "running",
+  "start": 23.482,
+  "end": 23.757
+ },
+ {
+  "word": "all",
+  "start": 23.757,
+  "end": 23.982
+ },
+ {
+  "word": "day:",
+  "start": 23.982,
+  "end": 24.394
+ },
+ {
+  "word": "Claude",
+  "start": 24.394,
+  "end": 24.707
+ },
+ {
+  "word": "Max.",
+  "start": 24.707,
+  "end": 25.507
+ },
+ {
+  "word": "And",
+  "start": 25.507,
+  "end": 25.657
+ },
+ {
+  "word": "under",
+  "start": 25.657,
+  "end": 25.882
+ },
+ {
+  "word": "twenty",
+  "start": 25.882,
+  "end": 26.182
+ },
+ {
+  "word": "tasks",
+  "start": 26.182,
+  "end": 26.544
+ },
+ {
+  "word": "a",
+  "start": 26.544,
+  "end": 26.607
+ },
+ {
+  "word": "month:",
+  "start": 26.607,
+  "end": 27.032
+ },
+ {
+  "word": "just",
+  "start": 27.032,
+  "end": 27.257
+ },
+ {
+  "word": "pay",
+  "start": 27.257,
+  "end": 27.482
+ },
+ {
+  "word": "per",
+  "start": 27.482,
+  "end": 27.632
+ },
+ {
+  "word": "token.",
+  "start": 27.632,
+  "end": 28.519
+ },
+ {
+  "word": "Prices",
+  "start": 28.857,
+  "end": 29.307
+ },
+ {
+  "word": "are",
+  "start": 29.307,
+  "end": 29.407
+ },
+ {
+  "word": "before",
+  "start": 29.407,
+  "end": 29.819
+ },
+ {
+  "word": "tax,",
+  "start": 29.819,
+  "end": 30.532
+ },
+ {
+  "word": "and",
+  "start": 30.532,
+  "end": 30.694
+ },
+ {
+  "word": "every",
+  "start": 30.694,
+  "end": 31.007
+ },
+ {
+  "word": "one",
+  "start": 31.007,
+  "end": 31.144
+ },
+ {
+  "word": "of",
+  "start": 31.144,
+  "end": 31.219
+ },
+ {
+  "word": "these",
+  "start": 31.219,
+  "end": 31.444
+ },
+ {
+  "word": "changed",
+  "start": 31.444,
+  "end": 31.882
+ },
+ {
+  "word": "at",
+  "start": 31.882,
+  "end": 31.982
+ },
+ {
+  "word": "least",
+  "start": 31.982,
+  "end": 32.219
+ },
+ {
+  "word": "once",
+  "start": 32.219,
+  "end": 32.457
+ },
+ {
+  "word": "this",
+  "start": 32.457,
+  "end": 32.632
+ },
+ {
+  "word": "year.",
+  "start": 32.632,
+  "end": 33.432
+ },
+ {
+  "word": "Screenshot",
+  "start": 33.432,
+  "end": 34.082
+ },
+ {
+  "word": "this,",
+  "start": 34.082,
+  "end": 34.557
+ },
+ {
+  "word": "and",
+  "start": 34.557,
+  "end": 34.707
+ },
+ {
+  "word": "check",
+  "start": 34.707,
+  "end": 34.969
+ },
+ {
+  "word": "again",
+  "start": 34.969,
+  "end": 35.282
+ },
+ {
+  "word": "in",
+  "start": 35.282,
+  "end": 35.369
+ },
+ {
+  "word": "a",
+  "start": 35.369,
+  "end": 35.432
+ },
+ {
+  "word": "month.",
+  "start": 35.432,
+  "end": 35.802
+ }
+]

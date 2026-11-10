@@ -1,0 +1,227 @@
+[
+ {
+  "word": "Who",
+  "start": 0.0,
+  "end": 0.141
+ },
+ {
+  "word": "it's",
+  "start": 0.141,
+  "end": 0.341
+ },
+ {
+  "word": "for:",
+  "start": 0.341,
+  "end": 0.741
+ },
+ {
+  "word": "you",
+  "start": 0.741,
+  "end": 0.903
+ },
+ {
+  "word": "mostly",
+  "start": 0.903,
+  "end": 1.316
+ },
+ {
+  "word": "want",
+  "start": 1.316,
+  "end": 1.516
+ },
+ {
+  "word": "suggestions",
+  "start": 1.516,
+  "end": 2.166
+ },
+ {
+  "word": "while",
+  "start": 2.166,
+  "end": 2.366
+ },
+ {
+  "word": "you",
+  "start": 2.366,
+  "end": 2.503
+ },
+ {
+  "word": "type,",
+  "start": 2.503,
+  "end": 2.941
+ },
+ {
+  "word": "in",
+  "start": 2.941,
+  "end": 3.103
+ },
+ {
+  "word": "any",
+  "start": 3.103,
+  "end": 3.391
+ },
+ {
+  "word": "editor.",
+  "start": 3.391,
+  "end": 4.303
+ },
+ {
+  "word": "Who",
+  "start": 4.303,
+  "end": 4.466
+ },
+ {
+  "word": "it's",
+  "start": 4.466,
+  "end": 4.666
+ },
+ {
+  "word": "not",
+  "start": 4.666,
+  "end": 4.916
+ },
+ {
+  "word": "for:",
+  "start": 4.916,
+  "end": 5.516
+ },
+ {
+  "word": "you",
+  "start": 5.516,
+  "end": 5.641
+ },
+ {
+  "word": "want",
+  "start": 5.641,
+  "end": 5.803
+ },
+ {
+  "word": "an",
+  "start": 5.803,
+  "end": 5.891
+ },
+ {
+  "word": "agent",
+  "start": 5.891,
+  "end": 6.216
+ },
+ {
+  "word": "to",
+  "start": 6.216,
+  "end": 6.316
+ },
+ {
+  "word": "do",
+  "start": 6.316,
+  "end": 6.491
+ },
+ {
+  "word": "whole",
+  "start": 6.491,
+  "end": 6.741
+ },
+ {
+  "word": "tasks.",
+  "start": 6.741,
+  "end": 7.791
+ },
+ {
+  "word": "Tip:",
+  "start": 7.791,
+  "end": 8.478
+ },
+ {
+  "word": "keep",
+  "start": 8.478,
+  "end": 8.741
+ },
+ {
+  "word": "Copilot",
+  "start": 8.741,
+  "end": 9.266
+ },
+ {
+  "word": "for",
+  "start": 9.266,
+  "end": 9.416
+ },
+ {
+  "word": "autocomplete",
+  "start": 9.416,
+  "end": 10.303
+ },
+ {
+  "word": "and",
+  "start": 10.303,
+  "end": 10.453
+ },
+ {
+  "word": "pair",
+  "start": 10.453,
+  "end": 10.716
+ },
+ {
+  "word": "it",
+  "start": 10.716,
+  "end": 10.828
+ },
+ {
+  "word": "with",
+  "start": 10.828,
+  "end": 10.953
+ },
+ {
+  "word": "a",
+  "start": 10.953,
+  "end": 11.053
+ },
+ {
+  "word": "separate",
+  "start": 11.053,
+  "end": 11.416
+ },
+ {
+  "word": "agent.",
+  "start": 11.416,
+  "end": 12.403
+ },
+ {
+  "word": "Auto",
+  "start": 12.403,
+  "end": 12.716
+ },
+ {
+  "word": "model",
+  "start": 12.716,
+  "end": 13.041
+ },
+ {
+  "word": "selection",
+  "start": 13.041,
+  "end": 13.603
+ },
+ {
+  "word": "also",
+  "start": 13.603,
+  "end": 14.016
+ },
+ {
+  "word": "takes",
+  "start": 14.016,
+  "end": 14.328
+ },
+ {
+  "word": "ten",
+  "start": 14.328,
+  "end": 14.591
+ },
+ {
+  "word": "percent",
+  "start": 14.591,
+  "end": 14.941
+ },
+ {
+  "word": "off.",
+  "start": 14.941,
+  "end": 15.329
+ }
+]
