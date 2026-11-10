@@ -6,7 +6,7 @@ Standard task cost at list price:
 
 plan                   price  API $/mo  value x  tasks/mo $ per task  model
 Claude Pro                20       672     33.6       634       0.03  Opus 5.5  [measured: Wokey, 79 accounts, week 26.10-02.11.2026 (~$155/wk)]
-ChatGPT Plus (Codex)      20       286     14.3       540       0.04  GPT-6.1 Sol  [projected: InventiveHQ from Pro measurements (~$66/wk)]
+ChatGPT Plus (Codex)      20       199     10.0       376       0.05  GPT-6.1 Sol  [measured: Wokey, 6 accounts, week 02-09.11.2026 (~$46/wk)]
 Copilot Pro               10        15      1.5        14       0.71  Opus 5.5  [official: 1,500 AI credits x $0.01 (GitHub Docs)]
 Copilot Pro+              39        70      1.8        66       0.59  Opus 5.5  [official: 7,000 AI credits x $0.01]
 Cursor Premium            30         0      0.0         0        nan  Opus 5.5  [official: Claude/GPT billed at API list price from credit; Grok pool not in $]

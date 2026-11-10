@@ -40,7 +40,7 @@ Opus 5.5 **$1.06**, Sonnet 5.5 / GPT-6.1 Sol **$0.53**, Grok 4.7 $0.80.
 | План | Цена | Включено в $ API в мес | «Отдача» | Задач Opus/мес | $ за задачу |
 |---|---|---|---|---|---|
 | Claude Pro | $20 | ~$672 (MEAS) | **~34×** | ~630 | ~$0.03 |
-| ChatGPT Plus | $20 | ~$286 (PROJ) | ~14× | ~540 (Sol) | ~$0.04 |
+| ChatGPT Plus | $20 | ~$200 (MEAS, 6 акк.) | ~10× | ~376 (Sol) | ~$0.05 |
 | Copilot Pro | $10 | $15 (OFF) | 1.5× | ~14 | $0.71 |
 | Copilot Pro+ | $39 | $70 (OFF) | 1.8× | ~66 | $0.59 |
 | Cursor Premium | $30 | $0 для Claude/GPT (OFF) | 1× (платишь по API) + пул Grok | 0 + по $1.06 | $1.06 |
@@ -64,8 +64,9 @@ Opus 5.5 **$1.06**, Sonnet 5.5 / GPT-6.1 Sol **$0.53**, Grok 4.7 $0.80.
 ## 5. Источники (по изданию и дате; в описание — без URL, П64)
 claude.com/pricing (10.11.2026) · Claude Code docs «Manage costs» · @claudeai X, 30.10.2026 (Ultra) · Hacker News 49506519 / @ClaudeDevs 29.08.2026 · Wokey «Claude usage limits», неделя 26.10–02.11.2026 · learn.chatgpt.com Codex pricing · Notebookcheck 25.08.2026 · InventiveHQ «Codex subscription usage measured» · GitHub Docs: usage-based billing; models and pricing · heise (Copilot, июнь 2026) · Layer3Labs (Copilot Student; Antigravity pricing) · cursor.com/pricing · DEV/Munder Difflin (Cursor, 12–26.10.2026) · docs.devin.ai self-serve · Digital Applied (Gemini CLI → Antigravity CLI, 09.06.2026) · Google AI Developers Forum (Antigravity lockouts) · codingplan.org (24.09.2026) · Standard Compute (14.10.2026) · Bai et al., Stanford Digital Economy Lab, 14.04.2026.
 
-## 6. Дыры, которые закрыть до сценария
-- Copilot Student — сверить на docs.github.com (сейчас источник третий).
-- Google AI Pro: что ещё входит в $20 (хранилище, Gemini app) — для «что в комплекте».
-- ChatGPT Plus: найти прямое измерение (сейчас проекция).
-- Проверить налоги/региональные цены (Claude/ChatGPT в разных странах).
+## 6. Дыры — закрыты 10.11
+- **Copilot Student:** официально (docs.github.com/copilot/get-started/plans) — бесплатно для verified students, «allowance of AI credits» без цифры, только Auto, без сторонних агентов. «200 credits» и «с 13 лет, школьники» — только сторонние (Layer3Labs, wikidocs) → в ролике: «about 200 credits, by third-party reports».
+- **Google AI Pro (one.google.com, US):** $19.99/мес ($199.99/год); 5 TB хранилища, Gemini 4 Argon в приложении, Antigravity «expanded», $10/мес Google Cloud credits, 200 Colab units, YouTube Premium Lite, семейный доступ до 5 человек.
+- **ChatGPT Plus — прямой замер:** Wokey, 6 аккаунтов, неделя 02–09.11.2026: ~$46/нед (~$200/мес, 10×), ~6.4 полных 5-ч окна в неделю. Тренд: $92 (08.10) → $58 → $55 → $46 — без объявленного урезания (сдвиг моделей). Малая выборка → помечать. calc.py обновлён: ~376 задач GPT-6.1 Sol/мес.
+- **ChatGPT, декабрь:** help center OpenAI (обновлено 31.10.2026): «Starting in December, Plus, Pro, and Business plans' usage allowance will be shared across ChatGPT and Codex» — размер не опубликован.
+- **Налоги/регионы:** цены везде «excluding taxes» → в ролике одной фразой «plus tax where you live»; отдельный разбор регионов не делаем (не опубликовано единообразно).

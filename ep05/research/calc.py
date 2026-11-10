@@ -16,7 +16,7 @@ W = 52/12  # weeks per month
 # Included usage in API dollars per month. source / status
 PLANS = [
  ('Claude Pro',            20, 155*W, 'Opus 5.5',   'measured: Wokey, 79 accounts, week 26.10-02.11.2026 (~$155/wk)'),
- ('ChatGPT Plus (Codex)',  20,  66*W, 'GPT-6.1 Sol','projected: InventiveHQ from Pro measurements (~$66/wk)'),
+ ('ChatGPT Plus (Codex)',  20,  46*W, 'GPT-6.1 Sol','measured: Wokey, 6 accounts, week 02-09.11.2026 (~$46/wk)'),
  ('Copilot Pro',           10,  15,   'Opus 5.5',   'official: 1,500 AI credits x $0.01 (GitHub Docs)'),
  ('Copilot Pro+',          39,  70,   'Opus 5.5',   'official: 7,000 AI credits x $0.01'),
  ('Cursor Premium',        30,   0,   'Opus 5.5',   'official: Claude/GPT billed at API list price from credit; Grok pool not in $'),
