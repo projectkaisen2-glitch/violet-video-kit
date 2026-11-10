@@ -77,10 +77,12 @@ svg{display:block}
 /* board */
 .board{position:absolute;background:#121315;border:1px solid rgba(236,232,225,.12);border-radius:14px}
 .row{position:absolute;display:flex;border-radius:8px;overflow:hidden;background:rgba(236,232,225,.035)}
-.lab{display:flex;align-items:center;justify-content:center;font:700 72px var(--hd);color:#111}
+.lab{display:flex;align-items:center;justify-content:center;font:700 72px 'TeX Gyre Heros Cn';color:#111}
 .flash{position:absolute;inset:0;pointer-events:none}
 .card{position:absolute;width:150px;height:150px;border-radius:12px;background:#1d1e22;border:1px solid rgba(255,255,255,.16);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;box-shadow:0 14px 30px rgba(0,0,0,.5)}
-.card .lg{width:56px;height:56px;color:#fff}.card .nm{font:700 22px var(--hd);color:#fff;text-transform:uppercase}
+.card .lg{width:56px;height:56px;color:#fff}.card .nm{font:700 22px 'TeX Gyre Heros Cn';color:#fff;text-transform:uppercase}
+/* the board is the constant skeleton (П49): its fonts never follow the block style */
+.card .pr{font-family:'DejaVu Sans Mono',monospace!important}
 .card .pr{font:500 12px var(--mono);color:var(--mute)}
 .ghost{position:absolute;width:150px;height:150px;border-radius:12px;border:1px dashed rgba(236,232,225,.1)}
 </style></head><body>
