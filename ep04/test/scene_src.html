@@ -1,0 +1,226 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+:root{--S:#FF6B6B;--A:#FFAA5C;--B:#FFD95C;--C:#A8E86A;--F:#6FB2FF;--acc:#EDEDED;--accInk:#0B0B0D;--neg:#FF4D4D;--ink:#0B0B0D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#121316;overflow:hidden}
+body{font-family:Inter,sans-serif;color:#EDEDED}
+#root{position:absolute;left:0;top:0;overflow:hidden;background:#121316}
+.studio{position:absolute;inset:-6%;background:radial-gradient(70% 60% at 50% 42%,#2C3038 0%,#1A1C21 55%,#0E0F12 100%)}
+.grid{position:absolute;inset:-6%;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:64px 64px;mask:radial-gradient(70% 60% at 50% 45%,#000 20%,transparent 75%);-webkit-mask:radial-gradient(70% 60% at 50% 45%,#000 20%,transparent 75%)}
+.sweep{position:absolute;inset:0;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.05) 50%,transparent 65%)}
+.glow{position:absolute;border-radius:50%;filter:blur(120px);opacity:.10}
+.shot{position:absolute;inset:0;display:none}
+.in{position:absolute;inset:0;transform-origin:50% 50%}
+.ab{position:absolute}
+svg{display:block}
+/* type */
+.kick{font:800 30px Inter;letter-spacing:.14em;color:rgba(237,237,237,.7)}
+.big{font:900 italic 150px/0.9 'Inter Display',Inter;letter-spacing:-.03em;color:#fff}
+.PL{position:absolute;z-index:20;background:var(--acc);color:var(--accInk);font:900 italic 1px 'Inter Display',Inter;padding:.07em .2em .03em;line-height:1;white-space:nowrap;box-shadow:.12em .12em 0 rgba(0,0,0,.55),0 30px 60px rgba(0,0,0,.45)}
+.PL.neg{background:var(--neg);color:#fff}
+.src{position:absolute;z-index:20;font:600 16px Inter;color:rgba(237,237,237,.7);background:rgba(0,0,0,.55);padding:5px 10px;border-radius:6px}
+/* windows */
+.win{position:absolute;background:#141414;border-radius:14px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.09)}
+.tb{height:40px;background:#1f1f1f;display:flex;align-items:center;gap:10px;padding:0 14px;font:500 15px Inter;color:#bbb;border-bottom:1px solid #2a2a2a}
+.tb .lg{width:18px;height:18px;color:#fff}
+.dots{margin-left:auto;display:flex;gap:16px;color:#888;font-size:14px}
+.side{position:absolute;left:0;top:40px;bottom:0;width:200px;background:#181818;border-right:1px solid #262626;padding:12px 10px;font:14px Inter;color:#9a9a9a;line-height:2}
+.side .on{color:#fff;background:#2a2a2a;border-radius:5px;padding-left:6px}
+.code{position:absolute;left:200px;top:40px;bottom:0;right:430px;padding:16px 18px;font:15.5px/1.75 'DejaVu Sans Mono',monospace;color:#d4d4d4;white-space:pre;overflow:hidden}
+.k{color:#c586c0}.s{color:#ce9178}.f{color:#dcdcaa}.c{color:#6a9955}.t{color:#4ec9b0}.n{color:#9cdcfe}
+.agent{position:absolute;right:0;top:40px;bottom:0;width:430px;background:#1a1a1a;border-left:1px solid #262626;padding:14px;font:15px/1.5 Inter;color:#ddd}
+.agent h4{font:700 13px Inter;color:#888;letter-spacing:.08em;margin-bottom:10px}
+.msg{background:#2d2d3a;border-radius:10px;padding:10px 12px;margin-bottom:12px}
+.task{display:flex;align-items:center;gap:8px;background:#222;border:1px solid #333;border-radius:8px;padding:9px 10px;margin-bottom:8px;font:600 14px Inter}
+.task .st{margin-left:auto;font:700 12px Inter;padding:2px 7px;border-radius:5px}
+.run{background:#2b3a55;color:#8fb4f0}.ok{background:#1f4a2c;color:#7ee787}
+.bar{height:4px;background:#2a2a2a;border-radius:2px;margin-top:6px;overflow:hidden}.bar i{display:block;height:100%;background:#8fb4f0}
+.model{position:absolute;right:14px;bottom:14px;left:14px;background:#222;border:1px solid #333;border-radius:10px;padding:10px 12px;font:600 14px Inter;color:#ccc}
+.dd{position:absolute;background:#232323;border:1px solid #3a3a3a;border-radius:12px;padding:6px;font:600 16px Inter;color:#ddd;box-shadow:0 20px 50px rgba(0,0,0,.6)}
+.dd div{padding:9px 12px;border-radius:7px;display:flex;align-items:center;gap:10px}
+.dd .sel{background:#2f3b52}
+.chrome .tb{background:#202124;border-bottom:none}
+.url{height:44px;background:#35363a;display:flex;align-items:center;padding:0 14px}
+.url span{background:#202124;border-radius:20px;padding:6px 16px;font:15px Inter;color:#e8eaed;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.page{position:absolute;left:0;right:0;top:84px;bottom:0;background:#fff;color:#111;overflow:hidden}
+.news{padding:40px 56px}
+.news .kk{font:700 15px Inter;color:#c4161c;letter-spacing:.08em}
+.news h1{font:800 50px/1.12 Georgia,serif;margin:14px 0 16px;color:#111}
+.news .meta{font:15px Inter;color:#666}
+.news p{font:19px/1.6 Georgia,serif;color:#333;margin-top:20px}
+/* price cards */
+.pc{position:absolute;width:240px;height:300px;background:#161616;border:1px solid #2f2f2f;border-radius:16px;padding:20px 18px;color:#aaa;font:15px/1.55 Inter;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.pc b{display:block;font:800 21px Inter;color:#fff}
+.pc .p{font:800 44px Inter;color:#fff;margin:8px 0 12px}
+.pc .p small{font:500 15px Inter;color:#888}
+.pc li{list-style:none;margin:5px 0}
+.pc .lgc{position:absolute;right:16px;top:18px;width:26px;height:26px;color:#fff}
+/* logo tiles */
+.tile{position:absolute;width:220px;height:220px;border-radius:44px;background:#1c1d21;border:2px solid rgba(255,255,255,.12);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;box-shadow:0 30px 70px rgba(0,0,0,.55);font:800 26px Inter;color:#fff}
+.tile .lg{width:96px;height:96px;color:#fff}
+/* board */
+.board{position:absolute;background:rgba(14,15,18,.86);border:1px solid rgba(255,255,255,.1);border-radius:20px;box-shadow:0 40px 100px rgba(0,0,0,.6)}
+.btitle{position:absolute;font:900 italic 38px Inter;color:#fff}.btitle b{color:var(--B)}
+.row{position:absolute;display:flex;border-radius:10px;overflow:hidden;background:rgba(255,255,255,.04)}
+.lab{display:flex;align-items:center;justify-content:center;font:900 70px 'Inter Display',Inter;color:#111}
+.flash{position:absolute;inset:0;pointer-events:none}
+.card{position:absolute;width:150px;height:150px;border-radius:16px;background:#1c1d21;border:2px solid rgba(255,255,255,.2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;box-shadow:0 14px 34px rgba(0,0,0,.55)}
+.card .lg{width:60px;height:60px;color:#fff}.card .nm{font:800 20px Inter;color:#fff}
+.card .pr{font:800 15px Inter;color:#111;background:var(--acc);padding:2px 8px;border-radius:6px}
+.ghost{position:absolute;width:150px;height:150px;border-radius:16px;border:2px dashed rgba(255,255,255,.12)}
+.hl{position:absolute;border:4px solid var(--B);border-radius:12px;box-shadow:0 0 0 2px rgba(0,0,0,.5),0 0 34px rgba(255,217,92,.45);display:none}
+.strike{position:absolute;z-index:21;height:9px;background:var(--neg);border-radius:5px}
+</style></head><body>
+<div id="root"></div>
+<script>
+const SVG=/*SVG*/{};
+const Q=new URLSearchParams(location.search);const FMT=Q.get('fmt')||'h';const V=FMT==='v';
+const W=V?1080:1920,H=V?1920:1080;
+const root=document.getElementById('root');root.style.width=W+'px';root.style.height=H+'px';
+const ic=k=>SVG[k]||'';
+let CUE=/*CUE*/null;
+const TEXT="The most popular A I code editor is now owned by a rocket company. In August, SpaceX closed a sixty-billion-dollar deal for Cursor. In October, Cursor was folded into the X Subscription, right next to Grok and X Premium. The editor itself is still excellent: fast agents, cloud agents, built-in code review. But here's the catch. The cheapest plan, eight dollars, only runs Grok. Claude and G P T are no longer included at all. They bill at A P I price from the very first request. And that in-house model, Composer two? Cursor admitted it was built on top of Moonshot's Kimi. Great editor, shaky deal. Cursor goes to B tier.";
+if(!CUE){CUE=[];let t=0.35;for(const w of TEXT.split(' ')){CUE.push([t,w]);t+=0.33+(/[.?!]$/.test(w)?0.42:/[,:]$/.test(w)?0.16:0)+(w.length>8?0.06:0)}}
+const norm=w=>w.replace(/[^\w$-]/g,'').toLowerCase();
+const at=(word,n=1,exact=false)=>{let k=0;for(const [t,w] of CUE){const a=norm(w),b=word.toLowerCase();if(exact?a===b:a.startsWith(b)){k++;if(k===n)return t}}console.warn('cue?',word);return 0};
+const END=CUE[CUE.length-1][0]+1.8;
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),P=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+function el(h,p=root){const d=document.createElement('div');d.innerHTML=h.trim();const e=d.firstChild;p.appendChild(e);return e}
+const css=(e,o)=>{for(const k in o)e.style[k]=o[k]};
+function rectOf(e){const r=e.getBoundingClientRect(),R=root.getBoundingClientRect(),s=R.width/W;return{x:(r.left-R.left)/s,y:(r.top-R.top)/s,w:r.width/s,h:r.height/s}}
+// pop-in element (scale+fade), optional exit
+function pop(e,t,a,b=1e9,from=0.6){const k=back(P(t,a,a+.45)),v=Math.min(cl(P(t,a,a+.2)),1-P(t,b,b+.3));e.style.opacity=v;e.style.display=v>0?'':'none';e.style.transform=(e.dataset.base||'')+` scale(${from+(1-from)*k})`}
+function slide(e,t,a,b=1e9,dx=0,dy=60){const k=eo(P(t,a,a+.5)),v=Math.min(cl(P(t,a,a+.25)),1-P(t,b,b+.3));e.style.opacity=v;e.style.display=v>0?'':'none';e.style.transform=(e.dataset.base||'')+` translate(${(1-k)*dx}px,${(1-k)*dy}px)`}
+// ---------- studio background ----------
+const bg=el('<div class="ab" style="inset:0"></div>');
+const studio=el('<div class="studio"></div>',bg),grid=el('<div class="grid"></div>',bg);
+const glow=el(`<div class="glow" style="width:${W*.6}px;height:${W*.6}px;left:${W*.2}px;top:${H*.15}px;background:var(--acc)"></div>`,bg);
+const sweep=el('<div class="sweep"></div>',bg);
+// ---------- cues ----------
+const T={most:at('most'),owned:at('owned'),rocket:at('rocket'),spacex:at('SpaceX'),deal:at('sixty'),oct:at('October'),xsub:at('Subscription'),grok1:at('Grok'),xprem:at('Premium'),editor:at('editor',2),fast:at('fast'),cloud:at('cloud'),review:at('review'),catch:at('catch'),cheap:at('cheapest'),eight:at('eight'),grokonly:at('Grok',2),claude:at('Claude'),included:at('included'),api:at('P',2,true),first:at('first'),composer:at('Composer'),admitted:at('admitted'),kimi:at('Kimi'),great:at('Great'),btier:at('B',1,true)};
+const SH=[['hook',0,T.spacex-.25],['news',T.spacex-.25,T.oct-.2],['bundle',T.oct-.2,T.editor-.25],['ui',T.editor-.25,T.catch-.25],['price',T.catch-.25,T.composer-.35],['model',T.composer-.35,T.great-.3],['verdict',T.great-.3,END+1]];
+const TR={news:'slideL',bundle:'zoom',ui:'pushUp',price:'slideL',model:'zoom',verdict:'pushUp'};
+const shots={};for(const [k] of SH){const s=el(`<div class="shot"><div class="in"></div><div class="in"></div></div>`);shots[k]={el:s,in:s.firstChild,ov:s.lastChild}}
+// ===== SHOT 1: hook — kinetic type =====
+{const p=shots.hook.in;
+ const kick=el(`<div class="ab kick" style="left:${V?70:150}px;top:${V?420:230}px;font-size:${V?34:30}px">THE MOST POPULAR AI CODE EDITOR</div>`,p);
+ const lg=el(`<div class="ab" style="left:${V?70:150}px;top:${V?500:300}px;width:${V?150:130}px;height:${V?150:130}px;color:#fff">${ic('cursor')}</div>`,p);
+ const w1=el(`<div class="ab big" style="left:${V?70:310}px;top:${V?690:300}px;font-size:${V?120:140}px">IS NOW OWNED BY</div>`,p);
+ const w2=el(`<div class="PL neg" style="left:${V?60:140}px;top:${V?900:520}px;font-size:${V?150:200}px">A ROCKET</div>`,p);
+ const w3=el(`<div class="PL" style="left:${V?60:520}px;top:${V?1100:740}px;font-size:${V?150:170}px">COMPANY</div>`,p);
+ const spx=el(`<div class="ab" style="left:${V?620:1460}px;top:${V?1330:470}px;width:${V?380:360}px;height:${V?110:100}px;color:#fff;opacity:.9">${ic('spacex')}</div>`,p);
+ shots.hook.R=t=>{slide(kick,t,T.most-.1,1e9,-40,0);pop(lg,t,T.most);slide(w1,t,T.owned-.15,1e9,0,40);pop(w2,t,T.rocket-.2,1e9,.4);pop(w3,t,T.rocket+.15,1e9,.4);slide(spx,t,T.rocket+.3,1e9,80,0)}}
+// ===== SHOT 2: news full screen, push into $60B =====
+{const p=shots.news.in,o=shots.news.ov;const ww=V?1000:1500,hh=V?760:600;
+ const win=el(`<div class="win chrome" style="left:${(W-ww)/2}px;top:${V?400:160}px;width:${ww}px;height:${hh}px">
+  <div class="tb">Bloomberg Law<div class="dots"><span>—</span><span>☐</span><span>✕</span></div></div>
+  <div class="url"><span>news.bloomberglaw.com/mergers-and-acquisitions/spacex-completes-its-60-billion-cursor-acquisition</span></div>
+  <div class="page"><div class="news" style="${V?'padding:34px 36px':''}"><div class="kk">MERGERS &amp; ACQUISITIONS</div>
+  <h1 style="font-size:${V?64:62}px">SpaceX Completes Its <span id="m60" style="border-radius:6px;padding:0 4px">$60 Billion</span> Cursor Acquisition</h1>
+  <div class="meta">Aug. 14, 2026</div>
+  <p style="font-size:${V?24:22}px">The all-stock deal makes Anysphere, the maker of the Cursor AI code editor, a wholly owned SpaceX subsidiary.</p></div></div></div>`,p);
+ const pl=el(`<div class="PL neg" style="left:${V?70:1080}px;top:${V?1240:790}px;font-size:${V?110:100}px">$60 BILLION</div>`,o);
+ const src=el(`<div class="src" style="left:${V?40:60}px;top:${H-60}px">Source: Bloomberg Law, Aug 14 2026</div>`,o);
+ shots.news.R=(t,u)=>{const m=document.getElementById('m60'),k=P(t,T.deal,T.deal+.45);m.style.background=`linear-gradient(90deg,rgba(255,217,92,.85) ${k*100}%,transparent ${k*100}%)`;
+  const z=1+.16*eio(P(t,T.deal-.2,T.oct-.3));shots.news.in.style.transformOrigin=V?'40% 30%':'45% 35%';shots.news.in.style.transform=`scale(${z})`;
+  pop(pl,t,T.deal+.35);slide(src,t,T.spacex+.2,1e9,0,20)}}
+// ===== SHOT 3: bundle — three tiles merge =====
+{const p=shots.bundle.in;const ts=[['x','X Premium'],['grok','Grok'],['cursor','Cursor']];
+ const tiles=ts.map(([k,n])=>el(`<div class="tile"><span class="lg">${ic(k)}</span>${n}</div>`,p));
+ const res=el(`<div class="PL" style="font-size:${V?78:110}px">THE X SUBSCRIPTION</div>`,p);
+ const ttl=el(`<div class="ab kick" style="left:0;right:0;text-align:center;top:${V?380:150}px">OCTOBER 2026 · ONE BUNDLE</div>`,p);
+ shots.bundle.R=t=>{const order=[T.xprem-.3,T.grok1-.1,T.oct];
+  const merge=eio(P(t,T.xsub,T.xsub+.6));const cx=W/2-110,cy=V?800:330;
+  tiles.forEach((e,i)=>{const sp=V?0:320,spy=V?290:0;const x=cx+(i-1)*sp*(1-merge*.28),y=cy+(i-1)*spy*(1-merge*.2);
+   css(e,{left:x+'px',top:y+'px'});e.dataset.base='';pop(e,t,Math.min(order[i],T.oct+.2*i))});
+  slide(ttl,t,T.oct-.1,1e9,0,-20);
+  const rr=V?{x:70,y:1480}:{x:W/2-560,y:700};css(res,{left:rr.x+'px',top:rr.y+'px'});pop(res,t,T.xsub+.2,1e9,.5)}}
+// ===== SHOT 4: Cursor UI close-up, agents running =====
+{const p=shots.ui.in;const ww=V?1180:1560,hh=V?1100:820;
+ const win=el(`<div class="win" style="left:${V?-120:(W-ww)/2}px;top:${V?380:130}px;width:${ww}px;height:${hh}px">
+  <div class="tb"><span class="lg">${ic('cursor')}</span>auth-api — Cursor<div class="dots"><span>—</span><span>☐</span><span>✕</span></div></div>
+  <div class="side"><div>▾ AUTH-API</div><div>&nbsp;&nbsp;▸ node_modules</div><div>&nbsp;&nbsp;▾ src</div><div class="on">&nbsp;&nbsp;&nbsp;&nbsp;auth.ts</div><div>&nbsp;&nbsp;&nbsp;&nbsp;routes.ts</div><div>&nbsp;&nbsp;&nbsp;&nbsp;db.ts</div></div>
+  <div class="code"><span class="k">import</span> { sign } <span class="k">from</span> <span class="s">"jsonwebtoken"</span>;
+<span class="k">import</span> { db } <span class="k">from</span> <span class="s">"./db"</span>;
+
+<span class="k">export async function</span> <span class="f">login</span>(<span class="n">email</span>, <span class="n">pw</span>) {
+  <span class="k">const</span> <span class="n">user</span> = <span class="k">await</span> db.<span class="f">findUser</span>(email);
+  <span class="k">if</span> (!user) <span class="k">throw new</span> <span class="t">Error</span>(<span class="s">"not found"</span>);
+  <span class="c">// TODO: rate limit</span>
+  <span class="k">return</span> <span class="f">sign</span>({ id: user.id });
+}</div>
+  <div class="agent"><h4>AGENTS</h4><div class="msg">Add rate limiting and tests to auth</div>
+   <div class="task" id="t1">⚡ Fast agent: rate limiter<span class="st run">running</span></div>
+   <div class="task" id="t2">☁ Cloud agent: tests<span class="st run">running</span></div>
+   <div class="task" id="t3">🔍 Code review<span class="st run">queued</span></div>
+   <div class="model">Model: <b style="color:#fff">Composer 2</b> ▾</div></div></div>`,p);
+ const tag=el(`<div class="PL" style="left:${V?70:140}px;top:${V?1600:880}px;font-size:${V?96:84}px">STILL EXCELLENT</div>`,shots.ui.ov);
+ shots.ui.R=t=>{const pan=eio(P(t,T.editor,T.catch-.3));
+  shots.ui.in.style.transformOrigin=V?'85% 40%':'80% 40%';shots.ui.in.style.transform=`scale(${(V?1.3:1)*(1+.18*pan)}) translateX(${V?-pan*120:-pan*40}px)`;
+  [['t1',T.fast],['t2',T.cloud],['t3',T.review]].forEach(([id,ts])=>{const e=document.getElementById(id),st=e.querySelector('.st'),done=t>ts+.7;
+   st.textContent=done?'done ✓':(t>ts-.1?'running':'queued');st.className='st '+(done?'ok':'run');e.style.boxShadow=(t>ts-.1&&t<ts+1)?'0 0 0 2px #8fb4f0':'none'});
+  pop(tag,t,T.editor+.2)}}
+// ===== SHOT 5: price cards =====
+{const p=shots.price.in;
+ const plans=[['Free','$0',['Limited agent']],['Plus','$8',['Grok models only','X Premium']],['Premium','$30',['Cloud agents','Code review','Claude, GPT: API price']],['Super','$100',['15× Plus']],['Ultra','$200',['50× Plus']]];
+ const cards=plans.map(([n,pr,li])=>el(`<div class="pc"><span class="lgc">${ic('cursor')}</span><b>${n}</b><div class="p">${pr}<small>/mo</small></div>${li.map(x=>`<li>${x}</li>`).join('')}</div>`,p));
+ const hd=el(`<div class="ab kick" style="left:0;right:0;text-align:center;top:${V?400:150}px">CURSOR PRICING · NOV 2026</div>`,p);
+ const p8=el(`<div class="PL" style="font-size:${V?104:96}px">$8 = GROK ONLY</div>`,p);
+ const inc=el(`<div class="PL" style="font-size:${V?66:62}px;background:#2a2c31;color:#fff">CLAUDE &amp; GPT INCLUDED</div>`,p);
+ const strike=el('<div class="strike"></div>',p);
+ const api=el(`<div class="PL neg" style="font-size:${V?84:78}px">→ API PRICE</div>`,p);
+ const src=el(`<div class="src">Source: cursor.com/pricing, Nov 2026</div>`,p);
+ shots.price.R=t=>{const foc1=eio(P(t,T.cheap-.1,T.cheap+.4)),foc2=eio(P(t,T.claude-.2,T.claude+.3));
+  cards.forEach((e,i)=>{let x,y;if(V){x=W/2-120+((i%2)?175:-175);y=540+Math.floor(i/2)*390;if(i===4){x=W/2-120;y=1280}}else{x=W/2-120+(i-2)*310;y=300}
+   const isP=i===1,isPr=i===2;const f=isP?foc1*(1-foc2):isPr?foc2:0;const dim=Math.max(foc1*(isP?0:1)*(1-foc2),foc2*(isPr?0:1));
+   e.dataset.base=`translate(${x}px,${y}px)`;css(e,{left:0,top:0,filter:`brightness(${1-.55*dim})`,zIndex:isP||isPr?3:1,borderColor:f>.5?'var(--B)':'#2f2f2f',boxShadow:f>.5?'0 0 0 3px var(--B),0 30px 70px rgba(0,0,0,.6)':''});
+   const k=back(P(t,T.catch+.05*i,T.catch+.05*i+.45));e.style.opacity=cl(P(t,T.catch+.05*i,T.catch+.05*i+.2));e.style.transform=e.dataset.base+` scale(${(.7+.3*k)*(1+.18*f)*(V?1.3:1.22)})`});
+  slide(hd,t,T.catch-.1,1e9,0,-20);
+  const p8p=V?{x:80,y:1600}:{x:W/2-420,y:720};css(p8,{left:p8p.x+'px',top:p8p.y+'px'});pop(p8,t,T.grokonly-.15,T.claude-.3,.5);
+  const ip=V?{x:70,y:1600}:{x:W/2-640,y:730};css(inc,{left:ip.x+'px',top:ip.y+'px'});pop(inc,t,T.claude,1e9,.6);
+  const ir=rectOf(inc),sk=eo(P(t,T.included,T.included+.35));css(strike,{display:t>T.included?'block':'none',left:(ir.x-8)+'px',top:(ir.y+ir.h/2-4)+'px',width:((ir.w+16)*sk)+'px'});
+  const ap=V?{x:300,y:1720}:{x:W/2+120,y:740};css(api,{left:ap.x+'px',top:ap.y+'px'});pop(api,t,T.api-.15,1e9,.5);
+  css(src,{left:(V?40:60)+'px',top:(H-60)+'px'});slide(src,t,T.catch+.2,1e9,0,20)}}
+// ===== SHOT 6: model picker + Kimi =====
+{const p=shots.model.in;
+ const dd=el(`<div class="dd" style="width:${V?900:760}px;left:${V?90:140}px;top:${V?420:220}px;font-size:${V?36:32}px">
+  <div class="sel"><span style="width:1.2em;height:1.2em;color:#fff">${ic('cursor')}</span>Composer 2 <span style="margin-left:auto;font-size:.7em;color:#8fb4f0">in-house</span></div>
+  <div><span style="width:1.2em;height:1.2em;color:#fff">${ic('grok')}</span>Grok</div>
+  <div style="color:#888">Claude · API price</div><div style="color:#888">GPT · API price</div></div>`,p);
+ const eq=el(`<div class="ab big" style="font-size:${V?140:130}px;left:${V?480:1000}px;top:${V?820:250}px">=</div>`,p);
+ const kimi=el(`<div class="tile" style="left:${V?430:1180}px;top:${V?1010:200}px;transform-origin:50% 50%"><span class="lg">${ic('kimi-color')}</span>Kimi 2.5</div>`,p);
+ const pl=el(`<div class="PL neg" style="left:${V?50:140}px;top:${V?1360:640}px;font-size:${V?70:86}px">BUILT ON MOONSHOT'S KIMI</div>`,p);
+ const src=el(`<div class="src" style="left:${V?40:60}px;top:${H-60}px">Source: TechCrunch, Mar 22 2026 — Cursor: "a miss"</div>`,p);
+ shots.model.R=t=>{slide(dd,t,T.composer-.3,1e9,0,40);const s=dd.querySelector('.sel');s.style.boxShadow=t>T.composer+.2?'0 0 0 3px var(--B)':'none';
+  pop(eq,t,T.admitted,1e9,.3);pop(kimi,t,T.kimi-.25,1e9,.5);pop(pl,t,T.kimi+.1,1e9,.5);slide(src,t,T.kimi+.3,1e9,0,20)}}
+// ===== SHOT 7: verdict — full board =====
+{const p=shots.verdict.in;const TI=[['S','var(--S)'],['A','var(--A)'],['B','var(--B)'],['C','var(--C)'],['F','var(--F)']];
+ const bx=V?40:300,by=V?260:70,bw=V?1000:1320,bh=V?1260:820;
+ const board=el(`<div class="board" style="left:${bx}px;top:${by}px;width:${bw}px;height:${bh}px"></div>`,p);
+ el(`<div class="btitle" style="left:30px;top:22px">AI CODING TOOLS <b>2026</b></div>`,board);
+ const rh=(bh-110-4*14)/5;const rows={};
+ TI.forEach(([k,c],i)=>{const y=90+i*(rh+14);const r=el(`<div class="row" style="left:24px;top:${y}px;width:${bw-48}px;height:${rh}px"><div class="lab" style="width:${V?130:130}px;background:${c}">${k}</div><div class="flash"></div></div>`,board);
+  rows[k]={el:r,x:bx+24+150,y:by+y+(rh-150)/2};for(let g=0;g<(V?4:6);g++)el(`<div class="ghost" style="left:${150+g*170}px;top:${(rh-150)/2}px"></div>`,r)});
+ const card=el(`<div class="card"><span class="lg">${ic('cursor')}</span><span class="nm">Cursor</span><span class="pr">$8–$200</span></div>`,p);
+ const vd=el(`<div class="PL" style="left:${V?50:330}px;top:${V?1590:930}px;font-size:${V?64:70}px">GREAT EDITOR, SHAKY DEAL</div>`,p);
+ shots.verdict.R=t=>{const fly=eio(P(t,T.btier-.55,T.btier+.4)),r=rows.B;const sx=W/2-75,sy=V?-260:-200;
+  const k=back(P(t,T.great,T.great+.5));
+  css(card,{left:(sx+(r.x-sx)*fly)+'px',top:(sy+(r.y-sy)*fly)+'px',transform:`scale(${(1.6-.6*fly)*(.5+.5*k)}) rotate(${(1-fly)*8}deg)`,opacity:cl(P(t,T.great-.1,T.great+.2))});
+  const f=P(t,T.btier+.35,T.btier+.5)*(1-P(t,T.btier+.5,T.btier+1.3));r.el.querySelector('.flash').style.background=`rgba(255,217,92,${.6*f})`;
+  pop(vd,t,T.great-.1,1e9,.5);shots.verdict.in.style.transform=`scale(${1+.03*eio(P(t,T.great,END))})`}}
+// ---------- R(t) ----------
+const XF=.38;
+function R(t){
+ css(studio,{transform:`scale(${1.03+.015*Math.sin(t*.2)}) translate(${Math.sin(t*.13)*-14}px,${Math.cos(t*.11)*8}px)`});
+ sweep.style.transform=`translateX(${((t*90)%(W*2))-W}px)`;glow.style.transform=`translate(${Math.sin(t*.3)*60}px,${Math.cos(t*.25)*40}px)`;
+ SH.forEach(([k,a,b],i)=>{const s=shots[k];const on=t>=a-XF*0&&t<b+XF;s.el.style.display=on?'block':'none';if(!on)return;
+  // enter transition (out is covered by the next shot's enter)
+  const ek=i===0?1:eio(P(t,a,a+XF)),tr=TR[k];let tf='';
+  if(tr==='slideL')tf=`translateX(${(1-ek)*W*.6}px)`;else if(tr==='zoom')tf=`scale(${.82+.18*ek})`;else if(tr==='pushUp')tf=`translateY(${(1-ek)*H*.5}px)`;
+  const out=P(t,b,b+XF);s.el.style.opacity=Math.min(i===0?1:cl(ek*1.6),1-out);s.el.style.filter=out>0?`blur(${out*8}px)`:'';
+  s.el.style.transform=tf+(out>0?` scale(${1+.05*out})`:'');s.el.style.zIndex=i;s.R(t)});
+}
+window.R=R;window.END=END;
+document.fonts.ready.then(()=>{R(0);window.READY=true});
+</script></body></html>

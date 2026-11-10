@@ -1,0 +1,52 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.079
+ },
+ {
+  "word": "full",
+  "start": 0.079,
+  "end": 0.316
+ },
+ {
+  "word": "tier",
+  "start": 0.316,
+  "end": 0.566
+ },
+ {
+  "word": "list",
+  "start": 0.566,
+  "end": 0.841
+ },
+ {
+  "word": "is",
+  "start": 0.841,
+  "end": 0.991
+ },
+ {
+  "word": "one",
+  "start": 0.991,
+  "end": 1.241
+ },
+ {
+  "word": "tap",
+  "start": 1.241,
+  "end": 1.479
+ },
+ {
+  "word": "away.",
+  "start": 1.479,
+  "end": 2.129
+ },
+ {
+  "word": "Video",
+  "start": 2.129,
+  "end": 2.516
+ },
+ {
+  "word": "below.",
+  "start": 2.516,
+  "end": 2.999
+ }
+]

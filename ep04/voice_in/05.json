@@ -1,0 +1,562 @@
+[
+ {
+  "word": "Apps",
+  "start": 0.0,
+  "end": 0.236
+ },
+ {
+  "word": "built",
+  "start": 0.236,
+  "end": 0.499
+ },
+ {
+  "word": "with",
+  "start": 0.499,
+  "end": 0.661
+ },
+ {
+  "word": "Lovable",
+  "start": 0.661,
+  "end": 1.086
+ },
+ {
+  "word": "get",
+  "start": 1.086,
+  "end": 1.299
+ },
+ {
+  "word": "nine",
+  "start": 1.299,
+  "end": 1.611
+ },
+ {
+  "word": "hundred",
+  "start": 1.611,
+  "end": 1.961
+ },
+ {
+  "word": "million",
+  "start": 1.961,
+  "end": 2.311
+ },
+ {
+  "word": "visits",
+  "start": 2.311,
+  "end": 2.624
+ },
+ {
+  "word": "a",
+  "start": 2.624,
+  "end": 2.686
+ },
+ {
+  "word": "month.",
+  "start": 2.686,
+  "end": 3.361
+ },
+ {
+  "word": "And",
+  "start": 3.361,
+  "end": 3.511
+ },
+ {
+  "word": "for",
+  "start": 3.511,
+  "end": 3.674
+ },
+ {
+  "word": "forty-eight",
+  "start": 3.674,
+  "end": 4.136
+ },
+ {
+  "word": "days,",
+  "start": 4.136,
+  "end": 4.661
+ },
+ {
+  "word": "anyone",
+  "start": 4.661,
+  "end": 5.011
+ },
+ {
+  "word": "could",
+  "start": 5.011,
+  "end": 5.161
+ },
+ {
+  "word": "read",
+  "start": 5.161,
+  "end": 5.349
+ },
+ {
+  "word": "their",
+  "start": 5.349,
+  "end": 5.511
+ },
+ {
+  "word": "code.",
+  "start": 5.511,
+  "end": 6.374
+ },
+ {
+  "word": "Lovable",
+  "start": 6.374,
+  "end": 6.811
+ },
+ {
+  "word": "builds",
+  "start": 6.811,
+  "end": 7.111
+ },
+ {
+  "word": "a",
+  "start": 7.111,
+  "end": 7.199
+ },
+ {
+  "word": "whole",
+  "start": 7.199,
+  "end": 7.461
+ },
+ {
+  "word": "web",
+  "start": 7.461,
+  "end": 7.686
+ },
+ {
+  "word": "app",
+  "start": 7.686,
+  "end": 7.911
+ },
+ {
+  "word": "from",
+  "start": 7.911,
+  "end": 8.111
+ },
+ {
+  "word": "one",
+  "start": 8.111,
+  "end": 8.336
+ },
+ {
+  "word": "chat",
+  "start": 8.336,
+  "end": 8.586
+ },
+ {
+  "word": "message,",
+  "start": 8.586,
+  "end": 9.261
+ },
+ {
+  "word": "and",
+  "start": 9.261,
+  "end": 9.374
+ },
+ {
+  "word": "it's",
+  "start": 9.374,
+  "end": 9.536
+ },
+ {
+  "word": "genuinely",
+  "start": 9.536,
+  "end": 9.961
+ },
+ {
+  "word": "great",
+  "start": 9.961,
+  "end": 10.199
+ },
+ {
+  "word": "at",
+  "start": 10.199,
+  "end": 10.286
+ },
+ {
+  "word": "landing",
+  "start": 10.286,
+  "end": 10.661
+ },
+ {
+  "word": "pages",
+  "start": 10.661,
+  "end": 11.099
+ },
+ {
+  "word": "and",
+  "start": 11.099,
+  "end": 11.211
+ },
+ {
+  "word": "prototypes.",
+  "start": 11.211,
+  "end": 12.361
+ },
+ {
+  "word": "It's",
+  "start": 12.361,
+  "end": 12.549
+ },
+ {
+  "word": "now",
+  "start": 12.549,
+  "end": 12.761
+ },
+ {
+  "word": "worth",
+  "start": 12.761,
+  "end": 12.986
+ },
+ {
+  "word": "thirteen",
+  "start": 12.986,
+  "end": 13.461
+ },
+ {
+  "word": "billion",
+  "start": 13.461,
+  "end": 13.811
+ },
+ {
+  "word": "dollars.",
+  "start": 13.811,
+  "end": 14.586
+ },
+ {
+  "word": "But",
+  "start": 14.586,
+  "end": 14.724
+ },
+ {
+  "word": "in",
+  "start": 14.724,
+  "end": 14.811
+ },
+ {
+  "word": "March,",
+  "start": 14.811,
+  "end": 15.386
+ },
+ {
+  "word": "a",
+  "start": 15.386,
+  "end": 15.461
+ },
+ {
+  "word": "researcher",
+  "start": 15.461,
+  "end": 16.011
+ },
+ {
+  "word": "found",
+  "start": 16.011,
+  "end": 16.299
+ },
+ {
+  "word": "that",
+  "start": 16.299,
+  "end": 16.411
+ },
+ {
+  "word": "any",
+  "start": 16.411,
+  "end": 16.624
+ },
+ {
+  "word": "free",
+  "start": 16.624,
+  "end": 16.861
+ },
+ {
+  "word": "account",
+  "start": 16.861,
+  "end": 17.211
+ },
+ {
+  "word": "could",
+  "start": 17.211,
+  "end": 17.336
+ },
+ {
+  "word": "pull",
+  "start": 17.336,
+  "end": 17.586
+ },
+ {
+  "word": "other",
+  "start": 17.586,
+  "end": 17.836
+ },
+ {
+  "word": "users'",
+  "start": 17.836,
+  "end": 18.199
+ },
+ {
+  "word": "source",
+  "start": 18.199,
+  "end": 18.486
+ },
+ {
+  "word": "code,",
+  "start": 18.486,
+  "end": 19.086
+ },
+ {
+  "word": "database",
+  "start": 19.086,
+  "end": 19.661
+ },
+ {
+  "word": "keys",
+  "start": 19.661,
+  "end": 20.086
+ },
+ {
+  "word": "and",
+  "start": 20.086,
+  "end": 20.199
+ },
+ {
+  "word": "A",
+  "start": 20.199,
+  "end": 20.261
+ },
+ {
+  "word": "I",
+  "start": 20.261,
+  "end": 20.499
+ },
+ {
+  "word": "chats",
+  "start": 20.499,
+  "end": 20.861
+ },
+ {
+  "word": "in",
+  "start": 20.861,
+  "end": 20.949
+ },
+ {
+  "word": "a",
+  "start": 20.949,
+  "end": 21.036
+ },
+ {
+  "word": "handful",
+  "start": 21.036,
+  "end": 21.449
+ },
+ {
+  "word": "of",
+  "start": 21.449,
+  "end": 21.524
+ },
+ {
+  "word": "requests.",
+  "start": 21.524,
+  "end": 22.561
+ },
+ {
+  "word": "For",
+  "start": 22.561,
+  "end": 22.736
+ },
+ {
+  "word": "older",
+  "start": 22.736,
+  "end": 23.036
+ },
+ {
+  "word": "projects,",
+  "start": 23.036,
+  "end": 23.811
+ },
+ {
+  "word": "it",
+  "start": 23.811,
+  "end": 23.936
+ },
+ {
+  "word": "stayed",
+  "start": 23.936,
+  "end": 24.199
+ },
+ {
+  "word": "open",
+  "start": 24.199,
+  "end": 24.536
+ },
+ {
+  "word": "for",
+  "start": 24.536,
+  "end": 24.674
+ },
+ {
+  "word": "forty-eight",
+  "start": 24.674,
+  "end": 25.161
+ },
+ {
+  "word": "days.",
+  "start": 25.161,
+  "end": 26.086
+ },
+ {
+  "word": "Lovable's",
+  "start": 26.086,
+  "end": 26.624
+ },
+ {
+  "word": "first",
+  "start": 26.624,
+  "end": 26.986
+ },
+ {
+  "word": "response?",
+  "start": 26.986,
+  "end": 27.949
+ },
+ {
+  "word": "Intentional",
+  "start": 28.311,
+  "end": 28.886
+ },
+ {
+  "word": "behaviour.",
+  "start": 28.886,
+  "end": 29.899
+ },
+ {
+  "word": "Pro",
+  "start": 29.899,
+  "end": 30.261
+ },
+ {
+  "word": "is",
+  "start": 30.261,
+  "end": 30.424
+ },
+ {
+  "word": "twenty-five",
+  "start": 30.424,
+  "end": 31.036
+ },
+ {
+  "word": "dollars",
+  "start": 31.036,
+  "end": 31.486
+ },
+ {
+  "word": "for",
+  "start": 31.486,
+  "end": 31.599
+ },
+ {
+  "word": "a",
+  "start": 31.599,
+  "end": 31.661
+ },
+ {
+  "word": "hundred",
+  "start": 31.661,
+  "end": 31.986
+ },
+ {
+  "word": "credits,",
+  "start": 31.986,
+  "end": 32.686
+ },
+ {
+  "word": "and",
+  "start": 32.686,
+  "end": 32.811
+ },
+ {
+  "word": "credit",
+  "start": 32.811,
+  "end": 33.111
+ },
+ {
+  "word": "burn",
+  "start": 33.111,
+  "end": 33.486
+ },
+ {
+  "word": "is",
+  "start": 33.486,
+  "end": 33.636
+ },
+ {
+  "word": "the",
+  "start": 33.636,
+  "end": 33.736
+ },
+ {
+  "word": "number",
+  "start": 33.736,
+  "end": 34.011
+ },
+ {
+  "word": "one",
+  "start": 34.011,
+  "end": 34.236
+ },
+ {
+  "word": "complaint.",
+  "start": 34.236,
+  "end": 35.186
+ },
+ {
+  "word": "Perfect",
+  "start": 35.186,
+  "end": 35.586
+ },
+ {
+  "word": "for",
+  "start": 35.586,
+  "end": 35.699
+ },
+ {
+  "word": "a",
+  "start": 35.699,
+  "end": 35.761
+ },
+ {
+  "word": "prototype,",
+  "start": 35.761,
+  "end": 36.599
+ },
+ {
+  "word": "scary",
+  "start": 36.599,
+  "end": 36.986
+ },
+ {
+  "word": "for",
+  "start": 36.986,
+  "end": 37.136
+ },
+ {
+  "word": "real",
+  "start": 37.136,
+  "end": 37.411
+ },
+ {
+  "word": "users.",
+  "start": 37.411,
+  "end": 38.336
+ },
+ {
+  "word": "C",
+  "start": 38.336,
+  "end": 38.574
+ },
+ {
+  "word": "tier.",
+  "start": 38.574,
+  "end": 38.99
+ }
+]

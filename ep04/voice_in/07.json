@@ -1,0 +1,622 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.138
+ },
+ {
+  "word": "coding",
+  "start": 0.138,
+  "end": 0.513
+ },
+ {
+  "word": "agent",
+  "start": 0.513,
+  "end": 0.838
+ },
+ {
+  "word": "costs",
+  "start": 0.838,
+  "end": 1.201
+ },
+ {
+  "word": "zero",
+  "start": 1.201,
+  "end": 1.538
+ },
+ {
+  "word": "dollars,",
+  "start": 1.538,
+  "end": 2.363
+ },
+ {
+  "word": "and",
+  "start": 2.363,
+  "end": 2.476
+ },
+ {
+  "word": "it",
+  "start": 2.476,
+  "end": 2.551
+ },
+ {
+  "word": "can",
+  "start": 2.551,
+  "end": 2.713
+ },
+ {
+  "word": "run",
+  "start": 2.713,
+  "end": 2.901
+ },
+ {
+  "word": "on",
+  "start": 2.901,
+  "end": 3.001
+ },
+ {
+  "word": "your",
+  "start": 3.001,
+  "end": 3.151
+ },
+ {
+  "word": "own",
+  "start": 3.151,
+  "end": 3.426
+ },
+ {
+  "word": "G",
+  "start": 3.426,
+  "end": 3.613
+ },
+ {
+  "word": "P",
+  "start": 3.613,
+  "end": 3.813
+ },
+ {
+  "word": "U.",
+  "start": 3.813,
+  "end": 3.988
+ },
+ {
+  "word": "Cline",
+  "start": 3.988,
+  "end": 4.338
+ },
+ {
+  "word": "is",
+  "start": 4.338,
+  "end": 4.488
+ },
+ {
+  "word": "open",
+  "start": 4.488,
+  "end": 4.826
+ },
+ {
+  "word": "source",
+  "start": 4.826,
+  "end": 5.213
+ },
+ {
+  "word": "and",
+  "start": 5.213,
+  "end": 5.351
+ },
+ {
+  "word": "free.",
+  "start": 5.351,
+  "end": 6.201
+ },
+ {
+  "word": "You",
+  "start": 6.201,
+  "end": 6.338
+ },
+ {
+  "word": "bring",
+  "start": 6.338,
+  "end": 6.501
+ },
+ {
+  "word": "the",
+  "start": 6.501,
+  "end": 6.588
+ },
+ {
+  "word": "model:",
+  "start": 6.588,
+  "end": 7.301
+ },
+ {
+  "word": "Claude,",
+  "start": 7.301,
+  "end": 7.851
+ },
+ {
+  "word": "G",
+  "start": 7.851,
+  "end": 8.038
+ },
+ {
+  "word": "P",
+  "start": 8.038,
+  "end": 8.301
+ },
+ {
+  "word": "T,",
+  "start": 8.301,
+  "end": 8.788
+ },
+ {
+  "word": "Gemini,",
+  "start": 8.788,
+  "end": 9.413
+ },
+ {
+  "word": "or",
+  "start": 9.413,
+  "end": 9.538
+ },
+ {
+  "word": "a",
+  "start": 9.538,
+  "end": 9.613
+ },
+ {
+  "word": "local",
+  "start": 9.613,
+  "end": 9.913
+ },
+ {
+  "word": "model",
+  "start": 9.913,
+  "end": 10.263
+ },
+ {
+  "word": "through",
+  "start": 10.263,
+  "end": 10.463
+ },
+ {
+  "word": "Ollama",
+  "start": 10.463,
+  "end": 10.926
+ },
+ {
+  "word": "or",
+  "start": 10.926,
+  "end": 11.088
+ },
+ {
+  "word": "L",
+  "start": 11.088,
+  "end": 11.288
+ },
+ {
+  "word": "M",
+  "start": 11.288,
+  "end": 11.488
+ },
+ {
+  "word": "Studio,",
+  "start": 11.488,
+  "end": 12.188
+ },
+ {
+  "word": "with",
+  "start": 12.188,
+  "end": 12.363
+ },
+ {
+  "word": "no",
+  "start": 12.363,
+  "end": 12.563
+ },
+ {
+  "word": "subscription",
+  "start": 12.563,
+  "end": 13.126
+ },
+ {
+  "word": "at",
+  "start": 13.126,
+  "end": 13.213
+ },
+ {
+  "word": "all.",
+  "start": 13.213,
+  "end": 14.013
+ },
+ {
+  "word": "It",
+  "start": 14.013,
+  "end": 14.163
+ },
+ {
+  "word": "runs",
+  "start": 14.163,
+  "end": 14.488
+ },
+ {
+  "word": "in",
+  "start": 14.488,
+  "end": 14.638
+ },
+ {
+  "word": "V",
+  "start": 14.638,
+  "end": 14.813
+ },
+ {
+  "word": "S",
+  "start": 14.813,
+  "end": 15.013
+ },
+ {
+  "word": "Code,",
+  "start": 15.013,
+  "end": 15.413
+ },
+ {
+  "word": "JetBrains,",
+  "start": 15.413,
+  "end": 16.088
+ },
+ {
+  "word": "as",
+  "start": 16.088,
+  "end": 16.201
+ },
+ {
+  "word": "a",
+  "start": 16.201,
+  "end": 16.263
+ },
+ {
+  "word": "desktop",
+  "start": 16.263,
+  "end": 16.763
+ },
+ {
+  "word": "app",
+  "start": 16.763,
+  "end": 17.038
+ },
+ {
+  "word": "and",
+  "start": 17.038,
+  "end": 17.151
+ },
+ {
+  "word": "in",
+  "start": 17.151,
+  "end": 17.226
+ },
+ {
+  "word": "the",
+  "start": 17.226,
+  "end": 17.313
+ },
+ {
+  "word": "terminal,",
+  "start": 17.313,
+  "end": 18.013
+ },
+ {
+  "word": "with",
+  "start": 18.013,
+  "end": 18.201
+ },
+ {
+  "word": "plan",
+  "start": 18.201,
+  "end": 18.613
+ },
+ {
+  "word": "and",
+  "start": 18.613,
+  "end": 18.776
+ },
+ {
+  "word": "act",
+  "start": 18.776,
+  "end": 19.063
+ },
+ {
+  "word": "modes",
+  "start": 19.063,
+  "end": 19.426
+ },
+ {
+  "word": "and",
+  "start": 19.426,
+  "end": 19.538
+ },
+ {
+  "word": "checkpoints.",
+  "start": 19.538,
+  "end": 20.726
+ },
+ {
+  "word": "The",
+  "start": 20.726,
+  "end": 20.876
+ },
+ {
+  "word": "scar:",
+  "start": 20.876,
+  "end": 21.776
+ },
+ {
+  "word": "in",
+  "start": 21.776,
+  "end": 21.938
+ },
+ {
+  "word": "February,",
+  "start": 21.938,
+  "end": 22.638
+ },
+ {
+  "word": "a",
+  "start": 22.638,
+  "end": 22.751
+ },
+ {
+  "word": "poisoned",
+  "start": 22.751,
+  "end": 23.301
+ },
+ {
+  "word": "Cline",
+  "start": 23.301,
+  "end": 23.638
+ },
+ {
+  "word": "update",
+  "start": 23.638,
+  "end": 24.126
+ },
+ {
+  "word": "sat",
+  "start": 24.126,
+  "end": 24.351
+ },
+ {
+  "word": "on",
+  "start": 24.351,
+  "end": 24.501
+ },
+ {
+  "word": "N",
+  "start": 24.501,
+  "end": 24.726
+ },
+ {
+  "word": "P",
+  "start": 24.726,
+  "end": 24.988
+ },
+ {
+  "word": "M",
+  "start": 24.988,
+  "end": 25.213
+ },
+ {
+  "word": "for",
+  "start": 25.213,
+  "end": 25.376
+ },
+ {
+  "word": "eight",
+  "start": 25.376,
+  "end": 25.588
+ },
+ {
+  "word": "hours.",
+  "start": 25.588,
+  "end": 26.501
+ },
+ {
+  "word": "Attackers",
+  "start": 26.863,
+  "end": 27.388
+ },
+ {
+  "word": "got",
+  "start": 27.388,
+  "end": 27.576
+ },
+ {
+  "word": "in",
+  "start": 27.576,
+  "end": 27.763
+ },
+ {
+  "word": "through",
+  "start": 27.763,
+  "end": 27.963
+ },
+ {
+  "word": "a",
+  "start": 27.963,
+  "end": 28.038
+ },
+ {
+  "word": "prompt",
+  "start": 28.038,
+  "end": 28.451
+ },
+ {
+  "word": "hidden",
+  "start": 28.451,
+  "end": 28.838
+ },
+ {
+  "word": "in",
+  "start": 28.838,
+  "end": 28.926
+ },
+ {
+  "word": "a",
+  "start": 28.926,
+  "end": 29.001
+ },
+ {
+  "word": "GitHub",
+  "start": 29.001,
+  "end": 29.388
+ },
+ {
+  "word": "issue",
+  "start": 29.388,
+  "end": 29.688
+ },
+ {
+  "word": "title,",
+  "start": 29.688,
+  "end": 30.438
+ },
+ {
+  "word": "and",
+  "start": 30.438,
+  "end": 30.551
+ },
+ {
+  "word": "the",
+  "start": 30.551,
+  "end": 30.663
+ },
+ {
+  "word": "update",
+  "start": 30.663,
+  "end": 31.126
+ },
+ {
+  "word": "quietly",
+  "start": 31.126,
+  "end": 31.663
+ },
+ {
+  "word": "installed",
+  "start": 31.663,
+  "end": 32.213
+ },
+ {
+  "word": "another",
+  "start": 32.213,
+  "end": 32.613
+ },
+ {
+  "word": "A",
+  "start": 32.613,
+  "end": 32.888
+ },
+ {
+  "word": "I",
+  "start": 32.888,
+  "end": 33.051
+ },
+ {
+  "word": "agent",
+  "start": 33.051,
+  "end": 33.538
+ },
+ {
+  "word": "on",
+  "start": 33.538,
+  "end": 33.676
+ },
+ {
+  "word": "about",
+  "start": 33.676,
+  "end": 33.963
+ },
+ {
+  "word": "four",
+  "start": 33.963,
+  "end": 34.301
+ },
+ {
+  "word": "thousand",
+  "start": 34.301,
+  "end": 34.701
+ },
+ {
+  "word": "machines.",
+  "start": 34.701,
+  "end": 35.863
+ },
+ {
+  "word": "Cline",
+  "start": 35.863,
+  "end": 36.288
+ },
+ {
+  "word": "has",
+  "start": 36.288,
+  "end": 36.438
+ },
+ {
+  "word": "since",
+  "start": 36.438,
+  "end": 36.726
+ },
+ {
+  "word": "locked",
+  "start": 36.726,
+  "end": 37.038
+ },
+ {
+  "word": "down",
+  "start": 37.038,
+  "end": 37.276
+ },
+ {
+  "word": "its",
+  "start": 37.276,
+  "end": 37.388
+ },
+ {
+  "word": "publishing.",
+  "start": 37.388,
+  "end": 38.501
+ },
+ {
+  "word": "Free,",
+  "start": 38.501,
+  "end": 39.151
+ },
+ {
+  "word": "open,",
+  "start": 39.151,
+  "end": 39.663
+ },
+ {
+  "word": "and",
+  "start": 39.663,
+  "end": 39.801
+ },
+ {
+  "word": "fully",
+  "start": 39.801,
+  "end": 40.113
+ },
+ {
+  "word": "yours.",
+  "start": 40.113,
+  "end": 40.926
+ },
+ {
+  "word": "A",
+  "start": 40.926,
+  "end": 41.051
+ },
+ {
+  "word": "tier.",
+  "start": 41.051,
+  "end": 41.469
+ }
+]

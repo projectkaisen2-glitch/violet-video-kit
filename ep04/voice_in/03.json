@@ -1,0 +1,482 @@
+[
+ {
+  "word": "GitHub",
+  "start": 0.0,
+  "end": 0.318
+ },
+ {
+  "word": "Copilot",
+  "start": 0.318,
+  "end": 0.855
+ },
+ {
+  "word": "switched",
+  "start": 0.855,
+  "end": 1.193
+ },
+ {
+  "word": "to",
+  "start": 1.193,
+  "end": 1.293
+ },
+ {
+  "word": "token",
+  "start": 1.293,
+  "end": 1.643
+ },
+ {
+  "word": "billing,",
+  "start": 1.643,
+  "end": 2.268
+ },
+ {
+  "word": "and",
+  "start": 2.268,
+  "end": 2.393
+ },
+ {
+  "word": "one",
+  "start": 2.393,
+  "end": 2.618
+ },
+ {
+  "word": "user",
+  "start": 2.618,
+  "end": 2.943
+ },
+ {
+  "word": "projected",
+  "start": 2.943,
+  "end": 3.43
+ },
+ {
+  "word": "his",
+  "start": 3.43,
+  "end": 3.593
+ },
+ {
+  "word": "bill",
+  "start": 3.593,
+  "end": 3.855
+ },
+ {
+  "word": "jumping",
+  "start": 3.855,
+  "end": 4.268
+ },
+ {
+  "word": "from",
+  "start": 4.268,
+  "end": 4.48
+ },
+ {
+  "word": "thirty-nine",
+  "start": 4.48,
+  "end": 4.993
+ },
+ {
+  "word": "dollars",
+  "start": 4.993,
+  "end": 5.43
+ },
+ {
+  "word": "to",
+  "start": 5.43,
+  "end": 5.605
+ },
+ {
+  "word": "eight",
+  "start": 5.605,
+  "end": 5.805
+ },
+ {
+  "word": "hundred",
+  "start": 5.805,
+  "end": 6.068
+ },
+ {
+  "word": "forty-seven.",
+  "start": 6.068,
+  "end": 7.293
+ },
+ {
+  "word": "Since",
+  "start": 7.293,
+  "end": 7.543
+ },
+ {
+  "word": "June",
+  "start": 7.543,
+  "end": 7.768
+ },
+ {
+  "word": "first,",
+  "start": 7.768,
+  "end": 8.193
+ },
+ {
+  "word": "every",
+  "start": 8.193,
+  "end": 8.493
+ },
+ {
+  "word": "Copilot",
+  "start": 8.493,
+  "end": 8.993
+ },
+ {
+  "word": "plan",
+  "start": 8.993,
+  "end": 9.343
+ },
+ {
+  "word": "runs",
+  "start": 9.343,
+  "end": 9.58
+ },
+ {
+  "word": "on",
+  "start": 9.58,
+  "end": 9.68
+ },
+ {
+  "word": "A",
+  "start": 9.68,
+  "end": 9.743
+ },
+ {
+  "word": "I",
+  "start": 9.743,
+  "end": 9.943
+ },
+ {
+  "word": "Credits:",
+  "start": 9.943,
+  "end": 10.83
+ },
+ {
+  "word": "one",
+  "start": 10.83,
+  "end": 11.08
+ },
+ {
+  "word": "cent",
+  "start": 11.08,
+  "end": 11.368
+ },
+ {
+  "word": "each,",
+  "start": 11.368,
+  "end": 11.768
+ },
+ {
+  "word": "billed",
+  "start": 11.768,
+  "end": 12.018
+ },
+ {
+  "word": "by",
+  "start": 12.018,
+  "end": 12.193
+ },
+ {
+  "word": "tokens.",
+  "start": 12.193,
+  "end": 13.255
+ },
+ {
+  "word": "Pro",
+  "start": 13.255,
+  "end": 13.493
+ },
+ {
+  "word": "is",
+  "start": 13.493,
+  "end": 13.655
+ },
+ {
+  "word": "ten",
+  "start": 13.655,
+  "end": 13.918
+ },
+ {
+  "word": "dollars",
+  "start": 13.918,
+  "end": 14.318
+ },
+ {
+  "word": "for",
+  "start": 14.318,
+  "end": 14.443
+ },
+ {
+  "word": "fifteen",
+  "start": 14.443,
+  "end": 14.805
+ },
+ {
+  "word": "hundred",
+  "start": 14.805,
+  "end": 15.093
+ },
+ {
+  "word": "credits,",
+  "start": 15.093,
+  "end": 15.743
+ },
+ {
+  "word": "Pro",
+  "start": 15.743,
+  "end": 15.968
+ },
+ {
+  "word": "Plus",
+  "start": 15.968,
+  "end": 16.243
+ },
+ {
+  "word": "is",
+  "start": 16.243,
+  "end": 16.418
+ },
+ {
+  "word": "thirty-nine,",
+  "start": 16.418,
+  "end": 17.043
+ },
+ {
+  "word": "and",
+  "start": 17.043,
+  "end": 17.155
+ },
+ {
+  "word": "there's",
+  "start": 17.155,
+  "end": 17.305
+ },
+ {
+  "word": "a",
+  "start": 17.305,
+  "end": 17.405
+ },
+ {
+  "word": "new",
+  "start": 17.405,
+  "end": 17.605
+ },
+ {
+  "word": "Max",
+  "start": 17.605,
+  "end": 17.943
+ },
+ {
+  "word": "plan",
+  "start": 17.943,
+  "end": 18.268
+ },
+ {
+  "word": "at",
+  "start": 18.268,
+  "end": 18.355
+ },
+ {
+  "word": "a",
+  "start": 18.355,
+  "end": 18.418
+ },
+ {
+  "word": "hundred.",
+  "start": 18.418,
+  "end": 19.355
+ },
+ {
+  "word": "Autocomplete",
+  "start": 19.355,
+  "end": 20.193
+ },
+ {
+  "word": "is",
+  "start": 20.193,
+  "end": 20.318
+ },
+ {
+  "word": "still",
+  "start": 20.318,
+  "end": 20.605
+ },
+ {
+  "word": "free.",
+  "start": 20.605,
+  "end": 21.343
+ },
+ {
+  "word": "Chat",
+  "start": 21.343,
+  "end": 21.693
+ },
+ {
+  "word": "and",
+  "start": 21.693,
+  "end": 21.818
+ },
+ {
+  "word": "agents",
+  "start": 21.818,
+  "end": 22.243
+ },
+ {
+  "word": "eat",
+  "start": 22.243,
+  "end": 22.443
+ },
+ {
+  "word": "credits.",
+  "start": 22.443,
+  "end": 23.38
+ },
+ {
+  "word": "The",
+  "start": 23.38,
+  "end": 23.543
+ },
+ {
+  "word": "upside:",
+  "start": 23.543,
+  "end": 24.38
+ },
+ {
+  "word": "Copilot",
+  "start": 24.38,
+  "end": 24.918
+ },
+ {
+  "word": "works",
+  "start": 24.918,
+  "end": 25.218
+ },
+ {
+  "word": "almost",
+  "start": 25.218,
+  "end": 25.643
+ },
+ {
+  "word": "everywhere.",
+  "start": 25.643,
+  "end": 26.655
+ },
+ {
+  "word": "V",
+  "start": 27.043,
+  "end": 27.218
+ },
+ {
+  "word": "S",
+  "start": 27.218,
+  "end": 27.43
+ },
+ {
+  "word": "Code,",
+  "start": 27.43,
+  "end": 27.918
+ },
+ {
+  "word": "JetBrains,",
+  "start": 27.918,
+  "end": 28.593
+ },
+ {
+  "word": "Eclipse,",
+  "start": 28.593,
+  "end": 29.093
+ },
+ {
+  "word": "Xcode,",
+  "start": 29.093,
+  "end": 29.743
+ },
+ {
+  "word": "even",
+  "start": 29.743,
+  "end": 30.043
+ },
+ {
+  "word": "GitHub",
+  "start": 30.043,
+  "end": 30.38
+ },
+ {
+  "word": "itself.",
+  "start": 30.38,
+  "end": 31.318
+ },
+ {
+  "word": "And",
+  "start": 31.318,
+  "end": 31.455
+ },
+ {
+  "word": "it's",
+  "start": 31.455,
+  "end": 31.568
+ },
+ {
+  "word": "still",
+  "start": 31.568,
+  "end": 31.83
+ },
+ {
+  "word": "the",
+  "start": 31.83,
+  "end": 31.93
+ },
+ {
+  "word": "cheapest",
+  "start": 31.93,
+  "end": 32.418
+ },
+ {
+  "word": "way",
+  "start": 32.418,
+  "end": 32.643
+ },
+ {
+  "word": "in.",
+  "start": 32.643,
+  "end": 33.318
+ },
+ {
+  "word": "Cheapest",
+  "start": 33.318,
+  "end": 33.793
+ },
+ {
+  "word": "entry,",
+  "start": 33.793,
+  "end": 34.318
+ },
+ {
+  "word": "least",
+  "start": 34.318,
+  "end": 34.618
+ },
+ {
+  "word": "predictable",
+  "start": 34.618,
+  "end": 35.193
+ },
+ {
+  "word": "bill.",
+  "start": 35.193,
+  "end": 35.855
+ },
+ {
+  "word": "B",
+  "start": 35.855,
+  "end": 36.055
+ },
+ {
+  "word": "tier.",
+  "start": 36.055,
+  "end": 36.472
+ }
+]

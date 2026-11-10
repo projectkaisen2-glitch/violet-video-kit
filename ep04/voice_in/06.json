@@ -1,0 +1,502 @@
+[
+ {
+  "word": "OpenAI",
+  "start": 0.0,
+  "end": 0.54
+ },
+ {
+  "word": "tried",
+  "start": 0.54,
+  "end": 0.803
+ },
+ {
+  "word": "to",
+  "start": 0.803,
+  "end": 0.89
+ },
+ {
+  "word": "cut",
+  "start": 0.89,
+  "end": 1.078
+ },
+ {
+  "word": "its",
+  "start": 1.078,
+  "end": 1.278
+ },
+ {
+  "word": "two-hundred-dollar",
+  "start": 1.278,
+  "end": 2.115
+ },
+ {
+  "word": "coding",
+  "start": 2.115,
+  "end": 2.44
+ },
+ {
+  "word": "plan",
+  "start": 2.44,
+  "end": 2.703
+ },
+ {
+  "word": "in",
+  "start": 2.703,
+  "end": 2.79
+ },
+ {
+  "word": "half,",
+  "start": 2.79,
+  "end": 3.39
+ },
+ {
+  "word": "and",
+  "start": 3.39,
+  "end": 3.515
+ },
+ {
+  "word": "backed",
+  "start": 3.515,
+  "end": 3.815
+ },
+ {
+  "word": "down",
+  "start": 3.815,
+  "end": 4.053
+ },
+ {
+  "word": "the",
+  "start": 4.053,
+  "end": 4.14
+ },
+ {
+  "word": "day",
+  "start": 4.14,
+  "end": 4.34
+ },
+ {
+  "word": "before.",
+  "start": 4.34,
+  "end": 5.39
+ },
+ {
+  "word": "At",
+  "start": 5.39,
+  "end": 5.565
+ },
+ {
+  "word": "Dev",
+  "start": 5.565,
+  "end": 5.79
+ },
+ {
+  "word": "Day",
+  "start": 5.79,
+  "end": 6.003
+ },
+ {
+  "word": "in",
+  "start": 6.003,
+  "end": 6.115
+ },
+ {
+  "word": "September,",
+  "start": 6.115,
+  "end": 6.965
+ },
+ {
+  "word": "OpenAI",
+  "start": 6.965,
+  "end": 7.565
+ },
+ {
+  "word": "announced",
+  "start": 7.565,
+  "end": 7.99
+ },
+ {
+  "word": "that",
+  "start": 7.99,
+  "end": 8.103
+ },
+ {
+  "word": "the",
+  "start": 8.103,
+  "end": 8.228
+ },
+ {
+  "word": "two-hundred-dollar",
+  "start": 8.228,
+  "end": 9.015
+ },
+ {
+  "word": "Pro",
+  "start": 9.015,
+  "end": 9.24
+ },
+ {
+  "word": "plan",
+  "start": 9.24,
+  "end": 9.553
+ },
+ {
+  "word": "would",
+  "start": 9.553,
+  "end": 9.665
+ },
+ {
+  "word": "get",
+  "start": 9.665,
+  "end": 9.84
+ },
+ {
+  "word": "half",
+  "start": 9.84,
+  "end": 10.078
+ },
+ {
+  "word": "the",
+  "start": 10.078,
+  "end": 10.165
+ },
+ {
+  "word": "Codex",
+  "start": 10.165,
+  "end": 10.64
+ },
+ {
+  "word": "usage.",
+  "start": 10.64,
+  "end": 11.715
+ },
+ {
+  "word": "Users",
+  "start": 11.715,
+  "end": 12.14
+ },
+ {
+  "word": "revolted,",
+  "start": 12.14,
+  "end": 12.965
+ },
+ {
+  "word": "and",
+  "start": 12.965,
+  "end": 13.078
+ },
+ {
+  "word": "on",
+  "start": 13.078,
+  "end": 13.19
+ },
+ {
+  "word": "October",
+  "start": 13.19,
+  "end": 13.59
+ },
+ {
+  "word": "twenty-ninth,",
+  "start": 13.59,
+  "end": 14.34
+ },
+ {
+  "word": "OpenAI",
+  "start": 14.34,
+  "end": 14.915
+ },
+ {
+  "word": "cancelled",
+  "start": 14.915,
+  "end": 15.328
+ },
+ {
+  "word": "the",
+  "start": 15.328,
+  "end": 15.415
+ },
+ {
+  "word": "cut,",
+  "start": 15.415,
+  "end": 15.89
+ },
+ {
+  "word": "and",
+  "start": 15.89,
+  "end": 16.015
+ },
+ {
+  "word": "doubled",
+  "start": 16.015,
+  "end": 16.365
+ },
+ {
+  "word": "limits",
+  "start": 16.365,
+  "end": 16.678
+ },
+ {
+  "word": "on",
+  "start": 16.678,
+  "end": 16.778
+ },
+ {
+  "word": "other",
+  "start": 16.778,
+  "end": 16.94
+ },
+ {
+  "word": "plans.",
+  "start": 16.94,
+  "end": 18.028
+ },
+ {
+  "word": "Codex",
+  "start": 18.028,
+  "end": 18.54
+ },
+ {
+  "word": "now",
+  "start": 18.54,
+  "end": 18.765
+ },
+ {
+  "word": "lives",
+  "start": 18.765,
+  "end": 19.015
+ },
+ {
+  "word": "inside",
+  "start": 19.015,
+  "end": 19.403
+ },
+ {
+  "word": "the",
+  "start": 19.403,
+  "end": 19.49
+ },
+ {
+  "word": "ChatGPT",
+  "start": 19.49,
+  "end": 20.19
+ },
+ {
+  "word": "app,",
+  "start": 20.19,
+  "end": 20.615
+ },
+ {
+  "word": "and",
+  "start": 20.615,
+  "end": 20.728
+ },
+ {
+  "word": "it",
+  "start": 20.728,
+  "end": 20.815
+ },
+ {
+  "word": "runs",
+  "start": 20.815,
+  "end": 21.115
+ },
+ {
+  "word": "everywhere:",
+  "start": 21.115,
+  "end": 22.053
+ },
+ {
+  "word": "terminal,",
+  "start": 22.053,
+  "end": 22.753
+ },
+ {
+  "word": "V",
+  "start": 22.753,
+  "end": 22.965
+ },
+ {
+  "word": "S",
+  "start": 22.965,
+  "end": 23.178
+ },
+ {
+  "word": "Code,",
+  "start": 23.178,
+  "end": 23.665
+ },
+ {
+  "word": "JetBrains,",
+  "start": 23.665,
+  "end": 24.415
+ },
+ {
+  "word": "Xcode,",
+  "start": 24.415,
+  "end": 25.165
+ },
+ {
+  "word": "the",
+  "start": 25.165,
+  "end": 25.265
+ },
+ {
+  "word": "cloud,",
+  "start": 25.265,
+  "end": 25.79
+ },
+ {
+  "word": "even",
+  "start": 25.79,
+  "end": 26.028
+ },
+ {
+  "word": "your",
+  "start": 26.028,
+  "end": 26.178
+ },
+ {
+  "word": "phone.",
+  "start": 26.178,
+  "end": 27.003
+ },
+ {
+  "word": "One",
+  "start": 27.39,
+  "end": 27.628
+ },
+ {
+  "word": "catch:",
+  "start": 27.628,
+  "end": 28.265
+ },
+ {
+  "word": "the",
+  "start": 28.265,
+  "end": 28.365
+ },
+ {
+  "word": "command-line",
+  "start": 28.365,
+  "end": 28.978
+ },
+ {
+  "word": "tool",
+  "start": 28.978,
+  "end": 29.34
+ },
+ {
+  "word": "needs",
+  "start": 29.34,
+  "end": 29.603
+ },
+ {
+  "word": "at",
+  "start": 29.603,
+  "end": 29.69
+ },
+ {
+  "word": "least",
+  "start": 29.69,
+  "end": 29.953
+ },
+ {
+  "word": "ChatGPT",
+  "start": 29.953,
+  "end": 30.765
+ },
+ {
+  "word": "Plus,",
+  "start": 30.765,
+  "end": 31.24
+ },
+ {
+  "word": "twenty",
+  "start": 31.24,
+  "end": 31.54
+ },
+ {
+  "word": "dollars.",
+  "start": 31.54,
+  "end": 32.465
+ },
+ {
+  "word": "Free",
+  "start": 32.465,
+  "end": 32.715
+ },
+ {
+  "word": "users",
+  "start": 32.715,
+  "end": 33.165
+ },
+ {
+  "word": "only",
+  "start": 33.165,
+  "end": 33.465
+ },
+ {
+  "word": "get",
+  "start": 33.465,
+  "end": 33.628
+ },
+ {
+  "word": "the",
+  "start": 33.628,
+  "end": 33.715
+ },
+ {
+  "word": "desktop",
+  "start": 33.715,
+  "end": 34.265
+ },
+ {
+  "word": "app.",
+  "start": 34.265,
+  "end": 34.903
+ },
+ {
+  "word": "Biggest",
+  "start": 34.903,
+  "end": 35.315
+ },
+ {
+  "word": "reach,",
+  "start": 35.315,
+  "end": 35.74
+ },
+ {
+  "word": "but",
+  "start": 35.74,
+  "end": 35.878
+ },
+ {
+  "word": "the",
+  "start": 35.878,
+  "end": 35.99
+ },
+ {
+  "word": "limits",
+  "start": 35.99,
+  "end": 36.34
+ },
+ {
+  "word": "keep",
+  "start": 36.34,
+  "end": 36.59
+ },
+ {
+  "word": "moving.",
+  "start": 36.59,
+  "end": 37.478
+ },
+ {
+  "word": "A",
+  "start": 37.478,
+  "end": 37.603
+ },
+ {
+  "word": "tier.",
+  "start": 37.603,
+  "end": 38.059
+ }
+]

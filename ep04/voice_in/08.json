@@ -1,0 +1,487 @@
+[
+ {
+  "word": "Two",
+  "start": 0.0,
+  "end": 0.19
+ },
+ {
+  "word": "out",
+  "start": 0.19,
+  "end": 0.378
+ },
+ {
+  "word": "of",
+  "start": 0.378,
+  "end": 0.465
+ },
+ {
+  "word": "three",
+  "start": 0.465,
+  "end": 0.69
+ },
+ {
+  "word": "developers",
+  "start": 0.69,
+  "end": 1.228
+ },
+ {
+  "word": "who",
+  "start": 1.228,
+  "end": 1.34
+ },
+ {
+  "word": "use",
+  "start": 1.34,
+  "end": 1.528
+ },
+ {
+  "word": "A",
+  "start": 1.528,
+  "end": 1.628
+ },
+ {
+  "word": "I",
+  "start": 1.628,
+  "end": 1.878
+ },
+ {
+  "word": "agents",
+  "start": 1.878,
+  "end": 2.378
+ },
+ {
+  "word": "use",
+  "start": 2.378,
+  "end": 2.64
+ },
+ {
+  "word": "this",
+  "start": 2.64,
+  "end": 2.84
+ },
+ {
+  "word": "one.",
+  "start": 2.84,
+  "end": 3.578
+ },
+ {
+  "word": "In",
+  "start": 3.578,
+  "end": 3.678
+ },
+ {
+  "word": "the",
+  "start": 3.678,
+  "end": 3.765
+ },
+ {
+  "word": "twenty",
+  "start": 3.765,
+  "end": 4.015
+ },
+ {
+  "word": "twenty-six",
+  "start": 4.015,
+  "end": 4.615
+ },
+ {
+  "word": "Stack",
+  "start": 4.615,
+  "end": 4.965
+ },
+ {
+  "word": "Overflow",
+  "start": 4.965,
+  "end": 5.478
+ },
+ {
+  "word": "survey,",
+  "start": 5.478,
+  "end": 6.228
+ },
+ {
+  "word": "sixty-six",
+  "start": 6.228,
+  "end": 6.84
+ },
+ {
+  "word": "percent",
+  "start": 6.84,
+  "end": 7.178
+ },
+ {
+  "word": "of",
+  "start": 7.178,
+  "end": 7.265
+ },
+ {
+  "word": "agent",
+  "start": 7.265,
+  "end": 7.59
+ },
+ {
+  "word": "users",
+  "start": 7.59,
+  "end": 8.015
+ },
+ {
+  "word": "said",
+  "start": 8.015,
+  "end": 8.153
+ },
+ {
+  "word": "they",
+  "start": 8.153,
+  "end": 8.29
+ },
+ {
+  "word": "use",
+  "start": 8.29,
+  "end": 8.528
+ },
+ {
+  "word": "Claude",
+  "start": 8.528,
+  "end": 8.84
+ },
+ {
+  "word": "Code.",
+  "start": 8.84,
+  "end": 9.653
+ },
+ {
+  "word": "More",
+  "start": 9.653,
+  "end": 9.878
+ },
+ {
+  "word": "than",
+  "start": 9.878,
+  "end": 10.04
+ },
+ {
+  "word": "GitHub",
+  "start": 10.04,
+  "end": 10.415
+ },
+ {
+  "word": "Copilot.",
+  "start": 10.415,
+  "end": 11.415
+ },
+ {
+  "word": "It",
+  "start": 11.415,
+  "end": 11.59
+ },
+ {
+  "word": "lives",
+  "start": 11.59,
+  "end": 11.828
+ },
+ {
+  "word": "in",
+  "start": 11.828,
+  "end": 11.903
+ },
+ {
+  "word": "your",
+  "start": 11.903,
+  "end": 12.015
+ },
+ {
+  "word": "terminal,",
+  "start": 12.015,
+  "end": 12.753
+ },
+ {
+  "word": "plugs",
+  "start": 12.753,
+  "end": 13.053
+ },
+ {
+  "word": "into",
+  "start": 13.053,
+  "end": 13.228
+ },
+ {
+  "word": "your",
+  "start": 13.228,
+  "end": 13.34
+ },
+ {
+  "word": "editor,",
+  "start": 13.34,
+  "end": 13.84
+ },
+ {
+  "word": "and",
+  "start": 13.84,
+  "end": 13.965
+ },
+ {
+  "word": "runs",
+  "start": 13.965,
+  "end": 14.315
+ },
+ {
+  "word": "whole",
+  "start": 14.315,
+  "end": 14.565
+ },
+ {
+  "word": "teams",
+  "start": 14.565,
+  "end": 14.878
+ },
+ {
+  "word": "of",
+  "start": 14.878,
+  "end": 14.965
+ },
+ {
+  "word": "sub-agents",
+  "start": 14.965,
+  "end": 15.578
+ },
+ {
+  "word": "on",
+  "start": 15.578,
+  "end": 15.678
+ },
+ {
+  "word": "the",
+  "start": 15.678,
+  "end": 15.765
+ },
+ {
+  "word": "newest",
+  "start": 15.765,
+  "end": 16.14
+ },
+ {
+  "word": "Claude",
+  "start": 16.14,
+  "end": 16.44
+ },
+ {
+  "word": "models.",
+  "start": 16.44,
+  "end": 17.415
+ },
+ {
+  "word": "It",
+  "start": 17.415,
+  "end": 17.565
+ },
+ {
+  "word": "wasn't",
+  "start": 17.565,
+  "end": 17.828
+ },
+ {
+  "word": "a",
+  "start": 17.828,
+  "end": 17.89
+ },
+ {
+  "word": "clean",
+  "start": 17.89,
+  "end": 18.215
+ },
+ {
+  "word": "year:",
+  "start": 18.215,
+  "end": 18.903
+ },
+ {
+  "word": "in",
+  "start": 18.903,
+  "end": 19.04
+ },
+ {
+  "word": "March,",
+  "start": 19.04,
+  "end": 19.64
+ },
+ {
+  "word": "a",
+  "start": 19.64,
+  "end": 19.753
+ },
+ {
+  "word": "packaging",
+  "start": 19.753,
+  "end": 20.228
+ },
+ {
+  "word": "mistake",
+  "start": 20.228,
+  "end": 20.665
+ },
+ {
+  "word": "leaked",
+  "start": 20.665,
+  "end": 20.953
+ },
+ {
+  "word": "five",
+  "start": 20.953,
+  "end": 21.228
+ },
+ {
+  "word": "hundred",
+  "start": 21.228,
+  "end": 21.49
+ },
+ {
+  "word": "twelve",
+  "start": 21.49,
+  "end": 21.828
+ },
+ {
+  "word": "thousand",
+  "start": 21.828,
+  "end": 22.265
+ },
+ {
+  "word": "lines",
+  "start": 22.265,
+  "end": 22.628
+ },
+ {
+  "word": "of",
+  "start": 22.628,
+  "end": 22.703
+ },
+ {
+  "word": "its",
+  "start": 22.703,
+  "end": 22.865
+ },
+ {
+  "word": "own",
+  "start": 22.865,
+  "end": 23.115
+ },
+ {
+  "word": "source",
+  "start": 23.115,
+  "end": 23.415
+ },
+ {
+  "word": "code.",
+  "start": 23.415,
+  "end": 24.165
+ },
+ {
+  "word": "And",
+  "start": 24.165,
+  "end": 24.303
+ },
+ {
+  "word": "there's",
+  "start": 24.303,
+  "end": 24.515
+ },
+ {
+  "word": "no",
+  "start": 24.515,
+  "end": 24.753
+ },
+ {
+  "word": "free",
+  "start": 24.753,
+  "end": 24.99
+ },
+ {
+  "word": "plan.",
+  "start": 24.99,
+  "end": 25.828
+ },
+ {
+  "word": "Pro",
+  "start": 26.165,
+  "end": 26.39
+ },
+ {
+  "word": "is",
+  "start": 26.39,
+  "end": 26.54
+ },
+ {
+  "word": "twenty",
+  "start": 26.54,
+  "end": 26.84
+ },
+ {
+  "word": "dollars,",
+  "start": 26.84,
+  "end": 27.453
+ },
+ {
+  "word": "Max",
+  "start": 27.453,
+  "end": 27.79
+ },
+ {
+  "word": "starts",
+  "start": 27.79,
+  "end": 28.103
+ },
+ {
+  "word": "at",
+  "start": 28.103,
+  "end": 28.178
+ },
+ {
+  "word": "a",
+  "start": 28.178,
+  "end": 28.24
+ },
+ {
+  "word": "hundred.",
+  "start": 28.24,
+  "end": 29.015
+ },
+ {
+  "word": "The",
+  "start": 29.015,
+  "end": 29.115
+ },
+ {
+  "word": "one",
+  "start": 29.115,
+  "end": 29.29
+ },
+ {
+  "word": "everyone",
+  "start": 29.29,
+  "end": 29.678
+ },
+ {
+  "word": "else",
+  "start": 29.678,
+  "end": 29.94
+ },
+ {
+  "word": "is",
+  "start": 29.94,
+  "end": 30.09
+ },
+ {
+  "word": "chasing.",
+  "start": 30.09,
+  "end": 30.953
+ },
+ {
+  "word": "S",
+  "start": 30.953,
+  "end": 31.203
+ },
+ {
+  "word": "tier.",
+  "start": 31.203,
+  "end": 31.613
+ }
+]

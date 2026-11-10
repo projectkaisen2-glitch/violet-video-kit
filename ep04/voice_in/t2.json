@@ -1,0 +1,62 @@
+[
+ {
+  "word": "Seven",
+  "start": 0.031,
+  "end": 0.331
+ },
+ {
+  "word": "more",
+  "start": 0.331,
+  "end": 0.556
+ },
+ {
+  "word": "tools,",
+  "start": 0.556,
+  "end": 1.081
+ },
+ {
+  "word": "one",
+  "start": 1.081,
+  "end": 1.268
+ },
+ {
+  "word": "S",
+  "start": 1.268,
+  "end": 1.456
+ },
+ {
+  "word": "tier.",
+  "start": 1.456,
+  "end": 2.118
+ },
+ {
+  "word": "Full",
+  "start": 2.118,
+  "end": 2.356
+ },
+ {
+  "word": "list",
+  "start": 2.356,
+  "end": 2.618
+ },
+ {
+  "word": "in",
+  "start": 2.618,
+  "end": 2.693
+ },
+ {
+  "word": "the",
+  "start": 2.693,
+  "end": 2.781
+ },
+ {
+  "word": "video",
+  "start": 2.781,
+  "end": 3.156
+ },
+ {
+  "word": "below.",
+  "start": 3.156,
+  "end": 3.641
+ }
+]

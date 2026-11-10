@@ -1,0 +1,427 @@
+[
+ {
+  "word": "Windsurf",
+  "start": 0.0,
+  "end": 0.473
+ },
+ {
+  "word": "doesn't",
+  "start": 0.473,
+  "end": 0.736
+ },
+ {
+  "word": "exist",
+  "start": 0.736,
+  "end": 1.086
+ },
+ {
+  "word": "anymore.",
+  "start": 1.086,
+  "end": 1.961
+ },
+ {
+  "word": "OpenAI",
+  "start": 1.961,
+  "end": 2.573
+ },
+ {
+  "word": "almost",
+  "start": 2.573,
+  "end": 2.948
+ },
+ {
+  "word": "bought",
+  "start": 2.948,
+  "end": 3.161
+ },
+ {
+  "word": "it",
+  "start": 3.161,
+  "end": 3.248
+ },
+ {
+  "word": "for",
+  "start": 3.248,
+  "end": 3.423
+ },
+ {
+  "word": "three",
+  "start": 3.423,
+  "end": 3.761
+ },
+ {
+  "word": "billion",
+  "start": 3.761,
+  "end": 4.123
+ },
+ {
+  "word": "dollars.",
+  "start": 4.123,
+  "end": 4.923
+ },
+ {
+  "word": "Then",
+  "start": 4.923,
+  "end": 5.148
+ },
+ {
+  "word": "Google",
+  "start": 5.148,
+  "end": 5.473
+ },
+ {
+  "word": "hired",
+  "start": 5.473,
+  "end": 5.786
+ },
+ {
+  "word": "the",
+  "start": 5.786,
+  "end": 5.886
+ },
+ {
+  "word": "C",
+  "start": 5.886,
+  "end": 6.098
+ },
+ {
+  "word": "E",
+  "start": 6.098,
+  "end": 6.248
+ },
+ {
+  "word": "O,",
+  "start": 6.248,
+  "end": 6.723
+ },
+ {
+  "word": "Cognition",
+  "start": 6.723,
+  "end": 7.273
+ },
+ {
+  "word": "bought",
+  "start": 7.273,
+  "end": 7.486
+ },
+ {
+  "word": "the",
+  "start": 7.486,
+  "end": 7.573
+ },
+ {
+  "word": "rest,",
+  "start": 7.573,
+  "end": 8.273
+ },
+ {
+  "word": "and",
+  "start": 8.273,
+  "end": 8.386
+ },
+ {
+  "word": "in",
+  "start": 8.386,
+  "end": 8.536
+ },
+ {
+  "word": "June",
+  "start": 8.536,
+  "end": 8.848
+ },
+ {
+  "word": "twenty",
+  "start": 8.848,
+  "end": 9.148
+ },
+ {
+  "word": "twenty-six,",
+  "start": 9.148,
+  "end": 9.848
+ },
+ {
+  "word": "Windsurf",
+  "start": 9.848,
+  "end": 10.298
+ },
+ {
+  "word": "became",
+  "start": 10.298,
+  "end": 10.673
+ },
+ {
+  "word": "Devin",
+  "start": 10.673,
+  "end": 10.998
+ },
+ {
+  "word": "Desktop.",
+  "start": 10.998,
+  "end": 12.086
+ },
+ {
+  "word": "Windsurf",
+  "start": 12.086,
+  "end": 12.573
+ },
+ {
+  "word": "dot",
+  "start": 12.573,
+  "end": 12.848
+ },
+ {
+  "word": "com",
+  "start": 12.848,
+  "end": 13.086
+ },
+ {
+  "word": "now",
+  "start": 13.086,
+  "end": 13.273
+ },
+ {
+  "word": "redirects",
+  "start": 13.273,
+  "end": 13.798
+ },
+ {
+  "word": "to",
+  "start": 13.798,
+  "end": 13.898
+ },
+ {
+  "word": "Devin.",
+  "start": 13.898,
+  "end": 14.686
+ },
+ {
+  "word": "Even",
+  "start": 14.686,
+  "end": 15.011
+ },
+ {
+  "word": "Cascade,",
+  "start": 15.011,
+  "end": 15.748
+ },
+ {
+  "word": "the",
+  "start": 15.748,
+  "end": 15.911
+ },
+ {
+  "word": "agent",
+  "start": 15.911,
+  "end": 16.248
+ },
+ {
+  "word": "people",
+  "start": 16.248,
+  "end": 16.573
+ },
+ {
+  "word": "actually",
+  "start": 16.573,
+  "end": 16.973
+ },
+ {
+  "word": "loved,",
+  "start": 16.973,
+  "end": 17.598
+ },
+ {
+  "word": "has",
+  "start": 17.598,
+  "end": 17.736
+ },
+ {
+  "word": "been",
+  "start": 17.736,
+  "end": 17.836
+ },
+ {
+  "word": "replaced",
+  "start": 17.836,
+  "end": 18.273
+ },
+ {
+  "word": "by",
+  "start": 18.273,
+  "end": 18.448
+ },
+ {
+  "word": "Devin's",
+  "start": 18.448,
+  "end": 18.873
+ },
+ {
+  "word": "own",
+  "start": 18.873,
+  "end": 19.073
+ },
+ {
+  "word": "agent.",
+  "start": 19.073,
+  "end": 20.011
+ },
+ {
+  "word": "What's",
+  "start": 20.011,
+  "end": 20.311
+ },
+ {
+  "word": "left",
+  "start": 20.311,
+  "end": 20.648
+ },
+ {
+  "word": "is",
+  "start": 20.648,
+  "end": 20.761
+ },
+ {
+  "word": "a",
+  "start": 20.761,
+  "end": 20.861
+ },
+ {
+  "word": "solid",
+  "start": 20.861,
+  "end": 21.286
+ },
+ {
+  "word": "V",
+  "start": 21.286,
+  "end": 21.536
+ },
+ {
+  "word": "S",
+  "start": 21.536,
+  "end": 21.761
+ },
+ {
+  "word": "Code",
+  "start": 21.761,
+  "end": 22.136
+ },
+ {
+  "word": "fork",
+  "start": 22.136,
+  "end": 22.411
+ },
+ {
+  "word": "with",
+  "start": 22.411,
+  "end": 22.573
+ },
+ {
+  "word": "Cognition's",
+  "start": 22.573,
+  "end": 23.248
+ },
+ {
+  "word": "own",
+  "start": 23.248,
+  "end": 23.423
+ },
+ {
+  "word": "S",
+  "start": 23.423,
+  "end": 23.623
+ },
+ {
+  "word": "W",
+  "start": 23.623,
+  "end": 24.023
+ },
+ {
+  "word": "E",
+  "start": 24.023,
+  "end": 24.173
+ },
+ {
+  "word": "models.",
+  "start": 24.173,
+  "end": 25.086
+ },
+ {
+  "word": "Pro",
+  "start": 25.086,
+  "end": 25.348
+ },
+ {
+  "word": "is",
+  "start": 25.348,
+  "end": 25.498
+ },
+ {
+  "word": "twenty",
+  "start": 25.498,
+  "end": 25.798
+ },
+ {
+  "word": "dollars,",
+  "start": 25.798,
+  "end": 26.461
+ },
+ {
+  "word": "Max",
+  "start": 26.461,
+  "end": 26.798
+ },
+ {
+  "word": "is",
+  "start": 26.798,
+  "end": 26.961
+ },
+ {
+  "word": "two",
+  "start": 26.961,
+  "end": 27.173
+ },
+ {
+  "word": "hundred.",
+  "start": 27.173,
+  "end": 28.036
+ },
+ {
+  "word": "New",
+  "start": 28.448,
+  "end": 28.623
+ },
+ {
+  "word": "name,",
+  "start": 28.623,
+  "end": 28.886
+ },
+ {
+  "word": "new",
+  "start": 28.886,
+  "end": 28.998
+ },
+ {
+  "word": "brain,",
+  "start": 28.998,
+  "end": 29.323
+ },
+ {
+  "word": "same",
+  "start": 29.323,
+  "end": 29.548
+ },
+ {
+  "word": "price.",
+  "start": 29.548,
+  "end": 30.236
+ },
+ {
+  "word": "C",
+  "start": 30.236,
+  "end": 30.461
+ },
+ {
+  "word": "tier.",
+  "start": 30.461,
+  "end": 30.877
+ }
+]

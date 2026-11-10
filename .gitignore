@@ -12,3 +12,5 @@ fontpack/cache/
 selftest_diff_*.png
 cache/
 __pycache__/
+ep04/test/*.png
+ep04/test/*.log

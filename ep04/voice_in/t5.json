@@ -1,0 +1,52 @@
+[
+ {
+  "word": "Who's",
+  "start": 0.0,
+  "end": 0.205
+ },
+ {
+  "word": "in",
+  "start": 0.205,
+  "end": 0.28
+ },
+ {
+  "word": "A",
+  "start": 0.28,
+  "end": 0.38
+ },
+ {
+  "word": "tier?",
+  "start": 0.38,
+  "end": 1.03
+ },
+ {
+  "word": "Full",
+  "start": 1.03,
+  "end": 1.243
+ },
+ {
+  "word": "list",
+  "start": 1.243,
+  "end": 1.505
+ },
+ {
+  "word": "in",
+  "start": 1.505,
+  "end": 1.58
+ },
+ {
+  "word": "the",
+  "start": 1.58,
+  "end": 1.668
+ },
+ {
+  "word": "video",
+  "start": 1.668,
+  "end": 2.043
+ },
+ {
+  "word": "below.",
+  "start": 2.043,
+  "end": 2.531
+ }
+]

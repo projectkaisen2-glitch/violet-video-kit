@@ -1,0 +1,562 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.04
+ },
+ {
+  "word": "most",
+  "start": 0.04,
+  "end": 0.29
+ },
+ {
+  "word": "popular",
+  "start": 0.29,
+  "end": 0.752
+ },
+ {
+  "word": "A",
+  "start": 0.752,
+  "end": 0.815
+ },
+ {
+  "word": "I",
+  "start": 0.815,
+  "end": 0.965
+ },
+ {
+  "word": "code",
+  "start": 0.965,
+  "end": 1.215
+ },
+ {
+  "word": "editor",
+  "start": 1.215,
+  "end": 1.59
+ },
+ {
+  "word": "is",
+  "start": 1.59,
+  "end": 1.74
+ },
+ {
+  "word": "now",
+  "start": 1.74,
+  "end": 1.94
+ },
+ {
+  "word": "owned",
+  "start": 1.94,
+  "end": 2.24
+ },
+ {
+  "word": "by",
+  "start": 2.24,
+  "end": 2.415
+ },
+ {
+  "word": "a",
+  "start": 2.415,
+  "end": 2.49
+ },
+ {
+  "word": "rocket",
+  "start": 2.49,
+  "end": 2.84
+ },
+ {
+  "word": "company.",
+  "start": 2.84,
+  "end": 3.752
+ },
+ {
+  "word": "In",
+  "start": 3.752,
+  "end": 3.927
+ },
+ {
+  "word": "August,",
+  "start": 3.927,
+  "end": 4.577
+ },
+ {
+  "word": "SpaceX",
+  "start": 4.577,
+  "end": 5.165
+ },
+ {
+  "word": "closed",
+  "start": 5.165,
+  "end": 5.502
+ },
+ {
+  "word": "a",
+  "start": 5.502,
+  "end": 5.602
+ },
+ {
+  "word": "sixty-billion-dollar",
+  "start": 5.602,
+  "end": 6.59
+ },
+ {
+  "word": "deal",
+  "start": 6.59,
+  "end": 6.815
+ },
+ {
+  "word": "for",
+  "start": 6.815,
+  "end": 6.94
+ },
+ {
+  "word": "Cursor.",
+  "start": 6.94,
+  "end": 7.902
+ },
+ {
+  "word": "In",
+  "start": 7.902,
+  "end": 8.015
+ },
+ {
+  "word": "October,",
+  "start": 8.015,
+  "end": 8.64
+ },
+ {
+  "word": "Cursor",
+  "start": 8.64,
+  "end": 9.002
+ },
+ {
+  "word": "was",
+  "start": 9.002,
+  "end": 9.165
+ },
+ {
+  "word": "folded",
+  "start": 9.165,
+  "end": 9.527
+ },
+ {
+  "word": "into",
+  "start": 9.527,
+  "end": 9.702
+ },
+ {
+  "word": "the",
+  "start": 9.702,
+  "end": 9.815
+ },
+ {
+  "word": "X",
+  "start": 9.815,
+  "end": 10.04
+ },
+ {
+  "word": "Subscription,",
+  "start": 10.04,
+  "end": 10.952
+ },
+ {
+  "word": "right",
+  "start": 10.952,
+  "end": 11.165
+ },
+ {
+  "word": "next",
+  "start": 11.165,
+  "end": 11.44
+ },
+ {
+  "word": "to",
+  "start": 11.44,
+  "end": 11.577
+ },
+ {
+  "word": "Grok",
+  "start": 11.577,
+  "end": 11.94
+ },
+ {
+  "word": "and",
+  "start": 11.94,
+  "end": 12.065
+ },
+ {
+  "word": "X",
+  "start": 12.065,
+  "end": 12.315
+ },
+ {
+  "word": "Premium.",
+  "start": 12.315,
+  "end": 13.265
+ },
+ {
+  "word": "The",
+  "start": 13.265,
+  "end": 13.415
+ },
+ {
+  "word": "editor",
+  "start": 13.415,
+  "end": 13.765
+ },
+ {
+  "word": "itself",
+  "start": 13.765,
+  "end": 14.19
+ },
+ {
+  "word": "is",
+  "start": 14.19,
+  "end": 14.315
+ },
+ {
+  "word": "still",
+  "start": 14.315,
+  "end": 14.59
+ },
+ {
+  "word": "excellent:",
+  "start": 14.59,
+  "end": 15.352
+ },
+ {
+  "word": "fast",
+  "start": 15.352,
+  "end": 15.69
+ },
+ {
+  "word": "agents,",
+  "start": 15.69,
+  "end": 16.215
+ },
+ {
+  "word": "cloud",
+  "start": 16.215,
+  "end": 16.49
+ },
+ {
+  "word": "agents,",
+  "start": 16.49,
+  "end": 16.99
+ },
+ {
+  "word": "built-in",
+  "start": 16.99,
+  "end": 17.415
+ },
+ {
+  "word": "code",
+  "start": 17.415,
+  "end": 17.652
+ },
+ {
+  "word": "review.",
+  "start": 17.652,
+  "end": 18.365
+ },
+ {
+  "word": "But",
+  "start": 18.365,
+  "end": 18.515
+ },
+ {
+  "word": "here's",
+  "start": 18.515,
+  "end": 18.815
+ },
+ {
+  "word": "the",
+  "start": 18.815,
+  "end": 18.915
+ },
+ {
+  "word": "catch.",
+  "start": 18.915,
+  "end": 19.852
+ },
+ {
+  "word": "The",
+  "start": 19.852,
+  "end": 20.002
+ },
+ {
+  "word": "cheapest",
+  "start": 20.002,
+  "end": 20.44
+ },
+ {
+  "word": "plan,",
+  "start": 20.44,
+  "end": 20.965
+ },
+ {
+  "word": "eight",
+  "start": 20.965,
+  "end": 21.165
+ },
+ {
+  "word": "dollars,",
+  "start": 21.165,
+  "end": 21.74
+ },
+ {
+  "word": "only",
+  "start": 21.74,
+  "end": 22.04
+ },
+ {
+  "word": "runs",
+  "start": 22.04,
+  "end": 22.315
+ },
+ {
+  "word": "Grok.",
+  "start": 22.315,
+  "end": 23.052
+ },
+ {
+  "word": "Claude",
+  "start": 23.052,
+  "end": 23.49
+ },
+ {
+  "word": "and",
+  "start": 23.49,
+  "end": 23.627
+ },
+ {
+  "word": "G",
+  "start": 23.627,
+  "end": 23.827
+ },
+ {
+  "word": "P",
+  "start": 23.827,
+  "end": 24.077
+ },
+ {
+  "word": "T",
+  "start": 24.077,
+  "end": 24.427
+ },
+ {
+  "word": "are",
+  "start": 24.427,
+  "end": 24.565
+ },
+ {
+  "word": "no",
+  "start": 24.565,
+  "end": 24.74
+ },
+ {
+  "word": "longer",
+  "start": 24.74,
+  "end": 25.077
+ },
+ {
+  "word": "included",
+  "start": 25.077,
+  "end": 25.49
+ },
+ {
+  "word": "at",
+  "start": 25.49,
+  "end": 25.59
+ },
+ {
+  "word": "all.",
+  "start": 25.59,
+  "end": 26.352
+ },
+ {
+  "word": "They",
+  "start": 26.715,
+  "end": 26.877
+ },
+ {
+  "word": "bill",
+  "start": 26.877,
+  "end": 27.165
+ },
+ {
+  "word": "at",
+  "start": 27.165,
+  "end": 27.252
+ },
+ {
+  "word": "A",
+  "start": 27.252,
+  "end": 27.352
+ },
+ {
+  "word": "P",
+  "start": 27.352,
+  "end": 27.602
+ },
+ {
+  "word": "I",
+  "start": 27.602,
+  "end": 27.74
+ },
+ {
+  "word": "price",
+  "start": 27.74,
+  "end": 28.065
+ },
+ {
+  "word": "from",
+  "start": 28.065,
+  "end": 28.202
+ },
+ {
+  "word": "the",
+  "start": 28.202,
+  "end": 28.302
+ },
+ {
+  "word": "very",
+  "start": 28.302,
+  "end": 28.627
+ },
+ {
+  "word": "first",
+  "start": 28.627,
+  "end": 28.902
+ },
+ {
+  "word": "request.",
+  "start": 28.902,
+  "end": 29.84
+ },
+ {
+  "word": "And",
+  "start": 29.84,
+  "end": 29.977
+ },
+ {
+  "word": "that",
+  "start": 29.977,
+  "end": 30.19
+ },
+ {
+  "word": "in-house",
+  "start": 30.19,
+  "end": 30.69
+ },
+ {
+  "word": "model,",
+  "start": 30.69,
+  "end": 31.165
+ },
+ {
+  "word": "Composer",
+  "start": 31.165,
+  "end": 31.702
+ },
+ {
+  "word": "two?",
+  "start": 31.702,
+  "end": 32.452
+ },
+ {
+  "word": "Cursor",
+  "start": 32.452,
+  "end": 32.84
+ },
+ {
+  "word": "admitted",
+  "start": 32.84,
+  "end": 33.24
+ },
+ {
+  "word": "it",
+  "start": 33.24,
+  "end": 33.365
+ },
+ {
+  "word": "was",
+  "start": 33.365,
+  "end": 33.54
+ },
+ {
+  "word": "built",
+  "start": 33.54,
+  "end": 33.815
+ },
+ {
+  "word": "on",
+  "start": 33.815,
+  "end": 34.027
+ },
+ {
+  "word": "top",
+  "start": 34.027,
+  "end": 34.302
+ },
+ {
+  "word": "of",
+  "start": 34.302,
+  "end": 34.427
+ },
+ {
+  "word": "Moonshot's",
+  "start": 34.427,
+  "end": 34.99
+ },
+ {
+  "word": "Kimi.",
+  "start": 34.99,
+  "end": 35.84
+ },
+ {
+  "word": "Great",
+  "start": 35.84,
+  "end": 36.19
+ },
+ {
+  "word": "editor,",
+  "start": 36.19,
+  "end": 36.777
+ },
+ {
+  "word": "shaky",
+  "start": 36.777,
+  "end": 37.14
+ },
+ {
+  "word": "deal.",
+  "start": 37.14,
+  "end": 37.852
+ },
+ {
+  "word": "Cursor",
+  "start": 37.852,
+  "end": 38.215
+ },
+ {
+  "word": "goes",
+  "start": 38.215,
+  "end": 38.49
+ },
+ {
+  "word": "to",
+  "start": 38.49,
+  "end": 38.577
+ },
+ {
+  "word": "B",
+  "start": 38.577,
+  "end": 38.752
+ },
+ {
+  "word": "tier.",
+  "start": 38.752,
+  "end": 39.194
+ }
+]

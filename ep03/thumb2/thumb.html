@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--amber:#FFB21E;--fuchsia:#FF2E97;--plum:#2B0A35;--ash:#EEEAE6}
+body{background:#000;width:1280px}
+.T{position:relative;width:1280px;height:720px;overflow:hidden;font-family:'Inter Display',Inter,sans-serif;margin-bottom:20px;
+ background:radial-gradient(60% 85% at 78% 45%,#7A1458 0%,#4A0F45 35%,var(--plum) 70%,#1A0520 100%)}
+.ray{position:absolute;inset:-20%;background:repeating-conic-gradient(from 200deg at 80% 40%,rgba(255,178,30,.10) 0 6deg,transparent 6deg 18deg);mask:radial-gradient(70% 70% at 80% 40%,#000 30%,transparent 75%);-webkit-mask:radial-gradient(70% 70% at 80% 40%,#000 30%,transparent 75%)}
+.girl{position:absolute;height:720px;bottom:0;filter:drop-shadow(0 0 2px rgba(255,46,151,.9)) drop-shadow(0 0 28px rgba(255,46,151,.55)) drop-shadow(0 20px 40px rgba(0,0,0,.5))}
+.h1{position:absolute;color:var(--ash);font-weight:900;letter-spacing:-.02em;line-height:.9;text-shadow:0 6px 0 rgba(0,0,0,.35),0 14px 40px rgba(0,0,0,.6)}
+.free{position:absolute;color:var(--amber);font-weight:900;letter-spacing:-.03em;line-height:.82;transform:skew(-6deg);
+ text-shadow:8px 8px 0 var(--fuchsia),16px 16px 0 rgba(0,0,0,.35),0 20px 60px rgba(0,0,0,.6)}
+.pill{position:absolute;background:var(--fuchsia);color:var(--ash);font:900 44px Inter,sans-serif;padding:12px 28px 14px;border-radius:999px;transform:rotate(-2deg);box-shadow:0 14px 34px rgba(0,0,0,.55),0 0 0 4px var(--ash)}
+.pill b{color:var(--plum);background:var(--amber);padding:0 14px;border-radius:999px;margin-left:10px}
+</style></head><body>
+<div class="T" id="A">
+ <div class="ray"></div>
+ <img class="girl" src="cut.png" style="right:30px">
+ <div class="h1" style="left:52px;top:70px;font-size:104px">CLAUDE<br>CODE</div>
+ <div class="free" style="left:44px;top:280px;font-size:250px">FREE</div>
+ <div class="pill" style="left:58px;top:560px">on YOUR GPU <b>$0</b></div>
+</div>
+<div class="T" id="B">
+ <div class="ray"></div>
+ <img class="girl" src="cut.png" style="left:30px">
+ <div class="h1" style="right:50px;top:60px;font-size:104px;text-align:right">CLAUDE<br>CODE</div>
+ <div class="free" style="right:70px;top:270px;font-size:250px">FREE</div>
+ <div class="pill" style="right:60px;top:560px">no limits <b>$0</b></div>
+</div>
+</body></html>

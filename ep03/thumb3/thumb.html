@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--amber:#FFB21E;--fuchsia:#FF2E97;--plum:#2B0A35;--ash:#EEEAE6}
+body{background:#000;width:1280px}
+.T{position:relative;width:1280px;height:720px;overflow:hidden;background:var(--plum);margin-bottom:20px}
+.stripes{position:absolute;inset:0;background:repeating-linear-gradient(-62deg,rgba(255,255,255,.035) 0 26px,transparent 26px 52px)}
+.dots{position:absolute;width:300px;height:220px;background:radial-gradient(var(--fuchsia) 3.2px,transparent 3.6px) 0 0/16px 16px;mask:linear-gradient(135deg,#000 10%,transparent 70%);-webkit-mask:linear-gradient(135deg,#000 10%,transparent 70%);opacity:.9}
+.right{position:absolute;inset:0;clip-path:polygon(64% 0,100% 0,100% 100%,55% 100%);background:radial-gradient(70% 70% at 82% 38%,#FF5AAE 0%,var(--fuchsia) 45%,#C2126F 100%)}
+.edge{position:absolute;inset:0;clip-path:polygon(63.2% 0,64% 0,55% 100%,54.2% 100%);background:var(--ash)}
+.dotsR{position:absolute;right:0;bottom:0;width:360px;height:260px;background:radial-gradient(rgba(43,10,53,.55) 3.4px,transparent 3.8px) 0 0/15px 15px;mask:linear-gradient(315deg,#000 10%,transparent 65%);-webkit-mask:linear-gradient(315deg,#000 10%,transparent 65%)}
+.sl{position:absolute;height:12px;background:var(--amber);transform:skewX(-35deg)}
+.sl.a{background:var(--ash)}
+.glow{position:absolute;width:520px;height:520px;right:40px;top:40px;border-radius:50%;background:radial-gradient(rgba(255,178,30,.55),transparent 65%)}
+.girl{position:absolute;height:720px;bottom:0;right:10px;filter:drop-shadow(-10px 0 0 var(--plum)) drop-shadow(0 22px 40px rgba(0,0,0,.45))}
+.t{position:absolute;font-family:'Inter',sans-serif;font-weight:900;font-style:italic;transform-origin:0 0;letter-spacing:-.02em;line-height:.86}
+.cc{color:var(--ash);font-size:120px;transform:scaleX(.86);text-shadow:6px 6px 0 #000}
+.free{color:var(--amber);font-size:300px;transform:scaleX(.9);-webkit-text-stroke:10px #000;paint-order:stroke fill;text-shadow:14px 14px 0 var(--fuchsia),20px 20px 0 #000}
+.rib{position:absolute;background:var(--ash);color:var(--plum);font:900 italic 52px Inter,sans-serif;padding:10px 30px 12px;transform:rotate(-4deg);box-shadow:8px 8px 0 #000;letter-spacing:-.01em}
+.rib b{color:var(--fuchsia)}
+</style></head><body>
+<div class="T" id="A">
+ <div class="stripes"></div>
+ <div class="dots" style="left:0;top:0"></div>
+ <div class="right"></div><div class="dotsR"></div><div class="edge"></div>
+ <div class="glow"></div>
+ <div class="sl" style="left:560px;top:10px;width:90px"></div><div class="sl a" style="left:620px;top:28px;width:44px"></div>
+ <div class="sl" style="left:560px;top:640px;width:70px"></div><div class="sl a" style="left:610px;top:666px;width:120px"></div>
+ <div class="sl" style="left:1150px;top:40px;width:110px"></div>
+ <img class="girl" src="cut.png">
+ <div class="t cc" style="left:46px;top:60px">CLAUDE CODE</div>
+ <div class="t free" style="left:34px;top:200px">FREE</div>
+ <div class="rib" style="left:54px;top:540px">ON <b>YOUR</b> GPU · NO LIMITS</div>
+</div>
+<div class="T" id="B">
+ <div class="stripes"></div>
+ <div class="dots" style="left:0;top:0"></div>
+ <div class="right"></div><div class="dotsR"></div><div class="edge"></div>
+ <div class="glow"></div>
+ <div class="sl" style="left:560px;top:10px;width:90px"></div><div class="sl a" style="left:620px;top:28px;width:44px"></div>
+ <div class="sl" style="left:560px;top:640px;width:70px"></div><div class="sl a" style="left:610px;top:666px;width:120px"></div>
+ <img class="girl" src="cut.png">
+ <div class="t cc" style="left:46px;top:56px;font-size:104px">RUN CLAUDE CODE</div>
+ <div class="t free" style="left:34px;top:180px;font-size:330px">$0</div>
+ <div class="rib" style="left:330px;top:440px;font-size:58px;transform:rotate(-6deg)">LOCALLY</div>
+ <div class="rib" style="left:54px;top:590px;font-size:44px;background:var(--amber)">+ 3 TRAPS <b style="color:var(--plum)">NOBODY</b> MENTIONS</div>
+</div>
+</body></html>
