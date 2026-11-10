@@ -20,5 +20,9 @@ EP04 — ready to publish
 3) thumbnails/ — pick one (A board, B mosaic, C stamps).
 4) YOUTUBE_EP04.md — titles, description, chapters, tags, pinned comment.
 TXT
+# П66: texts to paste must not contain raw addresses (YouTube: links need advanced features; TikTok: off-platform links)
+bad=$(awk '/^```/{f=!f;next} f' ../YOUTUBE_EP04.md | grep -n -E 'https?://|t\.me/|www\.' || true)
+if [ -n "$bad" ]; then printf '\n!!! ПРЕДУПРЕЖДЕНИЕ: в текстах для вставки есть ссылки-адреса (П64). Не публиковать, пока не убраны:\n%s\n' "$bad" | tee -a "$D/README.txt"; else echo "check П66: no raw links in paste texts — OK" | tee -a "$D/README.txt"; fi
+echo "TikTok: only shorts/ (no QR). The long video has a QR in the finale — YouTube only (П65)." >> "$D/README.txt"
 ls -la "$D" "$D/shorts" "$D/thumbnails"
 echo "DONE deliver -> $D"
