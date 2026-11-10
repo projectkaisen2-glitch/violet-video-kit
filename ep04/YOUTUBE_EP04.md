@@ -15,14 +15,17 @@
 *Рекомендую **1**: в начале поисковая фраза «AI coding tool ranked / tier list 2026», в скобках четыре самых ищущихся названия (П47). 82 символа — влезает.*
 
 ### Thumbnail
-`ep04/thumb/EP04_thumb_A.jpg` / `_B.jpg` / `_C.jpg` — выбери одну (см. сообщение).
+**B** — `thumbnails/EP04_thumb_B.jpg` (выбрано владельцем 10.11).
 
 ### Description
+*Без ссылок-адресов: на канале без «расширенных функций» ссылки в описании всё равно не кликаются, а сырые URL выглядят для проверок как спам. Источники названы по изданию и дате — их легко найти поиском (П56 соблюдён). Telegram — текстом.*
+
+```
 Eight AI coding tools, one 2026 tier list. One got bought by a rocket company, one got switched off by Google, and only one made S tier. For each tool: what changed this year, what you actually pay, and where it lands.
 
-How I rank: usefulness, price, stability and trust. Ranks are my opinion; the facts behind them are linked below.
+How I rank: usefulness, price, stability and trust. Ranks are my opinion; the facts behind them are listed below.
 
-📌 Free guide: run Claude Code on a local model (which model fits your GPU, the settings I use): https://t.me/violet_ina
+Free guide — run Claude Code on a local model: Telegram @violet_ina
 
 Chapters
 0:00 8 tools, one S tier
@@ -36,32 +39,18 @@ Chapters
 4:40 Claude Code
 5:13 The full board
 
-Sources
-• Cursor / SpaceX deal (closed Aug 14, 2026): https://news.bloomberglaw.com/mergers-and-acquisitions/spacex-completes-its-60-billion-cursor-acquisition
-• Cursor pricing (X Subscription, $8 Plus runs Grok): https://cursor.com/pricing
-• Claude and GPT at API price in Cursor: https://thevibelog.dev/blog/cursor-x-subscription-pricing-2026
-• Composer 2 built on Kimi: https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/
-• Gemini CLI shutdown, Antigravity CLI: https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605
-• Copilot AI Credits (Jun 1, 2026): https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/
-• Copilot plans: https://docs.github.com/en/copilot/concepts/billing/individual-plans
-• $39 → $847 projection (one Reddit user): https://thenewstack.io/github-copilot-token-billing/
-• Windsurf → Devin Desktop: https://cognition.com/blog/introducing-devin-desktop
-• Devin pricing: https://docs.devin.ai/admin/billing/self-serve.md
-• Cascade replaced (single secondary source): https://www.digitalapplied.com/blog/windsurf-becomes-devin-desktop-ide-migration-2026
-• Lovable valuation and traffic: https://northeasttimes.com/2026/08/13/lovable-the-app-building-startup-just-doubled-its-value-to-13-3-billion/
-• Lovable data exposure, 48 days: https://thenextweb.com/news/lovable-vibe-coding-security-crisis-exposed
-• Lovable pricing: https://lovable.dev/pricing
-• Codex Pro cut reversed: https://startupfortune.com/openai-cuts-chatgpt-pro-200-usage-in-half-as-the-grace-period-ends-today/
-• Codex community thread: https://community.openai.com/t/existing-200-pro-subscribers-should-keep-their-current-usage-allowance/1401988
-• Codex plans (CLI needs Plus): https://learn.chatgpt.com/docs/pricing
-• Cline: https://cline.bot
-• Cline poisoned npm update: https://www.theregister.com/2026/02/20/openclaw_snuck_into_cline_package
-• The issue-title prompt injection: https://simonwillison.net/2026/mar/6/clinejection
-• Stack Overflow Developer Survey 2026 (66%): https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/
-• Claude Code source leak: https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html
-• Claude pricing (checked Nov 9, 2026): https://www.claude.com/pricing
+Sources (search by outlet and date)
+Cursor: Bloomberg Law, Aug 14 2026 (SpaceX deal) · cursor.com pricing · TechCrunch, Mar 22 2026 (Composer 2 on Kimi)
+Gemini CLI: The Register, May 20 2026
+Copilot: GitHub changelog, Jun 1 2026 · GitHub Docs (plans) · The New Stack (the $847 projection, one user)
+Windsurf: Cognition blog (Devin Desktop) · Devin docs (pricing)
+Lovable: TechCrunch, Aug 2026 · The Next Web (the exposure) · lovable.dev pricing
+Codex: Startup Fortune · OpenAI community forum · ChatGPT pricing docs
+Cline: cline.bot · The Register, Feb 20 2026 · Simon Willison, Mar 6 2026
+Claude Code: Stack Overflow Developer Survey 2026 (Oct 6) · The Hacker News, Apr 2026 · claude.com pricing (checked Nov 9 2026)
 
-Interfaces in this video are recreated for illustration. Prices and plans change fast — check the official pages before you buy.
+Interfaces are recreated for illustration. Prices and plans change fast — check the official pages before you buy.
+```
 
 ### Tags
 ai coding tools, ai coding tools 2026, ai coding tier list, best ai coding tool, claude code, cursor, github copilot, openai codex, cline, windsurf, devin desktop, lovable, gemini cli, antigravity cli, cursor spacex, copilot ai credits, copilot pricing, codex pricing, claude code pricing, ai coding agent, vibe coding, ai code editor, best ai for coding 2026, claude code vs cursor, cursor vs copilot, tier list 2026
@@ -75,7 +64,12 @@ ai coding tools, ai coding tools 2026, ai coding tier list, best ai coding tool,
 ### Pinned comment
 Where does YOUR tool belong — and what did I get wrong? Reply with the tool and the tier. I read every comment.
 
+*Ссылок в комментарии тоже нет — по той же причине.*
+
 ---
+
+## TIKTOK
+*На TikTok — только 8 Shorts. Длинный ролик туда НЕ выкладывать: в финале QR-код, а по правилам TikTok видео с QR-кодом не попадает в ленту «Для вас». В подписи — без ссылок; «Telegram @violet_ina» текстом допустимо (короткий тест с такой подписью набрал 221 просмотр).*
 
 ## SHORTS (8)
 
