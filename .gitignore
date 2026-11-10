@@ -14,3 +14,4 @@ cache/
 __pycache__/
 ep04/test/*.png
 ep04/test/*.log
+ep04/scenes/out/
