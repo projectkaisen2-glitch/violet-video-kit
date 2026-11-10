@@ -54,6 +54,7 @@ makeShots([['grid',0,T.one1-.25],['rocket',T.one1-.25,T.one2-.25],['off',T.one2-
  const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?160:250}px">And only one</div>`,s.L1);
  const hl=headline(s.L1,['Made','[[S tier]]'],{x:V?60:120,y:V?210:300,fs:V?140:150,lh:1.06});
  const k2=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?545:640}px;font-size:${V?30:26}px;color:var(--ink)">→ The 2026 tier list</div>`,s.L1);
+ const k3=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?600:690}px;font-size:${V?22:19}px;color:var(--mute);text-transform:none">How I rank: usefulness · price · stability · trust</div>`,s.L1);
  s.R=t=>{rise(kick,t,T.only-.25,1e9,14);revealLines(hl,t,[T.only,T.stier-.4]);sweep(hl.querySelector('.mk'),t,T.stier);
   cards.forEach((e,i)=>fadeIn(e,t,T.only-.2+.05*i,1e9,.4));rise(q,t,T.stier-.3,1e9,20,.5);q.style.boxShadow=`0 0 0 ${4+3*Math.sin(t*5)}px rgba(255,90,54,.25)`;
-  rise(k2,t,T.here-.1,1e9,14);s.cam.z=.04*eio(P(t,T.only,END))}}
+  rise(k2,t,T.here-.1,1e9,14);rise(k3,t,T.here+.2,1e9,10);s.cam.z=.04*eio(P(t,T.only,END))}}

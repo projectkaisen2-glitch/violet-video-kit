@@ -22,7 +22,7 @@ def fn(k,j): return tmp/f'f{k:05d}_{j}.jpg'
 def tt(k,j): return a.t0+(k*SUB+j)/(FPS*SUB)
 async def worker(pw,jobs):
   b=await pw.chromium.launch(args=ARGS);pg=await b.new_page(viewport={'width':1920,'height':1080} if a.fmt=='h' else {'width':1080,'height':1920},device_scale_factor=4/3 if a.fmt=='h' else 1)
-  await pg.goto((H/'out'/f'b{a.bid}.html').as_uri()+f'?fmt={a.fmt}&mode={a.mode}');await pg.wait_for_function('window.READY===true',timeout=120000)
+  await pg.goto((H/'out'/f'b{a.bid}.html').as_uri()+f'?fmt={a.fmt}&mode={a.mode}'+os.environ.get('VQ',''));await pg.wait_for_function('window.READY===true',timeout=120000)
   for k,j in jobs:
     p=fn(k,j)
     if p.exists() and p.stat().st_size>1000: continue
