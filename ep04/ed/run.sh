@@ -3,11 +3,13 @@
 # usage: bash ep04/ed/run.sh 01            -> out/EP04_b01_h.mp4 (long) + out/EP04_b01_v.mp4 (short)
 #        bash ep04/ed/run.sh 00 h          (intro and finale 99 are long-video only)
 #        bash ep04/ed/run.sh t1 v 05       (Short tail t1 drawn in block 05's style -> out/EP04_bt1_v_05.mp4)
-#        bash ep04/ed/run.sh assemble      (long video + 8 Shorts from the rendered pieces -> out/final/)
+#        bash ep04/ed/run.sh assemble      (long video + 8 Shorts -> out/final/, then everything for the owner -> ~/VIOLET_READY/EP04)
+#        bash ep04/ed/run.sh deliver       (only the copy into ~/VIOLET_READY/EP04)
 set -e
 cd "$(dirname "$0")"
 PY=${PY:-python3}
-if [ "$1" = assemble ]; then exec bash assemble.sh; fi
+if [ "$1" = assemble ]; then bash assemble.sh && exec bash deliver.sh; fi
+if [ "$1" = deliver ]; then exec bash deliver.sh; fi
 B=$1; FMTS=${2:-"v h"}; TOOL=${3:-}
 SUF=""; if [ -n "$TOOL" ]; then export VQ="&tool=$TOOL"; SUF="_$TOOL"; fi
 $PY build.py $B
