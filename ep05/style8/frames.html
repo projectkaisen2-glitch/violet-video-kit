@@ -4,9 +4,7 @@ html,body{overflow:hidden;background:#000}
 #root{position:absolute;left:0;top:0;overflow:hidden}
 .ab{position:absolute}
 svg{display:block}
-/* constant skeleton (P49): index header + source caption, same font and place in all 8 styles */
-.idx{position:absolute;display:flex;align-items:center;gap:14px;font:500 18px 'DejaVu Sans Mono';letter-spacing:.08em;text-transform:uppercase;z-index:40}
-.idx b{display:inline-block;height:36px;padding:0 9px;border-radius:6px;color:#111;font:700 26px/36px 'TeX Gyre Heros Cn';text-align:center;letter-spacing:0}
+/* constant skeleton (P49): source caption only — no index header / eyebrow / divider (P69) */
 .src{position:absolute;font:400 16px/1.55 'DejaVu Sans Mono';text-transform:uppercase;letter-spacing:.02em;z-index:40}
 .grain{position:absolute;inset:0;pointer-events:none;mix-blend-mode:overlay;opacity:.28;z-index:50;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1.4 -.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
 </style></head><body><div id="root"></div>
@@ -18,7 +16,6 @@ const p=(h,v)=>V?v:h;
 function el(h,par=root){const d=document.createElement('div');d.innerHTML=h.trim();const e=d.firstChild;par.appendChild(e);return e}
 // value scale shared by the whole video (skeleton): plate colour = how much AI the money buys
 const VAL={hi:'#7FD08A',mid:'#C9D46A',low:'#E8A15A',none:'#E36A5C',unk:'#9AA0A8'};
-const idx=(plate,col,n,name,ink)=>el(`<div class="idx" style="left:${p(120,60)}px;top:${p(90,110)}px;color:${ink}"><b style="background:${col}">${plate}</b>${n} / 08 — ${name}</div>`);
 const src=(txt,ink)=>el(`<div class="src" style="left:${p(120,60)}px;top:${p(990,1780)}px;color:${ink};width:${p(1680,960)}px">${txt}</div>`);
 const bg=c=>{root.style.background=c};
 const STY={
@@ -39,9 +36,8 @@ const STY={
 
 // ---------- 1. CLAUDE PRO: "The gauge" — a dashboard of two meters; the WEEKLY one is what stops you ----------
 1(){bg('radial-gradient(80% 90% at 75% 40%,#2a211d,#141110 70%)');
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:500 ${p(26,30)}px 'IBM Plex Mono';color:#a8978a;letter-spacing:.04em">CLAUDE PRO · $20 / MONTH</div>`);
  el(`<div class="ab" style="left:${p(112,52)}px;top:${p(250,280)}px;font:800 ${p(200,230)}px/0.86 'Bricolage Grotesque';color:#F3E9DF;letter-spacing:-.045em">$672</div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(440,490)}px;font:400 ${p(40,44)}px/1.25 'Bricolage Grotesque';color:#c9b8aa;width:${p(720,960)}px">of AI a month, at API prices.<br><span style="color:#E8835E">The weekly cap stops you first.</span></div>`);
+ el(`<div class="ab" style="left:${p(120,60)}px;top:${p(440,490)}px;font:400 ${p(40,44)}px/1.25 'Bricolage Grotesque';color:#c9b8aa;width:${p(720,960)}px">of AI a month from Claude Pro's $20,<br>counted at API prices. <span style="color:#E8835E">The weekly cap stops you first.</span></div>`);
  const gauge=(cx,cy,r,fr,lab,sub,hot)=>{const a0=-210,a1=30,ang=a0+(a1-a0)*fr,rad=d=>d*Math.PI/180,pt=(d,rr)=>[cx+rr*Math.cos(rad(d)),cy+rr*Math.sin(rad(d))];
   const ticks=[...Array(25)].map((_,i)=>{const d=a0+(a1-a0)*i/24,[x1,y1]=pt(d,r*.86),[x2,y2]=pt(d,r*(i%4?.8:.74));return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${i>19&&hot?'#E8835E':'#8a7a6e'}" stroke-width="${i%4?2:4}"/>`}).join('');
   const arc=(d0,d1,rr,c,w)=>{const [x1,y1]=pt(d0,rr),[x2,y2]=pt(d1,rr);return `<path d="M${x1} ${y1} A${rr} ${rr} 0 ${d1-d0>180?1:0} 1 ${x2} ${y2}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`};
@@ -59,14 +55,13 @@ const STY={
  el(gauge(p(1100,300),p(540,1250),p(215,225),.48,'5-HOUR WINDOW','~11 tasks',false));
  el(gauge(p(1610,790),p(540,1250),p(215,225),.93,'WEEKLY CAP','~13 windows',true));
  el(`<div class="ab" style="left:${p(960,60)}px;top:${p(840,1600)}px;width:${p(840,960)}px;font:400 ${p(22,26)}px/1.5 'IBM Plex Mono';color:#8a7a6e">1 task = medium bug fix on Opus 5.5 = $1.06 at API price</div>`);
- idx('34×',VAL.hi,'01','Claude Pro','#a8978a');src('SRC: Wokey, 79 Pro accounts, week of Oct 26 2026 · claude.com/pricing (Nov 10 2026)','#7d6d62')},
+ src('SRC: Wokey, 79 Pro accounts, week of Oct 26 2026 · claude.com/pricing (Nov 10 2026)','#7d6d62')},
 
 // ---------- 2. COPILOT PRO: "Exact change" — 1,500 one-cent coins on felt, counted into 14 task stacks ----------
 2(){bg('radial-gradient(100% 80% at 60% 40%,#1f4a3a,#0d231b 75%)');
  el(`<div class="ab" style="inset:0;background-image:radial-gradient(rgba(255,255,255,.035) 1px,transparent 1.5px);background-size:6px 6px"></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:500 ${p(26,30)}px 'IBM Plex Mono';color:#9cc4b0;letter-spacing:.04em">GITHUB COPILOT PRO</div>`);
  el(`<div class="ab" style="left:${p(116,56)}px;top:${p(250,280)}px;font:400 ${p(150,170)}px/0.95 'Archivo Black';color:#F1EEDF;letter-spacing:-.03em">$10<span style="color:#7aa894"> →</span><br><span style="color:#E9C46A">$15</span></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(570,640)}px;font:400 ${p(36,42)}px/1.3 'IBM Plex Sans Condensed';color:#cfe2d8;width:${p(640,960)}px">1,500 credits × 1¢ — billed at the same API prices as Anthropic.</div>`);
+ el(`<div class="ab" style="left:${p(120,60)}px;top:${p(570,640)}px;font:400 ${p(36,42)}px/1.3 'IBM Plex Sans Condensed';color:#cfe2d8;width:${p(640,960)}px">Copilot Pro: 1,500 credits × 1¢, billed at the same API prices as Anthropic.</div>`);
  // stacks of coins
  const sx=p(860,90),sy=p(820,1380),n=14;
  for(let i=0;i<n;i++){const x=sx+i*p(66,66)+(V&&i>6?-462:0),y=(V&&i>6?sy+230:sy),hgt=10+((i*7)%5);
@@ -81,7 +76,7 @@ const STY={
     return sum(i.price <span style="color:#5f8273">for i in items)  </span><span style="background:#E9C46A;color:#10221a;padding:0 6px;border-radius:4px;font-weight:700">∞</span>
 ${V?'':`
 <span style="color:#5f8273"># chat · agents · CLI  →  AI credits</span>`}</div></div>`);
- idx('1.5×',VAL.low,'02','Copilot Pro','#9cc4b0');src('SRC: GitHub Docs — usage-based billing; models and pricing (Nov 2026)','#6f9583')},
+ src('SRC: GitHub Docs — usage-based billing; models and pricing (Nov 2026)','#6f9583')},
 
 // ---------- 3. CURSOR: "À la carte" — a restaurant menu: the editor is the dish, AI is market price ----------
 3(){bg('radial-gradient(90% 80% at 30% 30%,#3a1418,#1a080b 75%)');
@@ -93,14 +88,13 @@ ${V?'':`
   <div style="display:flex;align-items:center;gap:16px;justify-content:center;font:400 ${p(54,58)}px 'Instrument Serif';color:#3b1a14"><span style="width:44px;height:44px;color:#3b1a14">${ic('cursor')}</span>Carte du jour</div>
   <div style="text-align:center;font:500 16px 'IBM Plex Mono';letter-spacing:.3em;color:#8a3b2c;margin:8px 0 ${p(30,40)}px">SINCE OCT 12 · NEW CUSTOMERS</div>
   ${items.map(([a,b,c],i)=>`<div style="margin-bottom:${p(26,40)}px;${i===4?'opacity:.55;text-decoration:line-through;text-decoration-thickness:2px':''}"><div style="display:flex;align-items:baseline;gap:12px;font:400 ${p(36,40)}px 'Instrument Serif';color:#2a1210;${a.startsWith('  ')?'padding-left:34px;font-style:italic':''}"><span style="white-space:nowrap">${a.trim()}</span><span style="flex:1;border-bottom:2px dotted #b49a82;transform:translateY(-8px)"></span><span style="white-space:nowrap;${b==='market price'?'color:#a1402c;font-style:italic':''}">${b}</span></div><div style="font:400 ${p(17,19)}px 'IBM Plex Mono';color:#7a5d4b;${a.startsWith('  ')?'padding-left:34px':''}">${c}</div></div>`).join('')}</div>`);
- idx('1×',VAL.none,'03','Cursor','#c09a86');src('SRC: cursor.com/pricing · Cursor forum, Oct 12 2026 · Anthropic API prices','#8a6a5c')},
+ src('SRC: cursor.com/pricing · Cursor forum, Oct 12 2026 · Anthropic API prices','#8a6a5c')},
 
 // ---------- 4. CHATGPT PLUS: "The ticker" — trading terminal, the value line keeps falling ----------
 4(){bg('#07090A');
  el(`<div class="ab" style="inset:0;background:linear-gradient(rgba(120,255,200,.035) 1px,transparent 1px) 0 0/100% 54px"></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:500 ${p(26,30)}px 'JetBrains Mono';color:#6b7d77;letter-spacing:.06em">PLUS/CODEX · WEEKLY VALUE · USD</div>`);
  el(`<div class="ab" style="left:${p(112,52)}px;top:${p(250,280)}px;font:700 ${p(190,210)}px/0.9 'Space Grotesk';color:#E8EEEC;letter-spacing:-.05em">$46<span style="font-size:.32em;color:#F0645A;letter-spacing:0;margin-left:18px">▼ 50%</span></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(450,500)}px;font:400 ${p(30,36)}px/1.35 'Space Grotesk';color:#9fb0aa;width:${p(700,960)}px">≈ $200 a month — still 10× the price.<br><span style="color:#F0645A">No cut announced. The model mix changed.</span></div>`);
+ el(`<div class="ab" style="left:${p(120,60)}px;top:${p(450,500)}px;font:400 ${p(30,36)}px/1.35 'Space Grotesk';color:#9fb0aa;width:${p(700,960)}px">ChatGPT Plus, Codex usage per week.<br>≈ $200 a month — still 10× the price.<br><span style="color:#F0645A">No cut announced. The model mix changed.</span></div>`);
  const c=V?{x:60,y:800,w:960,h:640}:{x:960,y:200,w:840,h:600};
  const pts=[['Oct 8',92],['Oct 19',58],['Oct 26',55],['Nov 9',46]];
  const X=i=>c.x+60+i*(c.w-140)/3,Y=v=>c.y+c.h-70-(v-30)/(100-30)*(c.h-140);
@@ -113,13 +107,12 @@ ${V?'':`
  svg+=`<line x1="${X(3)+50}" x2="${X(3)+50}" y1="${c.y+30}" y2="${c.y+c.h-70}" stroke="#E9C46A" stroke-dasharray="6 6"/><text x="${X(3)+40}" y="${c.y+56}" text-anchor="end" font-family="JetBrains Mono" font-size="17" fill="#E9C46A">DEC → chat + Codex share one limit</text></svg>`;
  el(svg);
  el(`<div class="ab" style="left:${c.x+24}px;top:${c.y+20}px;display:flex;align-items:center;gap:10px;font:500 17px 'JetBrains Mono';color:#9fb0aa"><span style="width:26px;height:26px;color:#fff">${ic('codex-color')}</span>measured · 6 accounts</div>`);
- idx('10×',VAL.hi,'04','ChatGPT Plus','#6b7d77');src('SRC: Wokey, Codex limits measured (Nov 9 2026) · OpenAI Help Center (Oct 31 2026) · Notebookcheck, Aug 25 2026','#4f615c')},
+ src('SRC: Wokey, Codex limits measured (Nov 9 2026) · OpenAI Help Center (Oct 31 2026) · Notebookcheck, Aug 25 2026','#4f615c')},
 
 // ---------- 5. GOOGLE AI PRO + DEVIN: "Frosted" — every number is behind frosted glass; only the lock timer is sharp ----------
 5(){bg('linear-gradient(160deg,#E9EEF3,#D7DEE6 60%,#C9D2DC)');
  el(`<div class="ab" style="left:${p(1100,540)}px;top:${p(-200,-100)}px;width:900px;height:900px;border-radius:50%;background:radial-gradient(closest-side,rgba(120,160,255,.35),transparent)"></div>`);
  el(`<div class="ab" style="left:${p(-200,-300)}px;top:${p(600,1300)}px;width:900px;height:900px;border-radius:50%;background:radial-gradient(closest-side,rgba(120,220,170,.28),transparent)"></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:500 ${p(26,30)}px 'IBM Plex Mono';color:#5d6b79;letter-spacing:.04em">GOOGLE AI PRO · DEVIN PRO · $20</div>`);
  el(`<div class="ab" style="left:${p(114,54)}px;top:${p(250,280)}px;font:300 ${p(118,128)}px/0.98 'Inter Display';color:#1d2733;letter-spacing:-.04em">How much<br>coding? <b style="font-weight:700">Not said.</b></div>`);
  const panel=(x,y,w,h,lab,blur,inner)=>`<div class="ab" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;border-radius:22px;background:rgba(255,255,255,.42);border:1px solid rgba(255,255,255,.8);box-shadow:0 30px 60px rgba(40,60,90,.18);overflow:hidden">
   <div style="position:absolute;left:28px;top:22px;font:500 17px 'IBM Plex Mono';color:#5d6b79;letter-spacing:.08em">${lab}</div>
@@ -131,9 +124,9 @@ ${V?'':`
   <svg width="64" height="80" viewBox="0 0 64 80"><rect x="6" y="34" width="52" height="42" rx="8" fill="#E9EEF3"/><path d="M16 34V22a16 16 0 0 1 32 0v12" fill="none" stroke="#E9EEF3" stroke-width="7"/></svg>
   <div><div style="font:500 18px 'IBM Plex Mono';color:#9fb0c2;letter-spacing:.08em">LOCKED · 5–7 DAYS, USER REPORTS</div><div style="font:700 ${p(76,86)}px 'Inter Display';color:#fff;letter-spacing:-.02em">6d 23h 41m</div></div></div>`);
  el(`<div class="ab" style="left:${p(120,60)}px;top:${p(600,1420)}px;width:${p(800,960)}px;display:flex;gap:14px;flex-wrap:wrap">${['5 TB storage','YouTube Premium Lite','$10 Cloud credits'].map(t=>`<span style="font:500 ${p(24,28)}px 'Inter';color:#1d2733;background:rgba(255,255,255,.65);border:1px solid #fff;border-radius:40px;padding:10px 22px">${t}</span>`).join('')}</div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(690,1560)}px;font:400 ${p(30,34)}px 'Inter';color:#5d6b79">You're buying a bundle, not a coding plan.</div>`);
+ el(`<div class="ab" style="left:${p(120,60)}px;top:${p(690,1560)}px;font:400 ${p(30,34)}px 'Inter';color:#5d6b79">Google AI Pro and Devin Pro, $20 each. Google sells a bundle, not a coding plan.</div>`);
  el(`<div class="ab" style="left:${p(1000,700)}px;top:${p(880,1720)}px;font:500 15px 'IBM Plex Mono';color:#7b8896">numbers behind glass: illustration — Google publishes none</div>`);
- idx('?',VAL.unk,'05','Google & Devin','#5d6b79');src('SRC: one.google.com (Nov 2026) · Google AI Developers Forum · docs.devin.ai','#6b7886')},
+ src('SRC: one.google.com (Nov 2026) · Google AI Developers Forum · docs.devin.ai','#6b7886')},
 
 // ---------- 6. CHEAP PLANS: "Fine print" — riso sale flyer, a loupe reads the small print ----------
 6(){bg('#F3EFE6');
@@ -149,13 +142,12 @@ ${V?'':`
   <div style="position:absolute;left:${-(lc.x-lc.r)}px;top:${-(lc.y-lc.r)}px;width:${W}px;height:${H}px;transform-origin:${lc.x}px ${lc.y}px;transform:scale(2);">
    <div style="position:absolute;left:${L.x}px;top:${L.y}px;width:${L.w}px;font:400 ${p(17,19)}px/2.2 'IBM Plex Mono';color:#1b1f3a">${fp.map((t,i)=>`<span style="${i===2||i===4?'background:#FF4D8D55':''}">* ${t}</span>`).join('<br>')}</div></div></div>`);
  el(`<div class="ab" style="left:${lc.x+lc.r*.62}px;top:${lc.y+lc.r*.62}px;width:60px;height:${p(260,220)}px;border-radius:30px;background:#1b1f3a;transform:rotate(-45deg);transform-origin:30px 0"></div>`);
- idx('6×',VAL.mid,'06','Cheap plans','#2846C8');src('SRC: codingplan.org (Sep 24 2026) · Standard Compute (Oct 14 2026) · vendor pages','#6a6f86')},
+ src('SRC: codingplan.org (Sep 24 2026) · Standard Compute (Oct 14 2026) · vendor pages','#6a6f86')},
 
 // ---------- 7. FREE: "Student ID" — graph-paper notebook, a student card that says $0, an offline laptop ----------
 7(){bg('#F7F6F0');
  el(`<div class="ab" style="inset:0;background-image:linear-gradient(rgba(70,120,180,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(70,120,180,.13) 1px,transparent 1px);background-size:36px 36px"></div>`);
  el(`<div class="ab" style="left:${p(90,40)}px;top:0;bottom:0;width:2px;background:rgba(220,80,80,.45)"></div>`);
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:600 ${p(26,30)}px 'IBM Plex Sans Condensed';color:#4d6a8a;letter-spacing:.08em">IF YOU'RE A STUDENT</div>`);
  el(`<div class="ab" style="left:${p(110,50)}px;top:${p(240,270)}px;font:700 ${p(250,270)}px/0.86 'IBM Plex Sans Condensed';color:#18212b;letter-spacing:-.03em"><span style="background:linear-gradient(transparent 58%,#B8F06A 58%,#B8F06A 90%,transparent 90%)">$0</span></div>`);
  el(`<div class="ab" style="left:${p(120,60)}px;top:${p(500,540)}px;font:400 ${p(40,44)}px/1.3 'IBM Plex Sans Condensed';color:#33414f;width:${p(700,960)}px">is a real plan.</div>`);
  const id=V?{x:90,y:720}:{x:960,y:180};
@@ -170,11 +162,10 @@ ${V?'':`
 <span style="color:#7d8b97">wifi: off · nothing leaves this machine</span>
 <span style="color:#B8F06A">● local model — no limits</span></div>
   <div style="height:22px;margin:0 -${lp.w*.07}px;border-radius:0 0 18px 18px;background:linear-gradient(#c9ccd1,#9ea3aa)"></div></div>`);
- idx('$0',VAL.hi,'07','Free routes','#4d6a8a');src('SRC: GitHub Docs — Copilot plans · GitHub Education · Layer3Labs (Oct 1 2026)','#6c85a0')},
+ src('SRC: GitHub Docs — Copilot plans · GitHub Education · Layer3Labs (Oct 1 2026)','#6c85a0')},
 
 // ---------- 8. WHEN TO PAY MORE: "The plot" — precise break-even graph, black field, one acid accent ----------
 8(){bg('#0B0C0E');
- el(`<div class="ab" style="left:${p(120,60)}px;top:${p(200,220)}px;font:500 ${p(26,30)}px 'JetBrains Mono';color:#7c8088;letter-spacing:.04em">WHEN TO PAY MORE · THE MATH</div>`);
  el(`<div class="ab" style="left:${p(112,52)}px;top:${p(250,280)}px;font:700 ${p(110,124)}px/0.95 'Space Grotesk';color:#EDEEF0;letter-spacing:-.04em">Upgrade when<br>the cap <span style="color:#D4FF3A">stops you.</span></div>`);
  const c=V?{x:90,y:720,w:900,h:760}:{x:960,y:180,w:840,h:700};
  const X=t=>c.x+70+t/120*(c.w-110),Yv=d=>c.y+c.h-60-d/130*(c.h-100);
@@ -192,7 +183,7 @@ ${V?'':`
  s+=`<text x="${c.x+c.w/2}" y="${c.y+c.h+8}" text-anchor="middle" font-family="JetBrains Mono" font-size="17" fill="#7c8088">Opus tasks per month →</text></svg>`;
  el(s);
  el(`<div class="ab" style="left:${p(120,60)}px;top:${p(520,1560)}px;width:${p(740,960)}px;display:grid;grid-template-columns:1fr 1fr;gap:16px">${[['2 × $20','Claude + ChatGPT','~$870 of usage for $40'],['$100 Max','5× Pro','~$3,300 · best per dollar']].map(([a,b,c2])=>`<div style="border:1px solid #2a2d33;border-radius:14px;padding:20px 22px;background:#111316"><div style="font:700 ${p(40,44)}px 'Space Grotesk';color:#EDEEF0">${a}</div><div style="font:500 ${p(19,21)}px 'JetBrains Mono';color:#7c8088;margin-top:6px">${b}<br><span style="color:#D4FF3A">${c2}</span></div></div>`).join('')}</div>`);
- idx('MATH','#D4FF3A','08','When to pay more','#7c8088');src('SRC: own calculation (standard task, official API prices) · claude.com/pricing · Wokey measurements','#5d6169')},
+ src('SRC: own calculation (standard task, official API prices) · claude.com/pricing · Wokey measurements','#5d6169')},
 };
 STY[S]();el('<div class="grain"></div>');window.READY=true;
 </script></body></html>
