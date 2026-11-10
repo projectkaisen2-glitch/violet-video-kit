@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# Put everything the owner needs for EP04 into ONE folder per day: ~/VIOLET_READY/<YYYY-MM-DD>/EP04
+# Put everything the owner needs for EP04 into ONE folder per day: violet-video-kit/VIOLET_READY/<YYYY-MM-DD>/EP04
 # (one dated folder per production day; each episode finished that day gets its own subfolder)
 # (hard links where possible, so it takes no extra disk space). Intermediate renders stay in ep04/ed/out.
 set -e
 cd "$(dirname "$0")"
-D=$HOME/VIOLET_READY/$(date +%F)/EP04; rm -rf "$D" "$HOME/VIOLET_READY/EP04"; mkdir -p "$D/shorts" "$D/thumbnails"
+KIT=$(cd ../.. && pwd); D=$KIT/VIOLET_READY/$(date +%F)/EP04; rm -rf "$D" "$HOME/VIOLET_READY";   # the old home-folder location is retired
+ mkdir -p "$D/shorts" "$D/thumbnails"
 F=out/final; put(){ ln -f "$1" "$2" 2>/dev/null || cp -f "$1" "$2"; }
 put $F/EP04_long.mp4 "$D/EP04_LONG_tier_list_2026.mp4"
 names=(Cursor Gemini_CLI Copilot Windsurf Lovable Codex Cline Claude_Code)
