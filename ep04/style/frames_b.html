@@ -1,0 +1,157 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;width:1920px}
+.F{position:relative;width:1920px;height:1080px;overflow:hidden;margin-bottom:40px}
+.ab{position:absolute}
+svg{display:block}
+/* shared: real Cursor window */
+.win{position:absolute;width:1100px;height:660px;background:#151515;border-radius:12px;overflow:hidden}
+.tb{height:38px;background:#1e1e1e;display:flex;align-items:center;gap:10px;padding:0 14px;font:500 14px Inter;color:#aaa;border-bottom:1px solid #2a2a2a}
+.tb .lg{width:16px;height:16px;color:#fff}
+.side{position:absolute;left:0;top:38px;bottom:0;width:180px;background:#181818;border-right:1px solid #262626;padding:12px 10px;font:13px/2 Inter;color:#8a8a8a}
+.side .on{color:#fff;background:#2a2a2a;border-radius:4px;padding-left:6px}
+.code{position:absolute;left:180px;top:38px;bottom:0;right:360px;padding:16px;font:14.5px/1.8 'DejaVu Sans Mono',monospace;color:#d4d4d4;white-space:pre}
+.k{color:#c586c0}.s{color:#ce9178}.f{color:#dcdcaa}.c{color:#6a9955}.t{color:#4ec9b0}.n{color:#9cdcfe}
+.agent{position:absolute;right:0;top:38px;bottom:0;width:360px;background:#1a1a1a;border-left:1px solid #262626;padding:14px;font:14px/1.5 Inter;color:#ddd}
+.agent h4{font:700 11px Inter;color:#777;letter-spacing:.1em;margin-bottom:10px}
+.msg{background:#262633;border-radius:8px;padding:9px 11px;margin-bottom:10px}
+.task{display:flex;align-items:center;gap:8px;background:#212121;border:1px solid #2f2f2f;border-radius:7px;padding:8px 10px;margin-bottom:7px;font:600 13px Inter}
+.task i{width:8px;height:8px;border-radius:50%;background:#8fb4f0}
+.task .st{margin-left:auto;font:700 11px Inter;padding:2px 6px;border-radius:4px;background:#1f3a28;color:#7ee787}
+/* grain */
+.grain{position:absolute;inset:0;pointer-events:none;mix-blend-mode:overlay;opacity:.35;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1.4 -.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+/* ========== A: EDITORIAL ========== */
+#A{background:#0D0E10;color:#ECE8E1}
+#A .bgword{position:absolute;left:-40px;top:120px;font:700 520px/0.8 'TeX Gyre Heros Cn';letter-spacing:-.02em;color:transparent;-webkit-text-stroke:2px rgba(236,232,225,.11);transform:perspective(1400px) rotateY(18deg);transform-origin:0 50%;white-space:nowrap}
+#A .cols{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(236,232,225,.045) 1px,transparent 1px);background-size:160px 100%}
+#A .light{position:absolute;right:-200px;top:-200px;width:1400px;height:1100px;background:radial-gradient(closest-side,rgba(255,170,110,.16),transparent)}
+#A .stage{position:absolute;left:880px;top:150px;perspective:1900px}
+#A .win{transform:rotateY(-22deg) rotateX(5deg) rotateZ(-1deg);transform-origin:0 50%;box-shadow:-60px 70px 120px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08),inset 2px 0 0 rgba(255,190,140,.35);-webkit-box-reflect:below 2px linear-gradient(transparent 78%,rgba(255,255,255,.08))}
+#A .win2{position:absolute;left:1160px;top:70px;width:760px;height:500px;background:#f3f1ec;border-radius:10px;transform:perspective(1900px) rotateY(-22deg) rotateX(5deg);filter:blur(3px) brightness(.5);opacity:.7;padding:34px 40px;color:#111}
+#A .win2 h3{font:700 40px/1.12 Lora;margin-top:10px}
+#A .kick{font:500 18px 'DejaVu Sans Mono';letter-spacing:.08em;color:#9C978E}
+#A .idx{display:flex;align-items:center;gap:14px}
+#A .idx b{display:inline-block;width:34px;height:34px;border-radius:6px;background:#E8C46A;color:#111;font:700 24px 'TeX Gyre Heros Cn';text-align:center;line-height:34px}
+#A .h1{font:700 92px/0.92 'TeX Gyre Heros Cn';text-transform:uppercase;letter-spacing:-.005em}
+#A .h1 .mk{color:#0D0E10;background:linear-gradient(transparent 8%,#FF5A36 8%,#FF5A36 92%,transparent 92%);padding:0 .08em}
+#A .rule{position:absolute;height:1px;background:rgba(236,232,225,.35)}
+#A .cap{font:400 16px/1.5 'DejaVu Sans Mono';color:#9C978E}
+#A .cap em{color:#ECE8E1;font-style:normal}
+#A .fg{position:absolute;font:500 30px 'DejaVu Sans Mono';color:#cfd6e4;filter:blur(7px);opacity:.35;white-space:pre}
+#A .callout{position:absolute;border-top:1px solid #FF5A36;transform-origin:0 0}
+#A .dot{position:absolute;width:12px;height:12px;border-radius:50%;background:#FF5A36;box-shadow:0 0 0 6px rgba(255,90,54,.2)}
+/* ========== B: DOSSIER ========== */
+#B{background:#2B2E33}
+#B .desk{position:absolute;inset:0;background:radial-gradient(80% 90% at 55% 40%,#3a3e45,#202226 80%)}
+#B .paper{position:absolute;background:#EFEAE0;box-shadow:0 30px 60px rgba(0,0,0,.45),0 2px 3px rgba(0,0,0,.25)}
+#B .paper::after{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.6' numOctaves='4'/><feColorMatrix values='0 0 0 0 .45  0 0 0 0 .4  0 0 0 0 .33  0 0 0 .18 0'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>")}
+#B .folder{position:absolute;background:#C9A86A;box-shadow:0 40px 80px rgba(0,0,0,.5)}
+#B .tab{position:absolute;background:#C9A86A;border-radius:10px 10px 0 0}
+#B .type{font:700 22px 'TeX Gyre Cursor',monospace;color:#2a2622}
+#B .clip h3{font:700 44px/1.1 Lora;color:#151310}
+#B .tape{position:absolute;width:150px;height:44px;background:rgba(240,235,215,.55);box-shadow:0 2px 6px rgba(0,0,0,.15);backdrop-filter:blur(1px)}
+#B .stamp{position:absolute;font:700 112px/0.9 'TeX Gyre Heros Cn';color:#B5281C;border:9px solid #B5281C;padding:14px 26px 6px;text-transform:uppercase;transform:rotate(-7deg);mix-blend-mode:multiply;opacity:.88;-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='.08' numOctaves='3'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 -2.2 1.9'/></filter><rect width='100%' height='100%' filter='url(%23m)'/></svg>")}
+#B .ring{position:absolute;border:5px solid #C8321F;border-radius:50%;transform:rotate(-6deg);opacity:.85}
+#B .note{position:absolute;font:700 30px/1.15 'TeX Gyre Cursor',monospace;color:#C8321F;transform:rotate(-4deg)}
+/* ========== C: BLUEPRINT ========== */
+#C{background:#0B1A2C;color:#D9E6F2}
+#C .g1{position:absolute;inset:0;background-image:linear-gradient(rgba(150,190,230,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(150,190,230,.07) 1px,transparent 1px);background-size:24px 24px}
+#C .g2{position:absolute;inset:0;background-image:linear-gradient(rgba(150,190,230,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(150,190,230,.16) 1px,transparent 1px);background-size:120px 120px}
+#C .stage{position:absolute;left:820px;top:200px;perspective:2200px}
+#C .win{transform:rotateX(14deg) rotateY(-14deg) rotateZ(4deg);box-shadow:30px 50px 90px rgba(0,0,0,.55),0 0 0 1px rgba(160,200,240,.4)}
+#C .h1{font:700 86px/0.95 'TeX Gyre Heros Cn';text-transform:uppercase;color:#EAF2FA}
+#C .h1 span{color:#FFB84D}
+#C .lbl{font:400 17px/1.5 'DejaVu Sans Mono';color:#8FB3D6;letter-spacing:.04em}
+#C .dim{position:absolute;border-color:#8FB3D6;border-style:solid;border-width:0}
+#C .tag{position:absolute;font:700 18px 'DejaVu Sans Mono';color:#0B1A2C;background:#FFB84D;padding:4px 10px}
+</style></head><body>
+
+<!-- ===================== A: EDITORIAL ===================== -->
+<div class="F" id="A">
+ <div class="cols"></div><div class="light"></div>
+ <div class="bgword">ROCKET</div>
+ <div class="win2"><div style="font:700 13px Inter;color:#b21;letter-spacing:.1em">MERGERS &amp; ACQUISITIONS</div><h3>SpaceX Completes Its $60 Billion Cursor Acquisition</h3><div style="font:14px Inter;color:#666;margin-top:12px">Aug. 14, 2026</div></div>
+ <div class="stage"><div class="win" id="wa"></div></div>
+ <div class="ab" style="left:120px;top:150px">
+  <div class="idx"><b>B</b><span class="kick">01 / 08 — CURSOR</span></div>
+  <div class="rule" style="left:0;top:58px;width:640px"></div>
+  <div class="kick" style="margin-top:44px;font-size:22px;color:#C9C4BB">THE MOST POPULAR AI CODE EDITOR</div>
+  <div class="h1" style="margin-top:24px">Is now owned<br>by a <span class="mk">rocket</span><br><span class="mk">company</span></div>
+  <div class="rule" style="left:0;top:560px;width:640px"></div>
+  <div class="cap" style="margin-top:56px">SRC: BLOOMBERG LAW · AUG 14 2026<br><em>$60B ALL-STOCK DEAL</em> · ANYSPHERE → SPACEX</div>
+ </div>
+ <div class="ab" id="spxA" style="left:610px;top:760px;width:250px;height:250px;color:#ECE8E1;opacity:.95"></div>
+ <div class="callout" style="left:860px;top:885px;width:250px;transform:rotate(-38deg)"></div><div class="dot" style="left:1048px;top:722px"></div>
+ <div class="fg" style="left:1450px;top:880px">await db.findUser(email)</div>
+ <div class="fg" style="left:-60px;top:20px;font-size:40px;opacity:.22">export async function login(</div>
+ <div class="grain"></div>
+</div>
+
+<!-- ===================== B: DOSSIER ===================== -->
+<div class="F" id="B">
+ <div class="desk"></div>
+ <div class="folder" style="left:120px;top:110px;width:1680px;height:900px;transform:rotate(-1.2deg)"></div>
+ <div class="tab" style="left:150px;top:62px;width:420px;height:60px;transform:rotate(-1.2deg)"><div class="type" style="padding:14px 22px">CASE 01 / 08 — CURSOR</div></div>
+ <div class="paper" style="left:170px;top:150px;width:1580px;height:820px;transform:rotate(.6deg)"></div>
+ <div class="paper clip" style="left:220px;top:210px;width:700px;height:420px;transform:rotate(-2.5deg);padding:34px 38px">
+  <div style="font:700 14px Inter;color:#9a1b12;letter-spacing:.12em">MERGERS &amp; ACQUISITIONS</div>
+  <h3 style="margin-top:12px;font-size:38px">SpaceX Completes Its <span id="b60">$60 Billion</span> Cursor Acquisition</h3>
+  <div style="font:15px Inter;color:#6a655c;margin-top:14px">Bloomberg Law · Aug. 14, 2026</div>
+  <div style="font:17px/1.6 Lora;color:#3a3630;margin-top:16px">The all-stock deal makes Anysphere, the maker of the Cursor AI code editor, a wholly owned SpaceX subsidiary.</div>
+ </div>
+ <div class="ring" id="ring"></div>
+ <div class="tape" style="left:480px;top:188px;transform:rotate(-6deg)"></div>
+ <div class="ab" style="left:960px;top:190px;transform:rotate(2deg)"><div class="paper" style="position:relative;width:820px;height:520px;padding:16px"><div class="win" id="wb" style="position:relative;width:788px;height:488px"></div></div></div>
+ <div class="tape" style="left:1290px;top:168px;transform:rotate(4deg)"></div><div class="tape" style="left:1680px;top:640px;transform:rotate(-40deg)"></div>
+ <div class="stamp" style="left:260px;top:690px">Owned by a<br>rocket company</div>
+ <div class="note" style="left:1250px;top:730px">↑ the most popular<br>&nbsp;&nbsp;AI code editor</div>
+ <div class="ab" id="spxB" style="left:1470px;top:760px;width:300px;height:300px;color:#2a2622;opacity:.85;transform:rotate(-3deg)"></div>
+ <div class="grain" style="opacity:.25"></div>
+</div>
+
+<!-- ===================== C: BLUEPRINT ===================== -->
+<div class="F" id="C">
+ <div class="g1"></div><div class="g2"></div>
+ <div class="stage"><div class="win" id="wc"></div></div>
+ <div class="ab" style="left:120px;top:140px">
+  <div class="lbl">FIG. 01 / 08 — OWNERSHIP CHANGE</div>
+  <div class="h1" style="margin-top:28px">The most popular<br>AI code editor<br>is now owned by<br><span>a rocket company</span></div>
+  <div class="lbl" style="margin-top:36px">ACQUIRER ........ SPACEX<br>PRICE ........... $60B, ALL-STOCK<br>CLOSED .......... AUG 14 2026<br>SOURCE .......... BLOOMBERG LAW</div>
+ </div>
+ <div class="dim" style="left:850px;top:150px;width:1000px;height:20px;border-top-width:1px;border-left-width:1px;border-right-width:1px"></div>
+ <div class="lbl ab" style="left:1240px;top:118px">CURSOR · VS CODE FORK</div>
+ <div class="tag" style="left:1560px;top:880px">OWNER: SPACEX</div>
+ <div class="ab" id="spxC" style="left:1560px;top:820px;width:1px;height:60px;border-left:1px dashed #FFB84D"></div>
+ <div class="ab" id="spxC2" style="left:1480px;top:900px;width:300px;height:200px;color:#D9E6F2;opacity:.9"></div>
+ <div class="grain" style="opacity:.2"></div>
+</div>
+<script>
+const SV={"cursor": "<svg width=\"100%\" height=\"100%\" fill=\"currentColor\" fill-rule=\"evenodd\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.106 5.68L12.5.135a.998.998 0 00-.998 0L1.893 5.68a.84.84 0 00-.419.726v11.186c0 .3.16.577.42.727l9.607 5.547a.999.999 0 00.998 0l9.608-5.547a.84.84 0 00.42-.727V6.407a.84.84 0 00-.42-.726zm-.603 1.176L12.228 22.92c-.063.108-.228.064-.228-.061V12.34a.59.59 0 00-.295-.51l-9.11-5.26c-.107-.062-.063-.228.062-.228h18.55c.264 0 .428.286.296.514z\"></path></svg>", "spacex": "<svg width=\"100%\" height=\"100%\" fill=\"currentColor\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 7.417C8.882 8.287 1.89 14.75.321 16.28L0 16.583h2.797C10.356 9.005 21.222 7.663 24 7.417zm-17.046 6.35c-.472.321-.945.68-1.398 1.02l2.457 1.796h2.778zM2.948 10.8H.189l3.25 2.381c.473-.321 1.02-.661 1.512-.945Z\"/></svg>"};
+const WIN=`<div class="tb"><span class="lg">${SV.cursor}</span>auth-api — Cursor</div>
+ <div class="side"><div>▾ AUTH-API</div><div>&nbsp;&nbsp;▸ node_modules</div><div>&nbsp;&nbsp;▾ src</div><div class="on">&nbsp;&nbsp;&nbsp;&nbsp;auth.ts</div><div>&nbsp;&nbsp;&nbsp;&nbsp;routes.ts</div><div>&nbsp;&nbsp;&nbsp;&nbsp;db.ts</div></div>
+ <div class="code"><span class="k">import</span> { sign } <span class="k">from</span> <span class="s">"jsonwebtoken"</span>;
+<span class="k">import</span> { db } <span class="k">from</span> <span class="s">"./db"</span>;
+
+<span class="k">export async function</span> <span class="f">login</span>(<span class="n">email</span>, <span class="n">pw</span>) {
+  <span class="k">const</span> <span class="n">user</span> = <span class="k">await</span> db.<span class="f">findUser</span>(email);
+  <span class="k">if</span> (!user) <span class="k">throw new</span> <span class="t">Error</span>(<span class="s">"not found"</span>);
+  <span class="c">// TODO: rate limit</span>
+  <span class="k">return</span> <span class="f">sign</span>({ id: user.id });
+}
+
+<span class="k">export function</span> <span class="f">rateLimit</span>(<span class="n">max</span> = <span class="t">100</span>) {
+  <span class="k">const</span> <span class="n">hits</span> = <span class="k">new</span> <span class="t">Map</span>();
+  <span class="k">return</span> (<span class="n">req</span>, <span class="n">res</span>, <span class="n">next</span>) => {
+    <span class="k">const</span> <span class="n">n</span> = (hits.<span class="f">get</span>(req.ip) ?? <span class="t">0</span>) + <span class="t">1</span>;
+    hits.<span class="f">set</span>(req.ip, n);
+    <span class="k">if</span> (n > max) <span class="k">return</span> res.<span class="f">status</span>(<span class="t">429</span>).<span class="f">end</span>();
+    <span class="f">next</span>();
+  };
+}</div>
+ <div class="agent"><h4>AGENTS</h4><div class="msg">Add rate limiting and tests to auth</div>
+  <div class="task"><i></i>Rate limiter<span class="st">done</span></div><div class="task"><i></i>Cloud agent: tests<span class="st">done</span></div><div class="task"><i style="background:#e8c46a"></i>Code review<span class="st" style="background:#3a3320;color:#e8c46a">running</span></div></div>`;
+for(const id of ['wa','wb','wc'])document.getElementById(id).innerHTML=WIN;
+for(const id of ['spxA','spxB','spxC2'])document.getElementById(id).innerHTML=SV.spacex;
+{const b=document.getElementById('b60').getBoundingClientRect(),F=document.getElementById('B').getBoundingClientRect(),r=document.getElementById('ring');Object.assign(r.style,{left:(b.left-F.left-22)+'px',top:(b.top-F.top-14)+'px',width:(b.width+44)+'px',height:(b.height+28)+'px'})}
+window.READY=true;
+</script></body></html>
