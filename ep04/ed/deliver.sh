@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# Put everything the owner needs for EP04 into ONE folder: ~/VIOLET_READY/EP04
+# Put everything the owner needs for EP04 into ONE folder per day: ~/VIOLET_READY/<YYYY-MM-DD>/EP04
+# (one dated folder per production day; each episode finished that day gets its own subfolder)
 # (hard links where possible, so it takes no extra disk space). Intermediate renders stay in ep04/ed/out.
 set -e
 cd "$(dirname "$0")"
-D=$HOME/VIOLET_READY/EP04; rm -rf "$D"; mkdir -p "$D/shorts" "$D/thumbnails"
+D=$HOME/VIOLET_READY/$(date +%F)/EP04; rm -rf "$D" "$HOME/VIOLET_READY/EP04"; mkdir -p "$D/shorts" "$D/thumbnails"
 F=out/final; put(){ ln -f "$1" "$2" 2>/dev/null || cp -f "$1" "$2"; }
 put $F/EP04_long.mp4 "$D/EP04_LONG_tier_list_2026.mp4"
 names=(Cursor Gemini_CLI Copilot Windsurf Lovable Codex Cline Claude_Code)
-order=(1 2 3 8 5 7 6 4)   # publishing order from YOUTUBE_EP04.md
 for n in 1 2 3 4 5 6 7 8; do put $F/EP04_short_$n.mp4 "$D/shorts/Short_${n}_${names[$((n-1))]}.mp4"; done
 for t in A B C; do put ../thumb/EP04_thumb_$t.jpg "$D/thumbnails/EP04_thumb_$t.jpg"; done
 cp -f ../YOUTUBE_EP04.md "$D/YOUTUBE_EP04.md"
