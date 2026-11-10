@@ -19,7 +19,13 @@ function fadeIn(e,t,a,b=1e9,dur=.5){const v=Math.min(cl(P(t,a,a+dur)),1-P(t,b,b+
 function headline(p,lines,{x,y,fs,lh=1.04,cls='h1',w}){const e=el(`<div class="${cls}" style="left:${x}px;top:${y}px;font-size:${fs}px;line-height:${lh};${w?`width:${w}px`:''};position:absolute"></div>`,p);
  e.innerHTML=lines.map(l=>`<span class="ln"><span>${l.replace(/\[\[(.+?)\]\]/g,'<span class="mk">$1</span>')}</span></span>`).join('');return e}
 function revealLines(e,t,times,b=1e9){[...e.querySelectorAll('.ln>span')].forEach((s,i)=>{const a=times[Math.min(i,times.length-1)];const k=e5(P(t,a,a+.55));s.style.transform=`translateY(${(1-k)*105}%)`});const v=1-P(t,b,b+.3);e.style.opacity=v;shown(e,v)}
-function sweep(mk,t,a,dur=.35){const k=eo(P(t,a,a+dur));mk.style.backgroundSize=`${k*100}% 86%`;mk.style.color=k>.6?'#0D0E10':'var(--ink)'}
+// marker modes per style (theme.mk): 'block' (default, filled marker), 'under' (thick underline), 'color' (word changes colour)
+function sweep(mk,t,a,dur=.35){const k=eo(P(t,a,a+dur)),m=document.documentElement.dataset.mk||'block';
+ if(m==='under'){mk.style.background='linear-gradient(var(--sig),var(--sig)) no-repeat 0 96%';mk.style.backgroundSize=`${k*100}% 12%`;return}
+ if(m==='color'){mk.style.background='none';mk.style.color=k>.5?'var(--sig)':'var(--ink)';mk.style.opacity=1-.0*k;return}
+ mk.style.backgroundSize=`${k*100}% 86%`;mk.style.color=k>.6?'var(--mkink)':'var(--ink)'}
+// per-block style (§9.1 П48): CSS variables + marker mode; skeleton (index header, source line, board) stays
+function theme(o){const r=document.documentElement;for(const k in o.vars||{})r.style.setProperty('--'+k,o.vars[k]);if(o.mk)r.dataset.mk=o.mk;if(o.vars&&o.vars.bg){document.body.style.background=o.vars.bg;root.style.background=o.vars.bg}window.LIGHT=!!o.light}
 function drawLine(e,t,a,dur=.45){e.style.transform=(e.dataset.base||'')+` scaleX(${eo(P(t,a,a+dur))})`;e.style.opacity=t>a?1:0}
 // callout line between two points (root coords)
 function callout(p){const l=el('<div class="callout"></div>',p),d=el('<div class="dot"></div>',p);return{set(t,a,x1,y1,x2,y2){const k=eo(P(t,a,a+.5)),L=Math.hypot(x2-x1,y2-y1),ang=Math.atan2(y2-y1,x2-x1);
@@ -55,8 +61,10 @@ const XF=.42;
 function R(t){
  const dx=Math.sin(t*.16)*16,dy=Math.cos(t*.13)*8;
  cols.style.transform=`translate(${dx*.35}px,0)`;light.style.transform=`translate(${Math.sin(t*.2)*40}px,${Math.cos(t*.17)*20}px)`;
- SH.forEach(([k,a,b],i)=>{const s=shots[k];const on=t>=a&&t<b+XF;s.el.style.display=on?'block':'none';if(!on)return;
-  const ek=i===0?1:e5(P(t,a,a+XF*1.4)),out=P(t,b,b+XF),tr=TR[k]||'push';
+ SH.forEach(([k,a,b],i)=>{const s=shots[k];const nx=SH[i+1],hard=nx&&TR[nx[0]]==='cut';const on=t>=a&&t<b+(hard?0:XF);s.el.style.display=on?'block':'none';if(!on)return;
+  const tr=TR[k]||'push',ek=i===0||tr==='cut'?1:e5(P(t,a,a+XF*1.4)),out=hard?0:P(t,b,b+XF);
+  // 'cut': hard cut with a short flicker (style "shutdown")
+  s.el.style.filter=tr==='cut'&&i>0?`brightness(${1+1.6*(1-P(t,a,a+.1))*(Math.floor(t*60)%2?1:.35)})`:'';
   // transitions: push (slide from right with depth), rise (from below), dolly (scale from deep)
   let enter='';if(tr==='push')enter=`translateX(${(1-ek)*W*.35}px)`;else if(tr==='rise')enter=`translateY(${(1-ek)*H*.25}px)`;else if(tr==='dolly')enter=`scale(${.86+.14*ek})`;
   s.el.style.transform=enter+(out>0?` translateX(${-out*W*.12}px)`:'');s.el.style.opacity=Math.min(i===0?1:cl(ek*1.5),1-out);s.el.style.zIndex=i;
@@ -89,7 +97,7 @@ function verdictShot(shot,tool,{start,tierAt,line}){const lines=Array.isArray(li
  if(MODE==='long')TOOLS.slice(0,me).forEach(tl=>{const r=rows[tl.tier];el(cardHTML(tl,`style="left:${r.x0+counts[tl.tier]++*164}px;top:${r.y}px"`),board)});
  const dst={x:rows[tool.tier].x0+counts[tool.tier]*164,y:rows[tool.tier].y};
  const card=el(cardHTML(tool),board);
- const L=shot.L1;const big=el(`<div class="ab big" style="left:${V?60:120}px;top:${V?190:170}px;font-size:${V?300:420}px;color:${TC[tool.tier]}">${tool.tier}</div>`,L);
+ const L=shot.L1;const big=el(`<div class="ab big" style="left:${V?60:120}px;top:${V?190:170}px;font-size:${V?300:420}px;color:${window.LIGHT?'var(--ink)':TC[tool.tier]};${window.LIGHT?`border-bottom:${V?18:24}px solid ${TC[tool.tier]}`:''}">${tool.tier}</div>`,L);
  const lab=el(`<div class="ab kick" style="left:${V?70:130}px;top:${V?150:140}px">VERDICT — ${tool.name}</div>`,L);
  const ln=headline(L,lines,{x:V?60:120,y:V?470:560,fs:V?60:58,w:V?960:620});
  shot.R=t=>{const fly=eio(P(t,tierAt-.6,tierAt+.35));const k=e5(P(t,start,start+.6));
