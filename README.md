@@ -89,3 +89,20 @@ The cloud box has 2 cores, so a laptop or PC with more cores renders several tim
 - At every approval request, recommend a model and effort level (П42).
   - High effort: rules, scripts, plans, tests, storyboards.
   - Medium effort: renders, cutting, checks, small fixes.
+
+
+## Laptop push (results back to the cloud session)
+
+The render watcher pushes each job's log and preview sheets to `jobs/result/<job>/`, so the cloud session can check the work. One-time setup on the laptop (Arch):
+
+```
+sudo pacman -S --needed github-cli
+gh auth login            # GitHub.com -> HTTPS -> Login with a web browser
+gh auth setup-git
+cd ~/violet-video-kit
+git config user.name  "violet-laptop"
+git config user.email "violet-laptop@users.noreply.github.com"
+git push --dry-run       # must print nothing alarming (no password prompt, no 403)
+```
+
+Videos are never pushed (`*.mp4` is ignored): only logs and small JPG sheets.
