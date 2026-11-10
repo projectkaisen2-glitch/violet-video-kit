@@ -89,8 +89,21 @@ function makeBoard(p,geo){const st=el(`<div class="stage" style="left:${geo.x}px
  TIERS.forEach((k,i)=>{const y=20+i*(rh+12);const r=el(`<div class="row" style="left:20px;top:${y}px;width:${geo.w-40}px;height:${rh}px"><div class="lab" style="width:120px;background:${TC[k]};font-size:${V?64:72}px">${k}</div><div class="flash"></div></div>`,board);
   rows[k]={el:r,y:y+(rh-150)/2,x0:20+136};for(let g=0;g<(V?4:5);g++)el(`<div class="ghost" style="left:${136+g*164}px;top:${(rh-150)/2}px"></div>`,r)});
  return{ob,board,rows,slot:(k,i)=>({x:rows[k].x0+i*164,y:rows[k].y})}}
+
+// ---------- the 8 block styles as small swatches (intro / finale flip through them, §9.1) ----------
+const SW={
+ '01':{bg:'#0D0E10',ink:'#ECE8E1',f:"700 34px 'TeX Gyre Heros Cn'",tt:'uppercase',deco:'<i style="position:absolute;left:24px;bottom:30px;width:80px;height:10px;background:#FF5A36"></i>'},
+ '02':{bg:'#0A0A0B',ink:'#9a9da3',f:"700 32px 'Space Grotesk'",tt:'none',deco:'<i style="position:absolute;left:10%;right:10%;top:50%;height:3px;background:#fff;box-shadow:0 0 12px 4px rgba(255,255,255,.5)"></i><i style="position:absolute;left:10%;right:10%;top:calc(50% + 6px);height:4px;background:linear-gradient(90deg,#4285F4,#EA4335,#FBBC04,#34A853 40%,#555)"></i>'},
+ '03':{bg:'#ECE7DD',ink:'#151515',f:"400 30px 'Archivo Black'",tt:'none',deco:'<i style="position:absolute;right:18px;top:18px;width:62px;height:62px;border:4px solid #D33A2C;border-radius:50%"></i>'},
+ '04':{bg:'linear-gradient(160deg,#06282A,#0E4A47)',ink:'#F1E9DA',f:"800 32px 'Bricolage Grotesque'",tt:'none',deco:''},
+ '05':{bg:'radial-gradient(80% 70% at 70% 20%,rgba(255,92,138,.35),transparent),#130F11',ink:'#F6EDEF',f:"400 38px 'Instrument Serif'",tt:'none',deco:'<i style="position:absolute;left:24px;right:24px;bottom:34px;height:12px;background:#000"></i>'},
+ '06':{bg:'#F3F2EE',ink:'#0E0E0E',f:"900 32px 'Inter Display'",tt:'none',deco:'<i style="position:absolute;left:24px;right:24px;bottom:36px;height:3px;background:#0E0E0E"></i>'},
+ '07':{bg:'linear-gradient(rgba(170,205,240,.12) 1px,transparent 1px) 0 0/20px 20px,linear-gradient(90deg,rgba(170,205,240,.12) 1px,transparent 1px) 0 0/20px 20px,#0F2C4B',ink:'#E6F0FA',f:"700 32px 'IBM Plex Sans Condensed'",tt:'uppercase',deco:''},
+ '08':{bg:'#F1ECE2',ink:'#C8643E',f:"500 34px 'Fraunces'",tt:'none',deco:''}};
+const swatchHTML=(tl,w,h)=>{const s=SW[tl.id];return `<div class="ab" style="left:0;top:0;width:${w}px;height:${h}px;border-radius:18px;overflow:hidden;background:${s.bg};box-shadow:-24px 34px 60px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.1)">${s.deco}
+ <span style="position:absolute;left:24px;top:24px;width:${w*.26}px;height:${w*.26}px;color:${s.ink}">${ic(tl.logo)}</span><span style="position:absolute;left:24px;bottom:${s.deco&&tl.id!=='02'?56:22}px;font:${s.f};text-transform:${s.tt};color:${s.ink};letter-spacing:-.01em">${tl.name}</span></div>`};
 // verdict shot (board in 3D on the right, huge tier letter on the left)
-function verdictShot(shot,tool,{start,tierAt,line}){const lines=Array.isArray(line)?line:[line];
+function verdictShot(shot,tool,{start,tierAt,line,fs}){const lines=Array.isArray(line)?line:[line];
  const p=shot.L1,me=TOOLS.findIndex(x=>x.id===tool.id);
  const geo=V?{x:60,y:620,w:960,h:980}:{x:780,y:130,w:1040,h:800};const B=makeBoard(p,geo),ob=B.ob,board=B.board,rows=B.rows;
  const counts={S:0,A:0,B:0,C:0,F:0};
@@ -99,7 +112,7 @@ function verdictShot(shot,tool,{start,tierAt,line}){const lines=Array.isArray(li
  const card=el(cardHTML(tool),board);
  const L=shot.L1;const big=el(`<div class="ab big" style="left:${V?60:120}px;top:${V?190:170}px;font-size:${V?300:420}px;color:${window.LIGHT?'var(--ink)':TC[tool.tier]};${window.LIGHT?`border-bottom:${V?18:24}px solid ${TC[tool.tier]}`:''}">${tool.tier}</div>`,L);
  const lab=el(`<div class="ab kick" style="left:${V?70:130}px;top:${V?150:140}px">VERDICT — ${tool.name}</div>`,L);
- const ln=headline(L,lines,{x:V?60:120,y:V?470:560,fs:V?60:58,w:V?960:620});
+ const ln=headline(L,lines,{x:V?60:120,y:V?470:560,fs:fs||(V?60:58),w:V?960:620});
  shot.R=t=>{const fly=eio(P(t,tierAt-.6,tierAt+.35));const k=e5(P(t,start,start+.6));
   css(card,{left:(dst.x+(1-fly)*(V?0:-560))+'px',top:(dst.y+(1-fly)*(V?-520:-120))+'px',transform:`scale(${1.5-.5*fly}) rotate(${(1-fly)*-6}deg)`,opacity:cl(P(t,start,start+.3))});
   const f=P(t,tierAt+.3,tierAt+.45)*(1-P(t,tierAt+.45,tierAt+1.3));rows[tool.tier].el.querySelector('.flash').style.background=`rgba(${TRGB[tool.tier]},${.55*f})`;

@@ -1,17 +1,17 @@
-// ===== INTRO (long video only): 8 tools, two scandals, S tier hidden (editorial) =====
+// ===== INTRO (long video only): 8 tools in their 8 styles, two scandals (each in its block's style), S tier hidden =====
 setAccent('#E8C46A');
 const T={eight:at('Eight'),tools:at('tools'),one1:at('One',1),bought:at('bought'),rocket:at('rocket'),company:at('company'),one2:at('One',2),switched:at('switched'),google:at('Google'),only:at('only'),stier:at('S',1,true),here:at('Here'),list:at('list')};
 END=VOICE_END+1.0;
-makeShots([['grid',0,T.one1-.25],['rocket',T.one1-.25,T.one2-.25],['off',T.one2-.25,T.only-.3],['board',T.only-.3,END+1]],{rocket:'push',off:'push',board:'dolly'});
+makeShots([['grid',0,T.one1-.25],['rocket',T.one1-.25,T.one2-.25],['off',T.one2-.25,T.only-.3],['board',T.only-.3,END+1]],{rocket:'push',off:'cut',board:'cut'});
 
 // 1. eight tools: headline left, logo grid right (flat)
 {const s=shots.grid;
  el(`<div class="bgword" style="left:${V?-20:700}px;top:${V?1200:260}px">2026</div>`,s.L0);
  const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?160:250}px">AI coding tools · 2026 tier list</div>`,s.L1);
  const hl=headline(s.L1,['[[Eight]] AI','coding tools'],{x:V?60:120,y:V?210:300,fs:V?140:112,lh:1.08});
- const g=V?{x:90,y:760,c:3,d:310}:{x:880,y:190,c:4,d:236};
- const tiles=TOOLS.map((tl,i)=>{const e=el(`<div class="tile lit" style="left:0;top:0"><span class="lg">${ic(tl.logo)}</span>${tl.name}</div>`,s.L1);
-  e.dataset.base=`translate(${g.x+(i%g.c)*g.d}px,${g.y+Math.floor(i/g.c)*(g.d+10)}px) scale(${V?1:.9})`;return e});
+ const g=V?{x:60,y:700,c:2,w:470,h:250,dx:490,dy:270}:{x:860,y:150,c:4,w:236,h:236,dx:252,dy:256};
+ const tiles=TOOLS.map((tl,i)=>{const e=el(`<div class="ab" style="left:0;top:0;width:${g.w}px;height:${g.h}px">${swatchHTML(tl,g.w,g.h)}</div>`,s.L1);
+  e.dataset.base=`translate(${g.x+(i%g.c)*g.dx}px,${g.y+Math.floor(i/g.c)*g.dy}px)`;return e});
  const f1=el(`<div class="fg" style="left:${V?500:1300}px;top:${V?1800:960}px">$ claude --model local</div>`,s.L2);
  s.R=t=>{rise(kick,t,0,1e9,14);revealLines(hl,t,[T.eight-.2,T.tools-.4]);sweep(hl.querySelector('.mk'),t,T.eight+.1);
   tiles.forEach((e,i)=>rise(e,t,T.eight+.09*i,1e9,40,.6));s.cam.z=.03*eio(P(t,0,T.one1));f1.style.transform=`translateX(${-t*16}px)`}}
@@ -28,22 +28,22 @@ makeShots([['grid',0,T.one1-.25],['rocket',T.one1-.25,T.one2-.25],['off',T.one2-
   rise(cur,t,T.one1-.1,1e9,40,.6);rise(spx,t,T.rocket-.1,1e9,30,.6);fadeIn(bp,t,T.one1,1e9,.6);
   const a=rectOf(cur),b=rectOf(spx);co.set(t,T.rocket+.1,V?a.x+a.w:a.x+a.w,a.y+a.h/2,V?b.x+20:b.x+20,b.y+b.h/2);s.cam.z=.03*eio(P(t,T.one1,T.one2))}}
 
-// 3. one got switched off by Google (CRT-style power-off of a flat terminal)
+// 3. one got switched off by Google — shown in Gemini's own "shutdown" style
 {const s=shots.off;
- const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?160:250}px">Another one</div>`,s.L1);
- const hl=headline(s.L1,['Got [[switched off]]','by Google'],{x:V?60:120,y:V?210:300,fs:V?104:96,lh:1.1});
- const tw=V?960:780,th=V?560:470;
- const term=obj3d(s.L1,{x:V?60:1040,y:V?900:300,w:tw,h:th,tf:'none',inner:termHTML(tw,th,'gemini — terminal',`<span style="color:#8ab4f8;font-weight:700">  ✦ Gemini CLI</span>
-<span style="color:#7ee787">&gt;</span> refactor the auth module
-<span style="color:#8b949e">● reading 14 files…</span>
-<span id="g0off" style="color:#ff8a70;font-weight:700">✖ Gemini CLI access has ended.</span>`,V?24:22)});
- const scr=term.querySelector('.win>div:last-child');const msg=term.querySelector('#g0off');
- const lg=el(`<div class="ab" style="left:${V?820:1700}px;top:${V?820:230}px;width:120px;height:120px">${ic('gemini-color')}</div>`,s.L1);
- const cap=el(`<div class="ab cap" style="left:${capPos.x}px;top:${V?1700:880}px">June 18 2026 · free, AI Pro and Ultra<br>SRC: The Register</div>`,s.L1);
- s.R=t=>{rise(kick,t,T.one2-.2,1e9,14);revealLines(hl,t,[T.switched-.3,T.google-.3]);sweep(hl.querySelector('.mk'),t,T.switched+.1);
-  rise(term,t,T.one2-.1,1e9,40,.6);rise(lg,t,T.one2,1e9,20);
-  msg.style.opacity=t>T.switched?1:0;const off=eio(P(t,T.google,T.google+.45));scr.style.transform=`scaleY(${1-.97*off})`;scr.style.filter=`brightness(${1+2*off})`;scr.style.opacity=1-P(t,T.google+.4,T.google+.6);
-  lg.style.filter=`grayscale(${off}) brightness(${1-.5*off})`;rise(cap,t,T.google,1e9,10);s.cam.z=.03*eio(P(t,T.one2,T.only))}}
+ el(`<div class="ab" style="inset:-12%;background:#0A0A0B"></div>`,s.L0);
+ const kick=el(`<div class="ab kick" style="left:${V?60:120}px;top:${V?160:250}px;font-family:'JetBrains Mono';color:#8D9096">Another one</div>`,s.L1);
+ const hl=headline(s.L1,['Got switched','off by Google.'],{x:V?52:112,y:V?210:300,fs:V?120:110,lh:1.0});hl.style.cssText+=";font-family:'Space Grotesk';text-transform:none;letter-spacing:-.04em;color:#EDEDED";
+ const offw=el('<span>off</span>');const l2=hl.querySelectorAll('.ln>span')[1];l2.innerHTML='<span class="o3">off</span> by Google.';const o3=l2.querySelector('.o3');
+ const mon=V?{x:60,y:900,w:960,h:520}:{x:1040,y:300,w:780,h:470};
+ const box=el(`<div class="ab" style="left:${mon.x}px;top:${mon.y}px;width:${mon.w}px;height:${mon.h}px;border-radius:18px;background:#111214;border:1px solid #26272b;overflow:hidden;box-shadow:-40px 50px 100px rgba(0,0,0,.6)"></div>`,s.L1);
+ const scr=el(`<div class="ab" style="inset:0;transform-origin:50% 50%;display:flex;flex-direction:column">${['#4285F4','#EA4335','#FBBC04','#34A853'].map(c=>`<i style="flex:1;background:${c}"></i>`).join('')}</div>`,s.L1);box.appendChild(scr);
+ el(`<div class="ab" style="inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.3) 0 2px,transparent 2px 4px)"></div>`,box);
+ const line=el(`<div class="ab" style="left:${mon.w*.06}px;width:${mon.w*.88}px;top:${mon.h/2-2}px;height:4px;background:#fff;box-shadow:0 0 18px 6px rgba(255,255,255,.55);opacity:0"></div>`,box);
+ const cap=el(`<div class="ab cap" style="left:${capPos.x}px;top:${V?1700:880}px;color:#6d7076">June 18 2026 · free, AI Pro and Ultra<br>SRC: The Register</div>`,s.L1);
+ s.R=t=>{rise(kick,t,T.one2-.2,1e9,14);revealLines(hl,t,[T.switched-.3,T.google-.4]);const g=P(t,T.switched+.2,T.switched+.6);o3.style.color=g>0?`rgb(${237-144*g},${237-141*g},${237-135*g})`:'';
+  rise(box,t,T.one2-.1,1e9,30,.5);const d=eio(P(t,T.switched,T.google));[...scr.children].forEach(e=>e.style.filter=`saturate(${1-d})`);
+  const c=eio(P(t,T.google+.1,T.google+.4)),z=eio(P(t,T.google+.4,T.google+.7));scr.style.transform=`scaleY(${1-.985*c})`;scr.style.opacity=1-P(t,T.google+.3,T.google+.45);
+  line.style.opacity=c>0?1-P(t,T.google+.65,T.google+.85):0;line.style.transform=`scaleX(${1-.985*z})`;rise(cap,t,T.google,1e9,10);s.cam.z=.03*eio(P(t,T.one2,T.only))}}
 
 // 4. the board: filled with blurred cards, S tier hidden
 {const s=shots.board;
